@@ -1,0 +1,98 @@
+﻿l_english:
+ 
+ ## BLACK HOLE EVENTS
+ special_systems_black_hole.03.name:0 "Loss of life."
+ special_systems_black_hole.03.01.desc:0 "§H[RootGetName]§!的船员报告说在§Y[FromGetStarName]星系§!发现主管科学家走出气闸!The Personal Monitoring System reports that he hadn't slept in some time and used an emergency protocol loop-hole to release the airlock.On examination of the body, he had been holding a bent spoon."
+ special_systems_black_hole.03.02.desc:0 "§H[RootGetName]§!的船员报告说在§Y[FromGetStarName]星系§!发现主管科学家痴迷于捉迷藏., on-board sensors are unable to locate him and a thorough search has not given them any clues as to where he might be..."
+ special_systems_black_hole.03.03.desc:0 "§H[RootGetName]§!的船员报告说在§Y[FromGetStarName]星系§!发现主管科学家部署了一个逃生舱并且驶向了黑洞.Sensor interference from the intense gravity has made it impossible to locate the tiny vessel."
+ special_systems_black_hole.03.04.desc:0 "§H[RootGetName]§!的船员报告说在§Y[FromGetStarName]星系§!发现主管科学家在不知怎么的DNA发生了完全变异,这艘船上不可能有这样的设备                  §H[Root.GetName]§! in the §Y[From.GetStarName] System§! reports that Officer [Root.GetLeaderName] programed the on-board computer to construct an unusual device that they believe was intended to alter his DNA somehow, the ship was unable to generate enough power for this operation however and the device self-destructed..."
+ special_systems_black_hole.03.05.desc:0 "§H[RootGetName]§!的船员报告说在§Y[FromGetStarName]星系§!发现主管科学家死于休克前吃掉了自己的两个器官.                               §H[Root.GetName]§! in the §Y[From.GetStarName] System§! reports that Officer [Root.GetLeaderName] failed to attend an important briefing and when personal entered his chamber they discovered that he  had eaten two of his own appendages before succumbing to shock."
+ 
+ ## NEUTRON EVENTS
+ special_systems_neutron.02.name:0 "Contact!"
+ special_systems_neutron.02.01.desc:0 "§L科学家[RootGetLeaderName]§!报告说在§Y[FromGetStarName]星系§!发现了奇怪的光点,奇怪的光点开始消耗大量的电力并且瘫痪了舰船!                       Science Officer [Root.GetLeaderName] in the §Y[From.GetStarName] System§! reports that Cloud Entities have appeared near his ship, they have started draining massive amounts of power and have disabled the ship. The Cloud Entities seem to be building up to something!"
+ special_systems_neutron.02.02.desc:0 "§H[RootGetName]§!的船员报告说在§Y[FromGetStarName]星系§!发现奇怪的光点,奇怪的光点开始消耗大量的电力并且瘫痪了舰船!它们似乎在建造什么东西.                            §H[Root.GetName]§! in the §Y[From.GetStarName] System§! reports that Cloud Entities have appeared near their ship, they have started draining massive amounts of power and have disabled the ship. The Cloud Entities seem to be building up to something!"
+ special_systems_neutron.06.name:0 "Monsters!"
+ special_systems_neutron.06.desc:0 "§L科学家[RootGetLeaderName]§!报告说在§Y[FromGetStarName]星系§!发现异常明亮的光点并下令立即撤退!科学家们正在讨论这一现象的本质             Officer [Root.GetLeaderName] in the §Y[From.GetStarName] System§! reports that Cloud Entities had begun converging on §H[Root.GetName]§! and has ordered a full retreat.He went on to request immediate assistance. [Root.GetLeaderName] has been marked as paranoid and may need to be cycled out for therapy..."
+ 
+ ## PULSAR EVENTS
+ special_systems_pulsar.03.name:0 "Madness!"
+ special_systems_pulsar.03.desc:0 "§H[RootGetName]§!的船员在§Y[FromGetStarName]星系§!集体发疯,他们的最后一次通讯中只有夹杂着奇怪欢呼的噪音.               §H[Root.GetName]§! in the §Y[From.GetStarName] System§! have gone mad. Their last transmission made it clear that §H[Root.GetName]§! is now independent of §Y[Root.Owner.GetName]§!."
+ 
+ ## SPECIAL PROJECTS
+ SPECIAL_SYSTEMS_PROBE_PROJECT:0 "Investigate ancient probe."
+ SPECIAL_SYSTEMS_PROBE_PROJECT_DESC:0 "Investigate the ancient probe before it completely disintegrates."
+ 
+ SPECIAL_SYSTEMS_SCIENCE_PROJECT:0 "Construction"
+ SPECIAL_SYSTEMS_SCIENCE_PROJECT_DESC:0 "Using our new understanding of the stars in our galaxy we are able to construct a special ship that is immune to all it's forces by stripping an entire planet of it's resources."
+ 
+ ## EVENT CHAIN
+ special_systems_chain_title:0 "Investigate coordinates"
+ special_systems_chain_desc:0 "Systems that the probe recently discovered in §Y[From.GetStarName]§! was programmed to monitor."
+ 
+ special_systems_survey_count:0 "Number of stars surveyed"
+ 
+ special_systems.00.name:0 "Probe Identified!"
+ special_systems.00.desc:0 "A probe has been identified in orbit around §Y[From.From.GetName]§!, it is badly damaged and no longer operational. Science Officer [Root.GetLeaderName] has suggested that we should try to access it's mainframe before it completely disintegrates."
+ 
+ special_systems.01.name:0 "Probe"
+ special_systems.01.desc:0 "Science Officer [Root.GetLeaderName] was successful in accessing the probe's mainframe, it has taken some time to piece together the information and decipher it.From what [Root.GetLeaderName] has gathered so far, this probe was created to monitor certain systems but it malfunctioned while traveling between them and has been gradually disintegrating for some time. [Root.GetLeaderName] managed to transfer most of the information before the close proximity of §H[Root.GetName]§! caused the Probe to break apart. Some damage was sustained but no one was seriously injured. [Root.GetLeaderName] suggests that we identify these systems and determine why they were being monitored."
+ 
+ special_systems.02.name:0 "§Y[From.GetStarName]§!"
+ special_systems.02.desc:0 "§H[Root.GetName]§! has reached the §Y[From.GetStarName] System§! and reports strange readings. We should perform a survey of §Y[From.GetStarName]§! to learn more."
+ special_systems.03.name:0 "§Y[From.GetStarName]§!"
+ special_systems.03.desc:0 "§H[Root.GetName]§! has reached the §Y[From.GetStarName] System§! and reports strange readings. We should perform a survey of §Y[From.GetStarName]§! to learn more."
+ special_systems.04.name:0 "§Y[From.GetStarName]§!"
+ special_systems.04.desc:0 "§H[Root.GetName]§! has reached the §Y[From.GetStarName] System§! and reports strange readings. We should perform a survey of §Y[From.GetStarName]§! to learn more."
+ 
+ special_systems.05.name:0 "§Y[From.From.GetName]§!"
+ special_systems.05.desc:0 "A survey of §Y[From.From.GetName]§! has revealed that the intense gravity generated by this type of star will greatly reduce any ship's interstellar capabilities and cause structural damage over time. Smaller ships will suffer greatly in these sytems. Strange distortions in the space time continuum were observed being randomly generated by opposing gravitational forces, this will cause some areas of space to experience time at a much slower rate."
+ special_systems.06.name:0 "§Y[From.From.GetName]§!"
+ special_systems.06.desc:0 "A survey of §Y[From.From.GetName]§! has revealed that these systems are home to Cloud Entities that freely pass between dimensions, they appear to thrive on energy produced by this type of star and generate a strange by-product that makes solid matter far heavier while exposed and will greatly increase any ship's structural integrity but also decrease their ability to project shields. While it doesn't appear that the entities are hostile we should be cautious as they may see our ships as sources of energy."
+ special_systems.07.name:0 "§Y[From.From.GetName]§!"
+ special_systems.07.desc:0 "A survey of §Y[From.From.GetName]§! has revealed that this type of star intermittently generates incredibly strong bursts of very high frequency sound that shifts solid mass at random and will greatly reduce any affected ship's structural integrity but also increase the density and recharge rate of shields. While the high frequency sound cannot be actively heard, prolonged exposure will cause irritation and anger."
+ 
+ special_systems.08.name:0 "Systems surveyed"
+ special_systems.08.desc:0 "The information gathered from these systems is astounding! Many debates have already begun among our scientists. It will take some time before our theories can be adapted with this new information."
+ 
+ special_systems.09.name:0 "Breakthrough!"
+ special_systems.09.desc:0 "Based on our recent discoveries, our scientists have come up with an advanced ship design that will be immune to the effects that were observed in the probe systems. Only one planet has been found with enough resources to build this ship and if we are to go ahead, the entire planet will become a barren wasteland."
+ 
+ special_systems.10.name:0 "Construction complete!"
+ special_systems.10.desc:0 "Science Officer [Root.GetLeaderName] reports that construction of the advanced ship is complete. This is a historic day for §Y[Root.Owner.GetName]§!."
+ 
+ special_systems_system_poi_01:0 "First system"
+ special_systems_system_poi_01_desc:0 "Using information taken from the probe's mainframe, we have pin-pointed the closest coordinates that the probe was programmed to monitor."
+ 
+ special_systems_system_poi_02:0 "Second system"
+ special_systems_system_poi_02_desc:0 "Using information taken from the probe's mainframe, we have pin-pointed the closest coordinates that the probe was programmed to monitor."
+ 
+ special_systems_system_poi_03:0 "Third system"
+ special_systems_system_poi_03_desc:0 "Using information taken from the probe's mainframe, we have pin-pointed the closest coordinates that the probe was programmed to monitor."
+ 
+ ## MODIFIERS
+ special_systems_construction:0 "Strip mined planet"
+ special_systems_construction_desc:0 "This planet has been stripped of all it's resources which has greatly reduced it's mass and placed it in a decaying orbit."
+ 
+ ## OPTIONS
+ VERYWELL:0 "Very well."
+ SHAME:0 "A shame..."
+ ALARMING:0 "Alarming!"
+ BUILDIT:0 "Begin the Construction."
+ BETTERUSE:0 "Our scientist's can use their time more productively."
+ 
+ ## TECHNOLOGY
+ tech_sc_black_hole_01:1 "基本重力补偿"
+ tech_sc_black_hole_01_desc:1 "Enhancements to ship integrity allow for prolonged exposure to extreme gravity."
+ tech_sc_black_hole_02:1 "完全重力调控"
+ tech_sc_black_hole_02_desc:1 "State-of-the-art enhancements to ship integrity allow for indefinite exposure to extreme gravity."
+ 
+ tech_sc_neutron_01:1 "Basic core shielding"
+ tech_sc_neutron_01_desc:1 "Enhancements to ship core shielding capabilities allow for prolonged exposure to Cloud Entity by-product energy."
+ tech_sc_neutron_02:1 "Advanced core shielding"
+ tech_sc_neutron_02_desc:1 "State-of-the-art enhancements to ship core shielding capabilities allow for indefinite exposure to Cloud Entity by-product energy."
+ 
+ tech_sc_pulsar_01:1 "基础声障科技"
+ tech_sc_pulsar_01_desc:1 "Enhancements to ship sound proofing allow for prolonged exposure to the high frequencies found in space."
+ tech_sc_pulsar_02:0 "高等声障科技"
+ tech_sc_pulsar_02_desc:0 "State-of-the-art enhancements to ship sound proofing allow for indefinite exposure to the high frequencies found in space."

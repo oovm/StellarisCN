@@ -1,0 +1,9 @@
+﻿l_english:
+
+# Technology - FTL Improvement
+
+ tech_repeatable_hyper_drive_improved:0 "最优化超空间路径"
+ tech_repeatable_hyper_drive_improved_desc:0 "优化超空间接入点检测技术允许我们的船能够更快地进入超空间.\n\n"
+
+ tech_repeatable_warp_drive_improved:0 "最优化曲速场"
+ tech_repeatable_warp_drive_improved_desc:0 "先进的曲速场理论允许减少子空间的摩擦,舰船能够更有效的旅行.\n\n"

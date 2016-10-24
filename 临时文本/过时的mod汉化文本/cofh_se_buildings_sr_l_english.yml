@@ -1,0 +1,12 @@
+﻿l_english:
+
+# Buildings - Strategic Resource
+
+ building_neutronium_factory:0 "0号元素工厂"
+ building_neutronium_factory_desc:0 "0号元素工厂可以生产出电厂使用的超高密度合金,改善产出."
+
+ building_satramene_plant:0 "索戈提炼车间"
+ building_satramene_plant_desc:0 "将微量而舒缓Satramene气体引入到环境,缓解紧张局势,促进信任."
+
+ building_zro_diffuser:0 "Zro扩散站"
+ building_zro_diffuser_desc:0 "微量的Zro能提高潜伏在我们民众中心灵能力觉醒记录."

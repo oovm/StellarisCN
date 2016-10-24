@@ -1,0 +1,54 @@
+﻿l_english:
+ ####################################
+ # Better Subjects
+ # by Lucas Pinheiro Silva
+ ####################################
+ ### Policies
+ # Taxation of Subjects
+ policy_subjects_taxation:0 "Taxation of Subjects"
+ policy_subjects_taxation_desc:0 "It's our duty to protect all of our subjects; it's their duty to help us when necessary.\n"
+ dont_tax_subjects:0 "Don't Tax Subjects"
+ dont_tax_subjects_name:0 "Don't Tax Subjects"
+ dont_tax_subjects_desc:0 "The fealty of our subjects is all that we want.\n\n§EVassals and Protectorates won't be taxed.§!"
+ tax_vassals:0 "Tax Vassals"
+ tax_vassals_name:0 "Tax Vassals"
+ tax_vassals_desc:0 "Only sufficiently advanced civilizations will have to pay taxes.\n\n§EVassals will pay us §Y10%§! of their monthly Energy Credits and Minerals. Our relations with them will be severely punished.§!"
+ tax_protectorates:0 "Tax Protectorates"
+ tax_protectorates_name:0 "Tax Protectorates"
+ tax_protectorates_desc:0 "Smaller civilizations that can't contribute militarily must contribute economically.\n\n§EProtectorates will pay us §Y10%§! of their monthly Energy Credits and Minerals. Our relations with them will be serverely punished.§!"
+ tax_all_subjects:0 "Tax All Subjects"
+ tax_all_subjects_name:0 "Tax All Subjects"
+ tax_all_subjects_desc:0 "All of our subjects must contribute to the growth of our empire.\n\n§EVassals and Protectorates will give us §Y10%§! of their monthly Energy Credits and Minerals. Our relations with them will be severely punished.§!"
+ # Subsidization of subjects
+ policy_subjects_support:0 "Subsidization of Subjects"
+ policy_subjects_support_desc:0 "Our subjects could benefit much from us. But how much?\n"
+ no_subsidies:0 "No Subsidies"
+ no_subsidies_name:0 "No Subsidies"
+ no_subsidies_desc:0 "Our wealth should not be used to enrich other empires.\n\n§ENo changes in the relations with our subject empires§!"
+ subsidize_vassals:0 "Subsidize Vassals"
+ subsidize_vassals_name:0 "Subsidize Vassals"
+ subsidize_vassals_desc:0 "We will give our Vassals economic support.\n\n§EAll of our Vassals will receive a §Y5%§! bonus to Minerals and Energy Credits production. Our relations with our Vassals will be greatly improved.§!\n\n§Y1 to 5 Vassals§!\n§R-5%§! Minerals and Energy Credits\n§Y6 to 10 Vassals§!\n§R-10%§! Minerals and Energy Credits\n§Y11 Vassals or more§!\n§R-15%§! Minerals and Energy Credits\n"
+ subsidize_protectorates:0 "Subsidize Protectorates"
+ subsidize_protectorates_name:0 "Subsidize Protectorates"
+ subsidize_protectorates_desc:0 "We will give our Protectorates further scientific support.\n\n§EProtectorates will receive an extra §Y25%§! bonus to all researches. This scientific collaboration will grant us §G+10§! stored research of each type of science per Protectorate monthly and our relations with them will be greatly improved.§!\n\n§G+10§! Physics Research (£physics ) per Protectorate monthly\n§G+10§! Society Research (£society ) per Protectorate monthly\n§G+10§! Engineering Research (£engineering ) per Protectorate monthly"
+ subsidize_all_subjects:0 "Subsidize All Subjects"
+ subsidize_all_subjects_name:0 "Subsidize All Subjects"
+ subsidize_all_subjects_desc:0 "We will support the growth and development of all of our subject empires.\n\n§EVassals will receive a §Y5%§! bonus to Minerals and Energy Credits production and Protectorates an extra §Y25%§! bonus to all researches. We will also get §G+10§! stored research of each type of science per Protectorate monthly. Our relations with all of our subject empires will be greatly improved.§!\n\n§Y1 to 5 Vassals§!\n§R-5%§! Minerals and Energy Credits\n§Y6 to 10 Vassals§!\n§R-10%§! Minerals and Energy Credits\n§Y11 Vassals or more§!\n§R-15%§! Minerals and Energy Credits\n\n§G+10§! Physics Research (£physics ) per Protectorate monthly\n§G+10§! Society Research (£society ) per Protectorate monthly\n§G+10§! Engineering Research (£engineering ) per Protectorate monthly"
+ ### Opinion Modifiers and Static Modifiers
+ opinion_subjects_taxes:0 "Taxed"
+ opinion_subjects_subsidies:0 "Subsidized"
+ overlord_subsidies_vassal:0 "Overlord Subsidies"
+ overlord_subsidies_vassal_desc:0 "Our Overlord is supporting our economy, giving us a bonus to Minerals and Energy Credits."
+ overlord_subsidies_protectorate:0 "Overlord Subsidies"
+ overlord_subsidies_protectorate_desc:0 "Our Overlord is fostering our development, greatly contributing to our scientific endeavours."
+ subsidizing_vassals_1:0 "Subsidizing Vassals"
+ subsidizing_vassals_1_desc:0 "We are subsidizing our Vassals' economy, at the expense of some of our own wealth."
+ subsidizing_vassals_2:0 "Subsidizing Vassals"
+ subsidizing_vassals_2_desc:0 "We are subsidizing our Vassals' economy, at the expense of some of our own wealth."
+ subsidizing_vassals_3:0 "Subsidizing Vassals"
+ subsidizing_vassals_3_desc:0 "We are subsidizing our Vassals' economy, at the expense of some of our own wealth."
+ ### Subject Types
+ SUBJECT_tvassal:0 "Tributary Vassal"
+ SUBJECT_DESC_tvassal:0 "Besides joining their Overlord wars and having limited diplomatic actions, Tributary Vassals pay §Y10%§! of their monthly Energy Credits and Minerals to their overlord - and are not happy about it."
+ SUBJECT_tprotectorate:0 "Tributary Protectorate"
+ SUBJECT_DESC_tprotectorate:0 "Tributary Protectorates cannot be integrated, they have an independence guarantee from their overlord and pay §Y50%§! reduced tech costs for any tech their Overlord knows. Such benefits come at the cost of §Y10%§! of their montlhy Energy Credits and Minerals. They turn into vassals once they research §Y40%§! of the amount of techs compared to their overlords."
