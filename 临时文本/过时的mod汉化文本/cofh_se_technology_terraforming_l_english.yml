@@ -1,0 +1,21 @@
+﻿l_english:
+
+# Technology - Terraforming
+
+ tech_terraforming_purification:0 "大气净化"
+ tech_terraforming_purification_desc:0 "先进的过滤和净化系统能够净化几乎所有行星大气层内的有毒,放射性废物.\n\n"
+
+ tech_terraforming_habitable:0 "宜居世界改造"
+ tech_terraforming_habitable_desc:0 "给予足够的时间、资源并且不断使用轨道激光改造,即使是最荒凉的世界可以被塑造成宜居世界.\n\n"
+
+ tech_terraforming_gaia:0 "盖亚化改造"
+ tech_terraforming_gaia_desc:0 "银河中的稀有资源和超古代遗迹的启示使得我们能对星球进行盖亚化改造.\n\n"
+
+ TECH_UNLOCK_TERRAFORMING_PURIFICATION_TITLE:0 "§H解锁项目:§!大气净化"
+ TECH_UNLOCK_TERRAFORMING_PURIFICATION_DESC:0 "§H大气净化§!\n允许我们通过净化空气改造剧毒世界和坟墓世界.\n\n大陆改造需要额外的资源和更多的时间."
+
+ TECH_UNLOCK_TERRAFORMING_HABITABLE_TITLE:0 "§H解锁项目:§!宜居世界改造"
+ TECH_UNLOCK_TERRAFORMING_HABITABLE_DESC:0 "§H宜居世界改造§!\n允许我们将许多不可居住的世界改造为可居住的世界.\n\n大陆改造需要额外的资源和更多的时间."
+
+ TECH_UNLOCK_TERRAFORMING_GAIA_TITLE:0 "§H解锁项目:§!盖亚化改造"
+ TECH_UNLOCK_TERRAFORMING_GAIA_DESC:0 "§H盖亚化改造§!\n允许我们将宜居世界盖亚化.\n\n大陆改造需要额外的资源和更多的时间."

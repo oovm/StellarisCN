@@ -1,0 +1,12 @@
+﻿l_english:
+#  Empire Edicts
+ edict_xc_anomaly:1 "安全条例"
+ edict_xc_anomaly_desc:1 "你的科研人员会严格遵守安全条例,使得研究失败的风险降低25%.\n\n"
+ edict_xc_survey:1 "深入研究"
+ edict_xc_survey_desc:1 "你的科研船会仔细深入的研究整个星球,这将更有助于发现异常现象.\n\n"
+ 
+ # Traits
+ leader_trait_super_careful:0 "安全意识"
+ leader_trait_super_careful_desc:1 "这位科学家非常小心地研究异常,即使这需要更长的时间。\n\n"
+ leader_trait_intense_scrutiny:0 "仔细研究"
+ leader_trait_intense_scrutiny_desc:1 "这领袖确保他不会错过任何异常,即使这需要更长的时间.\n\n"

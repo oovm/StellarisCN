@@ -1,0 +1,33 @@
+﻿l_english:
+
+# Technology - Repeatable
+
+# Engineering
+
+ tech_repeatable_reduced_ship_cost:0 "自适应舰队建造"
+ tech_repeatable_reduced_ship_cost_desc:0 "灵活的装配科技允许我们用多余的材料重组并且重铸废料以减少浪费.\n\n"
+
+ tech_repeatable_reduced_station_cost:0 "自适应外星建设"
+ tech_repeatable_reduced_station_cost_desc:0 "使用当地的材料进行模块化组装允许我们更加有效地在外星进行建设.\n\n"
+
+ tech_repeatable_ship_build_speed:0 "船厂装配协调"
+ tech_repeatable_ship_build_speed_desc:0 "模块式组装技术的应用和流水线作业提高了我们船厂的装配速度.\n\n"
+
+ tech_repeatable_ship_repair_upkeep:0 "应用舰队后勤学"
+ tech_repeatable_ship_repair_upkeep_desc:0 "材料科学和运输技术的发展使得我们的舰队更容易维护。\n\n"
+
+# Physics
+
+# Society
+
+ tech_repeatable_army_build_speed:0 "自适应训练方法"
+ tech_repeatable_army_build_speed_desc:0 "在训练中,无聊是敌人。迫使士兵不断调整是让他们训练得更好的关键.\n\n"
+
+ tech_repeatable_reduced_army_cost:0 "最优化采购"
+ tech_repeatable_reduced_army_cost_desc:0 "在采购过程总减少不必要的浪费使我们能够更有效地利用资源。\n\n"
+
+ tech_repeatable_reduced_army_upkeep:0 "应用军事后勤学"
+ tech_repeatable_reduced_army_upkeep_desc:0 "策略赢得战争,但后勤建立帝国。\n\n"
+
+ tech_repeatable_terraforming_improved:0 "生态强化工程"
+ tech_repeatable_terraforming_improved_desc:0 "研究当地的生态相互作用,结合土地改造技术,这允许我们迅速和有效率地改变世界。\n\n"
