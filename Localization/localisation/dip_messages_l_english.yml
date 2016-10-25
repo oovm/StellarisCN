@@ -1,4 +1,4 @@
-﻿l_english:
+l_english:
  ####################################
  # Diplomacy text
  ####################################
@@ -11,7 +11,7 @@
  05_HOSTILE_GREETING:0 "为什么你们就不让我们清静一会呢，[From.GetSpeciesName]？"
  06_HOSTILE_GREETING:1 "你们这些肮脏卑鄙的[From.GetSpeciesNamePluralInsult]，你们对银河系的和平是一种威胁！"
  07_HOSTILE_GREETING:1 "仔细地考虑你的言语，[From.GetSpeciesNameInsult]。我们的军队能轻易粉碎你的可怜的国家。"
- 08_HOSTILE_GREETING:1 "不要认为[Root.GetName]将向您展示仁慈，因为你们[From.GetSpeciesNamePluralInsult]已经笨到家了。别说话。"
+ 08_HOSTILE_GREETING:1 "不要认为[Root.GetName]将向您展示仁慈，因为你们[From.GetSpeciesNamePluralInsult]已经笨到家了。"
  09_HOSTILE_GREETING:1 "异教徒[From.GetSpeciesNameInsult]，你们那粗鲁的言语[From.GetRandomSpeciesSound]已经被[Root.GetName]倾听了。你们想要干什么？"
  10_HOSTILE_GREETING:0 "你们野蛮哲学的唯物主义把你们物种变成没有灵魂的机器，[From.GetSpeciesName]。"
  11_HOSTILE_GREETING:0 "你们的国家既有缺陷又原始，[From.GetSpeciesName]。我从没有见过这样低的效率。"
