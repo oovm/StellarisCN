@@ -34,6 +34,10 @@
  BREAKTHROUGH:0 "有了！"
  SCRAPIT:0 "分解为材料。"
  OOPS:0 "哎哟..."
+ GOODBYE: "再会了。"
+ DEAL: "成交！"
+ NODEAL: "没门。"
+ TOOPOOR: "我们无法负担这个价格。"
 
  ####################################
  # On-Action Events
@@ -95,6 +99,10 @@
  action.1.desc_63:0 "哟，可怜的生物。你需要知道，在你们这倒霉生物掌握太空飞行之前我们就已经在宇宙中漫步长达万古。如果你们可怜的小船进入了我们的领地，那就不要希望他可以回去了。"
  action.1.desc_64:0 "是的，是的。我们听说过这一切。我们是[contact_empire.GetName]，你们是[Root.GetName]。你好。很高兴见到你。要么远离我们的星区要么直面死亡，差不多就这些。现在，如果你不介意的话，我们很忙。"
  action.1.desc_65:1 "又一个小家伙。请明白，我们[contact_empire.GetName]是这宇宙的天选者。向我们的圣城朝拜，那么也许就会大发慈悲放过你。"
+ action.1.desc_66:0 "星辰的后裔，聆听我们的话语吧。我们是[contact_empire.GetName]，银河系的获选者。几百年了，我们忽视了对下等种族精神需求的引导职责，但是这再也不会发生了。接受我们信条，皈依我们，一切无谓的抵抗都会化归尘沙。你别无选择。"
+ action.1.desc_67:0 "[Root.GetSpeciesNamePlural]，这是值得欢庆的一天！几百年来，我们对于像你们这样的下等种族用火与剑将自己四分五裂的事情已经见得多了，但是这样的事情不会再发生了。[contact_empire.GetName]决定不再袖手旁观。银河系会获得永恒的和平，那些无法接收新秩序的种族将会为自己的错误付出代价。"
+ action.1.desc_68:0 "颤抖吧，弱小的[Root.GetName]。长久以来，我们[contact_empire.GetSpeciesName]放任自己的帝国退让，收缩自己的边境，让包括你们这样的下等种族在本属于我们的星系内肆无忌惮的来回游走。到此为止了！银河系是我们的，吾等降临之时，光绝日月。慎重考虑吧。"
+ action.1.desc_69:0 "这是一则由[contact_empire.GetName]发往[Root.GetName]的通信。我们得出这样一个结论，出于对银河系全体种族最高利益的考虑，我们决定更加积极地对银河系科技的传播进行管控。我们已经向全银河系呈递了一份对于你们这样的下等种族适合进行研究的科研等级管理条例。任何违反这份条例的帝国都将会被处理，严肃处理。"
  action.1.a:1 "你好，[contact_speaker.GetSpeciesNamePlural]。"
  action.1.d:0 "管好你自己，外星人。"
  action.1.b:0 "低贱的异星种。"
@@ -198,28 +206,28 @@
  action.4.b:0 "我们的军队想去哪就去哪! (宣战)"
 
  action.5.name:0 "已遭遇[primitive_civ.GetName]"
- action.5.desc_01:0 "我们在§Y[primitive_civ.Capital.GetName]§!上的§Y[primitive_civ.Capital.GetName]§!检测到一个原始外星文明。他们看起来处于铜器时代晚期阶段，已经掌握早期金属加工技术。虽然他们的大部分人口在乡村，但已经形成了几个大型城邦。我们应当考虑在他们的世界上方建立一个§Y观察站§!以更近距离研究他们。"
- action.5.desc_02:0 "我们在§Y[primitive_civ.Capital.GetName]§!上的§Y[primitive_civ.Capital.GetName]§!检测到一个原始外星文明。他们已发展到相当于铁器时代，分为许多小的王国和帝国.他们的种群几乎扩展到了整个[primitive_civ.Capital.GetPlanetMoon]的地表。\n\n我们应当考虑在他们的世界上方建立一个§Y观测站§!以更近距离研究他们。"
- action.5.desc_03:0 "我们在§Y[primitive_civ.Capital.GetName]§!上的§Y[primitive_civ.Capital.GetName]§!检测到一个原始外星文明的存在。他们现在处于可视为中世纪晚期的阶段，牢固掌握冶金技术、处于封建社会。印刷术正在加速知识的传播。\n\n我们应当考虑在他们的世界上方建立一个§Y观测站§!以更近距离研究他们。"
- action.5.desc_04:0 "我们在§Y[primitive_civ.Capital.GetName]§!上的§Y[primitive_civ.Capital.GetName]§!检测到一个原始外星文明。他们现在似乎刚刚脱离中世纪，正经历相当于文艺复兴的阶段。科学知识正在快速传播，他们的小国家们的军队装备了粗糙的基于火药的子弹武器。\n\n我们应当考虑在他们的世界上方建立一个§Y观测站§!以更近距离研究他们。"
- action.5.desc_05:0 "我们在§Y[primitive_civ.Capital.GetName]§!上的§Y[primitive_civ.Capital.GetName]§!检测到一个原始外星文明的存在。他们已进入蒸汽时代早期，有清晰的证据表明他们已经开始运用车辆和早期蒸汽机工厂。\n\n我们应当考虑在他们的世界上方建立一个§Y观测站§!以更近距离研究他们。"
- action.6.desc_01:0 "我们在§Y[primitive_civ.Capital.GetName]§!上的§Y[primitive_civ.Capital.GetName]§!检测到一个前太空外星文明。他们处于工业时代早期，电力和内燃机引擎逐渐普遍使用。\n\n我们应当考虑在他们的世界上方建立一个§Y观测站§!以更近距离研究他们。"
- action.6.desc_02:0 "我们在§Y[primitive_civ.Capital.GetName]§!上的§Y[primitive_civ.Capital.GetName]§!检测到一个前太空外星文明。轨道观测到的大气污染物和光污染与人口密集的机器时代相符。他们看来掌握了航空技术，工厂在城市中大量制造货物。\n\n\n我们应当考虑在他们的世界上方建立一个§Y观测站§!以更近距离研究他们。"
- action.6.desc_03:0 "我们在§Y[primitive_civ.Capital.GetName]§!上的§Y[primitive_civ.Capital.GetName]§!检测到一个前太空外星文明。有证据表明他们已能驾驭原子能，在他们分为的众多民族国家中可能有很多核武器。突发自取灭亡事件的概率为高。\n\n我们应当考虑在他们的世界上方建立一个§Y观测站§!以更近距离研究他们。"
- action.6.desc_04:0 "我们在§Y[primitive_civ.Capital.GetName]§!上的§Y[primitive_civ.Capital.GetName]§!检测到一个外星文明.他们看来处于太空时代早期，有他们家园轨道上的众多原始卫星为证。他们的民族国家正在融为一个全球政府，他们探索自己世界之外、加入银河社会似乎只是时间问题。\n\n我们应当考虑在他们的世界上方建立一个§Y观测站§!以更近距离研究他们。"
+ action.5.desc_01:1 "我们在§Y[primitive_civ.Capital.GetName]§!上的§Y[primitive_civ.Capital.GetName]§!检测到一个原始外星文明。他们看起来处于铜器时代晚期阶段，已经掌握早期金属加工技术。虽然他们的大部分人口在乡村，但已经形成了几个大型城邦。我们应当考虑在他们的世界上方建立一个§Y观察站§!以更近距离研究他们。"
+ action.5.desc_02:1 "我们在§Y[primitive_civ.Capital.GetName]§!上的§Y[primitive_civ.Capital.GetName]§!检测到一个原始外星文明。他们已发展到相当于铁器时代，分为许多小的王国和帝国.他们的种群几乎扩展到了整个[primitive_civ.Capital.GetPlanetMoon]的地表。\n\n我们应当考虑在他们的世界上方建立一个§Y观测站§!以更近距离研究他们。"
+ action.5.desc_03:1 "我们在§Y[primitive_civ.Capital.GetName]§!上的§Y[primitive_civ.Capital.GetName]§!检测到一个原始外星文明的存在。他们现在处于可视为中世纪晚期的阶段，牢固掌握冶金技术、处于封建社会。印刷术正在加速知识的传播。\n\n我们应当考虑在他们的世界上方建立一个§Y观测站§!以更近距离研究他们。"
+ action.5.desc_04:1 "我们在§Y[primitive_civ.Capital.GetName]§!上的§Y[primitive_civ.Capital.GetName]§!检测到一个原始外星文明。他们现在似乎刚刚脱离中世纪，正经历相当于文艺复兴的阶段。科学知识正在快速传播，他们的小国家们的军队装备了粗糙的基于火药的子弹武器。\n\n我们应当考虑在他们的世界上方建立一个§Y观测站§!以更近距离研究他们。"
+ action.5.desc_05:1 "我们在§Y[primitive_civ.Capital.GetName]§!上的§Y[primitive_civ.Capital.GetName]§!检测到一个原始外星文明的存在。他们已进入蒸汽时代早期，有清晰的证据表明他们已经开始运用车辆和早期蒸汽机工厂。\n\n我们应当考虑在他们的世界上方建立一个§Y观测站§!以更近距离研究他们。"
+ action.6.desc_01:1 "我们在§Y[primitive_civ.Capital.GetName]§!上的§Y[primitive_civ.Capital.GetName]§!检测到一个前太空外星文明。他们处于工业时代早期，电力和内燃机引擎逐渐普遍使用。\n\n我们应当考虑在他们的世界上方建立一个§Y观测站§!以更近距离研究他们。"
+ action.6.desc_02:1 "我们在§Y[primitive_civ.Capital.GetName]§!上的§Y[primitive_civ.Capital.GetName]§!检测到一个前太空外星文明。轨道观测到的大气污染物和光污染与人口密集的机器时代相符。他们看来掌握了航空技术，工厂在城市中大量制造货物。\n\n\n我们应当考虑在他们的世界上方建立一个§Y观测站§!以更近距离研究他们。"
+ action.6.desc_03:1 "我们在§Y[primitive_civ.Capital.GetName]§!上的§Y[primitive_civ.Capital.GetName]§!检测到一个前太空外星文明。有证据表明他们已能驾驭原子能，在他们分为的众多民族国家中可能有很多核武器。突发自取灭亡事件的概率为高。\n\n我们应当考虑在他们的世界上方建立一个§Y观测站§!以更近距离研究他们。"
+ action.6.desc_04:1 "我们在§Y[primitive_civ.Capital.GetName]§!上的§Y[primitive_civ.Capital.GetName]§!检测到一个外星文明.他们看来处于太空时代早期，有他们家园轨道上的众多原始卫星为证。他们的民族国家正在融为一个全球政府，他们探索自己世界之外、加入银河社会似乎只是时间问题。\n\n我们应当考虑在他们的世界上方建立一个§Y观测站§!以更近距离研究他们。"
 
- #action.6.name: "遭遇海盗"
+ action.6.name:1 "遭遇海盗"
  #action.6.desc: "我们在[From.From.GetStarName]星系遭遇敌舰！它们不回应致意，设计也显然不是源自[Root.GetSpeciesName].它们看起来主要是为了劫掠我们的轨道站，剥离有价值的资源和技术并俘获船员。"
  #action.6.a: "海盗.我们不需要那种渣滓。"
 
  action.10.name:0 "在[From.From.From.GetName]遭遇"
  action.10.desc:0 "我们在[From.From.From.GetName]星系遭遇来源未知的船只！这些奇怪的船只已标为§Y[From.GetName]§!，直至我们对其进一步了解。\n\n我们应采取措施，以防他们是敌对的。"
  action.10.a:0 "有意思。"
- action.11.name:0 "建立通讯"
- action.11.desc:0 "我们在成功翻译其语言后与[From.From.GetName]建立通讯。外交频道现已开启，全部敌对行为已终止。"
- action.11.abandoned.desc:0 "我们在成功翻译其语言后与[From.From.GetName]建立通讯。我们开启外交频道时§Y发觉§!他们是我们一度抛弃的难民。全部敌对行为现已终止。"
+ action.11.name:1 "建立通讯"
+ action.11.desc:1 "我们在成功翻译其语言后与[From.From.GetName]建立通讯。外交频道现已开启，全部敌对行为已终止。"
+ action.11.abandoned.desc:1 "我们在成功翻译其语言后与[From.From.GetName]建立通讯。我们开启外交频道时§Y发觉§!他们是我们一度抛弃的难民。全部敌对行为现已终止。"
  action.11.a:0 "好极了。"
- action.13.name:1 "建立通讯"
+ action.13.name:2 "建立通讯"
  action.13.desc:1 "我们收到来自§Y[From.GetName]§!的通信！他们看来成功翻译了我们的语言。外交频道已开启，全部敌对行为现已停止。"
  action.13.abandoned.desc:1 "我们收到来自§Y[From.GetName]§!的通信！他们看来成功翻译了我们的语言。他们打开频道时，我们得以§Y发觉§!他们是我们一度抛弃的难民。我们互相的敌对行为现已停止。"
  action.13.nomad.desc:0 "我们收到了来自§Y[From.Owner.GetName]§!的通信讯号。很显然他们拥有更先进的广播技术，他们已经在我们的星域内时已经成功翻译了我们的语言。"
@@ -959,7 +967,6 @@
  colony.183.name:0 "小行星撞击了[Root.GetName]"
  colony.183.desc:0 "我们没能及时阻止这颗撞向[Root.GetName]的小行星。它最终还是撞上了[Root.GetPlanetMoon]，这次撞击造成了大范围的破坏并给予我们的民众极大的伤痛。数百万人因此丧命。"
  colony.183.a:0 "这真是黑暗的一天。"
-
 
 
  ####################################
@@ -1945,6 +1952,7 @@
  country.207.name:0 "战斗残骸"
  country.207.desc:0 "目前为止，我们已将遭遇到的异教徒军队一一挫败，但这些遭遇战暴露了许多值得注意的问题。[From.GetName]部署的飞船已经远远超过了他们在[Root.Capital.GetName]秘密建造的可能数量，现在他们又使用了一艘不明战舰对付我们。\n\n这些飞船都是从哪来的？还有没有跟我们刚击毁的那艘战舰一样的飞船？我们将从战斗的残骸中寻找答案。"
  country.207.a:0 "开始回收工作。"
+ country.207.a.tooltip:0 "在[our_fleet_position.GetName]星系开启一个§S特殊项目§!。"
  country.208.name:0 "回收工作完成"
  country.208.desc:0 "在仔细分析了我们先前摧毁的那艘奇怪的异教徒战舰的残骸后，科学家好像已经推测出了[radical_cult.GetName]用来对付我们的战舰来自哪里。一份日志文件的某些段落提到了[Root.Capital.GetStarName]逃离的飞船发现了一座被遗弃的外星船坞。\n\n他们用自动船坞补充了战斗力。现在，他们甚至还利用船坞数据库里的外星飞船模板造出了新型飞船！决不能放任他们继续肆意妄为下去了。"
  country.208.a:0 "必须要摧毁那座船坞！"
@@ -2008,9 +2016,9 @@
  country.257.name:0 "盖棺定论"
  country.257.desc:0 "风信子号以及她的船员将面临怎样的残酷命运，我们已经明白了。如果事情没有发展到这一步，很可能是秋菊号漂浮在[hyacinth_planet.GetName]的上空，犹如一颗沉默的炸弹，在冷漠的宇宙中提醒人类他们面对的千难万险。\n\n风信子号即将被拖入[Root.Capital.GetName]的低轨道，马上就要成为保留人类遗迹的博物馆。尽管她的遭遇十分悲惨，这艘方舟却和将我们地球上的祖先带来的那只几乎一模一样。望以后的社会学家能从中有所了悟。\n\n"
  country.257.a:0 "也许会有所收获也说不定。"
-
-
-
+ 
+ 
+ 
  #############################
  # Progress Events
  #############################
@@ -2072,6 +2080,21 @@
  pirate.2.f:0 "贸易必须往来。"
  pirate.2.g:0 "会找到他们的。"
 
+ pirate.5.desc: "我们在某些星系所碰到的飞船具备收发标准通信协议的功能。\n\n根据显示屏内容，他们的文明主要存在于太空，而其中的某些成员不属于任何已知的居住在行星上的文明。\n\n遗憾的是，他们的船员对文明交流毫无兴趣。通过拦截他们的通讯信息，我们得知他们靠在宇宙中抢劫为生，偶尔会招募一些在宇宙飞船中生存的其他种族。 "
+ pirate.5.a: "真是可悲。"
+
+ pirate.10.name: "海盗庇护所"
+ pirate.10.desc.nobirth: "[Root.GetName]报告说，舰队在[From.GetName]星系发现了海盗大规模集结的痕迹。\n\n初步扫描的情报显示，这里聚集着大量舰船以及负责维护舰船的空港，看来这里是个历史悠久的海盗据点。这些海盗从很久以前就开始在这里进行抢劫活动，且没有遭遇过任何打击行动。"
+ pirate.10.desc.birth: "[Root.GetName]报告说，舰队在[From.GetName]星系发现了一个海盗中心。许多[Root.Owner.GetName]的被驱逐者和犯罪分子应该就是受到了这里的邪恶影响，变成了海盗。\n\n这些数目庞大的海盗船奇形怪状且年代久远，因此他们很可能是过去银河纪元的残余——可能是古代星系战争中掠夺船的后裔，后来变成了海盗，对所有目标进行无差别的打击，无论是敌是友。"
+ pirate.10.a.nobirth: "海盗无论对谁都是巨大的威胁。"
+ pirate.10.a.birth: "我们去袭击他们的老窝，彻底摧毁这个威胁。"
+
+ pirate.15.name: "海盗巢穴被摧毁"
+ pirate.15.desc: "[FromFrom.GetName]报告称，[FromFrom.GetStarName]星系的海盗船舰已经被摧毁了，虽然附近星系中还有一些零零散散的海盗船，但从目前来看，星际海盗已经被扔进历史的废纸堆了——至少现在如此。"
+
+ pirate.25.name: "海盗站点被袭击"
+ pirate.25.desc: "[From.From.GetName]摧毁了位于[From.From.GetStarName]星系的一个海盗站点，并取回了它的保险库。"
+ 
  #############################
  # Pretender Events
  #############################
@@ -2101,7 +2124,7 @@
  leader.9.desc:0 "[From.From.GetName]最近在[system.GetName]取胜之后，舰队司令[officer.GetName]显得更有精力并更加积极主动。[officer.GetHerHisCaps]的表现明显提高了。"
  leader.10.desc:0 "舰队司令[officer.GetName]最近在[system.GetName]战败后看起来变得非常谨慎。现在这名军官对于他在[officer.GetHerHis]指挥的舰船中自己所指挥的舰船更加谨小慎微了。"
  leader.11.desc:0 "最近在[system.GetName]战败后，舰队司令[officer.GetName]看上去变得非常的不安和不自信。显然，这名舰队司令不能再像以前那样指挥大的编队了。"
- leader.12.desc:0 "在最近的[system.GetName]战斗中，[Root.GetName]临阵脱逃，这给了舰队司令[officer.GetName]很大打击。[officer.GetSheHeCaps]发誓绝不会再从战场上逃跑了，在[officer.GetHerHis]下一次的战斗中他会坚持到最后。"
+ leader.12.desc:1 "在最近的[system.GetName]战斗中，[Root.GetName]临阵脱逃，这给了舰队司令[officer.GetName]很大打击。[officer.GetSheHeCaps]发誓绝不会再从战场上逃跑了，在[officer.GetHerHis]下一次的战斗中他会坚持到最后。"
  leader.13.desc:0 "在最近[system.GetName]的战斗中，舰队司令[officer.GetName]加大引擎将[officer.GetHerHis]舰的开到最大速度，通过[Root.GetName]从战场脱离。相比[officer.GetHerHis]指挥的其它舰船，[officer.GetSheHeCaps]已经学会让自己的舰船压榨出额外的速度。"
  leader.14.desc:0 "自从[officer.GetHerHis]最近在[system.GetName]被打败之后，舰队司令[officer.GetName]变得和别人更加疏远和沮丧，据[officer.GetHerHis]的军官说，这名舰队司令不再像以前那样积极的履行[officer.GetHerHis]的职责。"
  leader.15.desc:0 "在监管[Root.GetName]维修的过程中，舰队司令[officer.GetName]获得了宝贵的技术，这名舰队司令所指挥的维修小组现在可以在战场上修理舰船了。"
@@ -2285,4 +2308,3 @@
  diplomatic.21.desc:0 "您在[Root.GetName]新的殖民地非常接近我们的边界。我们希望你从这个边境撤出，以避免我们未来出现应在何处划定边界的冲突。"
  diplomatic.21.a:0 "我们将立即停止发展。"
  diplomatic.21.b:0 "这个殖民地是我们未来的一部分。它将被保留。"
-
