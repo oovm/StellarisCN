@@ -2906,7 +2906,7 @@
  DESTROY_BUILDING_TITLE:0 "摧毁建筑物"
  DESTROY_BUILDING_DESC:0 "你确定想要摧毁$NAME|Y$？"
  DESTROY_SECTOR_TITLE:0 "删除星区"
- DESTROY_SECTOR_DESC:2 "你确定你想删除星区$SECTOR|Y$？ 删除星区将取消现有的所有建设队列，并将行星管辖权重新掌握在你手上。同时这会消耗 £influence$COST|Y0$，且星区储存的所有资源都会消失。"
+ DESTROY_SECTOR_DESC:2 "你确定你想删除$SECTOR|Y$星区？删除星区将取消现有的所有建设队列，并将行星管辖权重新掌握在你手上。同时这会消耗£influence $COST|Y0$且星区储存的所有资源都会消失。"
  BUILDABLE_TIME_EST:0 "$DAYS$日"
  ORBITAL_BUILDING_SLOT_LOCKED:0 "§H轨道建筑槽位已被锁定§!\n为了能够利用这个环轨建筑槽位，我们必须通过研究相关科技以扩展我们的大空港。"
  PLANETARY_BUILDING_SLOT_LOCKED:0 "§H行星建筑槽已被锁定§!\n发展行星基础建设能够解锁行星建筑槽位。该建筑槽将解锁于$INFRASTRUCTURE|H$% 基础建设。"
