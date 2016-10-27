@@ -69,8 +69,7 @@
  star_power_chain_desc:0 "在寻找奇次辐射读数。"
  hunting_hyacinth_title:0 "风信子号的寻找"
  hunting_hyacinth_desc:0 "将我们祖先带到这个[Root.Capital.GetName]星系的风信子号是方舟母舰的姐妹船，自从从地球出发之后就与我们失去了联系，我们必须找到在她身上发生了什么。"
- nomads_observation_chain_title:0 "不寻常的宇航员"
- nomads_observation_chain_desc:1 "我们已经探测到，那些我们无法破解语言的外星人舰队已经驶入我们的国境线以内。由于我们无法翻译他们的语言，我们只能静观其变。" 
+ 
  
  ####################################
  # Points of Interest
@@ -94,7 +93,7 @@
  probe_ion_trail_poi:0 "跟踪离子引擎运行轨迹"
  probe_ion_trail_poi_desc:0 "我们在这个未被探索的恒星系中发现了一个我们丢失的亚光速探针的离子引擎运行轨迹。"
  probe_subspace_anomaly_poi:2 "敌人阻挡"
- probe_subspace_anomaly_poi_desc:1 "由于敌人的存在，我们无法回收这个星系的亚空间探测器。"
+ probe_subspace_anomaly_poi_desc:1 "有敌人阻挡我们进入这个星系回收亚空间探针。"
  coming_storm_poi_1_poi:0 "突破口"
  coming_storm_poi_1_poi_desc:0 "鉴于他们目前的向量，我们估计这个可以进入我们恒星系的空间门是在这附近的一个恒星系建造完成的。"
  systems_visited_poi:0 "系统访问"
@@ -108,6 +107,7 @@
  extradimensional_invasion_2_poi_desc:0 "第二道空间门已经在[second_portal_system.GetName]的系统中被检测到。跟第一道门一样，他也会不断地将外星入侵者的船只传送到我们的星系。"
  extradimensional_invasion_3_poi:0 "第三道空间门"
  extradimensional_invasion_3_poi_desc:0 "第三道空间门也在[third_portal_system.GetName]的系统中被检测到。直到现在，它也在不断地传送外星入侵者的船只来威胁我们的星系。"
+ 
  vultaum_1_poi:0 "沃塔穆尔"
  vultaum_1_poi_desc:0 "我们现在有沃塔姆文明的家园星系坐标。"
  yuht_1_poi:0 "大亚特星"
