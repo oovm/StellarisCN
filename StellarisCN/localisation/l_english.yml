@@ -4,11 +4,14 @@
  ####################################
  SEPARATOR:0 "---"
 
- TRIGGER_PASS:0 "（§RX§!）"
- TRIGGER_FAIL:0 "（§G*§!）"
+ STATION:0 "空间站"
+ TRIGGER_PASS:1 "£trigger_yes "
+ TRIGGER_FAIL:1 "£trigger_no "
  
  SPECIES_LACKS_OPTION:0 "§R你选择的种族外貌不能进行更细节的调整了。§!"
  
+ ALL:0 "全部"
+
  aura_category_offensive:0 "攻势 光环"
  aura_category_defensive:0 "坚守 光环"
  aura_type_support:0 "支援"
@@ -18,7 +21,12 @@
  CONTACT:0 "接触"
  newline:0 "\n"
  GAME_SETUP_GALAXY_PROPERTY_NOT_AVAILABLE:0 "-"
+ CRISIS_FIGHTING_ALLIANCE: "泛银河系防卫联盟"
+ point_defence:0 "点防御"
 
+ HABITABILTIY_TOO_LOW:0 "§R物种的适居性必须至少达到§Y$MIN|0$%§!才能殖民。§!"
+ RESETTLE_HABITABILTIY_TOO_LOW:0 "§R适居性必须至少达到§Y$MIN|0$%§!才能进行强制迁移。§!"
+ 
  #MAP_MODE_TOOLTIP variables: "FROM" source country， "TARGET" tooltiped country， "MAP_MODE_NAME" name of current map mode， "MAP_MODE_TIP" tip generated from map mode
  MAP_MODE_TOOLTIP:0 "$TARGET|H$\n$MAP_MODE_TIP$"
  MAP_MODE_BUTTON_TOOLTIP:1 "$MAP_MODE|H$\n$DESC$\n§G单击选择地图模式§!"
@@ -31,6 +39,14 @@
  opinion_map_mode_desc:1 "帝国的疆域会根据他们对选中帝国的好感度来上色。"
  attitude_map_mode:0 "AI态度地图"
  attitude_map_mode_desc:1 "帝国的疆域会根据他们对选中帝国的AI态度进行上色。"
+ opinion_war_in_heaven_ally: "天堂之战中的盟友"
+ opinion_war_in_heaven_enemy: "天堂之战中的敌人"
+ opinion_war_in_heaven_winner: "天堂之战中的胜利者"
+ opinion_non_aligned_league: "不结盟组织中的盟友"
+ opinion_non_aligned_league_fe: "不结盟组织"
+ opinion_crisis_fighter: "危机斗士"
+ opinion_crisis_fighter_small: "危机斗士"
+ opinion_non_aligned_league_declined: "拒绝我们加入不结盟组织。"
  
  OPINION_MAP_MODE_TIP_SELF:0 "$WHO|H$"
  MAP_MODE_OBSERVER:0 "§H[This.GetName]§!\n没有可用信息。"
@@ -43,6 +59,7 @@
  DIPLOMATIC_MAP_MODE_RIVAL:0 "§H[This.GetName]§!\n和§H[From.GetName]§!现在是宿敌。"
  DIPLOMATIC_MAP_MODE_CLOSED_BORDERS:0 "§H[This.GetName]§!\n对§H[From.GetName]§!关闭了自己的边境。"
  DIPLOMATIC_MAP_MODE_NON_AGGRESSION_PACT:1 "§H[This.GetName]§!\n和§H[From.GetName]§!拥有互不侵犯条约。"
+ DIPLOMATIC_MAP_MODE_ASSOCIATION_STATUS:0 "§H[This.GetName]§!\n与§H[From.GetName]§!有联邦协从国关系！"
  DIPLOMATIC_MAP_MODE_DEFENSIVE_PACT:1 "§H[This.GetName]§!\n和§H[From.GetName]§!签署了共同防御条约。"
  DIPLOMATIC_MAP_MODE_MIGRATION_PACT:1 "§H[This.GetName]§!\n和§H[From.GetName]§!签署了移民条约。"
  MAP_MODE_NO_CONTACT:0 "§H[This.GetName]§!\n暂时没有和§H[From.GetName]§!建立通讯渠道。"
@@ -76,6 +93,7 @@
  AURA_APPLY_ON_FRIENDLY:0 "对友舰效果:"
  AURA_APPLY_ON_HOSTILE:0 "对敌舰效果:"
  ENERGY_COST:0 "£energy $VALUE|1Y$"
+ TRADE_NOT_OWNER_OF_SYSTEM:0 "$COUNTRY$不能卖掉$SYSTEM$星系"
  INFLUENCE_COST:0 "£influence $VALUE|0Y$"
  INFLUENCE_COST_FRACTIONS:0 "£influence $VALUE|2Y$"
  FTL_MAGNET:0 "超光速屏蔽装置"
@@ -117,6 +135,7 @@
  SHIP_DESIGN_SPECIAL_VALUES:0 "£ship_stats_special  特殊点数：$COUNT$"
  SHIP_DESIGN_SPECIAL_VALUES_HEADER:0 "§H特殊点数§!"
  SHIP_DESIGN_NO_SPECIAL_VALUES:0 "这个舰船设计没有特殊点数"
+ SHIP_DESIGN_RULER_SHIP: "$RULER$的宏伟$KEY$"
  CONFIRM:0 "确认"
  WAR_DEMANDS_VIEW_TITLE:0 "战争目标"
  WAR_DEMANDS_VIEW_AVAILABLE:0 "可用"
