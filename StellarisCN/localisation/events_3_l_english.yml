@@ -412,9 +412,10 @@
  colony.2001.a.military.tooltip:1 "[Root.GetName]上§B3人口§!的道德观转变为§Y$ethic_fanatic_militarist$§!。"
  colony.2001.a.pacifist.tooltip:1 "[Root.GetName]上§B3人口§!的道德观转变为§Y$ethic_fanatic_pacifist$§!。"
  colony.2001.b:0 "镇压叛乱！"
+ colony.2001.b.tooltip:1 "[Root.GetName]上§B1人口§!的道德观转变为§Y$ethic_fanatic_pacifist$§!。\n\n[Root.GetName]获得§R$suppressed_opposition$§!的修正，效果如下：\n人口幸福度：§R-15%§!"
  colony.2001.b.military.tooltip:0 "[Root.GetName]上的§B1 £pops 人口§!更加倾向于§Y军国主义§!。$colony.2001.b.tooltip$"
  colony.2001.b.pacifism.tooltip:0 "[Root.GetName]上的§B1 £pops 人口§!更加倾向于§Y和平主义§!。$colony.2001.b.tooltip$"
- colony.2001.b.tooltip:1 "[Root.GetName]上§B1人口§!的道德观转变为§Y$ethic_fanatic_pacifist$§!。\n\n[Root.GetName]获得§R$suppressed_opposition$§!的修正，效果如下：\n人口幸福度：§R-15%§!"
+
  colony.2005.name:0 "波涛之下"
  colony.2005.desc:0 "为了改善日常生活，[Root.GetName]的殖民者开始定期探索星球上的资源。最近一次北极探索时，在深海发现了一个巨大物体：一艘外星战斗巡洋舰。\n\n深海的压强可能会造成困难，但仍有可能打捞这艘沉船。"
  colony.2005.a:0 "尝试打捞。"
