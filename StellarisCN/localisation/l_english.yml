@@ -6126,7 +6126,7 @@
  # Ruler View
  ####################################
  LEADER_VIEW_TITLE:0 "新的统治者"
- SKILL_VALUE:0 "技能：£leader_skill |$LEVEL$"
+ SKILL_VALUE:0 "技能：£leader_skill|$LEVEL$"
  EXPERIENCE:0 "经验：$LEVEL|Y$"
  LEADER_AGE:0 "年龄：$AGE|Y$"
  LEADER_SPECIES:0 "种族：$SPECIES|H$"
