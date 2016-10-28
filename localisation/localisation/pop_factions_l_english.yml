@@ -480,5 +480,7 @@
 
  faction.803.title:0 "[Root.GetName]叛乱！"
  faction.803.desc:0 "[death_planet.GetName]上受到清洗的，充斥着绝望的人们现在已经武装自己以对抗[Root.Owner.GetName]，形成了一股人喧马嘶的叛军力量。"
+ #mockup: "\n\n\n§HSuppress Followers§!\nCost: £influence §R150§!\n--------------\n§Y<FactionName>§!:\nMilitancy: §R+10%§!\nSupport: §G-30%§!"
  #mockup: "\n\n\n§HSuppress Followers§!\nCost: £influence§R150§!\n--------------\n§Y<FactionName>§!:\nMilitancy:§R+10%§!\nSupport:§G-30%§!"
+ #mockup2: "\n\n\n§HSuppress Followers§!\nCost: £influence §Y150§!\n--------------\n§Y<FactionName>§!:\nMilitancy: §R+10%§!\nSupport: §G-30%§!"
  #mockup2: "\n\n\n§HSuppress Followers§!\nCost: £influence§Y150§!\n--------------\n§Y<FactionName>§!:\nMilitancy:§R+10%§!\nSupport:§G-30%§!"

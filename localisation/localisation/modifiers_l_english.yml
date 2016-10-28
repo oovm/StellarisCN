@@ -44,7 +44,7 @@
  #Pop
  MOD_POP_FERTILITY:0 "生育能力"
  MOD_POP_HAPPINESS:0 "幸福度"
- MOD_POP_HAPPINESS_DESC:0 "所有帝国内人口的幸福度都会受到此数值影响"
+ MOD_POP_HAPPINESS_DESC:0 "所有帝国內人口的幸福度都会受到此数值影响"
  MOD_POP_RADIATION_HAPPINESS:0 "辐射影响幸福度"
  MOD_POP_RADIATION_HAPPINESS_DESC:0 "帝国境内所有机械人口的幸福度受这个数值的影响。"
  MOD_POP_ENVIRONMENT_TOLERANCE:1 "适居性"
@@ -296,6 +296,8 @@
  weapon_type_strike_craft_speed_mult:0 "舰载机速度"
 
  #vultaum_asteroid_category_research_speed_mult: "Anomaly Research Speed (Precursor - ADD CATEGORIES PROPER)"
+ #vultaum_asteroid_category_research_speed_mult: "Anomaly Research Speed (Precursor - ADD CATEGORIES PROPER)"
+ #vultaum_asteroid_category_research_fail_risk_mult: "Anomaly Fail Risk (Precursor - ADD CATEGORIES PROPER)"
  #vultaum_asteroid_category_research_fail_risk_mult: "Anomaly Fail Risk (Precursor - ADD CATEGORIES PROPER)"
  # TEMP should these be detailed?
  #vultaum_asteroid_category_research_speed_mult: "Anomaly Research Speed (Precursor - ADD CATEGORIES PROPER)"
@@ -544,8 +546,8 @@
  ####################################
  
  ## SPECIES
- opinion_repugnant_species: "令人厌恶的统治者"
- opinion_charismatic_species: "魅力非凡的统治者"
+ opinion_repugnant_species:0 "令人厌恶的统治者"
+ opinion_charismatic_species:0 "魅力非凡的统治者"
 
  ## ETHOS
  opinion_xenophobia:0 "排外主义"
@@ -624,7 +626,7 @@
  opinion_friction:0 "边境摩擦"
  opinion_rivalry:0 "我们的宿敌"
  opinion_declared_rival:0 "视我们为宿敌"
- opinion_mutual_threat:0 "互为威胁"
+ opinion_mutual_threat:0 "共同威胁"
  opinion_mutual_rival:0 "共同宿敌"
  opinion_ally_of_ally:0 "盟友的盟友"
  opinion_allied_to_rival:0 "与我们的宿敌是盟友"

@@ -2,7 +2,7 @@
 
  OK:0 "好的。"
  EXCELLENT:0 "非常棒。"
- GOODBYE: "再会了。"
+ GOOD:0 "很好。"
  MARVELOUS:0 "了不起。"
  FASCINATING:0 "很迷人。"
  REMARKABLE:0 "真是非凡的。"
@@ -217,7 +217,9 @@
  action.6.desc_04:0 "我们在§Y[primitive_civ.Capital.GetName]§!上的§Y[primitive_civ.Capital.GetName]§!检测到一个外星文明.他们看来处于太空时代早期，有他们家园轨道上的众多原始卫星为证。他们的民族国家正在融为一个全球政府，他们探索自己世界之外、加入银河社会似乎只是时间问题。\n\n我们应当考虑在他们的世界上方建立一个§Y观测站§!以更近距离研究他们。"
 
  #action.6.name: "遭遇海盗"
+ #action.6.desc: "We have sighted hostile ships in the [From.From.GetStarName] system! They are not responding to hails, and their designs are obviously not of [Root.GetSpeciesName] origin. It seems like they are mostly focused on looting our orbital stations, stripping them of valuable resources and technology while taking their crews captive."
  #action.6.desc: "我们在[From.From.GetStarName]星系遭遇敌舰！它们不回应致意，设计也显然不是源自[Root.GetSpeciesName].它们看起来主要是为了劫掠我们的轨道站，剥离有价值的资源和技术并俘获船员。"
+ #action.6.a: "Pirates. We don't need that scum."
  #action.6.a: "海盗.我们不需要那种渣滓。"
  
  action.10.name:0 "在[From.From.From.GetName]遭遇"

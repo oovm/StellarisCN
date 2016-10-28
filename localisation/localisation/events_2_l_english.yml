@@ -210,6 +210,7 @@
  anomaly.169.desc:0 "[Root.GetSpeciesName]的人民迫切需要有其他种族来挽救他们或新，或旧信仰。"
  anomaly.169.a:0 "我们不应该改变我们做事的方式。"
  #anomaly.169.a.tooltip: "n/a"
+ #anomaly.169.a.tooltip: "n/a"
  anomaly.169.b:0 "我们的人民需要指引"
  anomaly.169.b.tooltip:0 "§Y改革政府§!变为§Y政教合一§!。"
  anomaly.170.name:0 "流亡者"
@@ -343,6 +344,7 @@
  anomaly.290.desc:0 "[From.GetName]的矿脉资源十分丰富。\n\n不幸的是，其中大部分矿石对我们都没用。科学官[Root.GetLeaderName]认为[From.GetName]地壳中的许多元素都可以通过正电子轰炸而转化成对我方有用的矿石。\n\n[Root.GetName]希望[Root.Owner.GetName]能拨出100能源点数进行此计划。"
  anomaly.290.a:0 "不行，不批准。"
  anomaly.290.b:0 "好吧，准备正电子轰炸。"
+ #anomaly.292.desc: "The crew of the [Root.GetName] are pleased to report that the experiment was a success, and a significant number of dense mineral veins on [From.From.GetName] have been transmuted into precious metals."
  #anomaly.292.desc: "The crew of the[Root.GetName]are pleased to report that the experiment was a success， and a significant number of dense mineral veins on[From.From.GetName]have been transmuted into precious metals。"
  #anomaly.292.desc: "The crew of the[Root.GetName]are pleased to report that the experiment was a success， and a significant number of dense mineral veins on[From.From.GetName]have been transmuted into precious metals。"
  anomaly.295.name:0 "上下颠倒"
@@ -521,6 +523,7 @@
  anomaly.3112.a:0 "有意思。"
  anomaly.3113.name:0 "讯息被破解"
  anomaly.3113.desc:0 "科学官[From.GetLeaderName]报告称[From.From.GetName]新标发出的信号已经解密完成了。\n\n这是一条记录用讯息，它谴责了数千年前一场致数百人阵亡的战斗，似乎两个坚定的盟友被背叛与欺骗蒙住了双眼，在敌人还未到来之前就开始了互相残杀。\n\n看来这些舰船的残骸都留在这里成为了浮动的墓碑，其船员早就在船体遭受攻击时被杀死了。"
+ anomaly.3113.a:0 "Study these records." # society data on planet
  anomaly.3113.a:0 "研究这些记录。" # society data on planet
  anomaly.3113.b:0 "计算舰船残骸的浮动轨迹与当前位置。"
  anomaly.3114.name:0 "海盗出没"
@@ -620,6 +623,7 @@
  country.1005.name:0 "流亡：间隙事件"
  country.1005.desc:0 "那个物理学家的飞船就在这个星系————至少我们认为。\n\n我们的探测器并不能锁定这些原住民的位置，但他们十分崇敬我们。让他们来建设[Root.Capital.GetName]吧。"
  country.1005.a:0 "好主意。"
+ country.1010.name:0 "Head of Physics Research" # diplo w/ scientist
  country.1010.name:0 "物理研究负责人" # diplo w/ scientist
  country.1010.desc:0 "久闻大名，[Root.GetRulerTitle].\n\n我能认为这不是一次普通的访谈吗？"
  country.1010.a:0 "你这话是什么意思？"
@@ -639,6 +643,7 @@
  country.1025.desc:0 "在经过对物理学家的科学船留下的复杂信息进行分析后，我们再次追踪到了他的足迹。\n\n查阅任务日志以获取详情。"
  country.1030.name:0 "流亡：天降灾祸"
  country.1030.desc:0 "虽然短期来看那艘科学船还是很难被发现，但这并不能难倒我们。\n\n模糊的传感探测器读数使我们很自然地想到，物理学家的船的两侧肯定有两艘全副武装的轻巡洋舰进行干扰。\n\n物理学家都在称赞我们。"
+ country.1035.name:0 "Head of Physics Research" # diplo w/ scientist
  country.1035.name:0 "物理学家的研究" # diplo w/ scientist
  country.1035.desc:0 "幸会，[Root.GetRulerTitle]。\n\n[Root.GetSpeciesName]的船真是最受欢迎的型号啊。我之前还担心我的突然出现可能会激怒外星人并把我包围呢。\n\n任何形式的协助，哪怕是以很失礼的方式做出来的我都将感激不尽。当这件事结束了，我会很荣幸和你们一起分享这次探险的经历的。"
  country.1035.a:0 "你为什么要逃跑？"
@@ -646,12 +651,17 @@
  country.1035.b:0 "但首先，告诉我们更多关于“窗”的事情。"
  country.1035.b.response:0 "我不会在这个节骨眼上跟你们进行深入探讨的。不，会，的，傻瓜。 或者说也许一开始就是我错了。\n\n但是……也有可能最后我们都会有自己的一尊全息雕像。难道这还不值得吗？"
  country.1035.c:0 "我们会帮你摆脱困境的。"
+ country.1040.name:0 "Sunblaster Pirates" # diplo w/ pirates
  country.1040.name:0 "日曝海盗" # diplo w/ pirates
  country.1040.desc:0 "失去联系！我们发现了腐烂的幽灵船！\n\n我们一旦弄清如何上船那它就是我们的了而不是你的，这艘船的船长死了。"
+ country.1040.a:0 "You will rue the day you crossed us, alien scum." # fanatic xenophobe
  country.1040.a:0 "总有一天你会后悔你遇到了我们，外星渣滓！" # fanatic xenophobe
  country.1040.a.response:0 "真是丑人说丑话。这也不是我们第一次打仗，老兄。"
+ country.1040.b:0 "150 Energy Credits for the ship." # fanatic or regular pacifist, pay off
  country.1040.b:0 "用150点能量币交换这些船吧。" # fanatic or regular pacifist， pay off
+ country.1040.c:0 "Ready weapons." # beat them up
  country.1040.c:0 "武器已就位。" # beat them up
+ country.1040.d:0 "Leave now and you may yet live." # empty threat?
  country.1040.desc:0 "失去联系！我们发现了腐烂的幽灵船！\n\n我们一旦弄清如何上船那它就是我们的了而不是你的，这艘船的船长死了。"
  country.1040.d.response:0 "只会放空包弹！你们似乎离家太远了，丑陋的家伙们。\n日曝海盗占领了这些星球。"
  country.1041.name:0 "日曝海盗"
@@ -665,18 +675,22 @@
  country.1042.a:0 "你们将会知道[Root.GetSpeciesNamePlural]军事实力的厉害。"
  country.1044.name:0 "首席物理学家的研究"
  country.1044.desc:0 "我忍不住零零星星听到了一些谈话内容—————毕竟广播里正在播放嘛！\n\n我想交易进行的还算顺利。"
+ country.1045.name:0 "Head of Physics Research" # diplo w/ scientist, situation resolved
  country.1045.name:0 "首席物理学家的研究" # diplo w/ scientist， situation resolved
  country.1045.desc:0 "我亲眼目睹您一下子就解决了那帮海盗，[Root.GetRulerTitle].\n作为一名科学家，我是很反对暴力的……但我现在认为暴力也是一种必要手段.我很怀疑如果我落入这群海盗之手会怎样，反正下场不太好就是了。"
  country.1045.a:0 "确实如此。现在，把你所知的都说出来。"
  country.1045.a.response:0 "哦，好的，当然。\n有人……算了我就不说细节了，免得你觉得无聊，[Root.GetRulerTitle]，但是现在有一种观点，就是说————我，[Root.GetRulerTitle]你自己，以及我们所认为的绝对的自然法则————都只不过是光的把戏而已。整个宇宙就像是一个镜像，一道全息图像，或者一个万花筒。反正只是某种光线的反射而已。\n\n明白了吗？而这些光来自一个地方，它们是透过窗射进来的。"
  country.1045.b:0 "你现在必须立即回到[Root.Capital.GetName]。"
+ country.1046.name:0 "Head of Physics Research" # diplo, immediate followup, gain phys
  country.1046.name:0 "首席物理学家的研究。" # diplo， immediate followup， gain phys
  country.1046.desc:0 "你很明白我是不会回去的，[Root.GetRulerTitle]。\n事实上，在经过长时间的深思熟虑后，我确信我没有什么闲心在这种紧要关头考虑回去了。\n\n我搜集到的任何数据，只要我觉得对[Root.GetSpeciesName]有用的，我都有权利与自由上传到[Root.Capital.GetName]的数据库中。但是关于窗的研究数据我将自己保留。我开始觉得我还并没有为最后的结局做好准备，当然其他人也没有。\n我得离开了。"
  country.1046.a:0 "等等————"
  country.1047.name:0 "流亡：盲目"
  country.1047.desc:0 "我们简单查看了下，的确如他所说，[Root.GetName]的物理学研究进度得到了小幅度的提升，但是并不明显。\n\n这个物理学家又成功逃脱了，但是这一次，我们成功在他离开星系之前就侦测到了他的路线。\n\n如果他执意去寻找这个窗，那么我们也会去。\n查看任务日志以了解更多细节。"
+ country.1050.name:0 "Wanderlust: The Window Opens" # final catchup
  country.1050.name:0 "流亡：窗已打开" # final catchup
  country.1050.desc:0 "科学船原型机第一次清楚地出现在了我们的探测器上。它正在以极其近的距离围绕着这个星系的恒星做轨道运动，但是除此之外并没有什么异常。\n\n简单的扫描就能发现问题，它的船身设计十分普通，没什么特别之处。但是上面有很多十字型的金属网格，就像是在精密的交互电压控制下的电磁铁。只要足够接近恒星，飞船就能轻微地扭曲恒星发出的射线，使它们围绕自己旋转，这样就构成了一层伪装。\n\n尽管这项技术在理论上无懈可击，但是在实际操作中仍有一些致命的弱点。由于暴露在恒星的辐射中太久，船体自身会受到很大损坏。"
+ country.1051.name:0 "Head of Physics Research" # start of final diplo w/ scientist
  country.1051.name:0 "首席物理学家的研究" # start of final diplo w/ scientist
  country.1051.desc:0 "你好啊，[Root.GetRulerTitle].\n\n我就知道你们会再一次的追寻我的足迹。\n\n所以我也这么做了。"
  country.1051.a:0 "那么现在呢，首席物理学家？"
@@ -684,6 +698,7 @@
  country.1051.b:0 "你将会怎么做？"
  country.1051.b.response:0 "我会试着穿过窗口，前往现实世界。来自于现实世界的光当然不可能只会穿过这个世界。整个宇宙就像是块巨大的玻璃，我们生活在其中一小块而已。\n\n这就是窗，我相信它会开启的。"
  country.1051.c:0 "你的行为简直鲁莽又危险。"
+ country.1052.name:0 "Head of Physics Research" # second phase
  country.1052.name:0 "首席物理学家的研究" # second phase
  country.1052.desc:0 "我引起了诸多麻烦，对此我深感歉疚，[Root.GetRulerTitle]，千真万确。但是，我并不欠[Root.GetName]任何东西。我必须完成我的使命，对此我坚信不移。您凭借自己强大的意志力一路跟来，对您的帮助我表示感激，但是现在我已经下定决心了。"
  country.1052.a:0 "我们将会忘掉你的所作所为，现在该回家了。"
@@ -810,12 +825,14 @@
  story.101.a:0 "立即拟定一项远程观察太空变形虫的计划。"
  story.101.b:0 "我们的舰队应该能够迅速地解决掉它们。"
 
+ story.105.name:0 "Space Amoebas Forever" #project completed
  story.105.name:0 "永远的太空变形虫" #project completed
  story.105.desc.phile:0 "太空变形虫————这个俗称现在已经传遍了[Root.Capital.GetName]的大街小巷————它们是独居生物。成年的太空变形虫身边总会伴随着一种被称为鞭毛的半独立生物。鞭毛由变形虫自行生成，并通过分泌液态RNA来进行控制。我们一度误以为这就是太空变形虫的幼体，但其实这些鞭毛并不含有繁殖器官，每个鞭毛更像是变形虫向外延伸的肢体。这些鞭毛可以在一定范围内离开主体并攻击敌人，但每隔一段时间就需要回返主体内进行重构。\n\n这种鞭毛的循环性运动模式很适合用于军事领域。"
  story.105.desc.pacif:0 "太空变形虫————这个俗称现在已经因为它们能够找到返回[Root.Capital.GetName]的路而彻底火了起来————它们是独居生物。成年的太空变形虫身边总会伴随着一种被称为鞭毛的半独立生物。鞭毛由变形虫自行生成，并通过分泌液态RNA来进行控制。我们一度误以为这就是太空变形虫的幼体，但其实这些鞭毛并不含有繁殖器官，每个鞭毛更像是变形虫向外延伸的肢体。这些鞭毛可以在一定范围内离开主体并攻击敌人，但每隔一段时间就需要回返主体内进行重构。"
  story.105.desc.phile:0 "太空变形虫————这个俗称现在已经传遍了[Root.Capital.GetName]的大街小巷————它们是独居生物。成年的太空变形虫身边总会伴随着一种被称为鞭毛的半独立生物。鞭毛由变形虫自行生成，并通过分泌液态RNA来进行控制。我们一度误以为这就是太空变形虫的幼体，但其实这些鞭毛并不含有繁殖器官，每个鞭毛更像是变形虫向外延伸的肢体。这些鞭毛可以在一定范围内离开主体并攻击敌人，但每隔一段时间就需要回返主体内进行重构。\n\n这种鞭毛的循环性运动模式很适合用于军事领域。"
  story.105.a:0 "的确很神奇。"
 
+ story.110.name:0 "Space Amoeba Dissected" #debris studied
  story.110.name:0 "解剖变形虫" #debris studied
  story.110.desc.phobe:0 "这些变形虫————现在这名字已经是负责捕杀它们的[Root.GetSpeciesAdj]的军队口中的贬义词了————远比我们想象的要复杂。它们用坚硬的外壳保护着体内的原虫，这些原虫就像航母上的舰载机一样保护着巨大的母体。这些进攻型原虫虽然和变形虫结构相似，但其实它们只是些相对简单的生物。变形虫的体内除了这些外还有数以千计的复杂器官，毫无疑问这些都是它们存活于宇宙间的必须要素。\n\n当我们在解剖变形虫尸体时，大部分器官都已碎裂或被焚烧殆尽，只留下一具残缺的尸体。\n\n但是，参与变形虫研究的外星物理学家认为获取完整样本是十分有必要的，所以他们给舰队发布了特殊指令。只要用外科手术式的精准打击击杀五只或以上变形虫，我们就能拼凑出一具完整的尸体。"
  story.110.desc.milit:0 "这些变形虫————这是[Root.GetSpeciesAdj]军队对它们的官方叫法————远比我们想象的要复杂。它们用坚硬的外壳保护着体内的原虫，这些原虫就像航母上的舰载机一样保护着巨大的母体。这些进攻型原虫虽然和变形虫结构相似，但其实它们只是些相对简单的生物。变形虫的体内除了这些外还有数以千计的复杂器官，毫无疑问这些都是它们存活于宇宙间的必须要素。当我们在解剖变形虫尸体时，大部分器官都已碎裂或被焚烧殆尽，只留下一具残缺的尸体。\n\n但是，参与变形虫研究的外星物理学家认为获取完整样本是十分有必要的，所以他们给舰队发布了特殊指令。只要用外科手术式的精准打击击杀五只或以上变形虫，我们就能拼凑出一具完整的尸体。"
@@ -824,12 +841,16 @@
  story.110.b.milit:0 "来练靶子了。"
  story.110.c:0 "很好。"
 
+ story.115.name:0 "Space Amoebas Slaughtered" #kill 5 quest
  story.115.name:0 "变形虫大屠杀" #kill 5 quest
  story.115.desc.phobe:0 "在击杀了数只变形虫后，我们终于能够研究这种太空变形虫跟它体内微型生物的双生关系。[Root.GetSpeciesAdj]的外星生物学家发现，这些鞭毛其实并不是它们的幼体，也不是什么寄生物。他们仅仅是变形虫母体成年后自我生成的一种工具。一旦它们完成母体指派的任务便会回到母体体内。说白了他们就是一群无脑的士兵加炮灰而已。其弱点是在接受命令会有一定的延迟，不过这一点被强大的人海战术，鞭毛个体的强烈应激性，以及能够自动追踪母体等特点弥补了。\n\n无论如何，我们现在最好将它们全解决掉。"
  story.115.desc.milit:0 "在收集了数只变形虫尸体后，我们终于能够研究这种太空变形虫跟它体内微型生物的双生关系。[Root.GetSpeciesAdj]的外星生物学家发现，这些鞭毛其实并不是它们的幼体，也不是什么寄生物。这些鞭毛没有成熟的大脑，只有一个复杂的腺状信息处理中心，这个中心通过皮下受体负责对母体RNA形态的命令进行解读。一旦它们完成母体指派的任务便会回到母体体内。说白了他们就是一群无脑的士兵加炮灰而已。其弱点是在接受命令会有一定的延迟，不过这一点被强大的人海战术，鞭毛个体的强烈应激性，以及能够自动追踪母体等特点弥补了。太空变形虫在宇宙间得以存活很大程度上就是依赖于鞭毛的巧妙运用，这一点值得我们的军队学习。"
  story.115.desc.phobe:0 "在击杀了数只变形虫后，我们终于能够研究这种太空变形虫跟它体内微型生物的双生关系。[Root.GetSpeciesAdj]的外星生物学家发现，这些鞭毛其实并不是它们的幼体，也不是什么寄生物。他们仅仅是变形虫母体成年后自我生成的一种工具。一旦它们完成母体指派的任务便会回到母体体内。说白了他们就是一群无脑的士兵加炮灰而已。其弱点是在接受命令会有一定的延迟，不过这一点被强大的人海战术，鞭毛个体的强烈应激性，以及能够自动追踪母体等特点弥补了。\n\n无论如何，我们现在最好将它们全解决掉。"
+ story.115.a.phobe:0 "Righteous." # emp mod, +20% dmg vs amoebas
  story.115.a.phobe:0 "正义的屠杀。" # emp mod， +20% dmg vs amoebas
+ story.115.b.milit:0 "Then learn we shall." # emp mod, improved strike craft
  story.115.b.milit:0 "我们将继续研究。" # emp mod， improved strike craft
+ story.115.c:0 "This knowledge can be put to good use." # emp mod, +5% energy
  story.115.c:0 "这些新知识可以好好利用。" # emp mod， +5% energy
 
  story.201.name:0 "晶状生命体"
@@ -895,6 +916,7 @@
  story.301.a:0 "在[Root.Capital.GetName]建立一个观测站。"
  story.301.b:0 "我们不知道它们内部结构如何————拆开来看看。"
 
+ story.305.name:0 "Mining Drone Work Ethic" #starts mining drone home system chain upon completion
  story.305.name:0 "敬业的采矿无人机" #starts mining drone home system chain upon completion
  story.305.desc.pacif:0 "除了对靠近的[Root.GetSpeciesAdj]飞船发出警示，这无人机基本一直在勤劳地进行采矿作业，除此之外什么也不做。\n\n更有趣的是，这些无人机并非如之前假设的那样死板，它们会发出电子脉冲信号，极其少见而且很难捕获到的那种。至于信号发送对象是谁就不得而知了。"
  story.305.desc.mater:0 "这些无人机开采效率极高，假如是[Root.GetSpeciesAdj]的矿工的话，这些地方可能早就被判定为资源枯竭了，我们的尖端工程师正在将这种无人机的工作原理应用在[Root.GetName]的采矿网络和空间站中以提高效率，减少浪费。\n\n更有趣的是，这些无人机并非如之前假设的那样死板，它们会发出电子脉冲信号，极其少见而且很难捕获到的那种。至于信号发送对象是谁就不得而知了。"
@@ -920,7 +942,7 @@
  story.331.name: "观测结果"
  story.331.desc: "我们最终证明，让这个矿物加工中心不受干扰的工作是一个极其明智的决定。通过长时间对它枯燥的重复的观察，我们已经能从中学到数种超越我们的矿物处理技术了。"
  story.331.a: "让这些技术造福于我们的帝国吧。"
- story.331.b: "我们中大奖咯！"
+ story.331.b: "我们中大奖咯！。"
 
  story.333.name: "采矿无人机基地遭到摧毁"
  story.333.desc: "我们收到报告称，在[location_planet.GetStarName]星系中观察到的远古矿物加工中心已遭到摧毁。它的原始技术和大量矿产被抛入了[location_planet.GetName]当地的小行星带。"
@@ -1410,7 +1432,7 @@
  fallen_empires.8.a:0 "我们别无选择只能接受..。"
  fallen_empires.8.b:0 "[Root.GetName]不会受任何人威胁！"
  fallen_empires.9.name:0 "来自§H[From.GetName]§!的通讯"
- fallen_empires.9.desc: "大逆不道的[Root.GetSpeciesName]！你已经无意中踏入了逝者安息圣殿。你们践踏历史，毫不在意那些被你们打扰的亡灵。立刻收手！还逝者一个清静，否则，你们将直面我们的怒火。"
+ fallen_empires.9.desc:0 "亵神的[Root.GetSpeciesName]！你粗鲁地踏入了死亡的大厅，摧毁了的脚下的历史，并对打扰亡灵不以为然。停下来！让死者安息吧，或者面对活着的人们———我们。"
  fallen_empires.9.a:0 "我们别无选择只能接受..。"
  fallen_empires.9.b:0 "[Root.GetName]不会受任何人威胁！"
  

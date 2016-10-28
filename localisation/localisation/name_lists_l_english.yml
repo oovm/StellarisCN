@@ -250,6 +250,7 @@
  # Species
  ####################################
 
+ Human:0 "Human" # Needs to be localized, alone among all species
  Human:0 "人类" # Needs to be localized, alone among all species
  Human_adj:0 "人类的"
  Human_plural:0 "人们"

@@ -94,6 +94,7 @@
  anomaly.4030.b.tooltip:1 "毁掉这个人工智能。\n\n把§Y坠毁的人工智能舰队§!添加到[From.GetName]上：\n£engineering §G+2§!"
  anomaly.4031.desc:0 "谢天谢地，我们成功地在这个人工智能攻击我们之前为它重新编写了程序。它开始为我们舰队中的旗舰服务，并且如果我们想的话，它可以作为舰队的司令。这个人工智能已经被运送到我们的母星，等待指派。"
  anomaly.4035.name:0 "熔炉烈焰"
+ anomaly.4035.desc:0 "We have made an interesting find on [From.GetName], however it is not related to the [From.GetPlanetMoon] itself. While conducting our usual tests we captured some odd data from a far-off system's star. Its radiation indicates that it is able to fuse together beryllium without spallation; something that should not be possible!\n\nThe science team are eager to investigate and have limited the potential stars down to two not-too-distant systems.\nConsult the §SSituation Log§! for details." #Source: http://www.forbes.com/sites/ethansiegel/2015/07/01/the-only-three-heavy-elements-in-the-universe-that-arent-made-in-stars/
  anomaly.4035.desc:0 "我们在[From.GetName]发现了有趣的东西，虽然跟[From.GetPlanetMoon]本身没有什么关系。我们像往常一样进行测试时，突然捕获到遥远的星系中的一颗恒星传出的奇怪数据。该星球的辐射指示，可以在不发生核裂变的情况下熔合铍，但这种事根本就是不可能的！\n\n科学小组已经迫不及待想前去一探究竟了，而且他们已经将范围缩小到两个不是很远的星系。查询§S情况日志§!获取细节。"
  anomaly.4035.a:0 "这可能会带来丰厚的收获。"
  anomaly.4035.poi_1:0 "第一潜在恒星"
@@ -414,7 +415,7 @@
  colony.2001.b:0 "镇压叛乱！"
  colony.2001.b.military.tooltip:0 "[Root.GetName]上的§B1 £pops 人口§!更加倾向于§Y军国主义§!。$colony.2001.b.tooltip$"
  colony.2001.b.pacifism.tooltip:0 "[Root.GetName]上的§B1 £pops 人口§!更加倾向于§Y和平主义§!。$colony.2001.b.tooltip$"
- colony.2001.b.military.tooltip:0 "[Root.GetName]上的§B1 £pops 人口§!更加倾向于§Y军国主义§!。$colony.2001.b.tooltip$"
+ colony.2001.b.tooltip:1 "[Root.GetName]上§B1人口§!的道德观转变为§Y$ethic_fanatic_pacifist$§!。\n\n[Root.GetName]获得§R$suppressed_opposition$§!的修正，效果如下：\n人口幸福度：§R-15%§!"
  colony.2005.name:0 "波涛之下"
  colony.2005.desc:0 "为了改善日常生活，[Root.GetName]的殖民者开始定期探索星球上的资源。最近一次北极探索时，在深海发现了一个巨大物体：一艘外星战斗巡洋舰。\n\n深海的压强可能会造成困难，但仍有可能打捞这艘沉船。"
  colony.2005.a:0 "尝试打捞。"
