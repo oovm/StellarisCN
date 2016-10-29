@@ -70,7 +70,7 @@
  anomaly.6660.desc.atmosphere:0 "$anomaly.6660.desc.start$大气中含着某种能影响我们人口增长的特定气体，所以我们应该谨慎一些。\n\n$anomaly.6660.desc.end$"
  anomaly.6660.desc.lush:0 "$anomaly.6660.desc.start$原生动物在族群扩张的过程中没有任何阻碍，因而有充足的机会收获大量需要的资源。\n\n$anomaly.6660.desc.end$"
  anomaly.6660.desc.terrible:0 "$anomaly.6660.desc.start$环境苛刻，景色凄凉。它不能成为一个理想的定居点。\n\n$anomaly.6660.desc.end$"
- anomaly.6660.desc.default:1 "$anomaly.6660.desc.start$[From.GetName]有着与我们曾经见过的任何事物均不相同的情况.\n\n$anomaly.6660.desc.end$"
+ anomaly.6660.desc.end:0 "随着我们对新星球的调查，我们一定还会遇到类似这种不同寻常的状况，显然我们不能无视这些对我们扩张可能造成的影响。"
  anomaly.6660.a.tooltip:0 "在[From.GetName]出现了一个星球气候调节器。"
 
  ####################################
@@ -90,7 +90,7 @@
  colony_mod.2.a:0 "继续研究。"
  colony_mod.2.b:0 "不，别管那些巨人。"
  colony_mod.2.c:0 "确保研究不会对它们造成伤害。"
- colony_mod.2.desc:0 "[Root.GetName]的土著生命体型远远超出了所能设想的生物可以达到的最大值。现在困惑着研究人员的问题是“他们的秘密是什么，而我们该怎样从中获利？”进一步详细研究土著生命的建议书蜂拥而至。"
+ colony_mod.2.d:0 "研究他们？抓住他们看看有没有用处！"
  colony_mod.3.name:0 "地震！"
  colony_mod.3.desc:0 "[Root.GetName]不稳定的板块构造刚刚又一次剧烈移动了。关于殖民地损失的报告刚刚抵达。"
  colony_mod.3.a:0 "让我们听听。"

@@ -134,7 +134,7 @@
  MOD_ARMY_MORALE_DAMAGE_MULT:0 "士气伤害"
  MOD_ARMY_GARRISON_HEALTH:1 "卫戍健康值"
  MOD_ARMY_BUILD_SPEED_MULT:0 "陆军建造速度"
- MOD_ARMY_MORALE_DAMAGE_MULT:0 "士气伤害"
+ MOD_ARMY_MORALE:0 "陆军士气"
  MOD_ARMY_DEFENSE_MORALE_MULT:0 "防守时陆军士气"
  MOD_ARMY_DEFENSE_DAMAGE_MULT:0 "防守时陆军伤害"
  MOD_ARMY_ATTACK_MORALE_MULT:0 "攻击时陆军士气"
@@ -296,8 +296,6 @@
  weapon_type_strike_craft_speed_mult:0 "舰载机速度"
 
  #vultaum_asteroid_category_research_speed_mult: "Anomaly Research Speed (Precursor - ADD CATEGORIES PROPER)"
- #vultaum_asteroid_category_research_speed_mult: "Anomaly Research Speed (Precursor - ADD CATEGORIES PROPER)"
- #vultaum_asteroid_category_research_fail_risk_mult: "Anomaly Fail Risk (Precursor - ADD CATEGORIES PROPER)"
  #vultaum_asteroid_category_research_fail_risk_mult: "Anomaly Fail Risk (Precursor - ADD CATEGORIES PROPER)"
  # TEMP should these be detailed?
  #vultaum_asteroid_category_research_speed_mult: "Anomaly Research Speed (Precursor - ADD CATEGORIES PROPER)"
@@ -560,7 +558,7 @@
  opinion_of_spiritualist_pos:0 "睿智的唯心主义者"
  opinion_of_individualist_pos:0 "自由的个人主义者"
  opinion_of_pacifist_pos:0 "开明的和平主义者"
- opinion_of_individualist_pos:0 "自由的个人主义者"
+ opinion_of_individualist:0 "个人主义刁民"
  opinion_of_collectivist:0 "集体主义暴君"
  opinion_from_personality:0 "[Root.GetPersonalityName]性格"
  opinion_desecrated_holy_world:0 "被玷污的圣地"
@@ -645,7 +643,7 @@
 
  ## SUBJECT
  opinion_subject_relation:0 "附属国关系"
- opinion_subject_was_in_war_pacifist:0 "战争中"
+ opinion_subject:0 "拥有相同宗主"
  opinion_is_subject:0 "附属"
  opinion_subject_protection:0 "同意成为被保护国"
  opinion_forced_subjectized:0 "被强制附属"
