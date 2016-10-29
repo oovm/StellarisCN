@@ -1,8 +1,0 @@
-﻿l_english:
- INVESTIGATE_PIRATES: "$ESTABLISH_COMMUNICATIONS$"
- INVESTIGATE_PIRATES_DESC: "$ESTABLISH_COMMUNICATIONS_DESC$"
- 
- CULTIST_DEBRIS:0 "邪教徒战舰残骸"
- CULTIST_DEBRIS_DESC:0 "这群邪教徒看来发展出了某种新武器，追踪他们母基地的行动到这里就中止了。如果我们调查他们的科技，我们或许可以发现邪教徒领袖的下落。"
-
- 
