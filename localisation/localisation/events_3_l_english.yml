@@ -1,8 +1,8 @@
 ﻿l_english:
- 
- ####################################
- # Anomaly Categories
- ####################################
+
+####################################
+# Anomaly Categories
+####################################
  TUTORIAL_CAT:0 "离开家园"
  TUTORIAL_DESC:1 "在调查我们自己家园的恒星系时，我们在[From.GetName]上面找到了一点东西。这和我们先前在母星上的观测结果有一定的偏差。"
  TROP_BIOLOGY_CAT:0 "热带奇谭"
@@ -49,10 +49,10 @@
  NUKE_PLANET_DESC:0 "这片核废土显然说明了这里曾经的文明。我们的探测器在某些地方侦测到了一些活跃的数据，我们应该对其进行进一步的调查。"
  ARID_PLANET_CAT:0 "干燥的废土"
  ARID_PLANET_DESC:0 "[From.GetPlanetMoon]并不是气候最宜人的地方，但是如果我们最初的侦测数据没有错的话，它上面可能有一些珍贵的资源。"
- 
- ####################################
- # Anomaly Events
- ####################################
+
+####################################
+# Anomaly Events
+####################################
  anomaly.4000.name:0 "生命之道"
  anomaly.4000.desc:0 "[From.GetName]上面的一些植物在自然选择中已经进化出了一套有效的自我防御措施。许多的树木和真菌都会释放出孢子，这些孢子对非植物的生命体来说具有强酸性。还好，科学员[Root.GetLeaderName]发现了中和其中一些孢子的方法，让这颗星球上的森林不那么致命了！"
  anomaly.4000.a.tooltip:1 "把§Y酸性丛林§!添加到[From.GetName]上：\n£blocker  有害沼泽§R+3\n£society §G+2§!"
@@ -94,7 +94,6 @@
  anomaly.4030.b.tooltip:1 "毁掉这个人工智能。\n\n把§Y坠毁的人工智能舰队§!添加到[From.GetName]上：\n£engineering §G+2§!"
  anomaly.4031.desc:0 "谢天谢地，我们成功地在这个人工智能攻击我们之前为它重新编写了程序。它开始为我们舰队中的旗舰服务，并且如果我们想的话，它可以作为舰队的司令。这个人工智能已经被运送到我们的母星，等待指派。"
  anomaly.4035.name:0 "熔炉烈焰"
- anomaly.4035.desc:0 "We have made an interesting find on [From.GetName], however it is not related to the [From.GetPlanetMoon] itself. While conducting our usual tests we captured some odd data from a far-off system's star. Its radiation indicates that it is able to fuse together beryllium without spallation; something that should not be possible!\n\nThe science team are eager to investigate and have limited the potential stars down to two not-too-distant systems.\nConsult the §SSituation Log§! for details." #Source: http://www.forbes.com/sites/ethansiegel/2015/07/01/the-only-three-heavy-elements-in-the-universe-that-arent-made-in-stars/
  anomaly.4035.desc:0 "我们在[From.GetName]发现了有趣的东西，虽然跟[From.GetPlanetMoon]本身没有什么关系。我们像往常一样进行测试时，突然捕获到遥远的星系中的一颗恒星传出的奇怪数据。该星球的辐射指示，可以在不发生核裂变的情况下熔合铍，但这种事根本就是不可能的！\n\n科学小组已经迫不及待想前去一探究竟了，而且他们已经将范围缩小到两个不是很远的星系。查询§S情况日志§!获取细节。"
  anomaly.4035.a:0 "这可能会带来丰厚的收获。"
  anomaly.4035.poi_1:0 "第一潜在恒星"
@@ -106,7 +105,7 @@
  anomaly.4038.maxed.desc:0 "$anomaly.4038.base.desc$\n\n这些知识并不会使我们现有的科技得到提升。但是，它告诉了我们更多关于宇宙成型原因的信息。"
  anomaly.4038.upg.desc:0 "$anomaly.4038.base.desc$\n\n由于这个发现，我们的科学家现在能够研究新的科技了！"
  anomaly.4038.a:0 "我们理解了恒星的奥秘。"
- anomaly.4038.base.desc:0 "有了！科学官[Root.GetLeaderName]发现这个恒星是围绕一个极小的黑洞形成的。它们在维度之间撕开了一道裂缝。从其他维度来的射线代替了宇宙射线，导致了元素的分裂。超新星辐射导致了这颗恒星中形成的铍-8衰变成了更稳定的元素。这颗恒星内发生的核聚变十分特别。"
+ anomaly.4038.b:0 "我们正在逐步地了解宇宙的奥秘。"
  anomaly.4040.name:0 "恒星的原罪"
  anomaly.4040.desc:0 "[From.GetName]的离子辐射强度已经打破了记录。看起来[From.GetPlanetMoon]似乎最近受到了核弹头的轰炸，或者是暴露在了附近超新星所发出的聚集射线束之中。后面这种情况发生的原因已经超出了科学官[Root.GetLeaderName]的理解范围。"
  anomaly.4040.a.tooltip:1 "把§R辐射废土§!添加到[From.GetName]上：\n£blocker  辐射废土§R+6\n£physics §G+3§!"
@@ -115,7 +114,7 @@
  anomaly.4045.a:0 "校正探测仪，再好好看看星球的内核！"
  anomaly.4045.b:0 "“这些员工不可信。我们需要一次实地考察！”"
  anomaly.4045.c:0 "员工的健康是第一位的。"
- anomaly.4045.desc:0 "经过缜密研究之后，[Root.GetName]的成员探测到了一个“微弱”的回声正在从[From.GetName]的地底深处传来。\n\n这种回声有点像是生命发出的。可是我们与它的距离实在是太远了，很难分辨它是真的，还是只是一台发出随机信号的设备。科学官[Root.GetLeaderName]的手下一直在抱怨说自己得不到适当的休息，工作时间又太长，自己再也受不了了。"
+ anomaly.4045.d:0 "在弄清楚之前，我们绝不能停下！"
  anomaly.4046.desc:0 "尽管大家都筋疲力尽了，但是在调整了飞船的探测仪后，[Root.GetName]的船员还有科学官[Root.GetLeaderName]得到了一个惊人的发现。在[From.From.GetName]的内核附近，有一种类似于浮游生物的生命体，它分布于整个[From.From.GetPlanetMoon]。有共同的意识，以及强大的灵能。\n\n这种生命体能够在极高的压力和温度下存活。它能够以极高的速度伸展自己的身体。它看起来像是在冬眠……或者是在躲避什么东西，就好像它知道自己正在被观测一样。\n\n如此巨大而拥有诸多优势的生命体，严格说来它是永生的§!。尽管它看起来并不会妨碍我们对[From.From.GetPlanetMoon]进行殖民，但是它可能会对上面的居民产生一些负面影响。"
  anomaly.4046.a:0 "我们应该试着去和它接触。"
  anomaly.4046.b:0 "我们可以向海中下毒并杀死它。"
@@ -139,17 +138,17 @@
  anomaly.4051.desc:0 "[Root.GetName]的舰员结束了他们的[From.From.GetName]研究，终于能够休息整顿了。可惜他们并没有什么重大收获，但是他们获得人道对待的消息很快传开了，在家园星深获好评。足够的休息确保了舰员们能够在未来取得更好的结果。"
  anomaly.4051.a.tooltip:0 "§Y你的帝国§!获得了§G正面性的媒体关注§!和§G休息充分的科学家§!修正。"
  anomaly.4051.b.tooltip:0 "§Y你的帝国§!获得了§G正面性的媒体关注§!和§G休息充分的科学家§!修正。\n\n你解锁了§Y$edict_improved_work_environment$§!帝国法令。"
- anomaly.4051.a.tooltip:0 "§Y你的帝国§!获得了§G正面性的媒体关注§!和§G休息充分的科学家§!修正。"
- anomaly.4051.b.tooltip:0 "§Y你的帝国§!获得了§G正面性的媒体关注§!和§G休息充分的科学家§!修正。\n\n你解锁了§Y$edict_improved_work_environment$§!帝国法令。"
+ anomaly.4051.a:0 "舰员的安好就是最大的奖励。"
+ anomaly.4051.b:0 "这是提高效率的办法之一。"
  anomaly.4052.desc:0 "夜以继日地拼命研究回声的根源后，[Root.GetName]发现了[From.From.GetName]地面下生活的一种生物。之前没有发觉是因为它生活在非常靠近[From.From.GetPlanetMoon]核心的地方，导致我们的系统分析对它毫无效用。\n\n扫描发现它是一种尚进化完全的海洋节肢动物，但最神奇的是它竟然能够将死去的生物物质改造成自己的后代。\n\n这个信息非常有助于我们的科学家开发新的药物！不过，我们对待我们的员工的方式肯定会散发出去，造成不良影响。"
  anomaly.4052.a.tooltip:1 "§Y你的帝国§!获得了§G药物创新§!和§R负面媒体报道§!修正。\n\n添加资源到[From.From.GetName]:\n£society §G+2§!"
  anomaly.4055.name:0 "璞玉浑金"
  anomaly.4055.desc:0 "对[From.GetName]的研究结束后，科学官[Root.GetLeaderName]汇报说他们发现这座行星充满了矿物§!。这个发现主要归功于[Root.GetName]舰员。[Root.GetLeaderName]对这位学徒赞赏有加。"
  anomaly.4055.a:0 "把该学徒升职为科学官。"
  anomaly.4055.a.tooltip:0 "获得一位新的§G科学领导§!。\n\n$anomaly.4055.base.tooltip$"
- anomaly.4055.a.tooltip:0 "获得一位新的§G科学领导§!。\n\n$anomaly.4055.base.tooltip$"
+ anomaly.4055.b:0 "让他们继续研究[Root.GetName]"
  anomaly.4055.b.tooltip:0 "[Root.GetName]获得了§Y$protege_onboard$§!修正：\n$MOD_SHIP_ANOMALY_RESEARCH_SPEED$:§G+20%§!\n\n$anomaly.4055.base.tooltip$"
- anomaly.4055.a.tooltip:0 "获得一位新的§G科学领导§!。\n\n$anomaly.4055.base.tooltip$"
+ anomaly.4055.base.tooltip:1 "添加资源到[From.From.GetName]：\n£physics §G+5§!"
  anomaly.4060.name:0 "概率难题"
  anomaly.4060.desc:0 "我们收到科学官[Root.GetLeaderName]的报告。据说有一个……陶瓷容器在围绕着[From.GetName]星球旋转。真奇怪。\n这种东西不应该出现在那么靠近轨道的地方的啊。\n可以发布§S特殊项目§!来研究该容器并找出它出现在那里的原因。"
  anomaly.4060.a:0 "值得考察的难题。"
@@ -199,7 +198,7 @@
  anomaly.4090.a:0 "让他们居住在[refugee_planet_1.GetName]。"
  anomaly.4090.b:0 "让他们居住在[refugee_planet_2.GetName]。"
  anomaly.4090.c:0 "让他们居住在[refugee_planet_3.GetName]。"
- anomaly.4090.desc:0 "我们成功追踪到信号！[From.GetName]的轨道附近藏着另一艘船。船上的外星异族向我们呼救，但是我们都不明白彼此的语言。他们似乎是下面这颗荒芜星球的难民，正在寻找新的家园求生。"
+ anomaly.4090.d:0 "让他们居住在[refugee_planet_4.GetName]。"
  anomaly.4090.e:0 "可惜，我们没有任何行星可以收容他们。"
  anomaly.4090.f:0 "抱歉，我们帮不到你们。"
  anomaly.4090.g:0 "我们不欢迎异族！"
@@ -208,21 +207,21 @@
  anomaly.4093.a:0 "之前的事真的很抱歉！"
  anomaly.4093.b:0 "唯有自立，才能活下去。"
  anomaly.4093.c:0 "因为无法沟通，所以我们害怕。"
- anomaly.4093.desc:0 "我们曾经遇见过的异族难民，因为缺乏互相沟通的能力，现在出现在我们的屏幕前。\n\n“我们的人民再次相遇了，[From.GetSpeciesAdj]。现在我们终于找到了我们的新的天堂。但是宇宙却是如此地残酷……\n你知道我们历经了多少辛苦才到达这里吗？”"
+ anomaly.4093.d:0 "你的生死与我们无关，异族。"
  anomaly.4094.apology.desc:0 "“我们接受你的道歉，但要是当初你们帮助了我们，我们就不会死去那么多人了。再见了。”"
  anomaly.4094.insult.desc:0 "“那的确是个很好的理念，[From.GetSpeciesAdj]。尤其是对你这种站着说话不腰疼的人来说。坚定地站着吧，因为你将会孤立无援。再见了。”"
  anomaly.4094.neutral.desc:0 "“可以理解，[From.GetSpeciesAdj]。不过这对我们遭受到的痛苦毫无帮助。我们曾经在最需要帮助的时候孤苦无助。再见了。”"
  anomaly.4094.xenophobe.desc:0 "“没错，[From.GetSpeciesAdj]。还好我们从一开始就看透了你们。再见了。”"
- anomaly.4094.apology.desc:0 "“我们接受你的道歉，但要是当初你们帮助了我们，我们就不会死去那么多人了。再见了。”"
+ anomaly.4094.a:0 "再见了。"
  anomaly.4095.name:0 "圣所"
  anomaly.4095.desc:0 "[From.GetName]的森林让舰员们大吃一惊。这不仅仅是一个充斥着各种生物的高度发展的世界，而且大部分的植物的根茎都能吃。也许不算美味，但这代表我们可以轻易地在[From.GetPlanetMoon]的肥沃土壤上耕种。"
  anomaly.4095.a.tooltip:0 "添加§G青葱行星§!修正到[From.GetName]。"
  anomaly.4100.name:0 "水域统治者"
  anomaly.4100.desc:0 "$anomaly.4100.base.desc$这些生物的黑色鳞片非常坚硬，而且在陌生人靠近时极易受惊。\n\n也许可以驯服这些猛兽，让它们协助我们将来的行星殖民活动。但先研究它们也许会有所收获。"
  anomaly.4100.expert.desc:0 "$anomaly.4100.base.desc$\n\n[Root.GetLeaderName]发现这种动物有某种灵能能力，可以感应到我们的意图。\n\n也许可以驯服这些猛兽，让它们协助我们将来的行星殖民活动。但先研究它们也许会有所收获。\n\n[Root.GetLeaderName]说这些当地生物会对不怀好意的人反馈负面的回应。"
- anomaly.4100.desc:0 "$anomaly.4100.base.desc$这些生物的黑色鳞片非常坚硬，而且在陌生人靠近时极易受惊。\n\n也许可以驯服这些猛兽，让它们协助我们将来的行星殖民活动。但先研究它们也许会有所收获。"
+ anomaly.4100.base.desc:0 "在[From.GetName]上，科学官[Root.GetLeaderName]发现了一种身体健壮、适应力极强的四足哺乳生物。他们可以徒步涉水，即使是高大的植物也仅仅达到它们的腿部。"
  anomaly.4100.a:0 "研究它们，找出更多信息。"
- anomaly.4100.desc:0 "$anomaly.4100.base.desc$这些生物的黑色鳞片非常坚硬，而且在陌生人靠近时极易受惊。\n\n也许可以驯服这些猛兽，让它们协助我们将来的行星殖民活动。但先研究它们也许会有所收获。"
+ anomaly.4100.b:0 "试图马上驯服它们。"
  anomaly.4100.c:0 "让它们自由自在地生活。"
  anomaly.4101.desc:0 "我们试图靠近它们做研究，但进展不顺利。他们一发现我们靠近，就要么逃走要么战斗，好像大老远就发现我们的踪迹似的。\n\n这些动物明显清楚我们的意图，所以尽量避免跟我们接触。\n\n至少我们可以从远距离研究它们，也许会有所发现。"
  anomaly.4101.a:0 "无疑是一种意志坚定的动物。"
@@ -235,7 +234,7 @@
  anomaly.4105.name:0 "驱之不散"
  anomaly.4105.desc:0 "[From.GetName]行星是一片有毒废土§!，但是我们的扫描显示，这里曾经不是这样的。一个如今已灭绝的文明因为过度依赖会改变气候的燃料和毒素而彻底毁了自己的母星。\n\n在一个大城市附近的一处偏僻山丘上，我们发现了一座还能运行的设施。这是一个组装机器人的工厂，被军用车辆包围。但这些车辆稍稍一碰就化成了尘埃。\n\n这座设施神秘而又陌生，但也许能够提供不少研究材料。"
  anomaly.4105.a.tooltip:1 "添加§Y失落的机器人社会§!修正到[From.GetName]：\n£engineering §G+5§!"
- anomaly.4105.a.tooltip:1 "添加§Y失落的机器人社会§!修正到[From.GetName]：\n£engineering §G+5§!"
+ anomaly.4105.a:0 "可引以为戒。"
  anomaly.4105.b.tooltip:1 "解锁§Y$edict_renewable_energy$§!帝国法令。\n\n添加§Y失落的机器人社会§!修正到[From.GetName]：\n£engineering §G+5§!"
  anomaly.4105.robot:0 "试图启动机器人。"
  anomaly.4106.desc:0 "[From.From.From.GetName]上的那座设施因为科学官[Root.GetLeaderName]的努力而恢复运作了。\n\n机器人们启动后马上各就各位工作。[From.GetName]的舰员们目瞪口呆，看着机器人们向四面八方移动，开始清除整个星球上的毒素。\n\n不禁让人猜测之前的居住者是因为过度关注于自相残杀而忽略了自救。"
@@ -276,13 +275,13 @@
  anomaly.4135.b:1 "卖给私人收藏家。"
  anomaly.4136.desc:0 "我们的语言专家废寝忘食数个月，终于成功翻译了[From.From.From.GetName]上找到的文献。这些文件的作者，我们只知道她被称作说书人特丽莎。她似乎是位非常有名的哲学家、社会学家、关系学家。\n\n$anomaly.4136.base.desc$"
  anomaly.4136.found.desc:0 "看来我们在[From.From.From.GetName]上发现的文件也是说书人特丽莎的著作。$anomaly.4136.base.desc$"
- anomaly.4136.desc:0 "我们的语言专家废寝忘食数个月，终于成功翻译了[From.From.From.GetName]上找到的文献。这些文件的作者，我们只知道她被称作说书人特丽莎。她似乎是位非常有名的哲学家、社会学家、关系学家。\n\n$anomaly.4136.base.desc$"
+ anomaly.4136.base.desc:0 "这些文件详细地解释如何重整基础设施，塑造社会。她的思想是所有人都牺牲自己的一部分幸福，为国家共创美好的未来。"
  anomaly.4136.a.tooltip:0 "可以使用§Y$edict_masters_writings_politics$§!的帝国法令。"
  anomaly.4140.name:0 "探索者的教诲"
  anomaly.4140.desc:0 "[Root.GetName]的船员发来报告称，他们在[From.GetName]上找到了惊人的发现。其他文明的探索队在其表面留下了痕迹，并遗留了一些保存完好的档案及文物。\n\n首席科学官[Root.GetLeaderName]提议将文献送回母星破译。但也可以将其卖给私人投资者。"
  anomaly.4141.desc:0 "通过数周的研究，我们的语言学专家破解了[From.From.From.GetName]的文档中包含的内容。该文档记录了一位知名学者的哲学思辨，只知道她被称为“说书人特丽莎”。\n\n$anomaly.4141.base.desc$"
  anomaly.4141.found.desc:0 "谁能想到呢？我们发现的文献记录了更多“说书人特丽莎”的教诲。这次，是一些对更宏观问题的哲思与分析。\n\n$anomaly.4141.base.desc$"
- anomaly.4141.desc:0 "通过数周的研究，我们的语言学专家破解了[From.From.From.GetName]的文档中包含的内容。该文档记录了一位知名学者的哲学思辨，只知道她被称为“说书人特丽莎”。\n\n$anomaly.4141.base.desc$"
+ anomaly.4141.base.desc:0 "她的教诲让我们对政治有了更加深刻的理解，通过应用不同的意识形态，并在改革时关注宏观问题，可以获得更好的执政成果。"
  anomaly.4141.a.tooltip:0 "可以使用§Y$edict_masters_writings_philosophy$§!的帝国法令。"
  anomaly.4145.name:0 "奴隶主的毁灭"
  anomaly.4145.base.desc:0 "[From.GetName]上的核冬天还会持续很久。整个行星都没有生物存活。科学官[Root.GetLeaderName]汇报了队伍的调查结果：一切证据都指明，这里曾存在统一的文明，但陷入了内战。\n\n战争的起因可能是两个派系针对奴隶控制权所产生的矛盾。"
@@ -290,14 +289,14 @@
  anomaly.4145.slaver.desc:0 "$anomaly.4145.base.desc$\n\n这些发现对我们的生活方式毫无帮助。"
  anomaly.4145.soon.desc:0 "$anomaly.4145.base.desc$\n\n在踏上同样的道路前，我们必须三思。"
  anomaly.4145.a:0 "愚蠢的奴隶主……"
- anomaly.4145.base.desc:0 "[From.GetName]上的核冬天还会持续很久。整个行星都没有生物存活。科学官[Root.GetLeaderName]汇报了队伍的调查结果：一切证据都指明，这里曾存在统一的文明，但陷入了内战。\n\n战争的起因可能是两个派系针对奴隶控制权所产生的矛盾。"
+ anomaly.4145.b:0 "真让人吃惊……"
  anomaly.4145.a.tooltip:0 "§Y你的帝国§!获得了§R$slavery_bad_juju$§!的修正。\n\n"
  anomaly.4145.b.tooltip:0 "§Y你的帝国§!获得了§R$slavery_very_bad_juju$§!的修正。\n\n"
  anomaly.4150.name:0 "贸易者的教诲"
  anomaly.4150.desc:0 "[From.GetName]的表面屹立着值得注意的建筑群。这些遗迹拥有不同的建筑风格，但都建于同一时代。[From.GetPlanetMoon]可能曾是一个交易中心。\n\n某些遗迹中存有文档和财物。我们可以通过研究文本来尝试翻译，以便了解曾定居在这里的生物。我们也可以将其卖给古董收藏家。"
  anomaly.4151.desc:0 "我们天才的语言学专家正在努力翻译[From.From.From.GetName]上发现的文献。文献的作者被称作“说书人特丽莎”，似乎是当时的德高望重之人。\n\n$anomaly.4151.base.desc$"
  anomaly.4151.found.desc:0 "谁能想到呢？我们发现的文献记录了更多“说书人特丽莎”的教诲。\n\n$anomaly.4151.base.desc$"
- anomaly.4151.desc:0 "我们天才的语言学专家正在努力翻译[From.From.From.GetName]上发现的文献。文献的作者被称作“说书人特丽莎”，似乎是当时的德高望重之人。\n\n$anomaly.4151.base.desc$"
+ anomaly.4151.base.desc:0 "这份文档记录了一些奇闻趣事、如何从星际外交中获取最大利益的建议和技巧。她相信，公平贸易和互相尊重的沟通可以为各界带来巨大的社会进步。"
  anomaly.4151.a.tooltip:0 "可以使用§Y$edict_masters_writings_diplomacy$§!的帝国法令。"
  anomaly.4155.name:0 "战地之下"
  anomaly.4155.desc:0 "[From.GetName]曾经拥有一个高等文明。但他们早已成为历史尘埃。异形猛兽在遍布星球表面的古战场上横行。\n\n在一片石质山区的山脉底部藏有一个避难所。如果我们能先处理掉地表的猛兽，我们就可以继续调查。"
@@ -320,7 +319,7 @@
  anomaly.4158.b.response:0 "“我拥有‘领受者’的称号。如果我们走向了灭亡，我要负责代表我的族人。除了对自己种族的了解，我在战争方面的知识最为丰富。”"
  anomaly.4158.c:0 "说说你的族人。"
  anomaly.4158.c.response:0 "“惹是生非的种族。我们的历史中……走向毁灭之路的故事比比皆是。人们不懂得实现自身价值。虽然存在许多明智之人，但很少有人愿意倾听。”"
- anomaly.4158.desc:0 "“我就怕这种事发生。希望我的知识和我们种族的悲剧能带给别人教诲。”"
+ anomaly.4158.d:0 "你会加入我们吗？"
  anomaly.4158.f:0 "离开吧。你的命运由你自己掌控。"
  anomaly.4158.xenophobe.f:0 "你没有利用价值。离开我们的星球！"
  anomaly.4160.desc:0 "“你的话语和你的文明向我证明了一切，捕获者。我会加入你，希望你能吸取我们种族的教训。”"
@@ -335,7 +334,7 @@
  anomaly.4165.desc:0 "在[From.GetName]的荒野上，发现了战斗过的痕迹。在毫无生机的地表下，[Root.GetName]的研究员发现了骸骨和金属碎片，以及最令人吃惊地发现了一个装满文档的容器。\n\n如果我们将文档送回母星破译，我们有机会了解这场战争和参与战争的种族。但也可以直接将其卖给古董商。"
  anomaly.4166.desc:0 "几周来，我们的语言学专家一直在破译远古战场留下的文档。今天研究有了一些进展。我们得知，倒下的勇士遵循的教义来自于一个叫“说书人特丽莎”的思想家。\n\n\n$anomaly.4166.base.desc$"
  anomaly.4166.found.desc:0 "我们从战场上挖掘到的文献上记录了更多“说书人特丽莎”的教诲。\n\n$anomaly.4166.base.desc$"
- anomaly.4166.desc:0 "几周来，我们的语言学专家一直在破译远古战场留下的文档。今天研究有了一些进展。我们得知，倒下的勇士遵循的教义来自于一个叫“说书人特丽莎”的思想家。\n\n\n$anomaly.4166.base.desc$"
+ anomaly.4166.base.desc:0 "这个文档对各种战术、战略进行了解析，最关键的是，其中包含星际战争的后勤学。特丽莎本人强烈反对战争，但她认为这种知识在未来时代仍然十分重要。“为了创建更美好的世界，即便是最和平的种族，也会有被逼迫到死角的时候。”"
  anomaly.4166.a:0 "看来智者也会选择战争。"
  anomaly.4166.a.tooltip:0 "可以使用§Y$edict_masters_writings_war$§!的帝国法令。"
  anomaly.4170.name:0 "挥发性资源"
@@ -344,14 +343,14 @@
  anomaly.4170.material.desc:0 "$anomaly.4170.start.desc$\n\n它带来的好处远比对环境造成的破坏要大。"
  anomaly.4170.a:0 "准备进行开采！"
  anomaly.4170.a.tooltip:1 "[From.GetName]获得§Y丰富气藏§!的修正：\n£energy §G+50%§!"
- anomaly.4170.basic.desc:0 "$anomaly.4170.start.desc$\n\n然而，这些资源将会很快耗尽，因为储量稀少、体积较小。"
+ anomaly.4170.b:0 "开采行星不是长久之计。"
  anomaly.4170.b.tooltip:1 "[From.GetName]获得§Y合理气体开采§!的修正：\n£energy §G+5§!"
  anomaly.4172.conqueror.desc:0 "我们占据的殖民地曾拥有丰富的地下气体资源。但现在已经耗尽，工厂的能量输出降低。"
  anomaly.4172.owner.desc:0 "富含能量的气体已经耗尽。这个殖民地已失去额外的资源输出，大大增加了我们对新矿藏的需求。"
 
- ####################################
- # Anomaly Failure Events
- ####################################
+####################################
+# Anomaly Failure Events
+####################################
  anomaly_failure.4000.desc:0 "[Root.GetLeaderName]有了惊人发现。[From.From.GetName]的植被对非植物有机体极其危险。我们还不清楚其中原理；只知道[From.From.GetPlanetMoon]十分危险，这将限制其殖民地的发展。"
  anomaly_failure.4000.a:0 "真是个可怕的地方。"
  anomaly_failure.4000.a.tooltip:1 "科学官[Root.GetLeaderName]获得§R偏执狂§!特性。\n\n[From.From.GetName]获得§Y酸性丛林§!的修正：\n£blocker  剧毒沼泽§R+3\n£society §G+6§!"
@@ -403,10 +402,10 @@
  anomaly_failure.4170.b.tooltip:0 "$anomaly_failure.4170.base.tooltip$并失去§R1§!人口。"
  anomaly_failure.4170.c.tooltip:0 "$anomaly_failure.4170.base.tooltip$并失去§R2§!人口。"
  anomaly_failure.4170.d.tooltip:0 "$anomaly_failure.4170.base.tooltip$并失去§R3§!人口。"
- 
- ####################################
- # Colony Events
- ####################################
+
+####################################
+# Colony Events
+####################################
  colony.2001.name:0 "天堂的烦恼"
  colony.2001.desc:0 "[Root.GetName]本地的政治动荡导致一小群反叛者得到了更多支持，他们反对我们传统的道德观。他们获得的支持使他们能在区域内更多的权力，并按照自己的信念进行投票，以获得有限的胜利。"
  colony.2001.a:0 "和他们划清界限。"
@@ -427,7 +426,7 @@
  colony.2007.desc:0 "我们尝试从[Root.GetName]的水域打捞这艘巨舰，并对其船体设计有了一定发现。该船的机动算法可以很容易地移植到我们的硬件上，让我们的飞船更加灵活，更加节能。\n\n可惜的是，该船本身无法抢修了，但我们仍可以从其船体上回收一些材料。"
  colony.2007.a.phobe:0 "反正外星飞船是无法和我们的飞船比拟的！"
  colony.2007.a.phile:0 "宇宙中任何种族留下的馈赠都是有价值的！"
- colony.2007.a.phobe:0 "反正外星飞船是无法和我们的飞船比拟的！"
+ colony.2007.a:0 "§Y你的帝国§!获得§G$streamlined_ship_design$§!的修正。\n\n"
  colony.2008.desc:0 "爆炸声从数里之外都听得一清二楚，打捞沉船的行动以灾难性失败告终。[Root.GetName]的居民没有受到伤害，但一部分建筑遭到了破坏。\n\n沉船被炸得粉碎，已经无法修理。所幸，我们回收到了许多残片。"
  colony.2008.a.tooltip:0 "[Root.GetName]上的一栋£building §S建筑§!被§R摧毁§!。\n\n"
  colony.2010.name:0 "思想转变"
@@ -484,7 +483,7 @@
  colony.2025.b.tooltip:0 "1名外星人口被杀。\n\n所有[Root.GetName]星的外星人以及具有崇外特性的人口均获得§R$pop_angered$§!修正§Y12§!个月，同时获得以下效果：\n幸福度:§R-25%§!\n资源采集:§R-25%§!\n\n"
  colony.2030.name:0 "殖民地刺客"
  colony.2030.desc.base:0 "我们在§Y[Root.GetName]§!的执政官被发现死亡！犯人试图逃跑，刺客来自§Y[AssassinEmpire.GetName]§!。"
- colony.2030.desc.base:0 "我们在§Y[Root.GetName]§!的执政官被发现死亡！犯人试图逃跑，刺客来自§Y[AssassinEmpire.GetName]§!。"
+ colony.2030.desc:0 "$colony.2030.desc.base$我们对犯人的处置在会对目前已经不稳的政局中掀起涟漪。"
  colony.2030.desc.military:0 "$colony.2030.desc.base$这种充满挑衅的侵略行为仅仅只是一个开始。"
  colony.2030.desc.phobe:0 "$colony.2030.desc.base$这些外星人不懂得收敛。"
  colony.2030.desc.spirit:0 "$colony.2030.desc.base$这次攻击不仅仅只是针对我们的子民，更是针对我们的真神。"
@@ -492,7 +491,7 @@
  colony.2030.a.tooltip:0 "§Y[AssassinEmpire.GetName]§!获得对§Y[MyCountry.GetName]§!§G$assassination_forgiven$§!的意见修正：\n意见:§G+35§!\n"
  colony.2030.b:0 "从刺客口中套出更多信息。"
  colony.2030.c:0 "处决刺客并传递消息。"
- colony.2030.desc.base:0 "我们在§Y[Root.GetName]§!的执政官被发现死亡！犯人试图逃跑，刺客来自§Y[AssassinEmpire.GetName]§!。"
+ colony.2030.d:0 "处决刺客以显示强权。"
  colony.2035.name:0 "传染性"
  colony.2035.desc:0 "[Root.GetName]的部分人口聚集区上报表示民众以史无前例的规模大量染病。被致病菌种感染的患者无法行动并产生严重呼吸困难。\n\n若疫情不加以控制，[Root.GetName]将迎来末日。"
  colony.2035.desc.material:0 "[Root.GetName]的一些人口聚集区提交报告表示该地民众受到了某种严重疾病感染。该疾病传播极为迅速，拥有多种不断迅速进化的菌株，如不及时介入将阻碍地区生产及发展。\n\n如不迅速采取措施，殖民地建设将停滞甚至发生倒退。"
@@ -527,5 +526,5 @@
  colony.2050.a.tooltip:1 "[Root.GetName]获得以下结果：\n$tb_decrepit_dwellings$§R+1§!\n$tb_failing_infrastructure$§R+1§!"
  colony.2050.b:0 "我们必须对此区域进行投资。"
  colony.2050.c:0 "我们有强大的团队，帮助他们复原。"
- colony.2050.desc:0 "由于记录出错，[Root.GetName]部分区域基础设施维护与住宅服务已趋于落后。人们正居住在较为恶劣的环境之中，似乎已忍不了太久了。要修复这些问题则会耗费我们的时间与精力。"
+ colony.2050.d:0 "驱逐该地居民并将该片区域夷为平地。"
  colony.2050.d.tooltip:0 "§S两栋£building 建筑§!（位于§Y[Root.GetName]§!）已§R被毁§!。\n\n§B2£pops 人口§!（位于§Y[Root.GetName]§!）获得§R$pop_angered$§!修正，持续§Y24§!个月，效果如下：\n幸福度：§R-25%§!\n资源输出：§R-25%§!"

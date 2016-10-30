@@ -10,7 +10,7 @@
  MESSAGE_ORDER_FINISH_COLONIZE_PLANET:0 "我们已经在$SYSTEM|Y$星系中建立了$COLONY|Y$殖民地。"
  MESSAGE_SPACEPORT_CONSTRUCTION_MESSAGE_TYPE_TITLE: "建造完成"
  MESSAGE_ARMY_RECRUITMENT_TITLE:0 "军队招募完毕"
- MESSAGE_ARMY_RECRUITMENT_TITLE:0 "军队招募完毕"
+ MESSAGE_ARMY_RECRUITMENT:0 "$PLANET|Y$上的军队招募已经完毕。"
 
  ####################################
  # Fleet Orders
@@ -402,11 +402,11 @@
  # Special Project
  ####################################
  MESSAGE_UPLIFTING_FAILED_TITLE:0 "提升特别项目失败"
- MESSAGE_UPLIFTING_FAILED_TITLE:0 "提升特别项目失败"
+ MESSAGE_UPLIFTING_FAILED:1 "我们在$PLANET|Y$上提升$SPECIES|Y$的项目已经失败了。"
  MESSAGE_SPECIES_MODIFICATION_FAILED_TITLE:0 "改造物种特别项目失败"
- MESSAGE_SPECIES_MODIFICATION_FAILED_TITLE:0 "改造物种特别项目失败"
+ MESSAGE_SPECIES_MODIFICATION_FAILED:0 "我们改造$SPECIES|Y$特性的项目已经失败。"
  MESSAGE_SPECIAL_PROJECT_AVAILABLE_TITLE:0 "特别项目可用"
- MESSAGE_SPECIAL_PROJECT_AVAILABLE_TITLE:0 "特别项目可用"
+ SPECIAL_PROJECT_AVAILABLE:0 "特别项目可供研究。"
 
 
  ####################################
@@ -429,15 +429,15 @@
  MESSAGE_SUBJECT_TYPE_CHANGED_TITLE:0 "附庸地位变更"
  MESSAGE_SUBJECT_CHANGED_DESC:0 "$REASON$$SUBJECT|Y$现在是$OVERLORD|Y$属下的一个$NEW_TYPE|Y$。"
  MESSAGE_SUBJECT_CHANGE_REASON_protectorate_me:0 "由于我们技术上的进步， "
- MESSAGE_SUBJECT_CHANGE_REASON_protectorate_me:0 "由于我们技术上的进步， "
+ MESSAGE_SUBJECT_CHANGE_REASON_protectorate:0 "由于他们技术上的进步，"
 
  ####################################
  # Triggered Modifiers
  ####################################
  MESSAGE_TRIGG_MOD_LOST_TITLE:0 "失去条件效果"
- MESSAGE_TRIGG_MOD_LOST_TITLE:0 "失去条件效果"
+ TRIGG_MOD_LOST:1 "条件效果 '$NAME|H$' 不再有效。"
  MESSAGE_TRIGG_MOD_GAINED_TITLE:0 "获得条件效果"
- MESSAGE_TRIGG_MOD_GAINED_TITLE:0 "获得条件效果"
+ TRIGG_MOD_GAINED:1 "$NAME|H$\n\n$DESC$"
 
  ####################################
  # Combat Stats
