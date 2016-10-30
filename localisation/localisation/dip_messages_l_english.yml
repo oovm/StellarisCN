@@ -430,28 +430,24 @@
  03_BLORG_WAR:0 "我们是[Root.GetSpeciesName]。你们会被友善对待。你们会在生理上和技术上成为我们的朋友。拒绝会被视作不礼貌。"
  01_BEST_FRIEND:0 "我们坚定不移的忠诚会证明[Root.GetSpeciesNamePlural]是[From.GetSpeciesName]最好的朋友！"
  # Fallen: Holy Guardians
- # Fallen: Holy Guardians
  HG_HOSTILE_GREETING_01:0 "你们会为你们的无知和傲慢付出代价的，年轻人。"
  HG_NEUTRAL_GREETING_01:0 "我们被选中，守护这银河系的神圣之地。我们的存在超越了你们的理解，但我们会指导你们。"
  HG_NEUTRAL_GREETING_02:0 "不要入侵圣地。根据古老的协定，任何突破要塞的人都会被严厉惩戒。"
  HG_FRIENDLY_GREETING_01:0 "你不过是一个[From.GetSpeciesSpawnName]，却显示出了惊人的智慧。"
  HG_WAR_GREETING_01:0 "银河系必须扫除[From.GetAdj][From.GetSpeciesNamePluralInsult]，不然你们必须受到惩戒，直到学到教训。"
  # Fallen: Keepers of Knowledge
- # Fallen: Holy Guardians
  KK_HOSTILE_GREETING_01:0 "你们根本不知道你们对抗的是怎样的力量，自大的人。"
  KK_NEUTRAL_GREETING_01:0 "我们见过人们一次又一次地触犯禁忌，将银河系中的每一条生命都置于危险之中。我们不想再看到你们重蹈覆辙。"
  KK_NEUTRAL_GREETING_02:0 "没有理解的知识是危险的。不过，与知识不一样，理解并不总能被教会。"
  KK_FRIENDLY_GREETING_01:0 "我们很高兴见到一些相对来说明智一些的人。"
  KK_WAR_GREETING_01:0 "为了你们自己，也为了银河系，我们会击溃你们防御，烧毁你们的书籍，并抹消你们的数据储存。"
  # Fallen: Militant Isolationists
- # Fallen: Holy Guardians
  MI_HOSTILE_GREETING_01:0 "我们就把话说明吧。我们要求一个和银河系其他地区的缓冲区。而你们不是那个缓冲。你们的同盟也不是缓冲。冰冷死寂的太空才是缓冲；如果没有的话，我们就自己制造一个。"
  MI_NEUTRAL_GREETING_01:0 "我们无意继续交流。"
  MI_NEUTRAL_GREETING_02:0 "离[Root.GetName]远点。我们对自己找死的人没什么耐心。"
  MI_FRIENDLY_GREETING_01:0 "如果你们不染指[Root.GetAdj]的利益，我们可以理解。"
  MI_WAR_GREETING_01:0 "你们唤醒了沉睡的[Root.GetSpeciesNameCompliment]。"
  # Fallen: Enigmatic Observers
- # Fallen: Holy Guardians
  EO_HOSTILE_GREETING_01:0 "你们造成的损失已经从好玩变成麻烦了。小心点，因为我们一直在看。"
  EO_NEUTRAL_GREETING_01:0 "所有的世界都是舞台，而所有的[From.GetSpeciesName]都不过是演员。你们也是，不是吗？"
  EO_NEUTRAL_GREETING_02:0 "不要打破第四面墙，你这小聪明鬼。"
@@ -647,7 +643,7 @@
  01_ASK_TO_BE_RELEASED_SUBJECT_REFUSE:0 "我们不信任你，你不许独立。"
 
  01_NOT_ACTIVE_IN_WAR_WARNING:0 "你没有在这场战争中出力。好好表现，不然就准备承受我们的怒火吧。"
- 01_NOT_ACTIVE_IN_WAR_WARNING:0 "你没有在这场战争中出力。好好表现，不然就准备承受我们的怒火吧。"
+ 01_NOT_ACTIVE_IN_WAR:0 "你没有在这场战争中出力。我们对你失望透顶。"
  
  01_REQUEST_WAR_SELECT:1 "你渴望战争？"
  01_REQUEST_WAR_PROPOSE:0 "我们希望联邦可以发起一场针对[From.From.GetName]的战争。"
@@ -1019,7 +1015,7 @@
  HM_PROPOSE_INVITE_ACCEPT:0 "思想体之间的会面总让人感兴趣。我们支持你的邀请提案。"
  HM_PROPOSE_INVITE_REFUSE:0 "我们不能支持你的邀请提案。我们的圈子不欢迎任何人。"
  HM_NOT_ACTIVE_IN_WAR_WARNING:0 "你认为你的懒惰能逃得过我们的眼睛？我们知道每个[Root.GetAdj]士兵的事情。你对战争的贡献是少之又少。"
- HM_NOT_ACTIVE_IN_WAR_WARNING:0 "你认为你的懒惰能逃得过我们的眼睛？我们知道每个[Root.GetAdj]士兵的事情。你对战争的贡献是少之又少。"
+ HM_NOT_ACTIVE_IN_WAR:0 "[Root.GetName]团结作战，你却在偷懒。你缺阵的记录会被储存在我们共享的记忆中。"
  HM_OFFER_TRADE_DEAL_PROPOSE:0 "[Root.GetName]得出结论，这个交易对双方都好。你可以相信得出这个结论的智者们。"
  HM_OFFER_TRADE_DEAL_ACCEPT:0 "会议已经评估你的建议。我们发现其可行。"
  HM_OFFER_TRADE_DEAL_REFUSE:0 "这个交易在你的计算下好像挺合理，但那样的评估不能和[Root.GetName]混为一谈。"

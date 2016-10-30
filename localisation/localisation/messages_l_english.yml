@@ -10,7 +10,7 @@
  MESSAGE_ORDER_FINISH_COLONIZE_PLANET:0 "我们已经在$SYSTEM|Y$星系中建立了$COLONY|Y$殖民地。"
  MESSAGE_SPACEPORT_CONSTRUCTION_MESSAGE_TYPE_TITLE: "建造完成"
  MESSAGE_ARMY_RECRUITMENT_TITLE:0 "军队招募完毕"
- MESSAGE_ARMY_RECRUITMENT_TITLE:0 "军队招募完毕"
+ MESSAGE_ARMY_RECRUITMENT:0 "$PLANET|Y$上的军队招募已经完毕。"
 
  ####################################
  # Fleet Orders
@@ -383,16 +383,16 @@
  ####################################
  MESSAGE_TRADE_DEAL_END_NO_ENERGY:0 "我们与$WITH|Y$的贸易条约已经结束了，因为我们缺少能量点来维持它。"
  MESSAGE_TRADE_DEAL_END_NO_ENERGY_THEM:0 "$WITH|Y$已经结束了与我们的贸易条约，因为他们缺少能量点来维持它。"
- MESSAGE_TRADE_DEAL_END_MISSING_RESOURCE_TITLE:0 "贸易协定中止，我们缺乏资源"
- MESSAGE_TRADE_DEAL_END_MISSING_RESOURCE_THEM_TITLE:0 "贸易协定中止，他们缺乏资源"
+ MESSAGE_TRADE_DEAL_END_MISSING_RESOURCE:0 "我们与$WITH|Y$的贸易条约已经结束了，因为我们缺少$RESOURCE|Y$来维持它。"
+ MESSAGE_TRADE_DEAL_END_MISSING_RESOURCE_THEM:0 "$WITH|Y$已经结束了与我们的贸易条约，因为他们缺少$RESOURCE|Y$来维持它。"
  MESSAGE_TRADE_DEAL_TITLE:0 "贸易协定"
- MESSAGE_TRADE_DEAL_END_TIMEOUT_TITLE:1 "贸易协定已过期"
- MESSAGE_TRADE_DEAL_END_CLOSED_BORDERS_TITLE:0 "贸易协定中止，我们关闭了己方边境"
- MESSAGE_TRADE_DEAL_END_CLOSED_BORDERS_THEM_TITLE:0 "贸易协定中止，对方关闭了他们的边境"
- MESSAGE_TRADE_DEAL_END_SUBJECT_ACCESS_TITLE:0 "贸易协定中止，我们已经成为了附属国"
- MESSAGE_TRADE_DEAL_END_SUBJECT_ACCESS_THEM_TITLE:0 "贸易协定中止，他们已经成为了附属国"
- MESSAGE_TRADE_DEAL_END_GUARANTEE_ALLIANCE_TITLE:0 "贸易协定结束，我们加入了一个联盟。"
- MESSAGE_TRADE_DEAL_END_GUARANTEE_ALLIANCE_THEM_TITLE:0 "贸易协定结束，他们加入了一个联盟。"
+ MESSAGE_TRADE_DEAL_END_TIMEOUT:2 "我们同$WITH|Y$的贸易协定已经过期。\n\n我方条件：\n$OUR_OFFER$\n\n对方条件：\n$THEIR_OFFER$"
+ MESSAGE_TRADE_DEAL_END_CLOSED_BORDERS:0 "我们同$WITH|Y$的贸易协定已经结束，因为我们对他们关闭了边境。"
+ MESSAGE_TRADE_DEAL_END_CLOSED_BORDERS_THEM:0 "我们同$WITH|Y$的贸易协定已经结束，因为他们对我们关闭了边境。"
+ MESSAGE_TRADE_DEAL_END_SUBJECT_ACCESS:0 "由于我们已经成为一个附属，对自己的边境通行权没有控制权，我们同$WITH|Y$的贸易协定已经结束。"
+ MESSAGE_TRADE_DEAL_END_SUBJECT_ACCESS_THEM:0 "由于对方已经成为一个附属，对自己的边境通行权没有控制权，$WITH|Y$同我们的的贸易协定已经结束。"
+ MESSAGE_TRADE_DEAL_END_GUARANTEE_ALLIANCE:0 "由于我们已经加入了一个联盟，我们对$WITH|Y$的保障独立已经结束。"
+ MESSAGE_TRADE_DEAL_END_GUARANTEE_ALLIANCE_THEM:0 "由于他们已经加入了一个联盟，$WITH|Y$对我方的保障独立已经结束。"
  MESSAGE_TRADE_DEAL_END_SUPPORT_INDEPENDENCE_VASSALAGE:1 "我们中止了和$WITH|Y$的协议，我们已经成为了一个附属国，无法再支持他们的独立运动。"
  MESSAGE_TRADE_DEAL_END_SUPPORT_INDEPENDENCE_VASSALAGE_THEM:1 "$WITH|Y$中止了和我们的协定，他们已经成为了一个附属国，无法再支持我们的独立运动。"
  MESSAGE_TRADE_DEAL_END_SUPPORT_INDEPENDENCE_ALLIANCE:0 "我们中止了和$WITH|Y$的协议，我们已经加入了一个同盟，因此无法再继续对他们进行保障独立。"
@@ -402,11 +402,11 @@
  # Special Project
  ####################################
  MESSAGE_UPLIFTING_FAILED_TITLE:0 "提升特别项目失败"
- MESSAGE_UPLIFTING_FAILED_TITLE:0 "提升特别项目失败"
+ MESSAGE_UPLIFTING_FAILED:1 "我们在$PLANET|Y$上提升$SPECIES|Y$的项目已经失败了。"
  MESSAGE_SPECIES_MODIFICATION_FAILED_TITLE:0 "改造物种特别项目失败"
- MESSAGE_SPECIES_MODIFICATION_FAILED_TITLE:0 "改造物种特别项目失败"
+ MESSAGE_SPECIES_MODIFICATION_FAILED:0 "我们改造$SPECIES|Y$特性的项目已经失败。"
  MESSAGE_SPECIAL_PROJECT_AVAILABLE_TITLE:0 "特别项目可用"
- MESSAGE_SPECIAL_PROJECT_AVAILABLE_TITLE:0 "特别项目可用"
+ SPECIAL_PROJECT_AVAILABLE:0 "特别项目可供研究。"
 
 
  ####################################
@@ -429,15 +429,15 @@
  MESSAGE_SUBJECT_TYPE_CHANGED_TITLE:0 "附庸地位变更"
  MESSAGE_SUBJECT_CHANGED_DESC:0 "$REASON$$SUBJECT|Y$现在是$OVERLORD|Y$属下的一个$NEW_TYPE|Y$。"
  MESSAGE_SUBJECT_CHANGE_REASON_protectorate_me:0 "由于我们技术上的进步， "
- MESSAGE_SUBJECT_CHANGE_REASON_protectorate_me:0 "由于我们技术上的进步， "
+ MESSAGE_SUBJECT_CHANGE_REASON_protectorate:0 "由于他们技术上的进步，"
 
  ####################################
  # Triggered Modifiers
  ####################################
  MESSAGE_TRIGG_MOD_LOST_TITLE:0 "失去条件效果"
- MESSAGE_TRIGG_MOD_LOST_TITLE:0 "失去条件效果"
+ TRIGG_MOD_LOST:1 "条件效果 '$NAME|H$' 不再有效。"
  MESSAGE_TRIGG_MOD_GAINED_TITLE:0 "获得条件效果"
- MESSAGE_TRIGG_MOD_GAINED_TITLE:0 "获得条件效果"
+ TRIGG_MOD_GAINED:1 "$NAME|H$\n\n$DESC$"
 
  ####################################
  # Combat Stats

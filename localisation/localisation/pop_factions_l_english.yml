@@ -149,8 +149,8 @@
  POP_FACTION_MALCONTENT_SLAVES_DEMAND_TITLE_1:0 "$POP_FACTION_SLAVE_DEMAND_TITLE_1$"
  POP_FACTION_MALCONTENT_SLAVES_DEMAND_DESC_1:0 "$POP_FACTION_SLAVE_DEMAND_DESC_1$"
 
- pft_emancipation:0 "$POP_FACTION_SLAVE_DEMAND_TITLE_1$"
- POP_FACTION_MALCONTENT_SLAVES_DEMAND_DESC_1:0 "$POP_FACTION_SLAVE_DEMAND_DESC_1$"
+ POP_FACTION_SLAVE_DEMAND_TITLE_1:1 "解放者"
+ POP_FACTION_SLAVE_DEMAND_DESC_1:1 "这个派系的人口只有一个简单的要求：得到自由。"
  FACTION_ACTION_SLAVE_EMANCIPATE_ALL:0 "解放奴隶"
  FACTION_ACTION_SLAVE_EMANCIPATE_ALL_DESC:1 "解放每一个被奴役的人口。"
 
@@ -161,7 +161,7 @@
  FACTION_ACTION_MALCONTENT_SLAVES_INTERSTELLAR_RAILROAD_TOOLTIP_4:1 "派系中目前有至少§R10§!个人口。"
 
 
- FACTION_ACTION_MALCONTENT_SLAVES_HARSH_TREATMENT:0 "$FACTION_ACTION_SLAVE_HARSH_TREATMENT$"
+ FACTION_ACTION_SLAVE_HARSH_TREATMENT:0 "严正以待"
  FACTION_ACTION_SLAVE_HARSH_TREATMENT_DESC:0 "把奴隶放回他们该待的位置。"
  FACTION_ACTION_SLAVE_FORCE_FEEDING:0 "强制喂食"
  FACTION_ACTION_SLAVE_FORCE_FEEDING_DESC:0 " 强行给那些绝食者们喂食。"
@@ -347,7 +347,7 @@
 
  faction.55.title:0 "不满的奴隶暴动"
  faction.55.desc.colle:0 "[Root.GetName]派系内的某些成员醉心于破坏[Root.Owner.GetName]的长治久安。他们希望通过破坏[riots_planet.GetName]上的生产设施来达到这一目的。我们只能猜想，无论他们造成了什么影响或损害，这一阻碍他们接受[Root.Owner.GetAdj]合法统治的愚蠢行为最后会让他们自取灭亡。"
- faction.55.desc.colle:0 "[Root.GetName]派系内的某些成员醉心于破坏[Root.Owner.GetName]的长治久安。他们希望通过破坏[riots_planet.GetName]上的生产设施来达到这一目的。我们只能猜想，无论他们造成了什么影响或损害，这一阻碍他们接受[Root.Owner.GetAdj]合法统治的愚蠢行为最后会让他们自取灭亡。"
+ faction.55.desc:0 "暴动毁坏了[riots_planet.GetName]上的一栋建筑——要想恢复生产必须先修复建筑。"
 
  faction.60.title:0 "奴隶反抗派叛乱"
  faction.60.desc:0 "奴隶群体中的激进分子——在毫无预料的情况下——公然发动武装叛乱反抗我们合法的统治。\n\n据报道称，叛乱在[revolt_planet.GetName]上打响了第一枪，并有可能发展成为燎原之势。"
@@ -481,6 +481,4 @@
  faction.803.title:0 "[Root.GetName]叛乱！"
  faction.803.desc:0 "[death_planet.GetName]上受到清洗的，充斥着绝望的人们现在已经武装自己以对抗[Root.Owner.GetName]，形成了一股人喧马嘶的叛军力量。"
  #mockup: "\n\n\n§HSuppress Followers§!\nCost: £influence §R150§!\n--------------\n§Y<FactionName>§!:\nMilitancy: §R+10%§!\nSupport: §G-30%§!"
- #mockup: "\n\n\n§HSuppress Followers§!\nCost: £influence§R150§!\n--------------\n§Y<FactionName>§!:\nMilitancy:§R+10%§!\nSupport:§G-30%§!"
  #mockup2: "\n\n\n§HSuppress Followers§!\nCost: £influence §Y150§!\n--------------\n§Y<FactionName>§!:\nMilitancy: §R+10%§!\nSupport: §G-30%§!"
- #mockup2: "\n\n\n§HSuppress Followers§!\nCost: £influence§Y150§!\n--------------\n§Y<FactionName>§!:\nMilitancy:§R+10%§!\nSupport:§G-30%§!"
