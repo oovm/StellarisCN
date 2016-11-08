@@ -148,19 +148,16 @@
 
  POP_FACTION_MALCONTENT_SLAVES_DEMAND_TITLE_1:0 "$POP_FACTION_SLAVE_DEMAND_TITLE_1$"
  POP_FACTION_MALCONTENT_SLAVES_DEMAND_DESC_1:0 "$POP_FACTION_SLAVE_DEMAND_DESC_1$"
-
  POP_FACTION_SLAVE_DEMAND_TITLE_1:1 "解放者"
  POP_FACTION_SLAVE_DEMAND_DESC_1:1 "这个派系的人口只有一个简单的要求：得到自由。"
  FACTION_ACTION_SLAVE_EMANCIPATE_ALL:0 "解放奴隶"
  FACTION_ACTION_SLAVE_EMANCIPATE_ALL_DESC:1 "解放每一个被奴役的人口。"
 
  # Slave Actions
-
- FACTION_ACTION_MALCONTENT_SLAVES_INTERSTELLAR_RAILROAD_TOOLTIP_2:0 "派系中目前有§R6§!个人口。"
- FACTION_ACTION_MALCONTENT_SLAVES_INTERSTELLAR_RAILROAD_TOOLTIP_3:1 "派系中目前有§R8§!个人口。"
- FACTION_ACTION_MALCONTENT_SLAVES_INTERSTELLAR_RAILROAD_TOOLTIP_4:1 "派系中目前有至少§R10§!个人口。"
-
-
+ FACTION_ACTION_MALCONTENT_SLAVES_INTERSTELLAR_RAILROAD_TOOLTIP_1: "派系中目前有至少§R4§!个人口。"
+ FACTION_ACTION_MALCONTENT_SLAVES_INTERSTELLAR_RAILROAD_TOOLTIP_2:1 "派系中目前有至少§R6§!个人口。"
+ FACTION_ACTION_MALCONTENT_SLAVES_INTERSTELLAR_RAILROAD_TOOLTIP_3:1 "派系中目前有至少§R8§!个人口。"
+ FACTION_ACTION_MALCONTENT_SLAVES_INTERSTELLAR_RAILROAD_TOOLTIP_4:1 "派系中目前有超过§R10§!个人口。"
  FACTION_ACTION_SLAVE_HARSH_TREATMENT:0 "严正以待"
  FACTION_ACTION_SLAVE_HARSH_TREATMENT_DESC:0 "把奴隶放回他们该待的位置。"
  FACTION_ACTION_SLAVE_FORCE_FEEDING:0 "强制喂食"
@@ -480,5 +477,5 @@
 
  faction.803.title:0 "[Root.GetName]叛乱！"
  faction.803.desc:0 "[death_planet.GetName]上受到清洗的，充斥着绝望的人们现在已经武装自己以对抗[Root.Owner.GetName]，形成了一股人喧马嘶的叛军力量。"
- #mockup: "\n\n\n§HSuppress Followers§!\nCost: £influence §R150§!\n--------------\n§Y<FactionName>§!:\nMilitancy: §R+10%§!\nSupport: §G-30%§!"
- #mockup2: "\n\n\n§HSuppress Followers§!\nCost: £influence §Y150§!\n--------------\n§Y<FactionName>§!:\nMilitancy: §R+10%§!\nSupport: §G-30%§!"
+ #mockup: "\n\n\n§HSuppress Followers§!\nCost: £influence§R150§!\n--------------\n§Y<FactionName>§!:\nMilitancy:§R+10%§!\nSupport:§G-30%§!"
+ #mockup2: "\n\n\n§HSuppress Followers§!\nCost: £influence§Y150§!\n--------------\n§Y<FactionName>§!:\nMilitancy:§R+10%§!\nSupport:§G-30%§!"

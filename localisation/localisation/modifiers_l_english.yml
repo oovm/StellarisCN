@@ -298,8 +298,8 @@
  #vultaum_asteroid_category_research_speed_mult: "Anomaly Research Speed (Precursor - ADD CATEGORIES PROPER)"
  #vultaum_asteroid_category_research_fail_risk_mult: "Anomaly Fail Risk (Precursor - ADD CATEGORIES PROPER)"
  # TEMP should these be detailed?
- #vultaum_asteroid_category_research_speed_mult: "Anomaly Research Speed (Precursor - ADD CATEGORIES PROPER)"
- #vultaum_asteroid_category_research_fail_risk_mult: "Anomaly Fail Risk (Precursor - ADD CATEGORIES PROPER)"
+ vultaum_asteroid_category_research_speed_mult:0 "异常点研究速度 (先驱)"
+ vultaum_asteroid_category_research_fail_risk_mult:0 "异常点研究失败机率 (先驱)"
  vultaum_gasgiant_category_research_speed_mult:0 "异常点研究速度 (先驱)"
  vultaum_gasgiant_category_research_fail_risk_mult:0 "异常点研究失败机率 (先驱)"
  vultaum_uninhabitable_category_research_speed_mult:0 "异常点研究速度 (先驱)"
@@ -403,11 +403,11 @@
  # Static Modifiers
  ####################################
  very_easy_player:0 "非常简单难度"
- very_easy_player:0 "非常简单难度"
+ easy_player:0 "简单难度"
  hard_player:0 "困难难度"
  very_hard_player:0 "非常困难难度"
  very_easy_ai:0 "非常简单难度"
- very_easy_ai:0 "非常简单难度"
+ easy_ai:0 "简单难度"
  hard_ai:0 "困难难度"
  very_hard_ai:0 "非常困难难度"
  inefficient_planet_management:0 "低效率的行星管理"
@@ -624,7 +624,7 @@
  opinion_friction:0 "边境摩擦"
  opinion_rivalry:0 "我们的宿敌"
  opinion_declared_rival:0 "视我们为宿敌"
- opinion_mutual_threat:0 "共同威胁"
+ opinion_mutual_threat:0 "互为威胁"
  opinion_mutual_rival:0 "共同宿敌"
  opinion_ally_of_ally:0 "盟友的盟友"
  opinion_allied_to_rival:0 "与我们的宿敌是盟友"
