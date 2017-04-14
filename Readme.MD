@@ -4,4 +4,4 @@
 
 使用方法2：游戏文件夹下创建mod文件夹,解压整个汉化包
 
-网盘地址: https://pan.baidu.com/s/1i4GMMs1
+网盘地址：https://pan.baidu.com/s/1i4GMMs1
