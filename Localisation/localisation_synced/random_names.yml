@@ -1,4 +1,7 @@
 ﻿l_default:
+  ######################
+  # Pre-Communication Name
+  ######################
   Aleph: Aleph
   Alpha: Alpha
   Angels: Angels
@@ -206,6 +209,11 @@
   Zeta: Zeta
   Zombies: Zombies
   Zulu: Zulu
+  
+  ################
+  # Nation?
+  # Nebula/Black Hole
+  ################
   Abaddons Demesne: Abaddons Demesne
   Abbanis Nebula: Abbanis Nebula
   Absajha Min: Absajha Min
@@ -835,6 +843,9 @@
   AT: AT
   AT-: AT-
   AZ-11-: AZ-11-
+  #################
+  #    System     #
+  #################
   Abdrade: Abdrade
   Ablapus: Ablapus
   Acamar: Acamar
