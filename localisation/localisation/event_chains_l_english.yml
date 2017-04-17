@@ -1,9 +1,4 @@
 ﻿l_english:
-
- ####################################
- # Event Chains
- ####################################
- 
  test_chain_title:0 "[Root.GetName]之谜"
  test_chain_desc:0 "一些奇怪的事件已经被探知[Root.GetName]。"
  test_chain_2_title:0 "[Root.GetName]之谜"
@@ -50,7 +45,7 @@
  specimen_procurement_chain_desc:0 "一个在[Root.Capital.GetName]上的宇宙生物学博物馆已经向我们寻求要求帮助，他们要求我们从各种不同的世界中收集几种罕见的外星生命形式以方便他们研究。"
  specimens_collected:0 "外星人标本收集完成"
  radical_cult_title:0 "[radical_cult.GetName]"
- radical_cult_desc:0 "一个自称为 "[radical_cult.GetName]" 的极端邪教组织的成员企图破坏我们的政府，煽动民众加入他们的宗教。在花费了几个世纪在[Root.Capital.GetName]上悄然发展壮大，他们的领导人现在已经进了太空，继续进行反对我们的运动。"
+ radical_cult_desc:0 "一个自称为 [radical_cult.GetName] 的极端邪教组织的成员企图破坏我们的政府，煽动民众加入他们的宗教。在花费了几个世纪在[Root.Capital.GetName]上悄然发展壮大，他们的领导人现在已经进了太空，继续进行反对我们的运动。"
  survey_home_system_title:0 "探索家园星系"
  survey_home_system_desc:0 "在冒险进入其它星系之前，我们应该对我们的[home_system.GetName]星系进行系统的完整的调查。我们要开发我们家园的每一片土地。"
  establish_colony_title:0 "建立第一个殖民地"
@@ -70,12 +65,7 @@
  hunting_hyacinth_title:0 "风信子号的寻找"
  hunting_hyacinth_desc:0 "将我们祖先带到这个[Root.Capital.GetName]星系的风信子号是方舟母舰的姐妹船，自从从地球出发之后就与我们失去了联系，我们必须找到在她身上发生了什么。"
  nomads_observation_chain_title:0 "不寻常的宇航员"
- nomads_observation_chain_desc:1 "我们已经探测到，那些我们无法破解语言的外星人舰队已经驶入我们的国境线以内。由于我们无法翻译他们的语言，我们只能静观其变。" 
- 
- ####################################
- # Points of Interest
- ####################################
- 
+ nomads_observation_chain_desc:1 "我们已经探测到，那些我们无法破解语言的外星人舰队已经驶入我们的国境线以内。由于我们无法翻译他们的语言，我们只能静观其变。"
  hijacked_cult_fleet_poi:0 "邪教分子舰队"
  hijacked_cult_fleet_poi_desc:0 "邪教信徒们已设法在[Root.Capital.GetName]上的一个秘密设施的建造飞船一支小型舰队。在被我们发现之后他们驾驶者船只逃向[hijacked_fleet_planet.GetName]。在它们造成更大的损伤之前必须将他们摧毁！"
  cultist_search_1_poi:1 "调查[cultists_1.GetName]"
@@ -94,7 +84,7 @@
  probe_ion_trail_poi:0 "跟踪离子引擎运行轨迹"
  probe_ion_trail_poi_desc:0 "我们在这个未被探索的恒星系中发现了一个我们丢失的亚光速探针的离子引擎运行轨迹。"
  probe_subspace_anomaly_poi:2 "敌人阻挡"
- probe_subspace_anomaly_poi_desc:1 "由于敌人的存在，我们无法回收这个星系的亚空间探测器。"
+ probe_subspace_anomaly_poi_desc:1 "宿敌禁止我们进入此系统中的亚空间探测器"
  coming_storm_poi_1_poi:0 "突破口"
  coming_storm_poi_1_poi_desc:0 "鉴于他们目前的向量，我们估计这个可以进入我们恒星系的空间门是在这附近的一个恒星系建造完成的。"
  systems_visited_poi:0 "系统访问"
@@ -120,3 +110,40 @@
  cybrex_1_poi_desc:0 "塞伯勒克斯似乎在这个恒星系中隐藏着。"
  nomad_poi_1:0 "追踪位置"
  nomad_poi_1_desc:1 "这些不寻常的航天器为于此地。我们的友好信息没有受到任何的回应，因此我们只能静观其变。"
+ extradimensional_invasion_4_poi:0 "空间节点"
+ extradimensional_invasion_4_poi_desc:0 "侵略者正在建造一些大型空间站，以此作为空间“节点”通道来增加他们通过虫洞移动舰船的能力。他们在线路上的节点越多，便能够从自身领域带来越多的增援。\n\n这些节点也显著增强了了次元门户的亚空间完整性。只要有任意活动的节点，传送门面对武器将坚不可摧！"
+ extradimensional_invasion_chain_2_title:0 "迷途行者"
+ extradimensional_invasion_chain_2_desc:0 "异次元入侵者二号阵营在我们的星系里出现了，比起上一个并没有显得更温和。幸运的是，异次元的家伙们互相之间也有争斗。"
+ extradimensional_invasion_chain_3_title:0 "暴徒"
+ extradimensional_invasion_chain_3_desc:0 "三号异次元阵营已从另一个虫洞出现。尽管他们也打算毁灭我们星系之中的一切生命，他们似乎被卷入了从他们维度而来的他者之间的三方战争"
+ precursor_activity:0 "先驱者活动迹象"
+ new_precursor.1_poi:0 "先驱者活动报告"
+ new_precursor.1_poi_desc:0 "这些坐标所在地蕴含上古文明的遗物或重要信息的可能性已经引起了我们的注意。"
+ new_precursor_anomaly:0 "一个新的先驱者异常已在 §L[precursor_planet.GetName]§!上发现。"
+ prethoryn_defeated:0 "虫群天灾已被击败"
+ anchor_station:0 "维度锚"
+ anchor_station_plural:0 "维度锚"
+ dimensional_anchors_1:0 "§Y维度锚已激活§!"
+ dimensional_anchors_2:0 "§Y维度锚已激活§!"
+ dimensional_anchors_3:0 "§Y维度锚已激活§!"
+ extradimensional_kills_us_1:0 "§G不速之客已被我们消灭§!"
+ extradimensional_kills_others_1:0 "§G不速之客已被他人消灭§!"
+ extradimensional_victims_1:0 "§R被收割的舰船§!"
+ extradimensional_planets_1:0 "§R被收割的星球§!"
+ extradimensional_kills_us_2:0 "§G迷途行者已被我们消灭§!"
+ extradimensional_kills_others_2:0 "§G迷途行者已被他人消灭§!"
+ extradimensional_victims_2:0 "§R被收割的舰船§!"
+ extradimensional_planets_2:0 "§R被收割的星球§!"
+ extradimensional_kills_us_3:0 "§G暴徒已被我们消灭§!"
+ extradimensional_kills_others_3:0 "§G暴徒已被他人消灭§!"
+ extradimensional_victims_3:0 "§R被收割的舰船§!"
+ extradimensional_planets_3:0 "§R被收割的星球§!"
+ infested_worlds:0 "§Y腐化星球§!"
+ infested_worlds_cleansed:0 "§Y腐化星球已被净化§!"
+ prethoryn_kills_us:0 "§G虫群已被我们铲平§!"
+ prethoryn_kills_others:0 "§G虫群已被他人消灭殆尽§!"
+ prethoryn_victims:0 "§R被虫群侵蚀的舰船§!"
+ refugees.1.name:0 "[Root.GetSpeciesName] Refugees Arrive"
+ refugees.1.desc.1:0 "A flotilla of civilian transports carrying [Root.GetSpeciesName] refugees from the [RefugeeEscapedFrom.GetName] have arrived in our space. They have been allowed to settle on §H[Root.Planet.GetName]§!.\n\nThese unfortunate outcasts were forcefully expelled from their homes by the [RefugeeEscapedFrom.GetSpeciesName] authorities. They have been travelling from system to system since then, in a desperate attempt to find new homes before the last of their dwindling supplies were used up."
+ refugees.1.desc.2:0 "A battered fleet of small civilian vessels carrying [Root.GetSpeciesNamePlural] fleeing from the [RefugeeEscapedFrom.GetName] have arrived in our space. After we supplied them with food and provided medical attention to their wounded, the refugees were allowed to settle on §H[Root.Planet.GetName]§!.\n\nThese ragged and frightened refugees are survivors from the extermination program being carried out by the [RefugeeEscapedFrom.GetSpeciesName] authorities against their species. They only made it out thanks to the efforts of a hastily organized underground railroad and a few sympathetic merchant skippers."
+ refugees.1.a:0 "They are welcome here."

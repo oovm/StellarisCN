@@ -1,10 +1,4 @@
 ﻿l_english:
-
- ####################################
- # Special Projects
- ####################################
-
- ### Anomaly Events
  DERELICT_SHIP_PROJECT:0 "废弃的舰船"
  DERELICT_SHIP_PROJECT_DESC:0 "一条舰船漂浮在太空中，没有信号交互。更仔细的检查也许能弄清她的船员所遭遇的。"
  ODD_STAR_PROJECT:0 "炉火"

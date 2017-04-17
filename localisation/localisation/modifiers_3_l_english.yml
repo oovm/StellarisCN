@@ -1,7 +1,4 @@
 ﻿l_english:
- ####################################
- # Opinion Modifiers
- ####################################
  opinion_graverobber_1:0 "亵渎的坟墓"
  opinion_graverobber_2:0 "$opinion_graverobber_1$"
  opinion_graverobber_3:0 "$opinion_graverobber_1$"
@@ -10,10 +7,6 @@
  opinion_abandoned_apology:0 "$opinion_abandoned$"
  opinion_abandoned_insult:0 "$opinion_abandoned$"
  assassination_forgiven:0 "原谅敌意"
- 
- ####################################
- # Empire Modifiers 
- ####################################
  media_coverage_positive_high:0 "极为正面的报道"
  media_coverage_positive_medium:0 "很正面的报道"
  media_coverage_positive_low:0 "正面的报道"
@@ -37,10 +30,6 @@
  immigrants_protection:0 "保护弱势群体"
  fear_as_control_militarist_p2:0 "闷闷不乐的管理"
  alien_genome_research:0 "外星人基因研究"
- 
- ####################################
- # Edicts 
- ####################################
  edict_masters_writings_politics:0 "大师的教诲：上上善道"
  edict_masters_writings_politics_desc:0 "出自一位外星人哲学讲义的译本。在研究完他的关于通过自我牺牲来团结大众的理论，我们能够利用这些观点鼓舞群众大规模基建。\n\n“伟大的国度建立在牺牲的愉悦之上，前提是人人都需要团结一致，承担责任。” ——吟游诗人特丽莎\n\n"
  edict_masters_writings_philosophy:0 "大师的教诲：哲学思维"
@@ -50,15 +39,11 @@
  edict_masters_writings_war:0 "大师的教诲：战时国度"
  edict_masters_writings_war_desc:0 "出自一位外星人哲学讲义的译本。她对战争的描述和对战略的独到见解是军方绝佳的教材。\n\n“团结一致是我们制胜的法宝。然而，长年累月的和平让我们军队内部出现裂痕。这些裂痕必须破除，哪怕需要绝对的手段。唯有破而后立，才能涅槃重生。” ——吟游诗人特丽莎\n\n"
  edict_improved_work_environment:0 "提升工作环境"
- edict_improved_work_environment_desc:0 "投资对工作环境进行改善，这豪无一人会提高工人的幸福度和工作积极性。\n\n"
+ edict_improved_work_environment_desc:0 "投资对工作环境进行改善，这毫无疑问会提高工人的幸福度和工作积极性。\n\n"
  edict_renewable_energy:0 "增加能源开采"
  edict_renewable_energy_desc:0 "我们可以进一步限制有毒能源和非可再生能源的使用，进而促进新能源开发。这样能够使我们的能量循环更加臻于完美，并创造一个人人安居乐业的生活环境。\n\n"
  edict_super_sensors:0 "大范围传感探测"
  edict_super_sensors_desc:0 "在对先进传感器研究的项目完毕之后，我们已经拥有足够的信息和资源让我们进一步改良我们自己的搜索扫描。我们的技师能够在星系边缘更加方便的发现异常情况。\n\n"
- 
- ####################################
- # Planet Modifiers 
- ####################################
  acid_jungles:0 "酸性雨林"
  acid_jungles_desc:0 "雨林的进化，让树木和树叶能散发出酸液，使得地形变得危险而且难以定居。"
  ex_planet:0 "超行星"
@@ -113,28 +98,15 @@
  infectious_disease_desc:0 "一种有着全新传染链的传染性极强的疾病已经被释放出来了。"
  pyramid_wars:0 "天际之战"
  pyramid_wars_desc:0 "本质上是因为“外神”的宗教冲突而爆发的人类战争。"
-
- ####################################
- # Ship/Fleet Modifiers 
- ####################################
  ship_survey_boost:0 "增强探测扫描仪"
  alien_racing_ship:0 "科研船"
  alien_racing_ship_plural:0 "科研船s"
  protege_onboard:0 "有希望的船员"
  ship_master_cruiser:0 "先驱者设计"
  ship_excess_power:0 "能源过剩"
- 
- ####################################
- # Pop Modifiers
- ####################################
  opinion_respected:0 "受重视的意见"
  opinion_disrespected:0 "不受重视的意见"
  pop_angered:0 "暴怒"
  pop_pleased:0 "满意"
  alien_infection:0 "外星传染"
  alien_music:0 "外星音乐"
-
- ####################################
- # DEBUG STUFF
- ####################################
- 
