@@ -1,22 +1,32 @@
 ﻿l_english:
+ ####################################
+ # Misc
+ ####################################
  SEPARATOR:0 "---"
+
  STATION:0 "空间站"
  TRIGGER_PASS:1 "£trigger_yes "
  TRIGGER_FAIL:1 "£trigger_no "
  ICON_COLOR_VALUE:0 "£$ICON$ $VALUE|0$"
  ICON_VALUE_POSITIVE:0 "£$ICON$ $VALUE|0+=$"
  ICON_VALUE_NEGATIVE:0 "£$ICON$ $VALUE|0-$"
+
  SPECIES_LACKS_OPTION:0 "§R你选择的种族外貌不能进行更细节的调整了。§!"
+
  ALL:0 "全部"
+ 
  FALLEN_EMPIRE_LETHARGY_1:0 "§E无法建造新的飞船。§!"
  FALLEN_EMPIRE_LETHARGY_2:0 "§E无法攻占或殖民星球。§!"
+
  lonely_hive_mind_pops_kill_them_selves_citizenship:0 "这种没有意识的工蜂个体是无法被融入我们社会的。"
  lonely_hive_mind_pops_kill_them_selves_purge_type:0 "切断他们的集体意识神经链接，不久后他们就会死亡。"
  HIVE_MIND_MAIN_SPECIES_ALWAYS_CITIZEN:0 "我们是完整的一体，我们永远拥有 §Y完整的公民权§!."
  HIVE_MIND_SPECIES_CITIZENS_ONLY:0 "非我族类，其心必异"
  FANATIC_PURIFIERS_MUST_PURIFY:0 "§H种族洁癖§!不能容忍异族的存在。"
  HIVE_MIND_PURGE_ALWAYS_PROCESSING:0 "秀色可餐！"
+ 
  EMBRACE_FACTION_COOLDOWN:0 "我们最近接纳了一个§派系§!。这至少需要§Y20§!年才能再次执行"
+ 
  embraced_another_faction:0 "接纳其他派系"
  embraced_faction:0 "派系已接纳"
  suppressed_faction:0 "派系已镇压"
@@ -92,9 +102,13 @@
  GAME_SETUP_GALAXY_PROPERTY_NOT_AVAILABLE:0 "-"
  CRISIS_FIGHTING_ALLIANCE:0 "泛银河系防卫联盟"
  point_defence:0 "点防御"
+
  HABITABILTIY_TOO_LOW:0 "§R物种的适居性必须至少达到§Y$MIN|0$%§!才能殖民。§!"
  RESETTLE_HABITABILTIY_TOO_LOW:0 "§R适居性必须至少达到§Y$MIN|0$%§!才能进行强制迁移。§!"
+ 
  ROOM_BACKGROUND:0 "房间"
+ 
+ #MAP_MODE_TOOLTIP variables: "FROM" source country, "TARGET" tooltiped country, "MAP_MODE_NAME" name of current map mode, "MAP_MODE_TIP" tip generated from map mode
  MAP_MODE_TOOLTIP:0 "$TARGET|H$\n$MAP_MODE_TIP$"
  MAP_MODE_BUTTON_TOOLTIP:1 "$MAP_MODE|H$\n$DESC$\n§G单击选择地图模式§!"
  MAP_MODE_CLICK_TOOLTIP:0 "§G单击以查看地图模式。§!"
@@ -116,6 +130,7 @@
  opinion_crisis_fighter:0 "危机斗士"
  opinion_crisis_fighter_small:0 "危机斗士"
  opinion_non_aligned_league_declined:0 "拒绝我们加入不结盟组织。"
+
  OPINION_MAP_MODE_TIP_SELF:0 "$WHO|H$"
  MAP_MODE_OBSERVER:0 "§H[This.GetName]§!\n没有可用信息。"
  DIPLOMATIC_MAP_MODE_SAME_EMPIRE:0 "§H[This.GetName]§!"
@@ -131,8 +146,10 @@
  DIPLOMATIC_MAP_MODE_DEFENSIVE_PACT:0 "§H[This.GetName]§!\n和§H[From.GetName]§!签署了共同防御条约。"
  DIPLOMATIC_MAP_MODE_MIGRATION_PACT:0 "§H[This.GetName]§!\n和§H[From.GetName]§!签署了移民条约。"
  MAP_MODE_NO_CONTACT:0 "§H[This.GetName]§!\n暂时没有和§H[From.GetName]§!建立通讯渠道。"
+ 
  MAP_MODE_NEIGHBOR:0 "§H[From.GetName]§!是§H[This.GetName]§!的邻国。"
  MAP_MODE_NOT_NEIGHBOR:0 "§H[From.GetName]§!不是§H[This.GetName]§!的邻国。"
+
  aura_shield_recharger:0 "$aura_category_defensive$-$aura_type_support$"
  aura_nanobot_cloud:0 "$aura_category_defensive$-$aura_type_support$"
  aura_shield_dampener:0 "$aura_category_offensive$-$aura_type_debuff$"
@@ -140,7 +157,9 @@
  aura_ship_subspace_snare:0 "$aura_category_offensive$-$aura_type_snare$"
  aura_station_subspace_snare:0 "$aura_category_offensive$-$aura_type_snare$"
  aura_minefield:0 "$aura_category_offensive$-$aura_type_minefield$"
+
  NO_POPS_VALID_FOR_COLONIZATION:0 "这颗星球上没有可以用于殖民的人口"
+
  EMPIRE_SPAWN_ALLOWED:0 "§H允许该帝国在游戏中出现§!"
  EMPIRE_SPAWN_DISALLOWED:0 "§H禁止该帝国在游戏中出现§!"
  EMPIRE_SPAWN_ALWAYS:0 "§H强制该帝国在游戏中出现§!"
@@ -148,6 +167,7 @@
  EMPIRE_SPAWN_DISALLOWED_DESC:0 "$TEMPLATE$不会取代随机生成的帝国出现在游戏中。"
  EMPIRE_SPAWN_ALWAYS_DESC:0 "$TEMPLATE$总是取代随机生成的帝国出现在游戏中。"
  EMPIRE_SPAWN_TOOLTIP_DELAYED:0 "§G 点击更改该帝国模板是否在游戏中出现§!"
+
  REQUIRES_SHIP:0 "§R需要一艘$SHIP$§!"
  NOT_ENOUGH_INFLUENCE_TO_REVOKE_SECTOR:1 "我们没有足够的$AMT|Y$£influence 来这个修改这个星区。"
  NOT_ENOUGH_INFLUENCE_TO_DELETE_SECTOR:1 "我们没有足够的$AMT|Y$£influence 来这个取缔这个星区。"
@@ -155,7 +175,7 @@
  EMERGENCY_FTL_DAYS_LEFT:0 "超光速紧急充能还需要§R$DAYS|Y$天§!"
  COMPONENT_AURA_TOOLTIP:0 "$AURA_NAME|Y$\n$APPLY_ON$\n$MODIFIER$"
  COMPONENT_AURA_WITHOUT_MOD_TOOLTIP:0 "$AURA_NAME|Y$\n$APPLY_ON$"
- COMPONENT_AURA_DAMAGE_TOOLTIP:0 "该领域内的飞船每天有$ACCURACY|Y%0$的几率会受到§Y$MIN_DAMAGE|0$ - $MAX_DAMAGE|0$§!的伤害, 无视$ARMOR_PENETRATION|Y%0$装甲。这种伤害可以闪避。"
+ COMPONENT_AURA_DAMAGE_TOOLTIP:0 "该领域内的飞船每天有$ACCURACY|Y%0$的几率会受到§Y$MIN_DAMAGE|0$ - $MAX_DAMAGE|0$§!的伤害, 无视$ARMOR_PENETRATION|Y%0$装甲。这种伤害可以闪避。"#ACCURACY, MIN_DAMAGE, MAX_DAMAGE, AVG_DAMAGE, SHIELD_DAMAGE, SHIELD_PENETRATION, ARMOR_PENETRATION
  AURA_APPLY_ON_FRIENDLY:0 "对友舰效果:"
  AURA_APPLY_ON_HOSTILE:0 "对敌舰效果:"
  ENERGY_COST:0 "£energy $VALUE|1Y$"
@@ -184,6 +204,7 @@
  EVENT_OPTION_TRIGGER_ICON_TIP:0 "$TRIGGER|T$"
  SHIP_STAT_CONTRIBUTION_ADDATIVE:1 "$NAME$：$VALUE|Y0$"
  SHIP_STAT_CONTRIBUTION_MULTIPLICATIVE:1 "$NAME$：$VALUE|+=0%$"
+ #SHIP_STAT_CONTRIBUTION_ADDATIVE_hitpoints: "this is an example showing that you can override how certain stats are shown :)"
  SHIP_STAT_CONTRIBUTION_ADDATIVE_maintenance:1 "$NAME$：$VALUE|2Y$"
  SHIP_STAT_CONTRIBUTION_MULTIPLICATIVE_maintenance:1 "$NAME$：$VALUE|-=0%$"
  SHIP_STAT_CONTRIBUTION_ADDATIVE_power:1 "$NAME$：$VALUE|+=0$"
@@ -232,6 +253,7 @@
  CONSUMER_GOODS:0 "生活消费品"
  CONSUMER_GOODS_MAINT:0 "这些人口每个月需要$AMT|Y2$ 单位的§H$CONSUMER_GOODS$§!，总成本为£minerals $COST|2R$"
  CONSUMER_GOODS_COST:0 "这些人口的消费品费用花费了:"
+
  buildable_robot_pop_1:1 "$ROBOT_POP_SPECIES_1$"
  buildable_robot_pop_1_desc:1 "$trait_robotic_1_desc$"
  buildable_robot_pop_2:1 "$ROBOT_POP_SPECIES_2$"
@@ -240,7 +262,9 @@
  buildable_robot_pop_3_desc:1 "$trait_robotic_3_desc$"
  buildable_robot_pop_4:0 "$ROBOT_POP_SPECIES_4$"
  buildable_robot_pop_4_desc:0 "$trait_robotic_3_desc$"
+
  NOT_AFFECTED_BY_RADIATION:0 "不受辐射影响。"
+
  HEADER:0 "$KEY|1H$\n"
  SUB_HEADER:0 "$KEY|1E$\n"
  HIGHLT:0 "$KEY|H$"
@@ -534,10 +558,10 @@
  DEBRIS_DESC:0 "来自$COUNTRY|H$的战斗残骸。\n§G追踪到组件：§!\n$LIST$"
  DEBRIS_VIEW_DESC:0 "来自$COUNTRY|H$的战斗残骸。"
  DEBRIS_DETAILS:0 "追踪到组件：\n$LIST$"
- COUNTRY_MODIFIER:0 "帝国修正"
+ COUNTRY_MODIFIER:0 "帝国修正"#£empire_modifier  §PEmpire Modifier§!
  COUNTRY_MODIFIERS:0 "帝国修正"
  ARMY_MODIFIER:0 "部队修正"
- POP_MODIFIER:0 "人口修正"
+ POP_MODIFIER:0 "人口修正"#£pop_modifier  §PPop Modifier§!
  OWNER_COUNTRY:0 "§T$COUNTRY|Y$所有。§!"
  CONTROLLER_COUNTRY:0 "§T$COUNTRY|Y$控制。§!"
  PL_INFO:0 "£Pop $POPS|H$    £def  $DEF|H$"
@@ -998,7 +1022,7 @@
  INITIAL_MODULE:0 "初始模块"
  PLANET_MODIFIER:0 "行星修正"
  STATION_MODIFIER:0 "空间站修正"
- SHIP_MODIFIER:0 "船只修正"
+ SHIP_MODIFIER:0 "船只修正"#£ship_modifier  §PShip Modifier§!
  BUILD_SPACEPORT_WITH_INITIAL_MODULE:0 "建立初始太空港模块。"
  SPACEPORT_NOT_SUPPORTED_BY_PLANET_CLASS:0 "这个星球还无法支持太空港的建造。"
  ORBITAL_STATION_NOT_SUPPORTED_BY_PLANET:0 "§R无法在这个星球上建立空间站。§!"
@@ -1134,6 +1158,7 @@
  WILL_MAKE_YOU_LEAVE_CURRENT_ALLIANCE:0 "接受这个提议会让你离开$ALLIANCE|Y$"
  JOINING_WILL_MAKE_YOU_LEAVE_CURRENT_ALLIANCE:0 "加入$TARGET|Y$会让你离开$ALLIANCE|Y$"
  NOT_AFFECTED_HAPPINESS:0 "这个人口不受幸福度的影响。"
+
  CAN_CREATE_ORBITAL_STATION_ALREADY_EXISTS_MINING:0 "矿物空间站已环绕该$CLASS$运行。"
  CAN_CREATE_ORBITAL_STATION_ALREADY_EXISTS_RESEARCH:0 "科研空间站已环绕该$CLASS$运行。"
  CAN_CREATE_ORBITAL_STATION_ALREADY_EXISTS_TERRAFORM:0 "地貌改造站已环绕该$CLASS$运行。"
@@ -1158,6 +1183,7 @@
  player_locations_clustered_desc:0 "将均匀的分布玩家的位置。"
  player_locations_close:0 "接近"
  player_locations_close_desc:1 "会尽可能地把玩家放在靠近的位置。"
+
  CAN_BUILD_STATION_UNDER_COLONIZATION:0 "这颗行星依然在殖民之下。"
  CAN_BUILD_STATION_NOT_SURVEYED:1 "这个$CLASS$没有被调查。"
  CAN_BUILD_STATION_SENSOR:1 "这个$CLASS$在一个没有被探索的星系中。"
@@ -1176,9 +1202,12 @@
  BUILD_SPACEPORT:1 "修建太空港"
  US:0 "我们"
  CANNOT_FIND_PATH_TO_TARGET_LOCATION:0 "无法获取前往目的地的路径"
+
  CAN_BUILD_MEGASTRUCTURE_NONE_AVAILABLE:0 "不能可建造的巨型建筑。"
+
  EFFECTS:0 "§E效果：§!"
  REQUIREMENTS:0 "§E条件：§!"
+
  RELATIVE_POWER:0 "相对力量"
  RELATIVE_POWER_1:1 "§G卑如蝼蚁§!"
  RELATIVE_POWER_1_DESC:0 "他们相比于我们简直弱的可怜，如果我们愿意，可以随时碾碎他们。"
@@ -1190,6 +1219,7 @@
  RELATIVE_POWER_4_DESC:0 "他们的力量比我们强大。 我们需要一个联盟来抵消这个优势。"
  RELATIVE_POWER_5:0 "§R宛如神明§!"
  RELATIVE_POWER_5_DESC:0 "他们的力量强过我们太多。 我们应当尽量避免与他们冲突，除非我们拥有一个和他们一样强大的盟友。"
+
  stone_age:0 "石器时代"
  stone_age_desc:0 "这个文明目前处于石器时代。他们掌握了火，并发展出了一种基本的语言，但我们还没有发现他们有任何冶金或书面交流的证据。"
  bronze_age:0 "青铜时代"
@@ -1210,31 +1240,46 @@
  atomic_age_desc:0 "这个文明已经进入了原子时代。他们已经可以使用原子的力量，但还没有将其运用在太空探索中。核武器被大量的生产，并且随时有可能导致他们将自己灭亡。"
  early_space_age:0 "太空时代早期"
  early_space_age_desc:0 "这个文明已经进入太空时代早期。他们已经在家园的轨道上布置了很多原始卫星，而第一次在低轨道的载人航天任务也圆满结束。他们将很快准备好离开他们的世界了。"
+
  COUNTRY_NO_DIPLOMACY:0 "这个文明不能加入到外交中。"
  COUNTRY_FLAG_TOOLTIP_LEFT_CLICK:0 "§G点击来打开外交"
  COUNTRY_FLAG_TOOLTIP_LEFT_CLICK_OWN_FLAG:0 "§G点击打开$GOVERNMENT_VIEW$§!"
  COUNTRY_FLAG_TOOLTIP_RIGHT_CLICK:0 "§G右键点击前往$HOME|H$（家园）§!"
  EVENT_OPTION_EFFECT_DESC:0 "$NAME|H$：\n--------------\n$EFFECTS$"
+
  TOOLTIP_SHIP_COUNT:0 "$COUNT$$SHIP|Y$"
  TOOLTIP_SHIP_SIZE_COUNT:0 "$SHIP$：£navy_size $SIZE|Y$"
  TOOLTIP_SHIP_COUNTER:0 "$FLEET_NAME|H$\n$SHIP_LIST$"
  TOOLTIP_AMBIENT_OBJECT_FOCUS:0 "这目标的焦点视图"
+
  MESSAGE_NOTIFICATION_FIRST_TIME:0 "在这些时间第一次发生的时候弹出通知。在第一次弹出后他们将只会出现在屏幕顶部的边缘。"
+
  NOT_IMPLEMENTED:0 "§R没有实行！§!"
  WORLD_GFX:0 "世界Gfx:$WORLD|H$"
+
  GOTO_HOME:0 "§H前往§!\n§G单击快速前往首都所在星系§!"
+
  SYSTEM_TEXT:0 "$SYSTEM|E$"
+
  TOOLTIP_GAL_OBJ_STATION_ICON:1 "$CLASS|H$\n$OWNERS|Y$至少有一个$CLASS$在这个星系\n"
  TOOLTIP_GAL_OBJ_STATIONS_ICON:0 "$CLASS|H$\n以下的帝国有$CLASS$在这个星系:\n$OWNERS|Y$"
  TOOLTIP_GAL_OBJ_STATION_UNCLAIMED:0 "$CLASS|H$\n该星系至少有一个无主的$CLASS$"
+
  EMPIRE_COLONIES:0 "帝国殖民地"
  EMPIRE_COLONIES_UNKNOWN:0 "帝国没有我们知道的殖民地。"
  EMPIRE_POPULATION:0 "帝国的人口"
+
  UPGRADING_SHIP_DESIGN_TO:0 "升级到§H$CLASS$级§!"
+
  POPUP_LOAD_GAME_CONFIRMATION_NAME:0 "读取游戏"
  POPUP_LOAD_GAME_CONFIRMATION_DESC:0 "您确定要读取此存档吗?"
+
  POPUP_START_GAME_CONFIRMATION_NAME:0 "开始游戏"
  POPUP_START_GAME_CONFIRMATION_DESC:0 "您确定要开始游戏吗?"
+
+ ###################################
+ # Trade View
+ ####################################
  COUNTRY_GIVES:0 "$COUNTRY|Y$给予："
  TRADE:0 "贸易"
  GIVES:0 "给予"
@@ -1326,9 +1371,11 @@
  TRADE_ITEM_WORMHOLE_STATION_ACCESS_CLOSED_BORDERS:0 "由于关闭了边境，因此无法进行交易。"
  TRADE_ITEM_WORMHOLE_STATION_ACCESS_WE_SUBJECT:0 "不能和$COUNTRY$进行贸易。对方是一个$SUBJECT$因此不能同我们进行边境贸易。"
  SUPPORT_INDEPENDENCE_ALREADY_SUPPORTING:0 "已经在支持中。"
+
  TRADE_NOT_OWNER_OF_SYSTEM:0 "$COUNTRY$不能卖掉$SYSTEM$星系"
  TRADE_LACKING_RESOURCES:0 "$COUNTRY|H$不能进行资源贸易"
  TRADE_LACKING_STRATEGIC_RESOURCES:0 "$COUNTRY|H$不能进行战略资源贸易"
+
  HAS_TRADE_ITEM_US:0 "§R我们已经有这项交易协议。§!"
  HAS_TRADE_ITEM_THEM:0 "§R他们已经有这项交易协议。§!"
  TRADE_ITEM_THREATEN_WAR:0 "威胁战争"
@@ -1344,10 +1391,17 @@
  DECLARATION_OF_WAR:0 "宣战"
  RESPONSE_TO_DECLARATION_OF_WAR:0 "对$DECLARATION_OF_WAR$的回应"
  RESPONSE_TO_PEACE_OFFER:0 "对$PEACE_OFFER$的回应"
+
  PURGE_NOT_ALLOWED_POLICY:0 "§R$COUNTRY|H$禁止净化政策§!"
  SLAVERY_NOT_ALLOWED_POLICY:0 "§R$COUNTRY|H$禁止奴隶制度§!"
+
  TOGGLE_TRADE_VIEW_FOCUS_AREA_GAMEPAD_INDICATOR:0 "£gamepad_y 切换焦点"
+
  TRADE_OFFER_QUANTITY:0 "数量"
+
+ ###################################
+ # Outliner
+ ####################################
  OUTLINER:0 "总览"
  OUTLINER_PLANETS:0 "行星"
  OUTLINER_SPECIAL_PLANETS:0 "居住地"
@@ -1387,6 +1441,10 @@
  OUTLINER_SECTORS:0 "星区"
  OUTLINER_INTEGRATION:0 "合并"
  OUTLINER_TERRAFORMING:0 "地貌改造"
+
+ ###################################
+ # Leaders
+ ####################################
  NO_LEADER:0 "无将领"
  admiral:0 "舰队司令"
  nomad_admiral:0 "$admiral$"
@@ -1398,34 +1456,41 @@
  governor:0 "总督"
  GOVERNORS:0 "总督"
  ruler:0 "元首"
+
  default_admiral:0 "舰队司令"
  default_general:0 "将军"
  default_scientist:0 "科学家"
  default_governor:0 "总督"
  default_ruler:0 "元首"
+
  faction_admiral:0 "舰队司令"
  faction_general:0 "将军"
  faction_scientist:0 "科学家"
  faction_governor:0 "总督"
  faction_ruler:0 "派系首领"
+
  adversary_admiral:0 "舰队司令"
  adversary_general:0 "将军"
  adversary_scientist:0 "科学家"
  adversary_governor:0 "总督"
  adversary_ruler:0 "元首"
+
  fallen_empire_admiral:0 "提督"
  fallen_empire_general:0 "大将"
  fallen_empire_scientist:0 "学士"
  fallen_empire_governor:0 "大吏"
  fallen_empire_ruler:0 "首脑"
+
  awakened_fallen_empire_admiral:0 "提督"
  awakened_fallen_empire_general:0 "大将"
  awakened_fallen_empire_scientist:0 "学士"
  awakened_fallen_empire_governor:0 "大吏"
  awakened_fallen_empire_ruler:0 "首脑"
+
  neutral_faction_admiral:0 "舰队司令"
  pirate_admiral:1 "船长"
  swarm_admiral:0 "格式塔模型"
+
  LEADER_IDLING_IN:1 "§G可用§!"
  LEADER_MOVING_TO:0 "将要移动到$LOCATION|H$，在$DAYS|Y$天后到达"
  LEADER_LEADING:1 "正在指挥\n$LOCATION|H$"
@@ -1436,6 +1501,10 @@
  LEADER_RESEARCHING:1 "正在调查\n$LOCATION|H$"
  LEADER_SURVEYING:1 "正在调查\n$LOCATION|H$"
  GOVERNOR:0 "§Y总督：$NAME|H$§!"
+
+ ####################################
+ # Armies
+ ####################################
  assault_army:0 "突击部队"
  assault_army_plural:0 "突击部队"
  assault_army_desc:0 "突击部队乘坐自己的运输船可以登陆行星作战。"
@@ -1501,6 +1570,10 @@
  titanic_assault_army_desc:0 "泰坦巨兽是极其强大的战士"
  titanic_guardian_army:0 "泰坦守护者"
  titanic_guardian_army_desc:0 "比其泰坦巨兽缺少攻击性，但是作为防御者依然很强大。"
+
+ ####################################
+ # Main GUI
+ ####################################
  MAIN_SAVE:0 "保存游戏"
  MAIN_RESIGN:1 "返回菜单"
  MAIN_RESUME:0 "恢复游戏"
@@ -1723,6 +1796,9 @@
  TRIGGER_REQUIRES:0 "§R需求：§!"
  ACCEPT_OR_DECLINE_HOTJOIN:0 "$NAME|Y$的入局请求因没有得到响应而超时。"
  HOTJOIN_REQUEST:0 "请求乱入"
+ ####################################
+ # Multiplayer menu
+ ####################################
  CHECKSUM:0 "校验："
  CONNECT_TO_IP:0 "正在连接至指定IP地址"
  MATCHMAKING_NOCHAT:0 "无法进入全球聊天室，因为您尚未与Steam服务器连接。"
@@ -1841,6 +1917,11 @@
  FEDERATION:0 "联邦"
  MATCHMAKING_FRIEND_STATUS_PLAYING_THIS:0 "正在征服群星"
  MATCHMAKING_FRIEND_STATUS_PLAYING_OTHER:0 "正在玩其他的游戏"
+
+ ####################################
+ # GameSetup
+ ####################################
+
  GALAXY_SETUP:0 "地图选项"
  PICK_SPECIES_LABEL:0 "选择物种"
  CUSTOMIZE_SPECIES:0 "自定义您的物种"
@@ -1992,6 +2073,8 @@
  EMBLEM_BACKGROUND_PATTERN:0 "图形"
  EMPIRE_SPECIES_AMOUNT:1 "$SPECIES$：$AMOUNT|Y$"
  LEFT_CLICK_TO_OPEN_DIPLOMACY:1 "§G点击开启外交界面§!"
+
+ #Flag category keys are generated like "FLAG_CATEGORY_" + <name of folder in common/flags/>
  FLAG_CATEGORY_ornate:0 "奢华"
  FLAG_CATEGORY_pirate:0 "海盗"
  FLAG_CATEGORY_blocky:0 "砖块"
@@ -2004,6 +2087,7 @@
  FLAG_CATEGORY_smooth_simple:0 "平滑"
  FLAG_CATEGORY_paradox:0 "Paradox"
  FLAG_CATEGORY_domination:0 "主宰"
+
  starting_weapons_lasers:0 "能量武器"
  starting_weapons_projectiles:0 "动能武器"
  starting_weapons_missiles:0 "制导武器"
@@ -2018,6 +2102,7 @@
  starting_ftl_wormhole_desc:0 "虫洞生成器将在亚空间建立一条空间隧道来连接空间上的两个坐标点，允许穿越非常远的距离。但是虫洞生成器由于体积过大无法装配在一般舰船上，所以需要一个特殊的虫洞生成空间站来实现旅行。"
  RECOMMENDED_BEGINNER:0 "§G（新玩家）§!"
  RECOMMENDED_ADVANCED:0 "§R（进阶玩家）§!"
+
  TOOLTIP_SETUP_APPEARANCE:1 "§H$PORTRAIT$§!\n请选择您种族的外貌。"
  TOOLTIP_SETUP_SPECIES_NAME:1 "§H$SPECIES_NAME$§!\n请选择您种族的名称。"
  TOOLTIP_SETUP_TRAITS:1 "§H$TRAITS$§!\n请选择您种族应有的特质。"
@@ -2031,6 +2116,11 @@
  TOOLTIP_SETUP_WEAPONS:1 "§H$STARTING_WEAPONS$§!\n请为您的帝国选择一件起始武器科技。\n\n您可以在游戏中切换您想装配的武器类型。如果您想改变您的舰船装配武器种类，您可以查看您的舰船设计器：§Y舰船设计器§!。"
  TOOLTIP_SETUP_FTL:1 "§H$FTL_LABEL$§!\n请为您的帝国选择一种初始航行科技。您可以在研发了其他航行科技之后切换您的航行方式。在游戏中您将无法改变基地的超光速航行方式。"
  TOOLTIP_SETUP_SHIP_APPEARANCE:1 "§H$SHIP_GRAPHICS$§!\n请选择您的帝国的星舰造型。星舰造型不会影响到游戏发展。"
+
+ ####################################
+ # Hotjoin View
+ ####################################
+
  REQUESTING_HOTJOIN:2 "§H乱入请求§!\n\n正在等待房主接受乱入请求……"
  TRANSFERRING_SAVE_PROGRESS:0 "正在下载存档:$PROGRESS$%"
  SELECT_COUNTRY:1 "选择帝国"
@@ -2040,6 +2130,11 @@
  HOTJOIN_SERVER_LOST_TITLE:0 "已丢失与服务器的连接。"
  HOTJOIN_SERVER_LOST_DESC:0 "已丢失与主机的连接。"
  HOTJOIN_SERVER_LOST_OK:0 "确认"
+
+ ####################################
+ # Ingame Lobby
+ ####################################
+
  SERVER_LOST_TITLE:0 "已丢失与服务器的连接。"
  SERVER_LOST_DESC:0 "已丢失与主机的连接。您希望在脱机环境下继续该游戏吗？"
  PLAYER_LOST_TITLE:0 "玩家已断开链接"
@@ -2047,6 +2142,11 @@
  IGL_CAN_START_NOT_HOST:0 "只有房主才能让游戏继续。"
  INGAMELOBBY_KICK:1 "§H踢§!\n踢出这名玩家。"
  INGAMELOBBY_BAN:1 "§H封§!\n封禁这名玩家。这将将其踢出，并且其无法再次回到本局游戏。"
+
+ ####################################
+ # Planet Classes
+ ####################################
+
  pc_gas_giant:0 "气态巨星"
  pc_gas_giant_desc:0 "巨型的气态行星，主要由巨量的氢和氦所围绕一个致密的核心组成。"
  pc_asteroid:0 "小行星"
@@ -2124,6 +2224,11 @@
  pc_shielded_desc:0 "整个星球被包裹在一种坚不可摧的能量屏障中。这个屏障屏蔽了对其地表进行的任何扫描。"
  pc_ai:0 "AI星球"
  pc_ai_desc:0 "一颗地表覆盖着人造建筑的岩态星球。稀薄的大气主要由工业污染物组成。巨量的能源从整个星球的地表排放出来，但是没有任何有机生命体的反应。"
+
+ ####################################
+ # Terrain Tiles
+ ####################################
+
  pc_continental_tile:0 "温和地貌"
  pc_continental_tile_desc:0 "植被多样的地貌，气候温和。"
  pc_desert_tile:0 "沙漠地貌"
@@ -2154,6 +2259,11 @@
  pc_ai_tile_desc:0 "无菌的环境可以保护地下的超晶格。"
  pc_habitat_tile:0 "轨道居住地地貌"
  pc_habitat_tile_desc:0 "人造重力生成器上加工的矿物板，作为城市和工业建造的预置的地基。"
+
+ ####################################
+ # Tile Blockers
+ ####################################
+
  tb_mountain_range:0 "£blocker  山脉"
  tb_mountain_range_desc:0 "一个广阔高大而不可逾越的山脉横跨该地区。"
  tb_active_volcano:0 "£blocker  活火山"
@@ -2200,6 +2310,13 @@
  tb_titanic_life_blocker_desc:0 "许多巨大无比的外星人以这一地区为家，绕过这里是比较明智的"
  tb_bombarded_land:2 "被炸毁的地标"
  tb_bombarded_land_desc:2 "该地区已被轨道轰炸摧毁。"
+
+
+
+ ####################################
+ # Hull Sizes
+ ####################################
+
  CORVETTE:0 "轻型护卫舰"
  DESTROYER:0 "驱逐舰"
  CRUISER:0 "巡洋舰"
@@ -2244,6 +2361,7 @@
  terraform_station_plural:0 "地貌改造站"
  observation_station:0 "观测站"
  observation_station_plural:0 "观测站"
+
  nomad_corvette:0 "$corvette$"
  nomad_corvette_plural:0 "$corvette_plural$"
  nomad_destroyer:0 "$destroyer$"
@@ -2344,6 +2462,7 @@
  shroud_manifestation_plural:0 "虚境显主"
  corrupted_avatar:0 "恶堕化身"
  corrupted_avatar_plural:0 "恶堕化身"
+
  eventship_01:0 "巡洋舰"
  eventship_01_plural:0 "巡洋舰"
  eventship_02:0 "轻型护卫舰"
@@ -2368,14 +2487,17 @@
  primitive_space_station_plural:0 "早期空间站"
  ancient_drone_station:0 "远古空间站"
  ancient_drone_station_plural:0 "远古空间站"
+
  galleon:0 "加列战船"
  galleon_plural:0 "加列战船"
+
  climate_dry:0 "干燥"
  climate_cold:0 "冰冻"
  climate_wet:0 "潮湿"
  dry:0 "§Y（干燥气候）§!"
  cold:0 "§E（冰冻气候）§!"
  wet:0 "§G（潮湿气候）§!"
+
  massive_ship_fallen_empire:0 "泰坦"
  massive_ship_fallen_empire_plural:0 "泰坦"
  large_ship_fallen_empire:0 "战列巡洋舰"
@@ -2436,6 +2558,10 @@
  colony_ship_ai_plural:0 "智械殖民船"
  transport_ship_ai:0 "智械运输船"
  transport_ship_ai_plural:0 "智械运输船"
+
+ ####################################
+ # section slots
+ ####################################
  mid:0 "船舯"
  bow:0 "船艏"
  stern:0 "船艉"
@@ -2443,11 +2569,21 @@
  west:0 "西方"
  east:0 "东方"
  south:0 "南方"
+
+ ####################################
+ # Special Ship Types
+ ####################################
+
  CIVILIAN:0 "民用船"
  CONSTRUCTOR:0 "建筑船"
  COLONIZER:0 "殖民船"
  SCIENCE_SHIP:0 "科研船"
  SPACESTATION_1:0 "空间站"
+
+ ####################################
+ # Ambient Objects
+ ####################################
+
  derelict_ship_object:0 "废弃船只"
  sublight_probe_object:0 "亚光速探测器"
  sublight_probe_object_tooltip:0 "原始的亚光速空间探测器"
@@ -2465,6 +2601,11 @@
  abandoned_ship_object:0 "船只残骸"
  abandoned_ship_object_desc:0 "这个船只的残骸在太空中飘荡。"
  abandoned_ship_object_tooltip:0 "$abandoned_ship_object_desc$"
+
+ ####################################
+ # Message window
+ ####################################
+
  MESSAGE_EVENT_LEFTCLICK:0 "§G开启事件窗口§!"
  MESSAGE_TARGET_SYSTEM:0 "§G前往$SYSTEM|H$星系§!"
  MESSAGE_TARGET_PLANET:0 "§G前往$PLANET|H$§!星"
@@ -2472,6 +2613,11 @@
  MESSAGE_LOST_TARGET_FLEET:0 "§R’$FLEET|H$‘已经脱离了我们的传感器范围§!"
  MESSAGE_RIGHTCLICK:0 "§G右键点击以取消§!"
  MESSAGE_TARGET_WAR:0 "§G打开$WAR|H$§!的战斗报告"
+
+ ####################################
+ # Fleet Orders
+ ####################################
+
  ORDERS:0 "命令"
  NUM_ORDERS:0 "命令数:$COUNT|H$"
  FLEETORDER_MOVE_BUTTON:0 "前往"
@@ -2611,6 +2757,11 @@
  COMBAT:0 "交战"
  SHIP_STATS:0 "船只统计"
  FLEETORDER_AUTO_EXPLORE_NO_PATHS:0 "§R无法抵达或找不到尚未调查的星系。§!"
+
+ ####################################
+ # Traits
+ ####################################
+
  trait_rapid_breeders:0 "快速繁殖"
  trait_rapid_breeders_desc:0 "§L这个物种繁殖的周期较短，致使他们的人口增长迅速。§!\n"
  trait_slow_breeders:0 "缓慢繁殖"
@@ -2736,6 +2887,10 @@
  trait_wasteful_desc:0 "§L这个物种的成员缺乏节约的概念，他们倾向于铺张浪费。§!\n"
  trait_hive_mind:0 "蜂群思维"
  trait_hive_mind_desc:0 "§L这个物种由半自主的个体组成，这些个体被唯一的深不可测的宏大意识所奴役。§!"
+
+ ####################################
+ # Habitability Traits
+ ####################################
  trait_pc_alpine_preference:0 "适应高山星球"
  trait_pc_alpine_preference_desc:1 "§L气候适应性是通过进化或巧妙的操纵形成的一种遗传。§!"
  trait_pc_savannah_preference:0 "适应草原星球"
@@ -2764,6 +2919,12 @@
  trait_pc_ringworld_habitable_preference_desc:0 "$trait_pc_arctic_preference_desc$"
  trait_pc_habitat_preference:0 "适应轨道居住地"
  trait_pc_habitat_preference_desc:0 "$trait_pc_arctic_preference_desc$"
+
+ ####################################
+ # Leader Traits
+ ####################################
+
+ # All
  leader_trait_adaptable:0 "开明"
  leader_trait_adaptable_desc:2 "一旦一个事物被证明更加优秀，这位领袖就会快速采纳它。"
  leader_trait_stubborn:0 "顽固"
@@ -2776,6 +2937,8 @@
  leader_trait_eager_desc:1 "这位领袖是个工作狂。"
  leader_trait_arrested_development:0 "没有前途"
  leader_trait_arrested_development_desc:1 "这位领袖已然是个废物了。"
+
+ # Admiral
  leader_trait_ex_fighter_pilot:0 "退伍空战王牌"
  leader_trait_ex_fighter_pilot_desc:1 "这位舰队司令曾是一名空战王牌，懂得如何利用速度和机动性来获取战斗优势。"
  leader_trait_trickster:0 "战略家"
@@ -2800,6 +2963,8 @@
  leader_trait_gale_speed_desc:1 "这位舰队司令认为速度和快速机动才是太空战场胜利的关键。"
  leader_trait_lethargic:0 "懒惰"
  leader_trait_lethargic_desc:1 "这位舰队司令对工作没有干劲，缺乏积极性。"
+
+ # General
  leader_trait_defender:0 "防御专家"
  leader_trait_defender_desc:1 "这位陆军将领懂得如何部署空投部队，指挥陆战队最大化利用工事来阻击敌军。"
  leader_trait_attacker:0 "入侵专家"
@@ -2814,6 +2979,8 @@
  leader_trait_armchair_commander_desc:1 "这位陆军将领经常呆在后方，甚至是大后方，以避免不必要的危险。"
  leader_trait_army_logistician:0 "陆战队后勤专家"
  leader_trait_army_logistician_desc:1 "这位陆军将领几乎可以从任何地方获得补给，以减少陆战队的补给消耗。"
+
+ # Governor
  leader_trait_iron_fist:0 "铁拳"
  leader_trait_iron_fist_desc:1 "这位主管毫无人性，他们对效率的追求永远大于对奴隶的关心，以最大化压榨奴隶的劳动产出。"
  leader_trait_army_veteran:0 "退伍老兵"
@@ -2828,6 +2995,8 @@
  leader_trait_intellectual_desc:1 "这位主管对科学研究充满兴趣，他试图培养大众对科学的好奇心。"
  leader_trait_environmental_engineer:0 "环境工程师"
  leader_trait_environmental_engineer_desc:1 "这位主管曾是一位美化地形的工程师，现在他们把注意力放在了更远大的工程上。"
+
+ # Scientist
  leader_trait_careful:0 "警惕"
  leader_trait_careful_desc:1 "这位科学家在接触未知元素时会异常小心。"
  leader_trait_meticulous:0 "细致"
@@ -2877,6 +3046,8 @@
  leader_trait_expertise_military_theory_desc:1 "这位科学家长期以来致力于研究军事学，是军事学领域的专家。"
  leader_trait_curator:0 "策展人"
  leader_trait_curator_desc:0 "这位领袖来自策展人城邦。他对科技和探索的知识是无可匹敌的。"
+
+ # Ruler
  trait_ruler_corvette_focus:0 "轻型护卫舰专精"
  trait_ruler_corvette_focus_desc:1 "这位统治者大力推行护卫舰建设。"
  trait_ruler_destroyer_focus:0 "驱逐舰专精"
@@ -2925,6 +3096,8 @@
  trait_ruler_space_miner_desc:1 "这位统治者深刻意识到开发外太空矿产资源是非常重要的。"
  trait_ruler_explorer:0 "探险家"
  trait_ruler_explorer_desc:1 "这位统治者的好奇心永不满足，他认为空间探索高于一切。"
+ 
+ # Event Special
  leader_trait_sentinel:0 "定点培训"
  leader_trait_sentinel_desc:0 "哨兵舰队指挥官拥有关于索林原虫的解剖和交战策略的详细知识。"
  leader_trait_hive_mind:0 "虫巢意志"
@@ -2937,6 +3110,13 @@
  leader_trait_ethereal_desc:0 "这些异次元舰队已经学会了如何令他们的船只变得虚无，大大地提升了回避能力。"
  leader_trait_dimensional_stutter:0 "高维巡航"
  leader_trait_dimensional_stutter_desc:0 "不知道为什么，这些异次元舰队的航迹若隐若现，他们在以一个更快的速度进行亚光速航行。"
+
+
+
+ ####################################
+ # Ethics
+ ####################################
+
  ETHIC_ATTRACTION_DESC:1 "§E$ETHIC|H$对我们的£pops 人口的吸引力正受到以下因素的影响：§!"
  POP_ATTRACTION_HEADER:0 "此£pop 人口正在被以下的思潮吸引："
  POP_ATTRACTION_DESC:0 "§E一个人口可能随机转化到任何吸引它的思潮。§!"
@@ -3040,6 +3220,7 @@
  POP_ATTRACTION_DECADENT_NEG:0 "§R帝国内有颓废的人口§!"
  POP_ATTRACTION_EMPIRE_PEACEFUL_POS:0 "§G+长期的和平§!"
  POP_ATTRACTION_EMPIRE_PEACEFUL_NEG:0 "§R-长期的和平§!"
+
  ethic_authoritarian:1 "威权主义"
  ethic_authoritarian_desc:1 "§L一个强大的能起引导作用的力量，对于任何一个文明的成功都是至关重要的——否则只能带来无政府与混乱。领导民众走向生产力最高的道路是国家的职责。§!\n"
  ethic_fanatic_authoritarian:0 "极端威权主义"
@@ -3076,6 +3257,11 @@
  ethic_neutral_desc:0 "§L他们的思想是混杂的，任何倾向都可能存在于他们的社会中。§!"
  ethic_hive_mind:0 "蜂群思维"
  ethic_hive_mind_desc:0 "§L我们触及太空的每一个角落。\n广袤的空间都属于我们§!"
+
+ ####################################
+ # Planet View
+ ####################################
+
  PLANET_VIEW:0 "星球总览"
  PLANET_TYPE:0 "$TYPE$"
  MOON_TYPE:0 "$TYPE$卫星"
@@ -3367,6 +3553,7 @@
  PURGE_UNALLOWED_WRONG_POLICY:0 "§R我们现有对净化的立场不允许我们净化这个人口§!"
  GROUND_SUPPORT_UNALLOWED_POLICY:0 "§R我们现有对轨道轰炸的立场不允许我们舰队采取这一行为§!"
  OUTLINER_RALLYPOINT_IN_FTL:0 "在超光速飞行"
+
  TERRAFORM_IN_PROGRESS:0 "这个行星当前正在进行星球改造。\n它将于$DAYS_REMAINING|H$天后成为$PLANET_CLASS|H$。 "
  TOOLTIP_TERRAFORM_DONT_HAVE_STATION:0 "这个行星周围的轨道上没有地貌改造站站。"
  TOOLTIP_TERRAFORM_NOT_ENOUGH_RESOURCES:1 "缺少资源：\n"
@@ -3412,39 +3599,50 @@
  PLANETVIEW_TERRAFORMING_DESC:1 "该行星被地貌改造为：$CLASS|H$。该进程会在$DATE|H$完成。"
  PLANETVIEW_LOCAL_OUTPUT:1 "资源产出"
  PLANETVIEW_LOCAL_OUTPUT_TOOLTIP:1 "§E这里是$PLANET|H$的资源总产出。§!"
+
  PLANET_VIEW_PRODUCTION_ERROR:0 "生产错误"
  PLANET_VIEW_PRODUCTION_ERROR_BUILDING_REQUIRES_POP:0 "这个建筑需要一个已成长的人口来运作。"
  PLANET_VIEW_PRODUCTION_ERROR_FAILED_PRODUCTION:0 "缺少以下资源："
  PLANET_VIEW_PRODUCTION_ERROR_OCCUPATION:0 "这个行星已被占领，因此无法生产。"
  PLANET_VIEW_PRODUCTION_ERROR_BUILDING_DEACTIVATED:0 "这个建筑已被关闭。"
  PLANET_VIEW_PRODUCTION_ERROR_BUILDING_RUINED:0 "这个建筑已损毁，需要维修后才能重新运作。"
+
  PLANETVIEW_CONSTRUCTION:0 "建造"
  PLANETVIEW_CONSTRUCTION_IN_PROGRESS:0 "正在建造$NAME|Y$，它将于$DAYSLEFT|Y$天后完工。"
  PLANETVIEW_CONSTRUCTION_QUEUED:0 "加入$NAME|Y$至建造序列，序列中的位置为$QUEUE_PLACE|Y$。"
  PLANETVIEW_CANCEL_CONSTRUCTION:0 "取消建造"
  PLANETVIEW_CANCEL_CONSTRUCTION_DESC:0 "你确定取消建造吗？"
  PLANETVIEW_CONSTRUCTION_SUPPRESS_RESOURCES:0 "建造$BUILDING|Y$至这个地块将抑制以下资源的收集：\n\n$RESOURCES$\n"
+
  PLANETVIEW_CLEARING:0 "清理地块"
  PLANETVIEW_CLEARING_IN_PROGRESS:0 "地块正在清理中。这个过程将于$DAYSLEFT|Y$天后完工。"
  PLANETVIEW_CLEARING_QUEUED:0 "地块加入清理序列中。序列中的位置为$QUEUE_PLACE|Y$。"
+
  PLANETVIEW_REPAIR:0 "正在修理建筑"
  PLANETVIEW_REPAIR_IN_PROGRESS:0 "地块上的建筑正在修理中。这个过程将于$DAYSLEFT|Y$天后完工。"
  PLANETVIEW_REPAIR_QUEUED:0 "地块上的建筑加入修理序列中。序列中的位置为$QUEUE_PLACE|Y$。"
+
  PLANET_VIEW_PLACE_COLONY_TITLE:0 "放置殖民地"
  PLANET_VIEW_PLACE_COLONY_DESC:0 "§G点击一个地表地块以指定最初殖民地点§!"
+
+ #provided variables are $FROM$ $TO$ and $REASON$. FROM and TO are the names of planet classes
  TOOLTIP_TERRAFORM_TO:0 "§G点击将这颗星球改造为$TO|H$§!"
  TOOLTIP_TERRAFORM_TO_CANT:0 "§Y无法将其改造为$TO|H$§!"
  TOOLTIP_TERRAFORM_COST:1 "这将花费 £energy $COST|Y$以及$DURATION|Y$天。"
+
  TOOLTIP_RESOURECE_USE:0 "$RESOURCE$：$VALUE|H$"
  TOOLTIP_RESOURECE_USE_DIFF:0 "$RESOURCE$：$VALUE|-=$"
  TOOLTIP_TECH_TERRAFORM_COST_CHANGE:0 "地貌改造需要的资源：\n$LIST$"
  TOOLTIP_CANCEL_TERRAFORMATION:0 "§H取消地貌改造§!\n花费将会被归还"
  TOOLTIP_TERRAFORM_POSSIBILITIES:0 "可以改造为：$LIST$"
+
+ #variables: $FROM$ $TO$ $CONDITION$
  TOOLTIP_TERRAFORM_LINK_CONDITIONAL_VALID:0 "$TO|G$\n$CONDITION$"
  TOOLTIP_TERRAFORM_LINK_CONDITIONAL_INVALID:0 "$TO|R$\n$CONDITION$"
  TOOLTIP_TERRAFORM_LINK_VALID:0 "$TO|G$"
  TOOLTIP_TERRAFORM_LINK_INVALID:0 "$TO|R$"
  MISSING_FEATURE_FLAG:0 "需要：$TECH|H$"
+
  AI_WILL_BE_OUTLAWED:0 "人工智能在§H[Root.GetName]§!内将被宣布为非法。"
  PURGE_AND_SLAVES_WILL_BE_OUTLAWED:0 "净化和奴役将在§H[Root.GetName]§!内被宣布为非法。"
  ENSLAVE_ALL_POPS:0 "奴役行星上所有$SPECIES|H$人口"
@@ -3548,6 +3746,7 @@
  CLICK_SETTINGS:0 "单击设置按钮更改焦点。"
  SETTINGS_SECTOR:0 "§H星区设置§!\n点击查看/更改星区设置。"
  MILITARY_STATION_SETTING_DISABLED:0 "§R需要太空建设。§!"
+
  buildable_ship:0 "舰船"
  buildable_building:0 "建筑"
  buildable_development:0 "基础设施"
@@ -3559,16 +3758,28 @@
  buildable_colony_ship:0 "殖民船"
  buildable_none:0 "无效"
  buildable_money:0 "能量币"
+
  BUILDABLE_SHIP_NAME:0 "$TYPE$级"
  LEFT_CLICK_BUILDABLES:0 "§G点击观察建造列表§!"
+
  TIMED_MOD_DESC:0 "$TITLE|H$\n$DESC$\n$EFFECTS$\n剩余$DAYS$天"
  PLANET_TILE_DETAILS:0 "星球地块信息"
  CHOOSE_CONSTRUCTION:0 "选择要建造的建筑"
  TERRAIN_DETAILS_HEADER:0 "地势信息"
  SPECIES_GROWTH_PROGRESS:0 "$SPECIES$：§Y$CURRENT$%§!（§Y$MONTHLY$% / 月§!））"
+
  SECTOR_VALUE_PLUS_VALUE:0 "$STORED|B$+$DELTA|B$"
+
  RETREAT:0 "撤退"
+
+ ####################################
+ # Popcat Selection
+ ####################################
  POPCAT_SELECTION_TITLE:0 "选择殖民者"
+
+ ####################################
+ # War overview
+ ####################################
  OUR_DEMANDS:0 "我方要求"
  THEIR_DEMANDS:0 "敌方要求"
  SET_DEMANDS:0 "选择要求"
@@ -3628,6 +3839,10 @@
  ACTION_OFFER_PEACE_NOT_DEMANDABLE:0 "至少有一个要求目前是无法提出的"
  WAROVERVIEW_IMPOSSIBLE:0 "§H不可能§!\n这项战争要求目前不可选择。\n\n"
  WAROVERVIEW_NOTDEMANDABLE:0 "§H不可选择§!\n在满足所有条件之前，这个战争要求是不可选择的。\n\n"
+
+ ####################################
+ # Situation Log
+ ####################################
  SITUATION_LOG_TRACKED_TOOLTIP:0 "§H追踪§!\n这个条目目前会在地图上追踪。"
  SITUATION_LOG_HEADER:0 "状态日志"
  WE_DECIDED_TO:0 "我们决定:"
@@ -3654,6 +3869,11 @@
  SPECIAL_PROJECT_NO_ACCESS:0 "我们没有边界通行权来到达这个项目"
  CLICK_TO_OPEN:0 "§G点击查看事件日志§!"
  VICTORIES:0 "胜利"
+
+ ####################################
+ # Empire View
+ ####################################
+
  PLANET_LIST:1 "行星和星区"
  RESOURCES:0 "资源"
  STRATEGIC_RESOURCE:0 "战略资源"
@@ -3663,6 +3883,7 @@
  SELECT_LEADER_FOR_GOVERNING:0 "选择一名领袖管理§H$LOCATION$§!"
  SELECT_LEADER_FOR_TECHING:0 "选择一名科学家领导§H$LOCATION$§!"
  SELECT_LEADER_FOR_COMMANDING:0 "选择一名领袖指挥§H$LOCATION$§!"
+
  HIRE_NEW_ADMIRAL:0 "招募新的舰队司令！"
  HIRE_NEW_ADMIRAL_DESC:0 "招募一名新§H舰队司令§!花费$COST|H$影响力。"
  HIRE_NEW_GENERAL:0 "招募新陆军将领！"
@@ -3719,6 +3940,11 @@
  POP_FACTION_MILITANCY_DELAYED:0 "斗争性代表了这个派系的军事力量。高斗争性会提高这个派系发动革命的可能性和其拥有的部队数量"
  POP_FACTION_DEMAND_TOOLTIP:0 "§H派系诉求§!\n这是目前这个派系的诉求。如果这个派系获得更多支持，诉求可能会有变化。"
  POP_FACTION_SUPPORT_EFFECT_TOOLTIP:0 "§H派系影响§!\n这是目前这个派系的影响。如果派系获得更多支持，这些影响可能会有变化。"
+
+ ####################################
+ # Fleet View
+ ####################################
+
  SET_FLEET_DESIGN:0 "设置舰队设计"
  EDIT_FLEET_DESIGN:0 "§H编辑舰队设计§!\n你可以编辑舰队设计来指定舰队阵型。"
  FLEETVIEW_DISBAND:0 "解散"
@@ -3800,6 +4026,7 @@
  JUMP_COST_BASE_VALUE:0 "$BASE$：$VALUE|Y$"
  DISTANCE_FROM_FRIENDLY_TERRITORY:0 "与友方领土的距离：$VALUE|%Y0$"
  JUMP_WARP_DISTANCE_VALUE:0 "$DISTANCE$：$VALUE|Y0$"
+
  MIL_FLEET_TT_SIZE:1 "$CAP_STRING$：£navy_size $SIZE|Y$"
  SHIP_SIZE_COUNT:1 "£$KEY$ $TYPE$：$COUNT|Y$"
  HULL_STATE:1 "£ship_stats_hitpoints $HP$"
@@ -3807,6 +4034,7 @@
  FLEET_COMPOSITION:1 "舰队组成"
  IN_FTL:1 "§E在超光速移动中§!"
  IS_MIA:0 "§E处于MIA状态§!"
+
  NAVY_SIZE_DESC:1 "§E超过了你的§H$NAVY_SIZE_TITLE$§!会导致你的舰队维护费用增加。§H$NAVY_SIZE_TITLE$§!主要通过增加§H人口§!和§H太空港§!数量以及特定科技增加。§!"
  POOR_MAINTENANCE_DESC:1 "由于帝国能量币赤字，每天收到§R-$PENALTY$§!点船体值惩罚。"
  WILL_BEGIN_AUTOREPAIR:0 "修理会在$DAYS$天后开始。"
@@ -3850,6 +4078,7 @@
  REPAIR:0 "修理"
  FLEET_VIEW_CONTACT:0 "调查"
  FLEET_VIEW_CONTACT_DESC:0 "我们需要通过§Y特殊项目§!研究这些外星人后才能了解他们的科技或者学习如何和他们沟通..."
+
  SHIP_SIZE_MULTIPLIER:0 "舰船大小：£navy_size  §H$VALUE|0$§!"
  SHIP_SIZE:1 "§H$SIZE$§!"
  SHIP_NAME:1 "§H$NAME$§!"
@@ -3857,18 +4086,23 @@
  SHIP_ICON_CLASS:0 "$ICON$$SHIP_CLASS$"
  SHIP_SIZE_NAME:0 "$SHIP_SIZE$ $SHIP_NAME$"
  SHIP_SIZE_NAME_CLASS:0 "$SHIP_SIZE_NAME$ \n$SHIP_CLASS$"
+
  STATION_NAME:0 "§H$TYPE$§!$NAME$"
  MILITARY_STATION_NAME:1 "§H$TYPE$§!$RULERNAME$\n$SHIP_CLASS$"
+
  MILITARY_POWER_TIP:1 "军力：£military_power $VALUE|Y$"
  MILITARY_POWER_TIP_BOSS:0 "军事力量：£military_power_boss "
+
  INSPECT:0 "舰船细节"
  CLICK_TO_INSPECT:0 "§G点击查看舰船细节§!"
  FOCUS_ON_FLEET:0 "§H前往§!\n§G点击快速移动视角到这支舰队所在位置。§!"
  FOCUS_ON_COMBAT:0 "§H前往§!\n§G点击快速移动视角到这场战斗的发生位置。§!"
  NO_RETREAT:0 "§R领导人技能$TRAIT|H$禁用紧急超光速跃迁§!"
  NO_RETREAT_DESC:0 "§R舰队无法使用紧急超光速跃迁§!"
+
  RESOURCES_LOST:0 "每月花费：§Y$COST$§!"
  RESOURCES_GAIN:0 "每月收入：§Y$GAIN$§!"
+
  NAVY_SIZE_BASE:0 "基础值：$VALUE$"
  NAVY_SIZE_POPS_VALUE:0 "来自人口：$VALUE$"
  NAVY_SIZE_PLANETS_VALUE:0 "来自太空港：$VALUE$"
@@ -3878,8 +4112,20 @@
  NAVY_SIZE_TOOLTIP:0 "我们可以有效支持相当于$MAX|0Y$单位$NAVY_SIZE_TITLE$的数量的舰船。"
  NAVY_SIZE_MAX:1 "§R最大值：$VALUE|0$§!"
  NAVY_SIZE_MAX_REACHED:1 "§R达到海军容量上限。§!"
+
+ ####################################
+ # Station Selection GUI
+ ####################################
  STATION_SELECTION_PICK_DESIGN:0 "选择你想要建造的设计"
+
+ ####################################
+ # Megastructure Selection GUI
+ ####################################
  MEGASTRUCTURE_SELECTION_PICK_TYPE:1 "巨型建筑"
+
+ ####################################
+ # Combat View
+ ####################################
  FLEET_COMBAT:0 "舰队战斗"
  DISENGAGE:0 "脱离战斗"
  COMBAT_VIEW_LEFT_HITPOINTS:1 "防御方船体值：$VALUE|0Y$/$MAX|0G$"
@@ -3890,7 +4136,13 @@
  COMBAT_VIEW_RETREAT_ALL:0 "全体撤退"
  POPUP_COMBAT_RETREAT_CONFIRMATION_NAME:0 "$COMBAT_VIEW_RETREAT_ALL$"
  POPUP_COMBAT_RETREAT_CONFIRMATION_DESC:0 "你确定要让所有的舰队开始紧急超光速跃迁吗？"
+
+ ####################################
+ # Ship Designer
+ ####################################
+
  COMPONENT_SET_MULTIPLE_SIZES:0 "鼠标悬停在尺寸图标上查看具体数据"
+
  PRODUCTION_COST:0 "生产"
  shipclass_military:0 "军事舰船"
  shipclass_constructor:0 "工程船"
@@ -3923,6 +4175,7 @@
  shipclass_terraform_station_name:0 "$PLANET$地貌改造站"
  shipclass_observation_station:0 "观测站"
  shipclass_observation_station_name:0 "$PLANET$观测站"
+
  ACTION_MENU:0 "行动菜单"
  UTILITY_SLOTS:0 "通用插槽：$LARGE$大型，$MEDIUM$中型，$SMALL$小型"
  WEAPON_SLOTS:0 "武器插槽：$LARGE$大型，$MEDIUM$中型，$SMALL$小型"
@@ -3939,6 +4192,8 @@
  SECTION_ENTRY_WEAPON_SLOTS:0 "武器插槽"
  SECTION_ENTRY_UTILITY_SLOTS:0 "通用插槽"
  TYPE_OF_NEW_DESIGN:0 "选择你所要设计的舰船类型："
+
+
  SHIP_STAT_COST:1 "花费"
  SHIP_STAT_BUILD_TIME:1 "建造时间"
  SHIP_STAT_MINERAL_MAINTENENCE:1 "维护费"
@@ -3953,6 +4208,7 @@
  SHIP_STAT_SPECIAL:1 "特殊值"
  SHIP_STAT_SPEED:1 "速度"
  SHIP_STAT_SHIELD_RECHARGE:1 "护盾充能"
+
  SHIP_STAT_COST_INLINE:0 "£ship_stats_build_cost $SHIP_STAT_COST$："
  SHIP_STAT_BUILD_TIME_INLINE:0 "£ship_stats_build_time $SHIP_STAT_BUILD_TIME$："
  SHIP_STAT_MINERAL_MAINTENENCE_INLINE:0 "£ship_stats_maintenance $SHIP_STAT_MINERAL_MAINTENENCE$："
@@ -3967,9 +4223,11 @@
  SHIP_STAT_SPECIAL_INLINE:0 "£ship_stats_special $SHIP_STAT_SPECIAL$："
  SHIP_STAT_SPEED_INLINE:0 "£ship_stats_speed $SHIP_STAT_SPEED$："
  SHIP_STAT_SHIELD_RECHARGE_INLINE:0 "£ship_stats_shield $SHIP_STAT_SHIELD_RECHARGE$："
+
  SHIP_STAT_SENSOR_RANGE:0 "传感器范围：$VALUE|Y0$"
  SHIP_STAT_AUTO_REPAIR:0 "生命值修复：$VALUE|Y0$"
  SHIP_STAT_IDEAL:0 "理想范围：$RANGE|Y0$"
+
  SHIP_STAT_COST_VALUE:0 "£minerals $VALUE|Y0$"
  SHIP_STAT_BUILD_TIME_VALUE:0 "£resource_time $VALUE|0Y$"
  SHIP_STAT_ENERGY_MAINTENENCE_VALUE:0 "£energy $VALUE|2Y$"
@@ -3986,6 +4244,7 @@
  SHIP_STAT_SPEED_VALUE:0 "$VALUE|Y1$"
  SHIP_STAT_SHIELD_RECHARGE_VALUE:0 "$VALUE|Y0$"
  SHIP_STAT_AUTO_REPAIR_VALUE:0 "$VALUE|Y0$"
+
  SHIP_STAT_DESC_cost:0 "§E舰船总体花费是各个区块和组件花费之和，使用更大的区块和更先进的组件意味着更高的花费。§!"
  SHIP_STAT_DESC_build_time:0 "§E构建舰船区块和组件所需时间。§!"
  SHIP_STAT_DESC_energy_maintenance:0 "§E§H维护费用§!需要维持舰船正常运行的花费§HBuild Cost§!。§!"
@@ -3998,6 +4257,7 @@
  SHIP_STAT_DESC_combat_speed:0 "§E§H速度§!表示舰船在亚光速运行时的位移能力，可以通过推进器来提升。当舰船处于舰队中时，其速度会受到速度最慢舰船的限制§!"
  SHIP_STAT_DESC_speed:0 "$SHIP_STAT_DESC_combat_speed$"
  SHIP_STAT_DESC_damage:1 "E作用于舰船的总体伤害是已装配武器伤害之和。战斗中，每个武器将会进行独立攻击。查看各个独立组件的详细信息，如攻击速率、伤害、有效范围以及§H装甲§!和§H护盾§!穿透。§!"
+
  SCIENCE_SHIP_DESC:0 "科研船 （ 扫描器：$LEVEL|Y$，速度：§H$SPEED|Y1$x§!）"
  REDESIGN_CURRENT:0 "重新设计$CLASS|Y$"
  SHIP_DESIGN_SENSOR_RANGE_DESC:0 "传感器范围：$VALUE|Y2$"
@@ -4008,6 +4268,7 @@
  SHIP_DISABLED:0 "无法使用，需要维修。"
  DEFAULT_BATTLESHIP:0 "初级战列舰"
  DEFAULT_DESTROYER:0 "初级驱逐舰"
+
  CMP_TT_COST:0 "花费：£minerals $VALUE|Y0$"
  CMP_TT_RANGE:0 "射程：$RANGE|Y$"
  CMP_TT_DAMAGE:0 "伤害：§Y$MIN$-$MAX$§!"
@@ -4021,19 +4282,23 @@
  CMP_TT_SC_SHIELDS:0 "护盾："
  CMP_TT_SC_HITPOINTS:0 "船体值："
  CMP_TT_SC_EVASION:0 "闪避：$VALUE|Y%0$"
+ #CMP_TT_MISSILE_STATS variables: HEALT, SHIELD, SPEED, ARMOR, EVASION
  CMP_TT_MISSILE_STATS:0 "§H导弹：§!\n  船体值：$HEALTH|Y0$\n  闪避：$EVASION|Y%0$\n  速度：$SPEED|Y0$"
  CMP_WEAPON_TT_ARMOR_PENETRATION:2 "§G+$VALUE|%0$装甲穿透§!"
  CMP_WEAPON_TT_SHIELD_PENETRATION:2 "§G+$VALUE|%0$护盾穿透§!"
  CMP_WEAPON_TT_SHIELD_DMG_REDUCED:2 "§R-$VALUE|%0$护盾伤害§!"
  CMP_WEAPON_TT_SHIELD_DMG_INCREASED:2 "§G+$VALUE|%0$护盾伤害§!"
  CMP_WEAPON_TT_SHIELD_DMG_BYPASSED:1 "§G$VALUE|%0$无视护盾!"
+
  WORMHOLE_RANGE:0 "虫洞范围：$VAL|Y1$。"
  WORMHOLE_CAPACITY:0 "虫洞容量：$VAL|Y1$。"
+
  RIGHT_CLICK_COMPONENT:0 "§G右击以移除组件§!"
  COMPONENT_SLOT_TOOLTIP:0 "§G单击以显示组件§!"
  SHIP_DESIGNER_ADD_ITEM:0 "§G单击以增加选中组件§!"
  SHIP_DESIGNER_ADD_ITEM_NOT_ALLOWED:0 "§R该组件无法安装在这个插槽§!"
  SHIP_DESIGNER_CANT_REMOVE_LAST_DESIGN:0 "§R无法删除最后一个设计§!"
+
  RENAME:0 "重命名"
  RENAME_TOOLTIP:0 "重命名该舰船设计"
  SAVE:0 "保存"
@@ -4054,6 +4319,10 @@
  SELECT_SECTION:0 "选择一个区块"
  NO_SECTION:0 "尚无区块"
  POPUP_DELETE_DESIGN_TITLE:0 "删除该设计？"
+ #TOOLTIP_META_ICON_GLOBAL: "§HGlobal Design§!"
+ #TOOLTIP_META_ICON_GLOBAL_DESC: "Global Designs are always available in the Ship Designer. To"
+ #TOOLTIP_META_ICON_GLOBAL_USED: "§HGlobal Design§!"
+ #TOOLTIP_META_ICON_GLOBAL_USED_DESC: "This Design has been enabled for this Game and can be built at our Spaceports"
  TOOLTIP_META_ICON_FEDERATION:0 "§H联邦舰船设计§!"
  TOOLTIP_META_ICON_FEDERATION_DESC:0 "设计将在联邦内共享。\n该设计可以使用联邦中所有成员国的技术。"
  FEDERATION_DESIGN:0 "联邦舰船设计"
@@ -4080,9 +4349,19 @@
  MISSING_FTL_WANT_SAVE:0 "§R该舰船设计缺少超光速引擎。确定要保存吗？§!"
  SHIP_DESIGNER_FEDERATION:0 "联邦舰船设计"
  SHIP_DESIGNER_COUNTRY:0 "舰船设计"
+
+ ####################################
+ # Fleet Designer
+ ####################################
+
  TAB_SHIPS:0 "舰船"
  TAB_SHIPDESIGNS:0 "舰船设计"
  TAB_SHIPROLES:0 "舰船职能"
+
+ ####################################
+ # Government View
+ ####################################
+
  GOVERNMENT_VIEW:0 "政府界面"
  RULER_TRAITS:0 "元首特性："
  EMPIRE:0 "帝国"
@@ -4154,6 +4433,8 @@
  POP_EFFECTS_DESC:0 "这些效应将对你帝国中的全部人口起效。单个人口也会在当地层面受其他修正因子的影响。"
  ENERGY_BUDGET:0 "能量币预算"
  MINERAL_BUDGET:0 "矿物预算"
+
+ ##### TOOLTIPS IN EMPIRE VIEW #####
  EMPIRE_TOOLTIP:0 "§H政府§!\n$EMPIRE_DES$"
  EMPIRE_DESC:0 "我方政府概览"
  BUDGET_TOOLTIP:0 "§H预算§!\n$BUDGET_DES$"
@@ -4162,6 +4443,8 @@
  EDICTS_DESC:1 "帝国政策与法案概览"
  DEMOGRAPHICS_TOOLTIP:0 "§H人口统计§!\n人口统计概览"
  SPECIES_DEMOGRAPHICS:0 "$SPECIES|H$\n人口比重：$PERCENTAGE|H%$"
+
+ #EMPIRE TAB
  LEADER_NAME_DESC:0 "§H元首头衔与姓名§!"
  RACE_DESC:0 "§H统治者物种§!"
  LEADER_TRAIT_DESC:0 "§H元首状态：§!"
@@ -4187,12 +4470,19 @@
  OUTSIDE_BORDERS:1 "§R此物种处于我们的边境之外。§!"
  NOT_ON_OWNED_PLANET:0 "§R此物种未生存于我们拥有的星球之上。§!"
  HEIR:0 "继承人"
+
+ #BUDGET TAB
  INCOME_DESC:1 "月度收入概览。"
  EXPENSES_DESC:1 "月度支出概览。"
  BALANCE_DESC:2 "§H月度收支§!\n本月的总收支平衡。"
  TOTAL_INCOME_DESC:1 "§H月度收入§!\n上月总收入。"
  TOTAL_EXPENSES_DESC:1 "§H月度开支§!\n上月总开支。"
  SHIP_MAINT_OVER_CAP_DESC:0 "你军舰的维护费用上调了§R+$VALUE|0-%$§!，原因是超过了你的$NAVY_SIZE_TITLE$。"
+
+ ####################################
+ # Species Modification
+ ####################################
+
  SPECIES_MOD_SELECT_TRAITS:1 "选择增加或移除一种特质"
  NOT_ENOUGH_TRAIT_POINTS:0 "§R特质点数不足§!"
  IS_OPPOSITE_OF:0 "§R与$TRAIT|H$互为相对§!"
@@ -4211,10 +4501,20 @@
  PROJECT_TRAITS_ADD:0 "增加特性："
  PROJECT_TRAITS_REMOVE:0 "移除特性："
  PROJECT_COST_CALCULATION:0 "此项目总共将花费$SUMCOST|H$$TYPE$研究。"
+
+ ####################################
+ # Government Modification
+ ####################################
+
  MOD_GOVERNMENT_TITLE:0 "改革政府"
  MOD_GOVERNMENT_ADD:1 "将政体变为$GOVERNMENT|H$，花费£influence $COST|Y$影响力！"
  GOVERNMENT:0 "政府"
  CIVICS_LABEL:0 "国是："
+
+ ####################################
+ # Technology View
+ ####################################
+
  TECHNOLOGY:0 "科技"
  TECH_VIEW_RESEARCH_NEW_SELECT:0 "选择研究"
  RESEARCHED_TECHS:0 "§H科技研究§!\n§G单击以浏览已经研发的科技§!"
@@ -4464,28 +4764,38 @@
  RESEARCH_EFFICIENCY:0 "研究速度"
  RESEARCH_EFFICIENCY_DESC:0 "研究速度表示帝国科研成果投入实用的速度，对已解锁部门的科研完成速度造成影响。该数值主要由指派的科学家的能力而定，但也受其他因素的影响。"
  REASEARCH_SCIENTIST_EFFICIENCY:0 "科学家$LEADER$：$VALUE$"
+
+ ####################################
+ # Galaxy View
+ ####################################
+
  GALAXY_VIEW:0 "银河系地图"
  GALAXY_EMPIRE_VIEW:0 "帝国地图"
  GALAXY_SPECIES_VIEW:0 "物种地图"
  EMPIRES:0 "帝国"
  SPECIES:0 "物种"
  DIPLOMACY:0 "外交"
+
  POPULATION_LABEL:0 "人口："
  LEADER_LABEL:0 "统治者"
  DOMINANT_SPECIES_LABEL:0 "主体族群："
+
  GV_DOMINANT_SPECIES:0 "§H$KEY$§!"
  GV_POPULATION:0 "§H$POPS$ 人口§!"
  GV_GOVERNMENT:0 "§H$TYPE$§!"
  GV_LEADER:0 "§H$LEADER$§!"
  GV_CAPITAL:0 "§H$PLANET$§!"
+
  ZOOM_TO_CAPITAL:0 "§H前往§!\n§G单击以快速将镜头移动到首都所在地§!"
  OPEN_NEGOTIATIONS:0 "展开谈判"
  FIGHTING_WAR_AGAINST_US:0 "正在和我们§H$WAR$§!"
  FEDERATION_NAME:0 "$FOUNDER$联邦"
+
  PRE_SENTIENT:0 "§E$SPECIES$§!\n§L未开化§!"
  TRAIT_POINTS:0 "点数:$POINTS|H$"
  UPLIFT:0 "提升"
  UPLIFT_TOOLTIP:0 "§H提升§!"
+
  UPLIFT_DELAYED_TOOLTIP:0 "我们可以提升这个物种。"
  CANNOT_MODIFY_PRESENTIENT:0 "我们不能对一个未开化的物种进行调整。"
  CANNOT_MODIFY_SPECIES:0 "我们不能调整这个物种。"
@@ -4496,7 +4806,9 @@
  ALREADY_MODIFYING:0 "我们正在开展一项计划来在对这个物种进行调整。"
  ALREADY_UPLIFTING:0 "我们正在开展一项计划来在对这个物种进行提升。"
  UPLIFTING_NO_TARGET:0 "没有可以提升的这个物种族群。"
+
  NUM_OWNED_POPS_TOOLTIP:0 "§H拥有的人口§!\n显示帝国内有多少这种人口。"
+
  SHOW_SENTIENT:0 "显示未开化的物种"
  MY_EMPIRE:0 "我的帝国"
  ALL_GALAXY:0 "银河系"
@@ -4517,24 +4829,35 @@
  CLICK_TO_SEARCH:0 "§H搜索§!\n§G单击以进行搜索§!"
  SENTIENT_SPECIES_ACTIVATE:0 "H显示未开化物种§!\n§G单击以在列表中列出未开化的物种§!"
  SENTIENT_SPECIES_DISACTIVATE:0 "§H隐藏未开化物种§!\n§G单击以在列表中隐藏未开化的物种§!"
+
+ ####################################
+ # MAIN GALAXY VIEW
+ ####################################
  GALAXY_HEADER:0 "帝国"
  SPECIES_VIEW_HEADER:0 "物种"
  GALAXY_VIEW_TAB_TEXT:0 "帝国"
  SPECIES_VIEW_TAB_TEXT:0 "物种"
+
  MAIN_GALAXY_VIEW_GALAXY_TAB:1 "§G点击打开§H帝国界面§!§!"
  MAIN_GALAXY_VIEW_SPECIES_TAB:0 "§G点击打开§H物种界面§!§!"
+ ####################################
+ # GALAXY VIEW
+ ####################################
  GALAXY_VIEW_EMPIRE_NAME:0 "名字"
  GALAXY_VIEW_EMPIRE_DISTANCE:0 "相距"
  GALAXY_VIEW_EMPIRE_STATUS:0 "状态"
  GALAXY_VIEW_EMPIRE_ALLIANCE_FEDERATION:1 "联邦"
  GALAXY_VIEW_EMPIRE_DIPLOMACY:1 "交流"
  GALAXY_VIEW_EMPIRE_MONEY_BALANCE:0 "$AMOUNT|=+1$"
+
  GALAXY_VIEW_EMPIRE_ENTRY_OUR_OPINION:0 "$VAL|=+$"
  GALAXY_VIEW_EMPIRE_ENTRY_THEIR_OPINION:0 "$VAL|=+$"
  GALAXY_VIEW_EMPIRE_ENTRY_DISTANCE:0 "$VAL|1$"
+
  GALAXY_VIEW_EMPIRE_DIPLOMACY_BUTTON:0 "§G点击打开与$EMPIRE|H$§!的外交"
  GALAXY_VIEW_EMPIRE_DIPLOMACY_BUTTON_SELF:0 "§R我们不能与自己外交§!"
  GALAXY_VIEW_EMPIRE_DIPLOMACY_BUTTON_PRIMITIVE:0 "§R我们不能与原始文明进行外交§!"
+
  GALAXY_VIEW_SORT_NAME:0 "§H按名字排序§!"
  GALAXY_VIEW_SORT_THEIR_OPINION:0 "§H按他们对我们的评价排序§!"
  GALAXY_VIEW_SORT_OUR_OPINION:0 "§H按我们对他们的评价排序§!"
@@ -4542,6 +4865,7 @@
  GALAXY_VIEW_SORT_DIPLOMACY:0 "§H按外交状况排序§!"
  GALAXY_VIEW_SORT_ALLIANCE_OR_FEDERATION:0 "§H按联盟或者联邦名字排序§!"
  GALAXY_VIEW_SORT_POWER:0 "§H按相对实力排序§!"
+
  OPINION_DESC:0 "§T$EMPIRE|H$对$PLAYER|H$：$VAL|+=$的评价§!"
  OPINION_OF_US:1 "他们对我们的评价"
  OPINION_OF_THEM:1 "我们对他们的评价"
@@ -4550,6 +4874,11 @@
  GALAXY_VIEW_EMPIRE_DISTANCE_DESC:0 "§T最短的距离$FROMSYSTEM|H$和$TOSYSTEM|H$之间§!"
  GALAXY_VIEW_EMPIRE_DISTANCE_UNKNOWN_DESC:0 "§T距离未知§!"
  GALAXY_VIEW_EMPIRE_DISTANCE_UNKNOWN_VAL:0 "N/K（未知？）"
+
+
+ ####################################
+ # SPECIES VIEW
+ ####################################
  SPECIES_VIEW_SPECIES:0 "物种"
  SPECIES_VIEW_TYPE:0 "类型"
  SPECIES_VIEW_RIGHTS:0 "权利"
@@ -4562,10 +4891,12 @@
  SHOWING_SPECIES:0 "显示§H$SPECIES$§!物种"
  SLAVERY_DISABLED:0 "未被奴役的物种。"
  PURGE_DISABLED:0 "未被净化的物种。"
+
  tab_species_button:0 "$topbar_button_species_name$"
  tab_species_rights_button:0 "种族权利"
  SET_SPECIES_RIGHT_TITLE:0 "设置种族权利"
  SET_SPECIES_RIGHT_DESC:0 "你确定要更改你的种族权利吗？"
+
  citizenship_full:0 "完整公民权"
  citizenship_full_tooltip:0 "人口可以自由行使政治权利并且该物种可以产生§H领袖§!。"
  citizenship_full_tooltip_delayed:0 "§L这个物种的每一个个体都是[From.GetAdj]社会中受到尊敬的成员。§!"
@@ -4688,6 +5019,7 @@
  colonization_control_no:0 "允许殖民"
  colonization_control_no_tooltip:0 "$colonization_control_yes_tooltip$"
  colonization_control_no_tooltip_delayed:1 "§L我们究竟何德何能，竟能否认浩瀚星海其他的智慧种族的存在呢？我们将携手共进，驱逐这无尽的黑暗。§!"
+
  not_undesirables_tooltip:0 "受影响的人口是§Y非不可接触者§!"
  is_undesirables_tooltip:0 "受影响的人口是§Y不可接触者§!"
  not_slaves_tooltip:0 "受影响的人口是§Y非奴隶§!"
@@ -4697,6 +5029,7 @@
  is_purged_not_neutered:0 "受影响的是正在遭受§Y种族灭绝§!，§Y强迫劳动§!，§Y驱逐出境§!或§Y加工处理§!的人口"
  is_slaves_not_battle_thralls:0 "受影响的人口是§Y奴隶劳工§!，§Y侍仆§!或§Y牲口§!"
  is_slaves_not_battle_thralls_or_domestic:0 "受影响的人口是§Y奴隶劳工§!或§Y牲口§!"
+
  GO_TO:0 "前 往"
  SPECIES_VIEW_SELECTED_POPULATION:0 "我们帝国有$POPULATION|Y$个$SPECIES|H$族的人口住在$PLANETS|H$个星球上。"
  SPECIES_VIEW_SELECTED_POPULATION_GALAXY:0 "我们知道$POPULATION|Y$$SPECIES|H$的人口居住在我们银河系中的$PLANETS|H$的星球上。"
@@ -4707,17 +5040,24 @@
  SPECIES_VIEW_SELECTED_CLICK_MODIFY:0 "§G点击修饰基因特征§!"
  SPECIES_VIEW_SELECTED_CLICK_UPLIFT:0 "§G点击以选定的特性对这一种族进行提升。§!"
  SPECIES_VIEW_SELECTED_GENE_POINTS:0 "我们还剩下$AMOUNT|+$§H基因点数§!§!"
+
  SPECIES_VIEW_NAME_FOUNDING_SPECIES:0 "$SPECIES|H$是我们的§H创始种族§!。"
  SPECIES_VIEW_NAME_SPECIES:0 "$SPECIES|H$是我们国家的种族"
  SPECIES_VIEW_NAME_SPECIES_EMPIRE:1 "$SPECIES|H$是一个发源自$PLANET|H$的种族。"
  SPECIES_VIEW_NAME_SPECIES_NO_HOME_PLANET:0 "$SPECIES|H$是一个没有母星的种族。"
+
  SPECIES_VIEW_SORT_NAME:0 "§H按名字排序§!"
  SPECIES_VIEW_SORT_RIGHTS:0 "§H按权利排序§!"
  SPECIES_VIEW_SORT_TYPE:0 "§H按生物类型排序§!"
  SPECIES_VIEW_SORT_POPULATION:0 "§H按人口数量排序§!"
  SPECIES_VIEW_SORT_TRAITS:0 "§H按特征排序§!"
  GOTO_SPECIES_VIEW:0 "§G点击打开物种地图§!"
+
+ ####################################
+ # ALLIANCE & FEDERATION VIEW
+ ####################################
  ALLIANCE_BUTTON_DESC:0 "联邦：$KEY|H$\n§G点击打开联邦界面§!"
+
  ALLIANCE_AND_FEDERATION_VIEW_NAME:0 "名称"
  ALLIANCE_AND_FEDERATION_VIEW_OPINION:0 "评价"
  ALLIANCE_AND_FEDERATION_VIEW_SUPPORT:0 "支援"
@@ -4735,15 +5075,18 @@
  ALLIANCE_AND_FEDERATION_VIEW_PLANETS_DESC:0 "§T$EMPIRE|H$是$AMOUNT|Y$星球的领主§!"
  ALLIANCE_AND_FEDERATION_VIEW_THEIR_OPINION:0 "$VAL|+=$"
  ALLIANCE_AND_FEDERATION_VIEW_KICK_MEMBER:0 "投票踢人"
+
  ALLIANCE_VIEW_LEAVE_ALLIANCE_BUTTON:0 "离开联盟"
  ALLIANCE_VIEW_LEAVE_ALLIANCE:0 "离开联盟将会使联盟剩余成员对我们的评价:$VAL|+=$"
  ALLIANCE_VIEW_FEDERATION_BUTTON:0 "提议组建星际联邦"
  ALLIANCE_VIEW_DATE:0 "联盟组建于：$DATE$"
  ALLIANCE_VIEW_FEDERATION_BUTTON_DESC:0 "§T我们能够提议使联盟变成一个完整的联邦§!"
+
  POPUP_LEAVE_ALLIANCE_TITLE:0 "离开联盟"
  POPUP_LEAVE_ALLIANCE_DESC:0 "你想要离开$ALLIANCE|H$？"
  POPUP_FORM_FEDERATION_TITLE:0 "组建联邦"
  POPUP_FORM_FEDERATION_DESC:0 "你真的要提议组建星际联邦吗？"
+
  FEDERATION_VIEW_MEMBERS_HEADER:0 "联邦成员"
  FEDERATION_VIEW_FLEETS_HEADER:0 "联邦舰队"
  FEDERATION_VIEW_LEAVE_FEDERATION:0 "离开联邦"
@@ -4763,14 +5106,26 @@
  FEDERATION_VIEW_FLEET_CLICK:0 "§G点击打开§H舰队纵览§!。\n右键点击前往。"
  FEDERATION_NAVAL_CAPACITY:0 "§H联邦海军容量§!"
  FEDERATION_FLEET_DESC:1 "§H联邦舰队§!是一支由联邦主席所控制的特殊舰队。它们由§H联邦舰队设计器§!设计并可以利用任一联邦成员国的科技。联邦舰队不需要花费维持费用，但舰队力量不能超过§H联邦海军容量§!。每位成员国从各自的§H海军上限§!中贡献至少§Y$PERC|0%$§!来组成§H联邦海军容量§!。"
+
  POPUP_LEAVE_FEDERATION_TITLE:0 "离开联邦"
  POPUP_LEAVE_FEDERATION_DESC:0 "你想要离开$FEDERATION|H$？"
+
+ ####################################
+ # SYSTEM INFORMATION VIEW
+ ####################################
  SYSTEM_VIEW_PLANET_HEADER:0 "星球"
  SYSTEM_VIEW_NO_OWNER:0 "无人拥有"
  SYSTEM_VIEW_OWNER:0 "拥有者"
+
+ ## Tool Tip
  SYSTEM_VIEW_PLANETOID_LIBERTY:0 "§T这个帝国不存在，但是可以被解放§!"
  SYSTEM_VIEW_POPS_ICON:0 "居住在$NAME|$的人口："
  SYSTEM_VIEW_POP_DESC:0 "$VAL|H$$NAME$"
+
+ ####################################
+ # Diplomacy View
+ ####################################
+
  ALLIANCE_MEMBER_ACCEPTANCE_YES_SPONSOR:0 "§H：§!投票§G支持§! （$WHO|H$正在被 $SPONSOR|H$所支持。）"
  ALLIANCE_MEMBER_ACCEPTANCE_YES:0 "§H：§!提议§GYES§!"
  ALLIANCE_MEMBER_ACCEPTANCE_NO:0 "§H：§!提议§RNO§!"
@@ -4895,6 +5250,10 @@
  DIPLOMACY_VIEW_THEIR_OPINION:0 "$VAL|=+$"
  DIPLOMACY_VIEW_THEIR_ATTITUDE:0 "§T$EMPIRE|H$对$PLAYER|H$：$ATTITUDE|$的态度§!"
  GOAL:0 "目标"
+
+ ####################################
+ # Diplomacy Icons Tooltips
+ ####################################
  DIPLOMACY_ALLIANCE:1 "§T与$EMPIRES|H$结盟§!。"
  DIPLOMACY_RIVAL:1 "§T与$EMPIRES|H$处于敌对§!。"
  DIPLOMACY_EMBASSY:1 "§T有一个大使在$EMPIRES|H$§!。"
@@ -4917,18 +5276,32 @@
  DIPLOMACY_STATUS_INTEGRATING:1 "§T正在合并$EMPIRES|H$§!。"
  DIPLOMACY_CLOSED_BORDERS:0 "§T对$EMPIRES|H$§!关闭了边境。"
  DIPLOMACY_TRUCE:0 "§T和$EMPIRES|H$§!之间签订了停战协定。"
+
  DIPLOMACY_ALLIANCE_DESC:0 "§T在§H联盟§!：$NAME|H$§!"
  DIPLOMACY_FEDERATION_DESC:0 "§T在§H联邦§!：$NAME|H$§!"
  DIPLOMACY_OVERLORD_DESC:0 "§T拥有附庸§!"
  DIPLOMACY_IS_VASSAL_DESC:1 "§T是附庸§!"
  DIPLOMACY_AT_WAR_DESC:0 "§T战争中§!"
+
+ ####################################
+ # Event Window
+ ####################################
  SPECIAL_EVENTOPTION_TRAIT:0 "选项由§H$NAME$§!特征解锁"
  SPECIAL_EVENTOPTION_ETHIC:0 "选项由§H$NAME$§!信念解锁"
  EVENT_EXPIRY:0 "$DATE|H$将被选为默认项目"
+
+ ####################################
+ # Alliance View
+ ####################################
+
  CURRENT_LEADER:0 "当前领导人"
  NEXT_LEADER:0 "下一任领导人"
  MEMBERS:0 "成员"
  NEXT_ROTATION:0 "下一次选举"
+
+ ####################################
+ # Election View
+ ####################################
  ELECTION_VIEW_TITLE:0 "统治者选举"
  ELECTION_VIEW_DESCRIPTION:0 "选举正在进行，请选择支持一位候选人，或者花费影响力支持现任统治者连任。若都不支持，则从候选人中随机选举出一位当选。"
  ELECTION_SELECTED_WINNER:0 "我们已经推举§H$SELECTED_WINNER$§!成为下一任统治者。"
@@ -4950,6 +5323,11 @@
  DEMOCRATIC_ELECTION_DESC:0 "选举概况显示各个候选人所代表派系，要求和目前的支持度\n§G点击打开选举概况§!"
  ELECTION:0 "选举"
  REFORM_GOV_DESC:0 "通过改变思潮、国是或者权力分配来重整你的政府，而做出这些改变会产生影响力的消耗。"
+
+ ####################################
+ # Democratic Election View
+ ####################################
+
  DEMOCRATIC_ELECTION_VIEW_TITLE:0 "民主选举统治者"
  DEMOCRATIC_ELECTION_VIEW_NEXT_ELECTION:0 "下一轮选举：$DATE$（在$TIME_LEFT$个月后）"
  DEMOCRATIC_ELECTION_VIEW_DESCRIPTION:0 "每个候选人都有各自的§Y竞选承诺§!并受到相关派系支持，争取选民支持。在选举日所有民众进行投票，胜出者当选为$TITLE|Y$。"
@@ -4962,10 +5340,20 @@
  DEMOCRATIC_ELECTION_VIEW_ONGOING_ELECTION:0 "选举结束在$DATE$（剩余$DAYS_LEFT$）"
  DEMOCRATIC_ELECTION_VIEW_SUPPORT_ONCE:0 "支持$COUNT$次"
  DEMOCRATIC_ELECTION_VIEW_SUPPORT_MULTI:0 "支持$COUNT$次"
+
+ ####################################
+ # Species Modification Window
+ ####################################
  SPECIES_NAME_TOOLTIP:0 "§H物种名§!\n这是该物种自我称呼。"
  SPECIES_CLASS_TOOLTIP:0 "§H物种类型§!\n显示该物种所属的物种分类。人群将其他物种分类的生物视做外星生命。"
  IDEAL_PLANET_CLASS_TOOLTIP:0 "§H适宜星球类型§!\n这类星球有着该物种理想的生存环境，民众会对不适宜环境下生活感到不满。"
  NUM_AFFECTED_POPS_TOOLTIP:0 "§H受影响人群§!\受此次基因改造影响的人口数。 影响的人群数量决定改造花费。"
+
+
+ ####################################
+ # Settings View
+ ####################################
+
  SETTINGS:0 "设置"
  CREDITS_VIEW:0 "制作人员"
  SETTINGS_VIDEO:0 "图形"
@@ -5038,10 +5426,27 @@
  BLOOM_QUALITY_OFF:0 "$OFF$"
  BLOOM_QUALITY_LOW:0 "$GFX_QUALITY_LOW$"
  BLOOM_QUALITY_HIGH:0 "$GFX_QUALITY_HIGH$"
+
+ ####################################
+ # Goto box
+ ####################################
  GOTOBOX_HEADER:0 "§H搜索§!"
  GOTOBOX_DESC:0 "搜索已知星系"
+
+ ####################################
+ # AI Reasoning
+ ####################################
+
  AIREASON_BASE_RELUCTANCE:0 "基础不情愿：$VALUE|-%=0$"
  AIREASON_RELUCTANCE_OPINION:0 "好感：$VALUE|-%=0$"
+
+ ####################################
+ # Alien Greeting & Response Phrases
+ ####################################
+
+ ####################################
+ # Diplomatic Action Types
+ ####################################
  ACTION_INVITE_TO_ALLIANCE_TYPE:0 "邀请加入联盟"
  ACTION_INVITE_TO_ALLIANCE_TYPE_DESC:0 "可以邀请别人加入我们的联盟。"
  ACTION_KICK_FROM_ALLIANCE_TYPE:0 "踢出联盟"
@@ -5088,6 +5493,11 @@
  DEMANDS_OPINION_DIFF:0 "$OPINION|Y$将会改变对方对你的意见"
  ACTION_INVITE_TO_FEDERATION_TYPE:0 "邀请加入联邦"
  ACTION_INVITE_TO_FEDERATION_TYPE_DESC:0 "我们可以邀请别人加入自己的联邦。"
+
+ ####################################
+ # Diplomatic Actions
+ ####################################
+
  ACTION_DECLARE_WAR_TITLE:0 "宣战"
  ACTION_DECLARE_WAR_DESC:0 "向§H[Recipient.GetName]§!宣战。"
  ACTION_DECLARE_WAR_LONG_DESC:0 "[Actor.GetName]希望对[Recipient.GetName]宣战！"
@@ -5247,6 +5657,7 @@
  ACTION_END_RIVALRY_COST:0 "每个月将不会获得影响力，但彼此间的关系会改善。"
  ACTION_INSULT_TITLE:0 "侮辱"
  ACTION_INSULT_DESC:0 "侮辱对方将会极大地降低对方对我们的好感度。"
+
  ACTION_OFFER_FEDERATION_ASSOCIATION_TITLE:0 "给予协从国身份"
  ACTION_OFFER_FEDERATION_ASSOCIATION_DESC:0 "我们可以给予他们作为我们联邦协从国的地位。"
  ACTION_OFFER_FEDERATION_ASSOCIATION_LONG_DESC:0 "[Actor.GetName]希望给予[Recipient.GetName]联邦协从国地位。"
@@ -5288,8 +5699,10 @@
  ACTION_ASK_FOR_FEDERATION_ASSOCIATION_VOTE_FAILED:0 "关于向§H[Actor.GetName]§!授予§H[Recipient.GetAllianceName]§!协从国身份的请求被投票否决了。"
  ACTION_OFFER_FEDERATION_ASSOCIATION_VOTE_FAILED:0 "关于向§H[Recipient.GetName]§!授予§H[Actor.GetAllianceName]§!协从国身份的请求被投票否决了。"
  ACTION_REVOKE_FEDERATION_ASSOCIATION_VOTE_FAILED:1 "关于撤回§H[Recipient.GetName]§!同§H[Actor.GetAllianceName]§!的协从国身份的投票被否决了。"
+
  DIPLO_ACTION_ADD_TRUST:0 "这将会每月增加对方对我们的信任值$TRUST$点。最大值为$MAX_TRUST|0G$。"
  DIPLO_ACTION_INFLUENCE_COST:0 "每个月会花费我们$INF|R$影响力。"
+
  ACTION_FORM_DEFENSIVE_PACT_TYPE:0 "签署共同防御条约"
  ACTION_FORM_DEFENSIVE_PACT_TYPE_DESC:0 "和对方组建一个防御型同盟。如果一方遭到攻击，另一方会自动加入防御战争。"
  ACTION_BREAK_DEFENSIVE_PACT_TYPE:0 "撕毁共同防御条约"
@@ -5330,6 +5743,7 @@
  ACTION_FORM_MIGRATION_PACT_DESC:0 "和对方签署移民协定。我们的人民能够在两个帝国之间自由的移民。"
  ACTION_BREAK_MIGRATION_PACT_TITLE:0 "撕毁移民协定"
  ACTION_BREAK_MIGRATION_PACT_DESC:0 "撕毁我们和对方的移民协定。"
+
  ALLIANCE_NAME_01:0 "同盟"
  ALLIANCE_NAME_02:0 "轴心"
  ALLIANCE_NAME_03:0 "协约"
@@ -5356,12 +5770,19 @@
  ALLIANCE_PREFIX_17:0 "群星"
  ALLIANCE_NAME:0 "$PREFIX$$NAME$"
  ALLIANCE_MEMBERS:0 "联盟成员"
+
  WAR_NAME:0 "$ATTACKER$-$DEFENDER$War"
+
  PROPOSAL_SENT:0 "§R一项殖民提案已经提交给联邦主席国。§!"
+
  requires_actor_not_fanatic_purifiers:0 "§R他们是§Y$civic_fanatic_purifiers$§!！他们不会和异族有任何外交往来！"
  requires_target_not_fanatic_purifiers:0 "§R我们作为§Y$civic_fanatic_purifiers$§!不会和任何异族有外交往来！"
  requires_actor_not_hive_mind:0 "§R由于我们是§H蜂群思维§!所以这是不可能的。§!"
  requires_target_not_hive_mind:0 "§R由于他们是§H蜂群思维§!所以这是不可能的。§!"
+ 
+ ####################################
+ # Basic Resources
+ ####################################
  energy:0 "能量币"
  energy_desc:1 "§E§H能量币§!（ £energy  ）是受所有太空种族所承认的一种能源本位的流通货币。你可以通过如下方式获得能量币:\n§Y1.§!在殖民地星球表面建造与升级 £building §H发电站§! 。\n§Y2.§!派遣§H工程船§!在蕴含能源的行星或恒星上建造§H矿物空间站§!。§!"
  influence:0 "影响力"
@@ -5379,7 +5800,9 @@
  engineering_research_desc:1 "§E§H工程学§!（ £engineering  ）用于研究新兴技术。我们可以在殖民星球表面建造§H工程实验室§!或者在特定行星上建立§H科研空间站§!来增加工程学点数产出。§!"
  unity:0 "凝聚力"
  unity_desc:0 "§E§H$凝聚力$§!（ £unity ）用于解锁新的§H传统§!。我们可以通过建造\n £building §H开拓者纪念碑§!或其他§H凝聚力建筑§!来获得凝聚力。"
+
  ENERGY_DEFICIT_DESC:1 "§R帝国正遭受$DEFICIT|E$，因为所使用的§H能量币§!远远超出了产出量，积蓄全都用光了。§!"
+ 
  ETHIC_ALLOWS_SLAVERY:0 "§E可以§H奴役§!外族§!"
  ETHIC_ALLOWS_CASTE_SYSTEM:0 "§E允许种族§H等级制§!政策§!"
  ETHIC_ALLOWS_PURGE:0 "§E可以§H净化§!与§H驱逐§!外族§!"
@@ -5417,6 +5840,11 @@
  ETHIC_HIVE_MIND_ASCENSION_RESTRICTIONS:0 "§E无法进行§H灵能§!或§H合成人飞升路线§!§!"
  ETHIC_HIVE_MIND_GENEMODDING:0 "§E§H生物飞升路线§!完成后可以通过基因改造其他种族来使他们变为蜂群思维§!"
  ETHIC_HIVE_MIND_NO_TUTORIAL:0 "§R教程已关闭§!"
+
+ ####################################
+ # Strategic Resources
+ ####################################
+
  sr_terraform_gases:0 "地貌改造气体"
  sr_terraform_gases_desc:1 "地貌改造气体是从气态巨行星中提取出来的，主要由氢气，氦气和甲烷等各种气体构成。使用地貌改造气体可以降低对行星进行地貌改造时的难度。"
  sr_terraform_liquids:0 "地貌改造液体"
@@ -5435,6 +5863,8 @@
  sr_yuranic_desc:0 "这些晶体有着罕见的反射性能，可以增强能量武器的输出功率。"
  sr_teldar:0 "特尔达水晶"
  sr_teldar_desc:1 "拥有极强耐久的水晶能够增强动能武器对装甲的贯穿力。用作珠宝装饰也十分流行。"
+ #sr_mirium: "Mirium Ore"
+ #sr_mirium_desc: "This rare ore is too brittle to be used in an alloy, but if properly made mirium projectiles have unmatched armor piercing potential."
  sr_satramene:0 "萨特拉烯"
  sr_satramene_desc:2 "某些星球上天然产出的气体，可代替镇静剂。对绝大多数生物都有镇静效果，也可用来当做非暴力的制敌手段。其副作用是容易上瘾。"
  sr_lythuric:0 "莱素气体"
@@ -5443,20 +5873,38 @@
  sr_dark_matter_desc:0 "这种神秘物质具有许多打破物理学的特性。仅在黑洞周围或部分星云附近能够达到可采集的浓度。"
  sr_alien_pets:0 "外星宠物"
  sr_alien_pets_desc:1 "这些温顺的生物很容易驯服，其友善的举止和可爱的外表让它们成为人们宠物的不二之选。外星爱好者们十分喜爱这些生物并且自豪地在动物园里展示。"
+ #sr_alien_test_subjects: "Alien Test Subjects"
+ #sr_alien_test_subjects_desc: "The genetic makeup of these non-sentient alien creatures make them particularly useful as test subjects in experiments involving a variety of domestic products and medicines."
  sr_pitharan:0 "皮萨兰星尘"
  sr_pitharan_desc:2 "这种高能量的精细粉尘在被用作上好的肥料。"
  sr_engos:0 "恩吉欧气体"
  sr_engos_desc:2 "一种自然产生的刺激物，能加强所有类型生命的适应力，加快进化进程。"
+ #sr_xaldor: "Xaldor Gemstones"
+ #sr_xaldor_desc: "These rare gems emit an ethereal glow that changes color depending on the mood of whoever is holding them. The glow becomes especially intense in the vicinity of psionically-gifted individuals."
  sr_orillium:0 "奥利姆矿石"
  sr_orillium_desc:0 "奥利姆是一种高密度的不稳定元素，可以用于制作强力的炸药。"
+ #sr_sactajenian: "Sactajenian Spice"
+ #sr_sactajenian_desc: "A psychoactive compound that imbues users with a limited psionic connection to one another. This effect somewhat diminishes free will and individual mental capacity, but the new 'group mind' can perform tasks as a single organism for a limited time."
+ #sr_zarbadoccan: "Zarbadoccan Mold"
+ #sr_zarbadoccan_desc: "A powerful stimulant that temporarily gifts most users with a sense of increased creativity or introspective emotional awareness. This kind of 'soul-searching' is frowned upon by some cultures as being counter-productive."
  sr_riggan:0 "里甘香料"
  sr_riggan_desc:0 "里甘香料的提取和制作的工艺一直被$guardian.103.name$所垄断。香料能够提供独特的香味，是餐桌上的常客。"
  sr_betharian:0 "贝塞里安石"
  sr_betharian_desc:0 "陨石撞击时留下的稀有矿石。燃烧消耗慢，是一种高效的能源。"
+ #sr_carnian: "Carnian Pearls"
+ #sr_carnian_desc: "These pearls are often used in jewelry and their brilliant white metallic luster is quite eye-catching, which may explain why they are so popular among avian species."
  sr_muutagan:0 "穆塔根晶体"
  sr_muutagan_desc:0 "$guardian.104.name$是唯一知晓如何合成此晶体的组织。在被撞击后， 这些“会唱歌”的晶体会开始震动并发出特定频率的声波。这种晶体被经常被制作成乐器，所发出的声音会对大部分生物产生镇定的效果。"
  sr_xuran:0 "雪拉凝胶"
  sr_xuran_desc:0 "这种由$guardian.100.name$所生产的凝胶，对生活在恶劣环境的生物能起到各种治疗作用。"
+ #sr_kobor: "Kobor Wood"
+ #sr_kobor_desc: "Kobor trees can be found on many different worlds, and their seeds were likely spread deliberately by someone long ago. The wood from these trees is light, extremely durable and easy to work with. Arthropods in particular favor it as a building material."
+
+
+ ####################################
+ # Planetary Buildings
+ ####################################
+
  building_basic_power_plant:0 "基础发电站"
  building_basic_power_plant_desc:1 "发电站可以生产能量币，是维持大多建筑和飞船的必要资源。"
  building_power_plant_1:0 "发电站 I"
@@ -5611,6 +6059,10 @@
  building_holotemple_desc:0 "之前粗糙的神殿的经过升级与改造，使用了最新的灵能科技在全息神殿内部创造出了亦真亦幻的现实，以为信徒提供更深层次的冥思与更狂热的奉献。"
  building_citadel_of_faith:0 "信徒之堡"
  building_citadel_of_faith_desc:0 "一个为所有来客庇护与隔绝唯物世界纷扰的巨大设施"
+
+ ####################################
+ # Wonders
+ ####################################
  building_xeno_zoo:0 "异种动物园"
  building_xeno_zoo_desc:0 "作为我们已经掌控了未知的标志，我们将生活在从银河的各处的异种生物收集在此。"
  building_fe_xeno_zoo:0 "异种保护区"
@@ -5668,6 +6120,10 @@
  building_alien_sanctuary_desc:0 "$tech_alien_sanctuary_desc$"
  building_psi_corps:0 "灵能部队"
  building_psi_corps_desc:0 "具有灵能天赋的人们从帝国各处被带到一起以便于他们进一步精进。\n\n§Y灵能部队是有强有力的友军，值得信赖。§!"
+
+ ####################################
+ # Building requirement custom descs
+ ####################################
  requires_building_capital_1_or_hab:0 "§R需要在行星上建造有§Y$building_capital_1$§! 或§Y$building_hab_capital$§!。§!"
  requires_building_capital_1:0 "§R行星必须拥有§Y$building_capital_1$§!§!"
  requires_building_capital_2:0 "§R行星必须拥有§Y$building_capital_2$§!§!"
@@ -5683,12 +6139,22 @@
  requires_pops_15:0 "§R行星上至少需要§Y15 人口§!§!"
  requires_alien_pets:0 "§R需要该地块产出§Y$sr_alien_pets$§!。§!"
  requires_betharian_stone:0 "§R需要该地块产出§Y$sr_betharian$§!。§!"
+
+ ####################################
+ # Event Buildings
+ ####################################
+
  building_zanaam_obelisk:0 "扎娜姆方尖碑"
  building_zanaam_obelisk_desc:0 "一个被不可解读的外星文字覆盖的神秘方尖碑，它发出的具有力量的嗡鸣声会令靠近的人感到头痛。"
  building_great_pyramid:0 "大金字塔"
  building_great_pyramid_desc:1 "一座当地民众为了安抚从天降临的神所建造的金字塔。"
  building_toy_factory:0 "外星人玩具厂"
  building_toy_factory_desc:0 "复杂的机械聚合体不断地把复杂的聚合物塑形成变化多端而又不知用途的神秘小物件。"
+
+ ####################################
+ # Government Authorities
+ ####################################
+ 
  auth_democratic:0 "民主制"
  auth_democratic_desc:0 "民主政府给予其公民投票权并定期发起选举，这样公民们就能选择能代表他们利益的领袖。"
  auth_oligarchic:0 "寡头制"
@@ -5701,6 +6167,7 @@
  auth_hive_mind_desc:0 "蜂巢思维更像是一个单独的生命体而非一个国家。人民没有自由意志，只不过是蜂巢社会伸展出来的触须罢了 - 如同身子上的肢体。\n\n当与主巢断开联系时，这些可悲的“工蜂”会在昏迷中衰弱并导致死亡。任何试图拥有自由的个体一旦被主巢发现就会被赶尽杀绝，就像免疫系统清除外来的病原体一般。"
  auth_machine_consciousness:0 "机械意志"
  auth_machine_consciousness_desc:0 ""
+
  military_dictatorship:0 "军事独裁制"
  military_dictatorship_desc:0 "§L这种政体是种军国主义的专制独裁政体，统治者作为军事力量无可置疑的首脑的同时也牢牢地控制着国家机关。§!"
  military_dictatorship_special:0 "允许每一位统治者建造一艘超大型舰船"
@@ -5787,6 +6254,7 @@
  military_order_desc:1 "§L一种奇怪但显然很有效率的军国主义类政体。§!"
  hive_mind:0 "峰巢意识"
  hive_mind_desc:1 "§L一种高度发达的意识集合体，其中个体的独立意识只不过是巨大的分散式大脑中的神经突触。§!"
+
  gov_despotic_empire:0 "专制帝国"
  gov_despotic_empire_desc:0 "专制帝国是更彻底的独裁制度，政府存在的意义便是为把持着无上权威的统治者紧紧束缚住其下的臣民。"
  gov_constitutional_dictatorship:0 "宪政独裁制"
@@ -5889,6 +6357,12 @@
  gov_purification_committee_desc:0 "净化委员会是由极端排外思想发展出的一种寡头制度，而委员长的最终职责便是确保所有玷污永恒寰宇的低等种族彻底从这个位面上消失。"
  gov_purity_assembly:0 "净化议会"
  gov_purity_assembly_desc:0 "净化议会是由极端排外思想发展出的一种民主制度，而民选代表的最终职责便是确保所有玷污永恒寰宇的低等种族彻底从这个位面上消失。"
+
+
+ ####################################
+ # Rulers / Heirs
+ ####################################
+
  RT_GRAND_MARSHAL:0 "大元帅"
  RT_GRAND_MARSHAL_FEMALE:0 "$RT_GRAND_MARSHAL$"
  RT_IMPERATOR:0 "军团长"
@@ -5952,6 +6426,7 @@
  HT_DEPUTY_OVERLORD_FEMALE:0 "$HT_DEPUTY_OVERLORD$"
  HT_SENIOR_TECHNICIAN:0 "高级技师"
  RT_GRAND_MASTER:0 "大团长"
+ 
  RT_CELESTIAL_EMPEROR:0 "天朝皇帝"
  RT_CELESTIAL_EMPRESS:0 "天朝女皇帝"
  RT_WARLORD:0 "军阀"
@@ -5993,6 +6468,11 @@
  HT_SECUNDUS_FEMALE:0 "$HT_SECUNDUS$"
  RT_PRIMARCH:0 "大君"
  RT_PRIMARCH_FEMALE:0 "$RT_PRIMARCH$"
+
+ ####################################
+ # Civics
+ ####################################
+
  civic_imperial_cult:0 "帝国信仰"
  civic_imperial_cult_desc:0 "这种社会有一个统一的宗教信仰，他们的统治者被尊为行走于世间的真神。"
  civic_beacon_of_liberty:0 "自由灯塔"
@@ -6095,10 +6575,12 @@
  civic_hive_subsumed_will_desc:0 "蜂巢思维强化了意识的焦点，并具有非常强大的传播能力来扩散它的意志，哪怕是最有自由意识的工蜂个体也无法抵抗。"
  civic_hive_pooled_knowledge:0 "集中知识"
  civic_hive_pooled_knowledge_desc:0 "蜂巢心智的个体工蜂经常通过直接链接来共享知识，绕过蜂巢主脑较慢的注册过程。"
+
  civic_tooltip_agrarian_idyll_effects:0 "£building §Y农场§!也会产生§Y1§! £unity 凝聚力。"
  civic_tooltip_mechanists_effects:1 "开始游戏时人口中有§Y4§! £pop 人口的机器人，并可以通过开局科技建造更多。"
  civic_tooltip_syncretic_evolution_effects:1 "开始游戏时人口中有§Y4§! £pop 人口为从属种族。"
  civic_tooltip_fanatic_purifiers_effects:1 "不能与其他物种进行§Y外交§! !\n§Y异族§! 将被净化，对传统成本没有影响。\n能够通过净化异族 £pop 人口来获得 £unity §Y凝聚力§! 。\n可以使用§Y$GROUND_SUPPORT_STANCE_ARMAGEDDON$§!轨道轰炸姿态。\n §Y$MOD_SHIP_FIRE_RATE_MULT$§!增加 §G+33%§!\n§Y$MOD_ARMY_DAMAGE_MULT$§!增加 §G+33%§!"
+ 
  civic_tooltip_spiritualist:0 "是一定程度的§Y唯心主义§!"
  civic_tooltip_materialist:0 "是一定程度的§Y唯物主义§!"
  civic_tooltip_authoritarian:0 "是一定程度的§Y威权主义§!"
@@ -6121,12 +6603,19 @@
  civic_tooltip_dem_oli:0 "需要§Y民主制§!或者§Y寡头制§!政体"
  civic_tooltip_dem_oli_dic:0 "需要§Y民主制§!，§Y寡头制§!，或者§Y帝制§!政体"
  civic_tooltip_oli_imp:0 "需要§Y寡头制§!或者§Y帝制§!政体"
+
+ ####################################
+ # Ship Components
+ ####################################
+
  weapon:0 "武器"
  utility:0 "通用"
  strike_craft:0 "舰载机"
  ship_mounted:0 "舰装"
+
  strike_crafts:1 "舰载机"
  missiles:1 "导弹"
+
  RED_LASER:0 "红色激光器"
  RED_LASER_DESC:0 "激光武器向目标发射一道光束，通过聚焦热量造成伤害。"
  BLUE_LASER:0 "蓝色激光器"
@@ -6137,34 +6626,42 @@
  XRAY_LASER_DESC:0 "这种激光拥有比紫外激光更短的波长，但破坏性更高。"
  GAMMA_LASER:0 "伽马激光器"
  GAMMA_LASER_DESC:0 "伽马激光的电磁辐射频率极高。在激光武器领域，其破坏力是无可比拟的。"
+
  SPACEPORT_LASER:0 "站基激光器"
  SPACEPORT_LASER_DESC:1 "装载在空间站上的激光器，拥有优秀的目标跟踪能力，弥补了空间站本身的移动限制。"
+
  ENERGY_LANCE_1:0 "粒子光矛"
  ENERGY_LANCE_1_DESC:1 "这类重型能量武器发射高度集中的粒子束，可以造成巨大伤害。"
  ENERGY_LANCE_2:0 "快子光矛"
  ENERGY_LANCE_2_DESC:1 "粒子光矛的增强版，可以发射威力强大的快子束。"
+
  PLASMA_1:0 "等离子喷射炮"
  PLASMA_1_DESC:0 "向目标射出高能等离子球的破坏性武器。这些等离子射弹在穿透飞船装甲时非常有效。"
  PLASMA_2:0 "等离子加速炮"
  PLASMA_2_DESC:0 "这些新的加速器使用改进的遏制场发射高能等离子射弹。这使得射弹在空中朝其目标行进中有较少的能量泄漏。"
  PLASMA_3:0 "等离子加农炮"
  PLASMA_3_DESC:0 "等离子武器的最新产品，这些大炮是旧有的巨舰大炮主义的产物，等离子喷射炮军事化版本。它的等离子炮弹甚至是致命。"
+
  ARC_EMITTER_1:0 "电弧发射器"
  ARC_EMITTER_1_DESC:0 "向目标发射混乱能量的电弧，其中部分可以忽略装甲和护盾的强大武器。"
  ARC_EMITTER_2:0 "聚焦电弧发射器"
  ARC_EMITTER_2_DESC:0 "这些升级的发射器都配备有更好的聚焦透镜，从而产生更强大的能量发射。"
+
  DISRUPTOR_1:0 "碎裂炮"
  DISRUPTOR_1_DESC:0 "碎裂炮发射削弱和摧毁构成目标的原子的分子键的高能量闪电。对抗护盾特别有效。"
  DISRUPTOR_2:0 "离子碎裂炮"
  DISRUPTOR_2_DESC:0 "这些升级的碎裂炮向目标发射更具破坏性的离子微粒闪电。"
  DISRUPTOR_3:0 "相位碎裂炮"
  DISRUPTOR_3_DESC:0 "对不幸无法招架的敌人造成难以置信的量子能量伤害的极高效碎裂炮。"
+
  ENERGY_TORPEDO_1:0 "质子鱼雷"
  ENERGY_TORPEDO_1_DESC:1 "这些能量鱼雷由紧密压缩的质子构成，并且它们能够完全穿透反射盾屏障或护盾系统。"
  ENERGY_TORPEDO_2:0 "中子鱼雷"
  ENERGY_TORPEDO_2_DESC:1 "升级后的能量鱼雷依靠中子而不是质子形成破坏力。像它的前辈一样，它不能被能量护盾阻挡。"
+
  MINING_DRONE_LASER_1:0 "采矿激光"
  MINING_DRONE_LASER_1_DESC:1 "高度集中的采矿激光，不仅可以切割小行星。也可以切开船体。"
+
  BLUE_CRYSTAL_WEAPON_1:0 "蓝色破片投射器"
  BLUE_CRYSTAL_WEAPON_1_DESC:1 "蓝色破片投射器模仿蓝宝石晶体的武器化投射来造成损害。"
  GREEN_CRYSTAL_WEAPON_1:0 "绿色破片投射器"
@@ -6173,12 +6670,16 @@
  YELLOW_CRYSTAL_WEAPON_1_DESC:1 "黄色破片投射器模仿黄宝石晶体的武器化投射来造成很大损害。"
  RED_CRYSTAL_WEAPON_1:0 "红色破片投射器"
  RED_CRYSTAL_WEAPON_1_DESC:1 "红色破片投射器模仿红宝石晶体的武器化投射来造成极其巨大的损害。"
+
  SPACE_CLOUD_WEAPON_1:0 "天云闪电"
  SPACE_CLOUD_WEAPON_1_DESC:1 "利用我们基本相互作用力的理解，我们可以在虚空云中生成相当巨大的内部电荷，甚至是最高的容量的电荷，天云闪电武器系统能造成巨大的伤害。"
+
  PSIONIC_BLAST_1:0 "灵爆"
  PSIONIC_BLAST_1_DESC:0 ""
+ 
  EXTRADIMENSIONAL_1:0 "物质分解器"
  EXTRADIMENSIONAL_1_DESC:1 "它是来自于其他维度的暴风骤雨，物质分解器的核心技术是扭曲几条物理法则进行破坏。"
+
  MISSILE_1:0 "核导弹"
  MISSILE_1_DESC:0 "装备了高当量核武器的太空导弹。尽管是前太空时代的技术，但这种发射后自寻目标的武器有惊人的射程。"
  MISSILE_2:0 "聚变核导弹"
@@ -6189,12 +6690,15 @@
  MISSILE_4_DESC:0 "最新的导弹经过升级具备强大无比的破坏力，它能够从真空中汲取真空零点能。"
  MISSILE_5:0 "猛虎导弹"
  MISSILE_5_DESC:0 "这些最尖端的导弹配备功能有限的AI驾驶，极大地提高导弹追踪目标的能力和水平。"
+
  SPACEPORT_MISSILE:0 "站基导弹"
  SPACEPORT_MISSILE_DESC:1 "和飞船不同，空间站中最不缺的就是空间。因此，空间站的导弹设备可以储存大量弹药，并能安装更高效的装填系统。"
+
  SWARMER_MISSILE_1:0 "蜂群导弹"
  SWARMER_MISSILE_1_DESC:0 "这些小导弹可以集群发射，是专门针对敌人的点防系统设计的。"
  SWARMER_MISSILE_2:0 "旋风导弹"
  SWARMER_MISSILE_2_DESC:0 "新的微型化技术将使得我们可以在蜂群导弹上安装更加强力的弹头，并提高飞行能力。"
+
  SCOURGE_MISSILE_1:0 "天灾导弹"
  SCOURGE_MISSILE_1_DESC:1 "天灾导弹的载荷是多种虫群用于星际战争的化合物的混合体，已被证明对最难对付的军舰也意外的有效。"
  SPACEPORT_SCOURGE_MISSILE:0 "站基天灾导弹"
@@ -6207,13 +6711,16 @@
  SWARM_STRIKE_CRAFT_1_DESC:1 "克隆的小型索林原虫样本能够被用于舰队内部通讯的波长所控制，这使得我们可以利用其作为舰队先锋。"
  AMOEBA_STRIKE_CRAFT_1:1 "变形虫鞭毛"
  AMOEBA_STRIKE_CRAFT_1_DESC:1 "培育在卵的鞭毛内的变形虫能够对船体磁场的微小变化作出反应，因而也可以作为舰队的一部分。"
+
  DRONE_STRIKE_CRAFT:0 "精密无人机"
+
  TORPEDO_1:0 "太空鱼雷"
  TORPEDO_1_DESC:0 "这些鱼雷其实都是速度缓慢的巨大导弹。它们装备了更加强大的弹头和护盾调制器，这使得它们可以安然穿过能量屏障。"
  TORPEDO_2:0 "装甲鱼雷"
  TORPEDO_2_DESC:0 "升级过后的太空鱼雷装备有装甲，可以更好地抵挡敌人点防御系统的火力。在鱼雷爆炸的时候，上面碎裂的装甲会造成额外的伤害。"
  TORPEDO_3:0 "蹂躏者鱼雷"
  TORPEDO_3_DESC:0 "装备有超强弹头的先进鱼雷。拥有更加光滑的设计，更快的引擎以及改良的护盾调解器，可以轻松穿过能量屏障。"
+
  MASS_DRIVER_1:0 "质量投射器"
  MASS_DRIVER_1_DESC:0 "此类电磁射弹器使用磁场将穿甲弹丸回旋加速到极高的速度。"
  MASS_DRIVER_2:0 "磁轨炮"
@@ -6224,28 +6731,34 @@
  MASS_DRIVER_4_DESC:0 "新型轨道炮，轨道更加稳固，能量供应更加充足。威力比之前的型号更大，准确度也更高。"
  MASS_DRIVER_5:0 "高斯炮"
  MASS_DRIVER_5_DESC:0 "磁轨炮的升级版，破坏力比最高级的轨道炮还要高。炮弹的准确度和速度都无与伦比。"
+
  SPACEPORT_MASS_DRIVER:0 "站基质量投射器"
  SPACEPORT_MASS_DRIVER_DESC:1 "搭载在空间站上的实弹加速投射炮，尽管设计陈旧，但威力不输于高级的舰载装备。"
+
  KINETIC_ARTILLERY_1:0 "动能火炮"
  KINETIC_ARTILLERY_1_DESC:0 "超长程火炮，能够在极远距离以高精度投射强力的炮弹。"
  KINETIC_ARTILLERY_2:0 "先进动能火炮"
  KINETIC_ARTILLERY_2_DESC:0 "更加强力的长程舰载加农炮，装备了新身管和升级后的火控计算机。"
+
  LARGE_MASS_ACCELERATOR_1:0 "兆级加农炮"
  LARGE_MASS_ACCELERATOR_2:0 "千兆级加农炮"
  MASS_ACCELERATOR_1:0 "兆级加农炮"
  MASS_ACCELERATOR_1_DESC:0 "一款无比庞大的质量加速炮，只能安装在轴基武器台上。"
  MASS_ACCELERATOR_2:0 "千兆级加农炮"
  MASS_ACCELERATOR_2_DESC:0 "更加强大的质量加速炮。"
+
  AUTOCANNON_1:0 "自动加农炮"
  AUTOCANNON_1_DESC:0 "大口径的弹道武器，能够发射成箱的高爆弹药。这些加农炮主要的优势就是他们的高开火频率。"
  AUTOCANNON_2:0 "撕裂加农炮"
  AUTOCANNON_2_DESC:0 "这些升级后的旋转加农炮具备更完善的追踪和火力控制系统，进一步增加了开火频率。"
  AUTOCANNON_3:0 "火风暴加农炮"
  AUTOCANNON_3_DESC:0 "先进的旋转式自动炮台，能够向目标发射出一团团的高爆穿甲弹。"
+
  FLAK_BATTERY_1:0 "高射炮"
  FLAK_BATTERY_1_DESC:2 "在近距离发射区域效应榴霰弹的火炮。对敌方舰载机极其致命，但只能对大型船只造成伤害。"
  FLAK_BATTERY_2:0 "先进高射炮"
  FLAK_BATTERY_2_DESC:1 "使用新型强力榴霰弹的升级高射炮。对舰载机和导弹提供卓越防御。"
+
  EMPTY_DRIVE:0 "无超光速引擎"
  EMPTY_DRIVE_DESC:1 "没有超光速引擎的舰船不能离开建造它们的星系。"
  WARP_DRIVE_1:0 "曲率引擎 I"
@@ -6266,18 +6779,25 @@
  PSI_JUMP_DRIVE_1:0 "灵能跃迁引擎"
  PSI_JUMP_DRIVE_1_DESC:1 "灵能跃迁引擎利用船员的潜在灵能打断时空的连续性，消除目的地与出发地之间的距离。"
  WORMHOLE_DRIVE_DESC:0 "装备有虫洞调谐器的舰船能够利用虫洞产生器产生的传送门实现恒星间旅行。"
+
  ftl_components:0 "超光速组件"
  ftl_components_DESC:0 "任何在恒星系间穿梭的飞船都需要装备有类似超光速元件的组件。"
+
  ship_sensor_components:0 "传感器"
  ship_sensor_components_DESC:0 "传感器能够显现出任何出于其范围内的舰队或星系的具体细节。"
+
  thruster_components:0 "推进器"
  thruster_components_DESC:0 "推进是用于一切亚光速的航行，是所有船只的必备部分。"
+
  combat_computers:0 "作战电脑"
  combat_computers_DESC:0 "所有军事船只上都安装有用于战斗的电脑，会自动进行瞄准运算、规避性驾驶以及伤害控制。"
+
  border_extruders:0 "边界信标"
  border_extruders_DESC:0 "边界信标类似于一个浮标，能够在深空中投射和绘制国界线。"
+
  ship_aura_components:0 "力场发射器"
  ship_aura_components_DESC:1 "立场发射器能够映射并维持一个区域力场，能够对我方或敌方舰船产生不同的效果。"
+
  FISSION_REACTOR:0 "裂变反应堆"
  FISSION_REACTOR_DESC:0 "裂变反应堆能够产生大量能量，但是它也会产生有害的核废料。"
  FUSION_REACTOR:0 "聚变反应堆"
@@ -6288,6 +6808,7 @@
  ZERO_POINT_REACTOR_DESC:0 "这些发动机能够吸收真空零点能，几乎能够无限供应能量。没有比这更有效率的发电方式了。"
  ANTIMATTER_REACTOR:0 "反物质反应堆"
  ANTIMATTER_REACTOR_DESC:0 "我们利用正反物质湮灭所产生的能量，产生的能量远远多于核聚变所产生的能量。"
+
  SCIENCE_LAB_1:0 "科学实验室"
  MEDIUM_SCIENCE_LAB_1_DESC:0 "船上的实验室能够进行一些最基本的研究任务，或者进行一些对星体的研究。"
  CURATOR_EXPLORER_LAB:0 "$tech_curator_lab$"
@@ -6336,6 +6857,7 @@
  AUTO_REPAIR_DESC:0 "船体内部结构能够记忆船身的完整设计，当检测到船身完整度受损时，它们就会开始进行维修。"
  PSI_SHIELD:0 "灵能护盾"
  PSI_SHIELD_DESC:0 "$tech_psionic_shield_desc$"
+
  ARMOR_1:0 "纳米装甲"
  ARMOR_1_DESC:0 "加强过的纳米装甲能够提供多一层的防护，有没有这一层防护，在战斗中可能就是生与死的区别。"
  ARMOR_2:0 "瓷金装甲"
@@ -6350,6 +6872,7 @@
  CRYSTAL_ARMOR_1_DESC:1 "晶状生命体中元素的聚合体构成了这个镀层的里表面，它能够保证船身的完整性。"
  CRYSTAL_ARMOR_2:0 "水晶锻造装甲"
  CRYSTAL_ARMOR_2_DESC:1 "完全由晶状生命体的锻造而来，因此更加坚硬耐用。"
+
  SHIP_THRUSTER_1:0 "化学推进器"
  SHIP_THRUSTER_1_DESC:0 "简单而有效的化学助推器依靠可燃物推动船只。"
  SHIP_THRUSTER_2:0 "离子推进器"
@@ -6358,6 +6881,7 @@
  SHIP_THRUSTER_3_DESC:0 "比电动推进器更要先进等离子推进器能够给使船只在亚光速的情况下拥有更快的速度和可控性。"
  SHIP_THRUSTER_4:0 "脉冲推进器"
  SHIP_THRUSTER_4_DESC:0 "这些机器先进的聚变推进器能够在亚光速的情况下给船只提供独一无二的操纵性和极快的速度。"
+
  AURA_EMPTY:0 "空槽"
  AURA_NANOBOT_CLOUD:0 "纳米机器人云"
  AURA_SHIELD_RECHARGER:0 "电容器阵列"
@@ -6366,6 +6890,7 @@
  AURA_STATION_SUBSPACE_SNARE:0 "亚空间陷阱"
  AURA_SHIP_SUBSPACE_SNARE:0 "$AURA_STATION_SUBSPACE_SNARE$"
  AURA_MINEFIELD_1:0 "感应地雷"
+
  SHIP_AURA_EMPTY:0 "$AURA_EMPTY$"
  SHIP_AURA_NANOBOT_CLOUD:1 "$ship_mounted$$AURA_NANOBOT_CLOUD$"
  SHIP_AURA_SHIELD_RECHARGER:1 "$ship_mounted$$AURA_SHIELD_RECHARGER$"
@@ -6373,6 +6898,7 @@
  SHIP_AURA_QUANTUM_DESTABILIZER:1 "$ship_mounted$$AURA_QUANTUM_DESTABILIZER$"
  SHIP_AURA_SUBSPACE_SNARE:1 "$ship_mounted$$AURA_SHIP_SUBSPACE_SNARE$"
  SHIP_AURA_MINEFIELD_1:1 "$ship_mounted$$AURA_MINEFIELD_1$"
+
  STATION_SMALL_AURA_EMPTY:0 "$AURA_EMPTY$"
  STATION_SMALL_AURA_NANOBOT_CLOUD:1 "$AURA_NANOBOT_CLOUD$-$military_station_small$"
  STATION_SMALL_AURA_SHIELD_RECHARGER:1 "$AURA_SHIELD_RECHARGER$-$military_station_small$"
@@ -6380,6 +6906,7 @@
  STATION_SMALL_AURA_QUANTUM_DESTABILIZER:1 "$AURA_QUANTUM_DESTABILIZER$-$military_station_small$"
  STATION_SMALL_AURA_SUBSPACE_SNARE:1 "$AURA_STATION_SUBSPACE_SNARE$-$military_station_small$"
  STATION_SMALL_AURA_MINEFIELD_1:1 "$AURA_MINEFIELD_1$-$military_station_small$"
+
  STATION_MEDIUM_AURA_EMPTY:0 "$AURA_EMPTY$"
  STATION_MEDIUM_AURA_NANOBOT_CLOUD:1 "$AURA_NANOBOT_CLOUD$-$military_station_medium$"
  STATION_MEDIUM_AURA_SHIELD_RECHARGER:1 "$AURA_SHIELD_RECHARGER$-$military_station_medium$"
@@ -6387,6 +6914,7 @@
  STATION_MEDIUM_AURA_QUANTUM_DESTABILIZER:1 "$AURA_QUANTUM_DESTABILIZER$-$military_station_medium$"
  STATION_MEDIUM_AURA_SUBSPACE_SNARE:1 "$AURA_STATION_SUBSPACE_SNARE$-$military_station_medium$"
  STATION_MEDIUM_AURA_MINEFIELD_1:1 "$AURA_MINEFIELD_1$-$military_station_medium$"
+
  STATION_LARGE_AURA_EMPTY:0 "$AURA_EMPTY$"
  STATION_LARGE_AURA_NANOBOT_CLOUD:1 "$AURA_NANOBOT_CLOUD$-$military_station_large$"
  STATION_LARGE_AURA_SHIELD_RECHARGER:1 "$AURA_SHIELD_RECHARGER$-$military_station_large$"
@@ -6394,6 +6922,7 @@
  STATION_LARGE_AURA_QUANTUM_DESTABILIZER:1 "$AURA_QUANTUM_DESTABILIZER$-$military_station_large$"
  STATION_LARGE_AURA_SUBSPACE_SNARE:1 "$AURA_STATION_SUBSPACE_SNARE$-$military_station_large$"
  STATION_LARGE_AURA_MINEFIELD_1:1 "$AURA_MINEFIELD_1$-$military_station_large$"
+
  SCOUT_HANGAR_1:0 "侦察机中队"
  SCOUT_HANGAR_1_DESC:1 "拥有最基本的攻击能力，在母舰附近的时候能够骚扰敌军的轰炸机和战斗机。"
  FIGHTERS_HANGAR_1:0 "初级战斗机中队"
@@ -6408,8 +6937,10 @@
  BOMBERS_HANGAR_2_DESC:1 "中级轰炸机能够对敌方军事船舰造成更多的伤害。"
  BOMBERS_HANGAR_3:0 "先进型轰炸机中队"
  BOMBERS_HANGAR_3_DESC:1 "高级轰炸机能够在行星间灵巧地航行，出乎意料地靠近敌方船只，进行狂轰滥炸。"
+
  SPACE_WHALE_WEAPON_1:0 "能量虹吸"
  SPACE_WHALE_WEAPON_1_DESC:2 "模拟了一个在缇杨凯研究发现的奇特的生物反应，能量虹吸使得目标敌人舰船中的能量介质活跃了起来。"
+
  SMALL_RED_LASER:0 "小型红激光"
  MEDIUM_RED_LASER:0 "中型红激光"
  LARGE_RED_LASER:0 "大型红激光"
@@ -6600,46 +7131,58 @@
  SMALL_ARMOR_5:0 "小型中子装甲"
  MEDIUM_ARMOR_5:0 "中型中子装甲"
  LARGE_ARMOR_5:0 "大型中子装甲"
+
  BORDER_EXTRUSION_VALUE:0 "边界投射：$VALUE|Y0$"
  BORDER_EXTRUDER_1:0 "初级边界信标"
  BORDER_EXTRUDER_2:0 "增进型边界信标"
  BORDER_EXTRUDER_3:0 "先进型边界信标"
  BORDER_EXTRUDER_ED:0 "锚点核心"
+
  COMBAT_COMPUTER_PRECOG:0 "预知接口"
  COMBAT_COMPUTER_PRECOG_DESC:1 "心电感应接口使船上的电脑在船员认知上感受到之前就预测出来他们的意图。"
  COMBAT_COMPUTER_AGGRESSIVE_BASIC:1 "进攻型战斗电脑（基础）"
+ #COMBAT_COMPUTER_AGGRESSIVE_BASIC_DESC:0 ""
  COMBAT_COMPUTER_DEFENSIVE_BASIC:1 "轰炸型战斗电脑（基础）"
  COMBAT_COMPUTER_AGGRESSIVE_ADVANCED:1 "进攻型战斗电脑（先进）"
+ #COMBAT_COMPUTER_AGGRESSIVE_ADVANCED_DESC:0 ""
  COMBAT_COMPUTER_DEFENSIVE_ADVANCED:1 "轰炸型战斗电脑（先进）"
+ #COMBAT_COMPUTER_DEFENSIVE_ADVANCED_DESC:0 ""
  COMBAT_COMPUTER_SENTIENT:1 "战斗电脑（感性）"
  COMBAT_COMPUTER_SENTIENT_DESC:1 "这是一种船上的人工智能，可以用于星际间的进攻。它本身对于死亡的恐惧可以最大化船员的生存率。"
  COMBAT_COMPUTER_DEFAULT:1 "战斗电脑（默认）"
+ #COMBAT_COMPUTER_DEFAULT_DESC:0 ""
+
  CORVETTE_COMBAT_COMPUTER_1:0 "基础作战电脑（护卫舰）"
  CORVETTE_COMBAT_COMPUTER_2:0 "中级作战电脑（护卫舰）"
  CORVETTE_COMBAT_COMPUTER_3:0 "先进作战电脑（护卫舰）"
  CORVETTE_COMBAT_COMPUTER_4:0 "感性作战电脑（护卫舰）"
  CORVETTE_COMBAT_COMPUTER_PRECOG:0 "预判接口（护卫舰）"
+
  DESTROYER_COMBAT_COMPUTER_1:0 "基础作战电脑（驱逐舰）"
  DESTROYER_COMBAT_COMPUTER_2:0 "中级作战电脑（驱逐舰）"
  DESTROYER_COMBAT_COMPUTER_3:0 "先进作战电脑（驱逐舰）"
  DESTROYER_COMBAT_COMPUTER_4:0 "感性作战电脑（驱逐舰）"
  DESTROYER_COMBAT_COMPUTER_PRECOG:0 "预判接口（驱逐舰）"
+
  CRUISER_COMBAT_COMPUTER_1:0 "基础作战电脑（巡洋舰）"
  CRUISER_COMBAT_COMPUTER_2:0 "中级作战电脑（巡洋舰）"
  CRUISER_COMBAT_COMPUTER_3:0 "先进作战电脑（巡洋舰）"
  CRUISER_COMBAT_COMPUTER_4:0 "感性作战电脑（巡洋舰）"
  CRUISER_COMBAT_COMPUTER_PRECOG:0 "预判接口（巡洋舰）"
+
  BATTLESHIP_COMBAT_COMPUTER_1:0 "基础作战电脑（战列舰）"
  BATTLESHIP_COMBAT_COMPUTER_2:0 "中级作战电脑（战列舰）"
  BATTLESHIP_COMBAT_COMPUTER_3:0 "先进作战电脑（战列舰）"
  BATTLESHIP_COMBAT_COMPUTER_4:0 "感性作战电脑(战列舰）"
  BATTLESHIP_COMBAT_COMPUTER_PRECOG:0 "预判接口（战列舰）"
+
  POINT_DEFENCE_1:0 "哨兵点防御"
  POINT_DEFENCE_1_DESC:1 "对于那些又大又笨重的军事船只来说，在船身上安装反导弹和反舰艇的装置是很有必要的。"
  POINT_DEFENCE_2:0 "屏障点防御"
  POINT_DEFENCE_2_DESC:1 "弹道预测算法能够提升追踪和点防御的效果。"
  POINT_DEFENCE_3:0 "守护者点防御"
  POINT_DEFENCE_3_DESC:1 "种类丰富的弹药能够显著提升拦截威胁的能力。"
+
  AGGRESSIVE_BEHAVIOR_DESC:0 "§H蜂群模式：§!这类船只会直接冲到敌军面前并尽可能的输出伤害。"
  DEFENSIVE_BEHAVIOR_DESC:2 "§H轰炸模式：§!这类船只会维持阵型并在远距离朝对方开火。"
  DEFAULT_BEHAVIOR_DESC:0 "§H中立模式：§!这类船只会在进攻和防守姿态之间采取一个平衡。"
@@ -6648,6 +7191,7 @@
  CRUISER_DEFAULT_BEHAVIOR_DESC:0 "$DEFAULT_BEHAVIOR_DESC$"
  DESTOYER_DEFAULT_BEHAVIOR_DESC:0 "$DEFAULT_BEHAVIOR_DESC$"
  CORVETTE_DEFAULT_BEHAVIOR_DESC:0 "$AGGRESSIVE_BEHAVIOR_DESC$"
+
  LARGE_SCOUT_HANGAR_1:0 "侦察机中队"
  LARGE_FIGHTERS_HANGAR_1:0 "初级战斗机"
  LARGE_FIGHTERS_HANGAR_2:0 "改良型战斗机中队"
@@ -6655,10 +7199,13 @@
  LARGE_BOMBERS_HANGAR_1:0 "初级轰炸机中队"
  LARGE_BOMBERS_HANGAR_2:0 "改良型轰炸机中队"
  LARGE_BOMBERS_HANGAR_3:0 "先进型轰炸机中队"
+
  STRIKE_CRAFT_COUNT:0 "舰载机:§Y$CURRENT|0$/$MAX$§!"
  TIP_STRIKE_CRAFT_COUNT:1 "单位:§Y$MAX|0$（$REGEN|2=$/ £resource_time ）§!"
  STRIKE_CRAFT_COMPONENT_TIP:0 "§T$COUNT$\n$CRAFT_STATS$§!"
+
  COMPONENT_CANT_BUILD_MISSING_TECH:0 "§R缺少必要的科技:$TECHS$§!"
+
  LARGE_SPACE_CLOUD_LIGHTNING:0 "大型闪电云"
  LARGE_SPACE_CLOUD_LIGHTNING_DESC:0 "$SPACE_CLOUD_WEAPON_1_DESC$"
  SMALL_SPACE_CLOUD_LIGHTNING:0 "小型闪电云"
@@ -6741,27 +7288,35 @@
  MEDIUM_ED_WEAPON_DESC:0 "$EXTRADIMENSIONAL_1_DESC$"
  SMALL_ED_WEAPON:1 "小型物质分解器"
  SMALL_ED_WEAPON_DESC:0 "$EXTRADIMENSIONAL_1_DESC$"
+
  DRAGON_ARMOR:0 "龙鳞装甲"
  DRAGON_ARMOR_DESC:0 "$tech_dragon_armor_desc$"
  SMALL_DRAGON_ARMOR:0 "小型龙鳞装甲"
  MEDIUM_DRAGON_ARMOR:0 "中型龙鳞装甲"
  LARGE_DRAGON_ARMOR:0 "大型龙鳞装甲"
+
  ENIGMATIC_POWER_CORE:0 "神秘能源核心"
  ENIGMATIC_POWER_CORE_DESC:0 "$tech_enigmatic_power_core_desc$"
  SMALL_ENIGMATIC_POWER_CORE:0 "小型$ENIGMATIC_POWER_CORE$"
  MEDIUM_ENIGMATIC_POWER_CORE:0 "中型$ENIGMATIC_POWER_CORE$"
  LARGE_ENIGMATIC_POWER_CORE:0 "大型$ENIGMATIC_POWER_CORE$"
+
  ENIGMATIC_SHIELD:0 "神秘偏射盾"
  ENIGMATIC_SHIELD_DESC:0 "$tech_enigmatic_deflector_desc$"
  SMALL_ENIGMATIC_SHIELD:0 "小型$ENIGMATIC_SHIELD$"
  MEDIUM_ENIGMATIC_SHIELD:0 "中型$ENIGMATIC_SHIELD$"
  LARGE_ENIGMATIC_SHIELD:0 "大型$ENIGMATIC_SHIELD$"
+
  ENIGMATIC_DISRUPTION_FIELD:0 "神秘干扰场"
  ENIGMATIC_DISRUPTION_FIELD_DESC:0 "$tech_enigmatic_disruption_field_desc$"
+
  ENIGMATIC_DECODER:0 "神秘解码器"
  ENIGMATIC_DECODER_DESC:1 "$tech_enigmatic_decoder_desc$"
+
  ENIGMATIC_ENCODER:0 "神秘编码器"
  ENIGMATIC_ENCODER_DESC:1 "$tech_enigmatic_encoder_desc$"
+
+ #The player should never be able to see these, but incase a mod adds a dragon to the players fleet or something we can at least have some localization for it
  STRANGE_COMPONENTS:0 "奇怪的组件"
  STRANGE_COMPONENTS_DESC:0 "我们的科学家完全搞不懂这些东西的原理。"
  DRAGON_WEAPON:1 "巨龙之息"
@@ -6782,6 +7337,10 @@
  DIMENSIONAL_HORROR_SMALL_WEAPON_DESC:0 "$STRANGE_COMPONENTS_DESC$"
  DIMENSIONAL_HORROR_PD:0 "位面守卫"
  DIMENSIONAL_HORROR_PD_DESC:0 "$STRANGE_COMPONENTS_DESC$"
+
+ ####################################
+ # Star Classes
+ ####################################
  sc_b:0 "§HB型星§!"
  sc_b_desc:0 "§L巨大的B型主序星是明亮的蓝色。虽然比较稀少，这些恒星的光亮使其对肉眼来说很容易看见。§!"
  sc_a:0 "§HA型星§!"
@@ -6800,6 +7359,10 @@
  sc_neutron_star_desc:0 "§L大质量恒星快速坍缩并发生超新星爆炸有时会产生这些难以置信地致密的恒星残余。虽然它们常小到直径10千米之微，其质量仍是普通G型星的许多倍。§!"
  sc_pulsar:0 "§H脉冲星§!"
  sc_pulsar_desc:0 "§L脉冲星是高度磁化的中子星，发射电磁辐射束。当恒星旋转时，辐射束只能被它直接指向的观察者看到。这导致脉冲间隔非常精确，有时甚至能用于进行极端精度下的时间测量。§!"
+
+ ####################################
+ # Colonizability
+ ####################################
  COLONIZABLE:0 "可殖民"
  UNCOLONIZABLE:0 "不可殖民"
  COLONIZABLE_HAS_OWNER:0 "§R行星已有所属。§!"
@@ -6819,7 +7382,12 @@
  UNINHABITABLE_ASTEROID:0 "不宜居：\n小行星无法殖民。"
  NO_COLONY_SUBJECT:1 "作为$TYPE|H$我们只能在本国疆域内殖民。"
  CANT_BUILD_COLONY_SHIP_NO_DESIGN:0 "§R我们没有殖民船的设计图纸§!"
+
  COLONY_SHIP_DESC:0 "殖民船可送往可殖民行星以建立殖民地。"
+
+ ####################################
+ # Alerts
+ ####################################
  ALERT_RIGHTCLICK:0 "\n§G右键单击取消该警告\n£shift  + 右键单击禁用该警告§!"
  alert_set_war_demands_title:0 "缺少战争要求"
  alert_set_war_demands_instant:0 "我们处在战争中，但没有设定战争要求。"
@@ -6902,6 +7470,10 @@
  alert_unrest_title:0 "不满"
  alert_unrest_instant:0 "你的星球中至少有一个不满度过高！"
  alert_unrest_instruction:0 "§G点击以在行星间循环§!"
+
+ ####################################
+ # Demands
+ ####################################
  DEMAND_VASSALIZE:0 "使$FIRST|H$成为$SECOND|H$的附庸"
  DEMAND_VASSALIZE_TITLE:0 "§W附庸§!：\n$COUNTRY|H$"
  DEMAND_VASSALIZE_INFO:1 "附庸这个帝国，强迫他们在战争时加入我们这一边，并且可以禁止他们独自开始战争。如果他们有自己的附庸，那么那些附庸将被释放。"
@@ -6919,9 +7491,17 @@
  DEMAND_RELEASE_VASSAL_TITLE:0 "§G释放§!：$COUNTRY|H$"
  DEMAND_RELEASE_VASSAL_INFO:0 "打破附庸化并且释放这个国家，让其独立。"
  DEMAND_RELEASE_VASSAL_VASSALIZATION:0 "§R我们已经选择让这个国家成为另一个国家的附庸§!"
+
+ ####################################
+ # Democratic elections
+ ####################################
  sk_administration:0 "行政"
  sk_diplomacy:0 "外交"
  sk_military:0 "军事"
+
+ ####################################
+ # Ruler View
+ ####################################
  LEADER_VIEW_TITLE:0 "新的统治者"
  SKILL_VALUE:0 "技能：£leader_skill|$LEVEL$"
  EXPERIENCE:0 "经验：$LEVEL|Y$"
@@ -6933,10 +7513,18 @@
  LEADER_IMMORTAL:0 "不朽者，永远不会死于年老。"
  TRAID_IMMORTAL_LEADERS:0 "§G不朽§!"
  IMMORTAL:0 "不朽"
+
+ ####################################
+ # Leader Pool View
+ ####################################
  LEADER_POOL_VIEW_TITLE:0 "招募领袖"
  LEADER_POOL_COST:0 "花费"
  LEADER_POOL_COST_TOOLTIP:0 "花费"
  LEADER_POOL_COST_TOOLTIP_DESC:0 "招募花费可以通过研究某些科技来降低。"
+
+ ####################################
+ # Army View
+ ####################################
  ARMY_VIEW_LEADER:0 "领袖"
  ARMY_VIEW_TYPE:0 "类型"
  ARMY_VIEW_RANK:0 "等级"
@@ -6958,6 +7546,10 @@
  ARMY_ATTACHMENT_SLOT_LOCKED_DESC:0 "这个附件槽被锁定了，它将会在军队达到$RANK|H$级时解锁。"
  ARMY_ATTACHMENTS:1 "附件"
  ARMY_ATTACHMENTS_ATTACH:0 "添加一个附件"
+
+ ####################################
+ # Anomaly View
+ ####################################
  ANOMALY_VIEW_CLOSE:0 "现在离开"
  ANOMALY_LEVEL:0 "异常点等级"
  FAILURE_RISK:0 "失败几率"
@@ -6980,6 +7572,10 @@
  ANOMALY_FAILURE_RISK_DESC_DELAYED:0 "这个§H异常点§!有几率使研究出错，并产生负面影响。"
  ANOMALY_FAILURE_RISK_INCREASED:0 "§T因为§H科学家技能等级§!比§H异常点等级§!低，这个几率上升了$VAL|-%0$§!"
  ANOMALY_FAILURE_RISK_REDUCED:0 "§T因为§H科学家技能等级§!比§H异常点等级§!高，这个几率下降了$VAL|-%0$§!"
+
+ ####################################
+ # Edicts
+ ####################################
  EDICTS:0 "法案"
  DECISIONS:0 "政策"
  POLICIES:0 "政策"
@@ -6993,6 +7589,8 @@
  EMPIRE_EDICT_TOOLTIP:0 "§G点击查看全部可用的§!§H国家§!§G法案§!"
  ACTIVE_EDICT:0 "§G这个法案已经颁布§!"
  A_PLANET:0 "一个行星"
+
+#  Empire Edicts
  edict_propaganda:0 "政治宣传"
  edict_propaganda_desc:1 "这条法案规定大量信息播报的机制，保障正向、长期的信息传递。"
  edict_information_quarantine:0 "信息管制"
@@ -7013,6 +7611,9 @@
  edict_the_grand_fleet_desc:0 "这条法案会使超级舰队的荣耀高于一切。政治上会给予舰队大量的关注，以保证它强大的战斗力。"
  edict_share_the_burden:0 "分担负担"
  edict_share_the_burden_desc:1 "这条法案会鼓励契约工使用轮班制，会提升苦力们的生产力。"
+ # edict_share_the_burden_desc: "This Edict dictates that the various burdens of society should be given to those best suited to handle them. Manual labour is best left to those used to such tasks..."
+
+ # Planet Edicts
  edict_production_targets:0 "生产指标"
  edict_production_targets_desc:1 "这项法案是集中行政上的努力来重新调整和评估生产目标，进而推动矿物的产出。"
  edict_reeducation_campaign:0 "再教育活动"
@@ -7041,6 +7642,7 @@
  edict_legal_aliens_desc:0 "这项极端亲外主义法案启动一项大规模的公关活动，以邀请外星人来到这个灿烂而多元文化的天堂般的行星上生活。"
  edict_purity_laws:0 "净化法案"
  edict_purity_laws_desc:0 "通过严格的种族隔离措施，这项极端排外主义法案将保证我们的种族纯洁和帝国的凝聚力。"
+ ### Event-spawned Edicts
  edict_crystal_sonar:0 "水晶声纳"
  edict_crystal_sonar_desc:0 "允许我们去给我们的舰队订购运用一项特殊科技的，当遭遇晶状生命体时一下就能确定他们所在的星系的声纳。\n花费能量币：§R30§!"
  edict_droning_optimizations:0 "无人机最佳化"
@@ -7053,6 +7655,11 @@
  edict_drone_bounty_desc:0 "§L命令我们的舰队去从古代采矿无人机上收集能量块。§!\n每个被击败的舰队的能量币：§G50§!"
  edict_consecrated_worlds:0 "行星祝圣"
  edict_consecrated_worlds_desc:0 "这项法案规定这里成为神圣之所，它将在我们的传统信仰中成为圣地。不远万里前来的朝圣者将在它的神圣光环中欢欣鼓舞。"
+
+ ####################################
+ # Policies
+ ####################################
+
  POLICIES_LABEL:0 "这些是我们帝国目前的可用政策"
  CLICK_TO_ADD_POLICY:0 "§G点击以启用政策§!"
  CLICK_TO_REMOVE_POLICY:0 "§G点击以禁用政策§!"
@@ -7069,6 +7676,7 @@
  POLICY_SELECT_OPTION:0 "\n§G点击以选择政策选项§!"
  ALL_POPS_EMANCIPATED:0 "§E你的帝国里的所有人口将迎来解放§!"
  ALL_ROBOTS_DISASSEMBLED:0 "§E你的帝国里的所有机器人人口将被拆解§!"
+ 
  policy_pre_sentients:0 "未开化物种"
  policy_pre_sentients_desc:0 "我们可以决定是否容许未开化物种生活在我们的星球上。"
  pre_sentients_allow:0 "容忍未开化种族"
@@ -7088,6 +7696,7 @@
  core_worlds_citizens_only:0 "仅限公民"
  core_worlds_citizens_only_name:0 "仅限公民"
  core_worlds_citizens_only_desc:0 "我们的直辖星球是帝国的心脏。其它低等物种不允许在这里定居。\n\n§E没有完全公民权的人口将会从直辖星区迁离§!"
+ 
  policy_refugees:0 "难民"
  policy_refugees_desc:0 "我们可以决定是否应该接纳，或者避开这些逃离净化、强制迁徙或政治迫害的难民。"
  refugees_not_allowed:0 "拒绝难民"
@@ -7099,6 +7708,7 @@
  refugees_allowed:0 "欢迎难民"
  refugees_allowed_name:0 "$refugees_allowed$"
  refugees_allowed_desc:0 "这些逃离暴君的死亡与迫害之手的人应当被迎入我国国境。\n\n§E其它帝国的难民可能会来到我们的帝国§!"
+
  policy_slavery:0 "奴隶制"
  policy_slavery_desc:0 "被奴役的人口无法自主选举和移民，也不能加入除奴隶派系之外的派系。他们能有效提高矿产产量，但对于各类研究几乎毫无作用。"
  slavery_not_allowed:0 "禁止"
@@ -7116,6 +7726,7 @@
  slavery_allowed:0 "允许"
  slavery_allowed_name:0 "允许奴隶制"
  slavery_allowed_desc:0 "允许我们的帝国内存在蓄奴制。\n\n§E可以奴役人口§!"
+
  policy_slavery_procreation:1 "奴隶生育"
  policy_slavery_procreation_desc:0 "可以决定是否允许奴隶进行生育"
  slavery_procreation_allowed:0 "允许"
@@ -7124,6 +7735,7 @@
  slavery_procreation_not_allowed:0 "不允许"
  slavery_procreation_not_allowed_name:0 "禁止奴隶生育"
  slavery_procreation_not_allowed_desc:0 "不允许奴隶生育"
+
  policy_purge:0 "净化"
  policy_purge_desc:0 "被执行净化的人口不被允许工作并最终死亡，但是这一举动会激怒那些富有同情心的人。"
  purge_not_allowed:0 "禁止"
@@ -7138,6 +7750,7 @@
  purge_displacement_only:0 "仅限驱逐"
  purge_displacement_only_name:0 "$purge_displacement_only$"
  purge_displacement_only_desc:0 "满足那些有损于我们社会根基者并不是我们的职责。让他们在我们的国土外找到新的家园。\n\n§E可以驱逐人口§!"
+
  policy_orbital_bombardment:0 "轨道轰炸"
  policy_orbital_bombardment_desc:1 "轨道轰炸可以在没有星际部队的情况下对星星进行围攻。"
  orbital_bombardment_light:0 "轻度"
@@ -7152,6 +7765,8 @@
  orbital_bombardment_armageddon:0 "末日裁决"
  allow_orbital_bombardment_armageddon_name:0 "末日级轨道轰炸"
  orbital_bombardment_armageddon_desc:0 "允许我们使用全部的轨道军事力量进行轰炸，无须考虑行星上的生命。彻底的毁灭就是目标。\n\n§E轨道轰炸的上限级别为末日裁决§!"
+
+
  policy_interference:0 "土著干涉"
  policy_interference_desc:0 "通过研究有知觉的生命体以及他们的原住民社会，可以获取到很多知识。"
  interference_passive:0 "被动式研究"
@@ -7163,6 +7778,7 @@
  interference_full:0 "无限制研究"
  interference_full_name:0 "无限制原住民研究"
  interference_full_desc:0 "就算是最原始的生命体，也不过是星系冲突的另一个参与者而已。如果他们缺乏抵抗能力，又有什么权利掌控自己的命运呢？\n\n§E观测站可以进行所有形式的研究\n可以入侵原住民世界§!"
+
  policy_enlightenment:0 "土著启蒙"
  policy_enlightenment_desc:0 "我们可以向土著社会分享技术成果，为他们开拓出新的探索领域。"
  enlightenment_not_allowed:0 "禁止"
@@ -7171,6 +7787,7 @@
  enlightenment_allowed:0 "允许"
  enlightenment_allowed_name:0 "土著原住民启蒙"
  enlightenment_allowed_desc:0 "通过和原住民分享知识，我们可以积极鼓励原住民人在星系社区占有一席之地。\n\n§E原住民人可能会被启蒙§!"
+
  policy_migration:0 "移民"
  policy_migration_desc:0 "帝国内的一些人看着夜空中的群星，畅想着他们能在新世界建立怎样的生活。"
  migration_not_allowed:0 "禁止"
@@ -7182,6 +7799,7 @@
  migration_allowed_all:0 "自由移民"
  migration_allowed_all_name:0 "无限制移民"
  migration_allowed_all_desc:0 "所有居民都有去向往之地追求幸福的权利。\n\n§E所有人都能自由移民§!"
+
  policy_resettlement:0 "强制迁移"
  policy_resettlement_desc:0 "这项政策控制着是否能在行星之间强制移动人口。"
  resettlement_not_allowed:0 "禁止"
@@ -7190,6 +7808,7 @@
  resettlement_allowed:0 "允许"
  resettlement_allowed_name:0 "允许搬迁"
  resettlement_allowed_desc:1 "可以在行星之间强制移动人口"
+
  policy_voting_rights:0 "投票权"
  policy_voting_rights_desc:0 "选出统治者的方法有很多，在这里民主投票成为可能\n"
  voting_not_allowed:0 "无投票权"
@@ -7204,6 +7823,7 @@
  voting_allowed_all:0 "自由投票"
  voting_allowed_all_name:0 "全民普选"
  voting_allowed_all_desc:1 "帝国的统治始终代表着所有人民意志的体现，因此必须要全民参与选举。\n\n§E所有人都可以参加民主选举§!"
+
  policy_leadership:0 "领导权"
  policy_leadership_desc:0 "不是所有人都适合做领导，必须对什么样的人可以逐步晋升这个问题作出决定。"
  leadership_primary_only:0 "只限原生种族"
@@ -7219,6 +7839,7 @@
  leadership_allow_all:0 "允许全部"
  leadership_allow_all_name:0 "允许所有领导类型"
  leadership_allow_all_desc:0 "所有人才，不论是外星人还是合成人，都应该有谋求领导职位的权利。\n\n§E所有种族都可以产生领导§!"
+
  policy_leader_enhancement:0 "强化领袖"
  policy_leader_enhancement_desc:0 "作为帝国中的领导，身上背负着不堪忍受的重担，必须决定好什么样的未来领导能做好承担责任的准备。"
  leader_enhancement_natural_selection:0 "自然选择"
@@ -7230,6 +7851,7 @@
  leader_enhancement_capacity_boosters:0 "能力提升"
  leader_enhancement_capacity_boosters_name:0 "领导能力提升"
  leader_enhancement_capacity_boosters_desc:0 "不管要付出什么样的代价，我们都不放过任何机会。通过严格管理DNA银行以打造未来的领导者。\n\n§H启用后帝国获得：§!"
+
  policy_first_contact_protocol:0 "初接触协议"
  policy_first_contact_protocol_desc:0 "在行星之间游历的过程中很有可能遇到别的生命体，必须确定以怎样的态度接近他们。"
  first_contact_attack_not_allowed:0 "和平交涉"
@@ -7238,6 +7860,7 @@
  first_contact_attack_allowed:0 "敌意接触"
  first_contact_attack_allowed_name:0 "侵略型接触协议"
  first_contact_attack_allowed_desc:0 "未知的危险隐藏在群星之中。为了生存下来必须毫不犹豫地出击。\n\n§E可以攻击中立实体§!"
+
  policy_artificial_intelligence_policy:0 "人工智能"
  policy_artificial_intelligence_policy_desc:0 "对自主意识的人工智能技术的展望，引发了诸多哲学和伦理上的问题。必须在这件事情上表明立场。"
  ai_outlawed:0 "非法"
@@ -7249,9 +7872,12 @@
  ai_full_rights:0 "公民权"
  ai_full_rights_name:0 "合成人公民权利"
  ai_full_rights_desc:1 "任何达到人工智能标准的自主意识机器都应该被视为独立的个体，享有和普通人一样的权利和义务。\n\n§E人造人无法被奴役和拆解§!"
+
  ai_accord_servitude_disallowed:2 "人工智能依据§R永久禁用§!§H非法§!以及§H奴役§!政策"
  ai_perfect_servants_rights_disallowed:2 "三大法则算法§R永久禁用§!了§H公民权§!政策"
+
  is_a_synthetic_empire:0 "是一个§Y合成人帝国§!"
+
  policy_war_philosophy:0 "战争理念"
  policy_war_philosophy_desc:0 "战争是错综复杂的，星际帝国之间的战争尤其如此。我们如何看待军事冲突是一个至关重要的对外议题。\n"
  unrestricted_wars:0 "无限制战争"
@@ -7263,6 +7889,7 @@
  no_wars:0 "防御战争"
  no_wars_name:0 "仅限防御战争"
  no_wars_desc:0 "武力是维护我国主权完整性的最后手段。\n\n§E侵略战争被彻底禁止，征服的战争理由仅能用来割让那些我们曾经拥有的星球。§!"
+
  policy_food_stockpiling:0 "食物储备"
  policy_food_stockpiling_desc:0 "为了恰当地制定一个星际帝国的扩张计划，我们必须要用以最能适应人口需求的方式来使用我们额外的食物。"
  food_stockpiling_1:0 "最低"
@@ -7274,6 +7901,8 @@
  food_stockpiling_3:0 "大量"
  food_stockpiling_3_name:0 "大量储备"
  food_stockpiling_3_desc:0 "我们不会知道灾祸和饥荒何时会降临。大量存储食物会让我们的人民在最糟的情况下也不会遭受饥馑之苦。"
+
+ 
  policy_war_economy:0 "战争经济"
  policy_war_economy_desc:0 "在孤注一掷的防卫战时期，我们可以大力发展工业和经济以从民用领域获取资产。这些政策的不利之处在于，赢得进攻战后将会受到相应的惩罚……"
  static_we:0 "静态"
@@ -7288,6 +7917,11 @@
  dynamic_we:0 "动态"
  dynamic_we_name:0 "动态战争经济"
  dynamic_we_desc:1 "使用动态战争经济将在防卫战落败时获得大额生产奖金，但在赢得进攻战时拥有相应的损失率。\n\n§H防卫战：§!\n军事生产率：§G+45%§!§R-100§!战争点数时\n\n§H进攻战：§!\n军事生产率：§R-45%§!§G100§!战争点数时"
+
+ ####################################
+ # Feature Flags
+ ####################################
+
  feature_alien_rulers:0 "外星元首"
  feature_alien_rulers_desc:0 "允许原生种族以外的种族个体成为国家元首候选人。"
  feature_hyperlanes:0 "超空间航道测绘"
@@ -7366,6 +8000,10 @@
  feature_robot_leaders_desc:0 "允许合成人人口成为领袖。"
  feature_cheaper_wardemands:0 "更低的战争需求花费"
  feature_cheaper_wardemands_desc:0 "战争需求分数降低§Y25%§!。"
+
+ ####################################
+ # Mission
+ ####################################
  MISSION_CIV_NAME:0 "$CIVILIZATION$ (§Y$AGE$§!)"
  mission_passive_observation:0 "消极观测"
  mission_passive_observation_desc:0 "保持安全距离，在当地人不知情的情况下对其进行研究，尽最大的努力避免文化污染。"
@@ -7396,8 +8034,13 @@
  mission_technological_enlightenment_9_desc:0 "目的是将本土文明迅速提升到太空时代。完成目标需要的时间取决于当前的技术水平。\n\n§E当启蒙完成，这项任务会把他们变为太空文明并成为我们的保护国。§!\n\n"
  mission_covert_infiltration:0 "秘密渗透"
  mission_covert_infiltration_desc:0 "经过特定基因改造的特工会混入原住民人群中并渗透其社会。他们会逐渐替换原住民世界的领袖并为我们吞并该行星做准备。\n\n这种复杂的手段只有对付工业文明社会时才值得使出。\n\n§E当渗透完成，这项任务将会吞并这个星球并给原住民巨大但短暂的幸福提升。§!\n\n"
+
  MISSION_HALTED:1 "§R任务暂停：§!缺少§Y$MISSING$§!"
  MISSION:0 "任务:"
+
+ ####################################
+ # Army Attachments
+ ####################################
  army_attachment_mobile_shield_generators:0 "移动护盾生成器"
  army_attachment_mobile_shield_generators_desc:0 "§L大型有轨载具的生成器会在战场上生成防护力场，使用时可以对炮击和轨道轰炸进行良好的防御。§!"
  army_attachment_personal_shields:0 "个人护盾单位"
@@ -7470,6 +8113,8 @@
  army_attachment_environmental_augmentations_desc:0 "§L进一步提升肺部以及免疫系统从而使基因武士可以在不利环境中仍然正常运行且不受损伤——短期内甚至可以在真空中运行。§!"
  army_attachment_cybernetic_replacements:0 "义体"
  army_attachment_cybernetic_replacements_desc:0 "§L战斗中损伤的器官与四肢均可以此替代，可让残废的战士在承受巨大伤害后仍然继续战斗。§!"
+
+ #### NAMELIST EMPIRE NAMES
  name_list_AI:0 "AI"
  name_list_ART1:0 "节肢类 1"
  name_list_ART1_desc:0 "§Y领袖：§!Vi-Ka， Bo-Gu\n§Y船只：§!Vul-Tra， Oth-For-Das\n§Y舰队：§!Tarkil-Vu Attack Swarm， Inilka-Pa Attack Swarm\n§Y殖民地：§!Vord-Ka-Torb， Sisk-In-Atab"
@@ -7524,6 +8169,7 @@
  name_list_ART3:0 "节肢类 3"
  name_list_ART3_desc:0 "§Y领袖：§!Xybber， Ibbac\n§Y船只：§!Hulkrab Muxi， Knak Betklox\n§Y舰队：§!1st Husk Squadron， 2nd Husk Squadron\n§Y殖民地：§!Pulklac Ovoc， Spectocax Laxtric"
  name_list_HIVE:0 "蜂群思维"
+
  rep1:0 "Slender Reptilian 01"
  rep2:0 "Slender Reptilian 02"
  rep3:0 "Slender Reptilian 03"
@@ -7629,6 +8275,10 @@
  human_male_05:0 "Humanoid Mammalian 10"
  male:0 "男性"
  female:0 "女性"
+
+ ####################################
+ # Chat
+ ####################################
  CHAT_CHANNEL_GENERAL:0 "公共"
  CHAT_SYSTEM:0 "星系"
  CHAT_ERROR_UNKNOWNSLASH:0 "未知指令，输入'/help' or '/？'以获得指令列表"
@@ -7662,6 +8312,10 @@
  MULTIPLAYER_LOBBY:0 "联机大厅"
  GAME_SETTINGS:0 "游戏设置"
  PLAYERS:0 "玩家"
+
+ ####################################
+ # Sector Types
+ ####################################
  st_balanced:0 "平衡焦点"
  st_balanced_desc:1 "此星域将食物、矿物、能量币、以及科研点的生产之间维持一个平衡。"
  st_industrial:0 "工业重点"
@@ -7672,6 +8326,11 @@
  st_financial_desc:0 "该星区会重点生产能量币。"
  st_agricultural:0 "农业重点"
  st_agricultural_desc:0 "该星区会重点生产食物。"
+
+ ####################################
+ # Start Screen Parts
+ ####################################
+
  START_SCREEN_PART_ONE_OCEAN:0 "最早的原始[GetSpeciesName]族群在[GetHomeWorldName]的群岛和泻湖逐渐繁衍生息。亿万年以来，我们的文明在不断的挫折和磨难中扩展繁荣。"
  START_SCREEN_PART_ONE_TROPICAL:0 "最早的原始[GetSpeciesName]族群在[GetHomeWorldName]的稠密的丛林中逐渐繁衍生息。亿万年以来，我们的文明在不断的挫折和磨难中扩展繁荣。"
  START_SCREEN_PART_ONE_DESERT:0 "最早的原始[GetSpeciesName]族群在[GetHomeWorldName]的沙海的边缘上逐渐繁衍生息。亿万年以来，我们的文明在不断的挫折和磨难中扩展繁荣。"
@@ -7710,6 +8369,12 @@
  START_SCREEN_PART_THREE_WORMHOLES:0 "现在，随着人造亚空间虫洞的成功建造，[GetName]中最优秀的头脑们在星系边缘建立了第一个虫洞站。 这一天，我们终于向银河系的星辰大海迈出了第一步！"
  START_SCREEN_UNE:0 "现代人类约20万年前在非洲形成以来发生了许多事。我们的物种迅速扩散到全球并形成了最早的文明。\n\n科技快速发展，虽然并非毫无代价。在原子被驯服之前，战争已常常夺取数百万计的生命，而动荡的21世纪见证了联合国在维护稳定的努力中的不断扩展。22世纪早期，这个超国家组织成为了实质性的世界政府。\n\n虽然一些人仍然对联合国的掌权存有怨恨，正如88年毛里塔尼亚警方行动中显示出的那样，很少有人能质疑它资助下的研究项目中的技术突破。随着第一批真正星舰的完工，人类即将踏进太空探索的新时代！"
  START_SCREEN_CM:0 "自从伟大的方舟菊号从遥远的地球搭载我们的25万祖先来到我们今日称之为[GetHomeWorldName]的花园世界已有一个多世纪。经过漫长而危险的旅程，殖民者因第一次看到日出——虽然来自异星——而欢欣鼓舞。\n\n最初的年月何其艰难。人们组成民兵来对抗新家园中危险的野生动物，比想象中更加艰难地培育作物。但每一次经受挑战，我们都更加强大。\n\n新世界一旦驯服，我们的人口成倍增长。最近几十年，技术取得了跨越，我们现在终于做好了冲向宇宙、征服我们所来自的星空的准备！"
+
+
+ ###################################
+ # Attitudes
+ ####################################
+
  attitude_friendly:1 "§G友好§!"
  attitude_hostile:1 "§R抱有敌意§!"
  attitude_domineering:1 "§R盛气凌人§!"
@@ -7732,6 +8397,7 @@
  attitude_imperious:1 "§R飞扬跋扈的§!"
  attitude_belligerent:1 "§R好战的§!"
  attitude_custodial:1 "§G监护§!"
+
  attitude_null_desc:1 "这个帝国并未对我们形成任何看法。"
  attitude_friendly_desc:1 "这个帝国视我们为朋友并乐意与我们组成联盟。"
  attitude_cordial_desc:0 "这个帝国乐于与我们和平共存并进行贸易。"
@@ -7754,10 +8420,16 @@
  attitude_imperious_desc:0 "飞扬跋扈的复兴帝国将我们视为即将臣服的子民，我们只有放弃独立与自由才能逃过灭亡的命运。"
  attitude_belligerent_desc:0 "好战的觉醒帝国将我们视为它即将征服的目标，我们得在被入侵前先做好准备。"
  attitude_custodial_desc:0 "复兴的先祖帝国认为自己有义务保护我们，帮助我们面对目前威胁整个河系的危机。他们可能会试图跟我们结盟。"
+
  ATTITUDE:0 "$ATTITUDE$态度"
  ATTITUDE_US:0 "对我们的态度"
  ATTITUDE_ALLIANCE:0 "对联盟的态度"
  PERSONALITY_TRADE_EFFECT:1 "他们愿意贸易的基值是§Y$VALUE$%§!因为他们是$PERSONALITY|Y$特质。"
+
+ ###################################
+ # Personalities
+ ####################################
+
  personality_type_honorbound:0 "荣誉至上"
  personality_type_capitalist:0 "资本家"
  personality_type_hegemon:0 "霸主"
@@ -7767,6 +8439,7 @@
  personality_type_propagator:0 "传播者"
  personality_type_purifier:0 "净化者"
  personality_type_explorer:0 "探索者"
+
  personality_type_conqueror:0 "征服者"
  personality_type_subjugator:0 "四海臣服"
  personality_type_liberator:0 "解放者"
@@ -7778,6 +8451,7 @@
  personality_type_robot_exploiter:0 "开拓者"
  personality_type_robot_liberator:0 "机械解放者"
  personality_type_migrator:0 "移民家"
+
  personality_metalhead:0 "金属脑袋"
  personality_null:0 "卑鄙的中立"
  personality_honorbound_warriors:0 "荣誉战士"
@@ -7797,6 +8471,7 @@
  personality_spiritual_seekers:0 "灵体探求者"
  personality_harmonious_hierarchy:1 "和谐的集体主义者"
  personality_fanatic_befrienders:0 "激进的示好者"
+
  personality_fallen_empire_spiritualist:0 "圣地守护者"
  personality_fallen_empire_materialist:0 "知识管理者"
  personality_fallen_empire_xenophobe:0 "军事孤立者"
@@ -7805,6 +8480,7 @@
  personality_awakened_fallen_empire_materialist:0 "警觉调整者"
  personality_awakened_fallen_empire_xenophobe:0 "沙文复兴者"
  personality_awakened_fallen_empire_xenophile:0 "温和干涉者"
+
  personality_fallen_empire_spiritualist_desc:0 "这个失落帝国致力于保护它的圣地。殖民一个他们认为是圣地的星系将会引起它的愤怒。"
  personality_fallen_empire_materialist_desc:3 "这个失落帝国致力于收录知识和技术。为了达成目的他们可能会向年轻的种族发布任务或者索取贡品。"
  personality_fallen_empire_xenophobe_desc:0 "这个失落帝国致力于保护它的边界或者反击入侵者。在他们边界附近的星系殖民将会引起它的愤怒。"
@@ -7813,6 +8489,8 @@
  personality_awakened_fallen_empire_materialist_desc:1 "这类复兴帝国拥有高于任何文明的科技水平，它很可能通过战争夺取其他国家的自主研发权。"
  personality_awakened_fallen_empire_xenophobe_desc:0 "这类复兴帝国准备着手收复它曾经宏伟的版图，它会将任何不愿意接受它统治的国家碾作尘土。"
  personality_awakened_fallen_empire_xenophile_desc:0 "这类复兴帝国试图将少数民族纳入它的保护之下，不过它坚决不姑息任何不接受‘和平条约’的国家。"
+
+
  personality_null_desc:0 "什么会令一个种族变​​得中立...对于金钱的欲望？力量？或者他们自出生的那刻就是中立的？\n\n§R这样一个特质并不应出现在游戏中§!"
  personality_fanatic_befrienders_desc:0 "激进的示好者是外表友好但内心孤独的个体，他们会采取任何必要的手段与其他帝国交好。"
  personality_metalhead_desc:0 "金属"
@@ -7832,6 +8510,10 @@
  personality_erudite_explorers_desc:0 "博学的探险家重视探索和发现高于一切。他们很乐意利用贸易来获得他们想要的知识，但也不排除必要时利用武力来获得他们想要的。"
  personality_spiritual_seekers_desc:0 "灵体探求者相信众生均由一种高等力量所联系，并可以透过了解其造物来了解它。出于希望研究其他种族的与神明的联系，他们会与其他帝国寻求一些和平性质的合作。"
  personality_harmonious_hierarchy_desc:2 "和谐集体主义是一种威权主义社会，该社会中的公民完全自愿为国家献身。他们倾向于不和其他文明交往，但是也不排斥贸易。"
+
+ ####################################
+ # Budget Groups
+ ####################################
  budget_group_produced_energy:0 "产出"
  budget_group_metals:0 "稀有金属"
  budget_group_colonization:0 "殖民地消耗"
@@ -7855,9 +8537,17 @@
  budget_group_subject_tax:0 "附庸税"
  budget_group_country_modifier:0 "来自修正"
  budget_group_megastructure_maintenance:0 "巨型建筑维护费用"
+
+ ####################################
+ # AI
+ ####################################
  BASE_ARSENAL:0 "基地类型：军火库"
  BASE_GARRISON:0 "基地类型：兵营"
  AI_BASE_ASSIGNED:0 "指派给$LOCATION|Y$"
+
+ ###################
+ # Deposits
+ ###################
  d_mineral_deposit:0 "£minerals  +1\n"
  d_rich_mineral_deposit:0 "£minerals  +2\n"
  d_vast_mineral_deposit:0 "£minerals  +3\n"
@@ -7897,6 +8587,8 @@
  d_garanthium_deposit:0 "发现迦蓝矿\n   £minerals  +3\n"
  d_alien_pets_deposit:0 "发现外星宠物\n   £society  +4\n"
  d_betharian_deposit:0 "发现贝赛里安石\n   £minerals  +2\n"
+
+ ### Event Deposits
  d_enormous1_engineering_deposit:0 "£engineering  +6\n"
  d_enormous2_engineering_deposit:0 "£engineering  +8\n"
  d_enormous3_engineering_deposit:0 "£engineering  +10\n"
@@ -7910,12 +8602,15 @@
  d_enormous2_mineral_deposit:0 "£minerals  +8\n"
  d_enormous3_mineral_deposit:0 "£minerals  +10\n"
  d_worm_deposit:0 "£society  +20\n"
+
+ # Fleet Type From Ship Class
  fleet_type_shipclass_science:0 "科考"
  fleet_type_shipclass_science_ship:0 "科考"
  fleet_type_shipclass_military:0 "军事"
  fleet_type_shipclass_constructor:0 "建筑"
  fleet_type_shipclass_colonizer:0 "殖民地"
  fleet_type_shipclass_transport:0 "运输"
+
  fleet_type_shipclass_research_station:0 "科研空间站"
  fleet_type_shipclass_mining_station:0 "矿物空间站"
  fleet_type_shipclass_military_station:0 "军用空间站"
@@ -7924,6 +8619,8 @@
  fleet_type_shipclass_terraform_station:0 "地貌改造站"
  fleet_type_shipclass_observation_station:0 "观测站"
  fleet_type_shipclass_outpost_station:0 "边境哨站"
+
+ # Agendas
  AGENDA:0 "§E议程：§!$KEY|H$§!"
  agenda_defensive_focus:0 "保卫边境"
  agenda_naval_focus:0 "扩张舰队"
@@ -7941,18 +8638,26 @@
  agenda_skill_development:0 "技能发展"
  agenda_slave_optimization:0 "最优奴隶制"
  agenda_native_privilege:0 "土著特权"
+
+
+
+ # AI goals
  goal_colonialism:0 "目标 - 殖民"
  goal_federation:0 "目标 - 联邦"
  goal_alliance:0 "目标 - 同盟"
+
+ #Victory conditions
  VICTORY_CONDITION_DOMINATION_NAME:0 "殖民胜利"
  VICTORY_CONDITION_DOMINATION_DESC:1 "以占领§Y40%§!殖民星球的结果获得胜利"
  VICTORY_CONDITION_DOMINATION_PROGRESS_TIP:0 "出于$REQUIRED|Y$行星的要求我们占有了$OWNED|Y$"
  VICTORY_CONDITION_DOMINATION_END_SCREEN:1 "$WINNER|Y$以占领§Y40%§!宜居星球的优势获得胜利"
+
  VICTORY_CONDITION_FEDERATION_NAME:0 "联邦胜利"
  VICTORY_CONDITION_FEDERATION_DESC:1 "当你的联邦占领§Y60%§!适居星球便可获得胜利！ "
  VICTORY_CONDITION_FEDERATION_PROGRESS_TIP:0 "我们联盟拥有的$OWNED|Y$已经超出了$REQUIRED|Y$胜利条件的要求！"
  VICTORY_CONDITION_FEDERATION_END_SCREEN:1 "$WINNER|Y$的联邦占领了§Y60%§!的适居星球！为胜者欢呼！"
  VICTORY_CONDITION_FEDERATION_PROGRESS_TIP_NO_FEDERATION:0 "我们不在联邦之中！"
+
  VICTORY_CONDITION_CONQUEST_NAME:0 "征服胜利"
  VICTORY_CONDITION_CONQUEST_DESC:1 "成功征服所有帝国并以取得游戏胜利"
  VICTORY_CONDITION_CONQUEST_PROGRESS_TIP:1 "星系中仍有$NUM_INDEPENDENT|Y$个独立帝国得以存在"
@@ -7960,6 +8665,8 @@
  VICTORY_CONDITION_CONQUEST_PROGRESS_TIP_VOID:0 "星系中没有其他独立帝国了"
  VICTORY_CONDITION_CONQUEST_PROGRESS_TIP_NOT_INDEPENDENT:0 "我们不是独立!"
  VICTORY_CONDITION_CONQUEST_END_SCREEN:0 "整个星系全部落入了$WINNER|Y$的统治!"
+
+ #Gender Pronouns
  GDR_MAS_1ST:0 "他"
  GDR_FEM_1ST:0 "他"
  GDR_MAS_3RD:0 "他"
@@ -7968,6 +8675,8 @@
  GDR_FEM_POSS:0 "她的"
  GDR_MAS_REFL:0 "他自己"
  GDR_FEM_REFL:0 "她自己"
+
+ # War Demands
  war_demand_total_defeat_header:1 "§H全面胜利§!"
  war_demand_total_defeat_subtext:0 "[parameter:country.GetName]"
  war_demand_total_defeat_tooltip_header:0 "$war_demand_total_defeat_header$"
@@ -8121,22 +8830,30 @@
  war_demand_make_signatory_tooltip_content:0 "将[parameter:country.GetName]变成条约国。$SUBJECT_DESC_signatory$"
  war_demand_make_signatory_tooltip_proper_header:0 "$war_demand_make_signatory_tooltip_header$"
  war_demand_make_signatory_tooltip_proper_content:0 "将[parameter:country.GetName]变成[GetCountry.GetName]的条约国。$SUBJECT_DESC_signatory$"
+
+ #scaled mtth
  scaled_mtth_calc_planet_pop_count:0 "行星上的人口"
  scaled_mtth_calc_country_pop_count:0 "帝国的人口"
  scaled_mtth_calc_country_planets_in_country:1 "帝国的行星"
  scaled_mtth_calc_country_planet_distance_empire:0 "行星与帝国都城之间的距离"
  scaled_mtth_calc_pop_pop_happiness:0 "人口幸福度"
+
+ #component tags
  weapon_type_energy:0 "§Y能量§!"
  weapon_type_kinetic:0 "§Y动能§!"
  weapon_type_explosive:0 "§Y炸药§!"
  weapon_type_strike_craft:0 "§Y舰载机§!"
  weapon_type_point_defense:0 "§Y点防御§!"
  weapon_type_other:0 "§Y其他§!"
+
+ # ai component tags
  weapon_role_anti_armor:1 "§Y反装甲§!"
  weapon_role_anti_shield:1 "§Y反护盾§!"
  weapon_role_short_range:1 "§Y近程§!"
  weapon_role_long_range:1 "§Y远程§!"
  weapon_role_point_defense:1 "§Y点防御§!"
+
+# Combat Stats
  COMBAT_STAT_DAMAGE_TOTAL:1 "输出伤害总数"
  COMBAT_STAT_DAMAGE_KINETIC:1 "造成的动能伤害"
  COMBAT_STAT_DAMAGE_ENERGY:0 "造成的能量伤害"
@@ -8153,6 +8870,8 @@
  COMBAT_LOST:0 "战斗失败"
  HIT_RATIO_MISSED:0 "丢失：$MISSED|Y0%$"
  HIT_RATIO_EVADED:0 "被闪避：$EVADED|Y0%$"
+
+ # Subject Integration
  INTEGRATE_SUBJECT_INVALID_OVERLORD:0 "不是有效的宗主"
  INTEGRATE_SUBJECT_NOT_OVERLORD:0 "不是附属帝国"
  INTEGRATE_SUBJECT_INVALID_TYPE:1 "$TYPE$附庸无法被吞并"
@@ -8161,6 +8880,8 @@
  INTEGRATE_SUBJECT_MIN_TIME:0 "成为附庸的时间必须先达到$DAYS|Y$天($DATE$)"
  SUBJECT_INTEGRATION_COMPLETE_TITLE:0 "附庸合并完成"
  SUBJECT_INTEGRATION_COMPLETE_DESC:0 "附庸$SUBJECT|Y$已被成功合并进我们的帝国"
+ 
+# Subjects
  SUBJECT_vassal:0 "附庸"
  SUBJECT_DESC_vassal:0 "附庸臣服于他们的宗主。 他们只有有限的外交权， 必须和宗主并肩作战"
  SUBJECT_protectorate:0 "保护国"
@@ -8177,6 +8898,8 @@
  SUBJECT_satellite:0 "卫星国"
  SUBJECT_DESC_satellite:0 "卫星国虽然在外交上独立但是其每月将上贡§Y50%§!的能量币和矿物，同时它不能研发人工智能。"
  RELATIVE_TECH_TO_OVERLORD:0 "他们目前已经研发了宗主科技的§Y$RATIO|1$%§!。"
+
+# Game setup
  EDIT_SPECIES_PORTRAIT_TITLE:0 "外貌"
  EDIT_SPECIES_PORTRAIT_DESC:0 "TODO DESC"
  PLURAL:0 "复数形式"
@@ -8232,11 +8955,13 @@
  NAME_LIST_DESC:0 "TODO:姓名列表"
  SYSTEM_NAME:0 "星系名字"
  SELECT_SYSTEM_INITIALIZER_LABEL:0 "初始太阳系"
+ #RANDOM_SYSTEM_INITIALIZER_TIP: "§HRandom§!\n§LStart the game with a Randomized Solar System. Everything except the names of your Homeworld and the System's Star will be randomized."
  RANDOM_SYSTEM_INITIALIZER_TIP:0 "$random_system_initializer_DESC$"
  CUSTOM_SYSTEM_INITIALIZER_TIP:0 "$NAME|H$\n$DESC|L$"
  random_system_initializer_DESC:0 "随机化太阳系布局。\n\n$system_initializer_DESC$"
  system_initializer_DESC:0 "§L决定你的初始太阳系的布局，但不影响你的初始位置。§!"
  CHANGE_SYSTEM_INITIALZIER:0 "变更"
+
  sol_system_initializer_NAME:0 "太阳系"
  sol_system_initializer_DESC:0 "以地球所在的太阳系为模型的星系。\n\n$system_initializer_DESC$"
  deneb_system_NAME:0 "天津四星系"
@@ -8246,6 +8971,8 @@
  SELECT_EMPIRE:0 "选择帝国"
  RANDOMIZE_EMPIRE:0 "随机帝国"
  CREATE_NEW_EMPIRE:0 "新建帝国"
+
+ #game setup editor labels
  species_portrait:0 "$PORTRAIT$"
  species_name:0 "$SPECIES_NAME$"
  species_traits:0 "$TRAITS$"
@@ -8259,7 +8986,10 @@
  ship_weapons:0 "$STARTING_WEAPONS$"
  ship_ftl:0 "$FTL_LABEL$"
  ship_gfx_culture:0 "$SHIP_GRAPHICS$"
+
  REQUESTING_HOT_JOIN:1 "请求乱入"
+
+ # Naming new colony convention.
  NEW_COLONY_NAME_TITLE:0 "命名殖民地"
  NEW_COLONY_NAME_1:0 "$NAME$I"
  NEW_COLONY_NAME_2:0 "$NAME$II"
@@ -8271,7 +9001,10 @@
  NEW_COLONY_NAME_8:0 "$NAME$X"
  NEW_COLONY_NAME_9:0 "$NAME$XI"
  NEW_COLONY_NAME_10:0 "$NAME$XII"
+
+ # Sector settings
  SECTOR_SETTINGS:0 "星区设置"
+
  setting_purge:0 "净化"
  setting_enslave:0 "奴役"
  setting_military_station:0 "军用空间站"
@@ -8280,6 +9013,7 @@
  setting_tile_resources:0 "尊重地块资源"
  setting_redevelopment:0 "重建"
  setting_robotic:0 "建造机器人"
+
  setting_purge_desc:0 "允许净化人口。"
  setting_enslave_desc:0 "允许奴役人口。"
  setting_military_station_desc:0 "允许建设军用空间站。"
@@ -8288,6 +9022,8 @@
  setting_tile_resources_desc:0 "在建设中尊重地块资源。"
  setting_redevelopment_desc:0 "允许重建建筑。"
  setting_robotic_desc:0 "允许建造机器人。"
+
+ # expansion planner
  EXPANSION_PLANNER_COLONY_SHIP_SOURCE:0 "殖民来自"
  EXPANSION_PLANNER_COLONY_SHIP_TARGET:0 "适居行星"
  EXPANSION_PLANNER_IS_COLONIZABLE:0 "可殖民"
@@ -8310,6 +9046,7 @@
  EXPANSION_PLANNER_SORT_STATUS:0 "§H$SORT_BY$ $STATUS$§!"
  EXPANSION_PLANNER_FILTER_HABITABILITY_DESC:0 "§H最低适居性§!"
  EXPANSION_PLANNER_FILTER_SPECIES_DESC:0 "§H选定物种§!"
+
  EXPANSION_PLANNER_CANCEL_EXPANSION_ENTRY:1 "取消计划殖民地"
  EXPANSION_PLANNER_CANCEL_EXPANSION_ENTRY_DESC:0 "你确定要取消此计划殖民地吗？"
  EXPANSION_PLANNER_CANCEL_EXPANSION_ENTRY_TOOLTIP:0 "§G点击打开确认窗口。\n按住£ctrl同时点击以马上取消。§!"
@@ -8318,4 +9055,5 @@
  EXPANSION_PLANNER_SURFACE_VIEW:0 "殖民$TARGET_PLANET$"
  EXPANSION_PLANNER_ALREADY_HAD_EXPANSION_ENTRY:0 "§R该星球已经拥有一个计划殖民地。§!"
  EXPANSION_PLANNER_TARGET_UNREACHABLE:0 "§R殖民船没有可用路线以到达该行星。§!"
+ 
  SHIPS_NOT_UPGRADABLE:0 "§R事件舰船不可升级§!"

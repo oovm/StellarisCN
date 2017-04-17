@@ -1,4 +1,9 @@
 ﻿l_english:
+
+ ####################################
+ # Special Projects
+ ####################################
+
  hallucinogen_removal:0 "有害气体移除"
  hallucinogen_removal_DESC:1 "尝试移除我们在[Root.GetName]上的有毒大气。"
  impact_defence_system:0 "小行星防御系统"

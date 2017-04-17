@@ -1,4 +1,5 @@
 ﻿l_english:
+
  rock_brain:0 "脑石"
  rock_brain_desc:0 "这些石头看起来似乎是...具有思想的。嘛，这种事情可能吗？"
  cunning_flora:0 "狡猾的植物"
@@ -109,6 +110,10 @@
  swarm_border_desc:1 ""
  drone_processing:0 "无人机处理"
  drone_processing_desc:0 "我们从古代无人机中学习到的知识进一步提高了我们的矿物开采和精炼效率。"
+
+ ####################################
+ # Pop Modifiers
+ ####################################
  mandate_fulfilled_mod:0 "授案完成"
  mandate_fulfilled_mod_desc:0 "成诺兑现"
  tyrannized:0 "暴政"
@@ -123,6 +128,7 @@
  hunger_strike_desc:0 "这些人并不会摄取足够的营养来维持最佳生产力"
  peace_strike:0 "反战人士"
  peace_strike_desc:0 "这些人会用他们的一部分时间来抗议战争，这会导致生产力的降低"
+
  culture_shock_bronze_age:0 "异星文化冲击"
  culture_shock_bronze_age_desc:0 "这些人群至今还在适应在他们的新xeno overlords统治下的生活"
  culture_shock_stone_age:0 "$culture_shock_bronze_age$"
@@ -143,6 +149,10 @@
  culture_shock_atomic_age_desc:0 "$culture_shock_bronze_age_desc$"
  culture_shock_early_space_age:0 "$culture_shock_bronze_age$"
  culture_shock_early_space_age_desc:0 "$culture_shock_bronze_age_desc$"
+
+ ####################################
+ # Dynamic Modifiers
+ ####################################
  damage_vs_country_type_amoeba_mult:0 "对深空变形虫造成伤害"
  damage_vs_country_type_crystal_mult:0 "对晶状生命体造成伤害"
  damage_vs_country_type_drone_mult:0 "对古代采矿探机造成伤害"
@@ -155,7 +165,16 @@
  damage_vs_country_type_extradimensional_3_mult:0 "对暴徒的伤害"
  damage_vs_country_type_ai_empire_mult:0 "对AI叛军的伤害"
  damage_vs_country_type_sentinels_mult:0 "对哨兵的伤害"
+
+ ####################################
+ # Opinion Modifiers
+ ####################################
+
  opinion_literary_savior:0 "文学救世主"
  opinion_book_burner:0 "书籍焚化炉"
  opinion_faction_insult:0 "派系侮辱"
+
+ ####################################
+ # Pop Faction Modifiers
+ ####################################
  docile_slaves_unrest_modifier:0 "奴隶动乱"

@@ -1,4 +1,9 @@
 ﻿l_english:
+
+ ####################################
+ # Event Chains
+ ####################################
+ 
  test_chain_title:0 "[Root.GetName]之谜"
  test_chain_desc:0 "一些奇怪的事件已经被探知[Root.GetName]。"
  test_chain_2_title:0 "[Root.GetName]之谜"
@@ -66,6 +71,11 @@
  hunting_hyacinth_desc:0 "将我们祖先带到这个[Root.Capital.GetName]星系的风信子号是方舟母舰的姐妹船，自从从地球出发之后就与我们失去了联系，我们必须找到在她身上发生了什么。"
  nomads_observation_chain_title:0 "不寻常的宇航员"
  nomads_observation_chain_desc:1 "我们已经探测到，那些我们无法破解语言的外星人舰队已经驶入我们的国境线以内。由于我们无法翻译他们的语言，我们只能静观其变。"
+ 
+ ####################################
+ # Points of Interest
+ ####################################
+ 
  hijacked_cult_fleet_poi:0 "邪教分子舰队"
  hijacked_cult_fleet_poi_desc:0 "邪教信徒们已设法在[Root.Capital.GetName]上的一个秘密设施的建造飞船一支小型舰队。在被我们发现之后他们驾驶者船只逃向[hijacked_fleet_planet.GetName]。在它们造成更大的损伤之前必须将他们摧毁！"
  cultist_search_1_poi:1 "调查[cultists_1.GetName]"
@@ -116,10 +126,13 @@
  extradimensional_invasion_chain_2_desc:0 "异次元入侵者二号阵营在我们的星系里出现了，比起上一个并没有显得更温和。幸运的是，异次元的家伙们互相之间也有争斗。"
  extradimensional_invasion_chain_3_title:0 "暴徒"
  extradimensional_invasion_chain_3_desc:0 "三号异次元阵营已从另一个虫洞出现。尽管他们也打算毁灭我们星系之中的一切生命，他们似乎被卷入了从他们维度而来的他者之间的三方战争"
+
  precursor_activity:0 "先驱者活动迹象"
+ 
  new_precursor.1_poi:0 "先驱者活动报告"
  new_precursor.1_poi_desc:0 "这些坐标所在地蕴含上古文明的遗物或重要信息的可能性已经引起了我们的注意。"
  new_precursor_anomaly:0 "一个新的先驱者异常已在 §L[precursor_planet.GetName]§!上发现。"
+
  prethoryn_defeated:0 "虫群天灾已被击败"
  anchor_station:0 "维度锚"
  anchor_station_plural:0 "维度锚"
@@ -138,11 +151,13 @@
  extradimensional_kills_others_3:0 "§G暴徒已被他人消灭§!"
  extradimensional_victims_3:0 "§R被收割的舰船§!"
  extradimensional_planets_3:0 "§R被收割的星球§!"
+ 
  infested_worlds:0 "§Y腐化星球§!"
  infested_worlds_cleansed:0 "§Y腐化星球已被净化§!"
  prethoryn_kills_us:0 "§G虫群已被我们铲平§!"
  prethoryn_kills_others:0 "§G虫群已被他人消灭殆尽§!"
  prethoryn_victims:0 "§R被虫群侵蚀的舰船§!"
+ 
  refugees.1.name:0 "[Root.GetSpeciesName] Refugees Arrive"
  refugees.1.desc.1:0 "A flotilla of civilian transports carrying [Root.GetSpeciesName] refugees from the [RefugeeEscapedFrom.GetName] have arrived in our space. They have been allowed to settle on §H[Root.Planet.GetName]§!.\n\nThese unfortunate outcasts were forcefully expelled from their homes by the [RefugeeEscapedFrom.GetSpeciesName] authorities. They have been travelling from system to system since then, in a desperate attempt to find new homes before the last of their dwindling supplies were used up."
  refugees.1.desc.2:0 "A battered fleet of small civilian vessels carrying [Root.GetSpeciesNamePlural] fleeing from the [RefugeeEscapedFrom.GetName] have arrived in our space. After we supplied them with food and provided medical attention to their wounded, the refugees were allowed to settle on §H[Root.Planet.GetName]§!.\n\nThese ragged and frightened refugees are survivors from the extermination program being carried out by the [RefugeeEscapedFrom.GetSpeciesName] authorities against their species. They only made it out thanks to the efforts of a hastily organized underground railroad and a few sympathetic merchant skippers."

@@ -1,4 +1,7 @@
 ﻿l_english:
+ ####################################
+ # Triggers
+ ####################################
  TRIGGER_IS_IN_COMBAT:0 "战斗中"
  TRIGGER_IS_NOT_IN_COMBAT:0 "不在战斗中"
  HAS_OWNER:0 "被殖民"
@@ -508,6 +511,7 @@
  COUNT_SPECIES_TRIGGER:0 "种族数目（不包括亚种）按照标准$COMPARATOR$ $NUM|Y$"
  COUNT_EXACT_SPECIES_NOT_TRIGGER:0 "种族数目（包括亚种）按照标准未$COMPARATOR$ $NUM|Y$"
  COUNT_EXACT_SPECIES_TRIGGER:0 "种族数目（包括亚种）按照标准$COMPARATOR$ $NUM|Y$"
+ 
  HAS_NOT_NUM_COUNTRIES:0 "帝国数量不是 $COMPARATOR$ $NUM|Y$"
  HAS_NUM_COUNTRIES:0 "帝国数量是 $COMPARATOR$ $NUM|Y$"
  HAS_NOT_POP_PERCENTAGE:0 "人口数量不是 $COMPARATOR$ $NUM|Y%$"
@@ -516,12 +520,14 @@
  HAS_MIGRATION_TREATY:0 "同 $COUNTRY|Y$ 签署移民条约"
  HAS_PRESENCE:0 "有任意的舰队，空间站，巨型建筑或殖民行星"
  HAS_NO_PRESENCE:0 "没有任意的舰队，空间站，巨型建筑或殖民行星"
+ 
  HAS_MEGASTRUCTURE:0 "有$TYPE|Y$巨型建筑"
  HAS_NOT_MEGASTRUCTURE:0 "没有$TYPE|Y$巨型建筑"
  NUM_ASCENSION_PERKS_NOT_TRIGGER:0 "飞升天赋的数目未$COMPARATOR$ $NUM|Y$"
  NUM_ASCENSION_PERKS_TRIGGER:0 "飞升天赋的数目$COMPARATOR$ $NUM|Y$"
  NUM_ASCENSION_PERK_SLOTS_NOT_TRIGGER:0 "飞升天赋槽的数目未$COMPARATOR$ $NUM|Y$"
  NUM_ASCENSION_PERK_SLOTS_TRIGGER:0 "飞升天赋槽的数目$COMPARATOR$ $NUM|Y$"
+ 
  NUM_SECTORS_TRIGGER:0 "星区数目$COMPARATOR$ $NUM|Y$"
  NUM_SECTORS_NOT_TRIGGER:0 "星区数目未$COMPARATOR$ $NUM|Y$"
  NUM_RARE_TECHS_TRIGGER:0 "已研究稀有科技数目$COMPARATOR$ $NUM|Y$"
@@ -537,6 +543,7 @@
  IS_RESEARCHING_TRIGGER:0 "正在研究$AREA|Y$"
  IS_PREFERRED_WEAPONS_TRIGGER:0 "偏好$TYPE$武器。"
  IS_NOT_PREFERRED_WEAPONS_TRIGGER:0 "不偏好$TYPE$武器。"
+ 
  NUM_KILLED_SHIPS_NOT_TRIGGER:0 "没有消灭属于$TARGET|Y$的$OPERATOR$$VALUE|Y$艘船只"
  NUM_KILLED_SHIPS_TRIGGER:0 "消灭了属于$TARGET|Y$的$OPERATOR$$VALUE|Y$艘船只"
  NUM_TAKEN_PLANETS_NOT_TRIGGER:0 "没有从$TARGET|Y$获得$OPERATOR$$VALUE|Y$个行星"
@@ -663,6 +670,7 @@
  TRIGGER_RELATIVE_POWER_NOT:0 "相对力量不$COMPARE$ $VALUE$"
  NOR_TRIGGER_STARTS:0 "全都不符合"
  NAND_TRIGGER_STARTS:0 "至少一个不符合"
+
  HAS_FORMER_CITIZENSHIP_TYPE:0 "之前的民用船只类型为：$SPECIES_RIGHT|Y$"
  HAS_NOT_FORMER_CITIZENSHIP_TYPE:0 "之前的民用船只类型不为：$SPECIES_RIGHT|Y$"
  HAS_FORMER_LIVING_STANDARD_TYPE:0 "之前的生活标准的类型为：$SPECIES_RIGHT|Y$"
@@ -677,8 +685,14 @@
  HAS_NOT_FORMER_SLAVERY_TYPE:0 "之前的奴隶制类型不为$SPECIES_RIGHT|Y$"
  HAS_FORMER_PURGE_TYPE:0 "之前的净化类型为：$SPECIES_RIGHT|Y$"
  HAS_NOT_FORMER_PURGE_TYPE:0 "之前的净化类型不为：$SPECIES_RIGHT|Y$"
+ 
  TRIGGER_HAS_INVALID_CIVIC:0 "拥有无效的国是：$CIVIC|Y$"
  TRIGGER_HAS_VALID_CIVIC:0 "拥有有效的国是：$CIVIC|Y$"
+
+ ####################################
+ # Effects
+ ####################################
+
  SET_ASTEROID_BELT_EFFECT:0 "在距离$SYSTEM$ $DISTANCE|0$距离处设置小行星带"
  REMOVED_ASTEROID_BELT_EFFECT:0 "从$SYSTEM$移除小行星带"
  REMOVE_PLANET:0 "移除行星$PLANET$"
@@ -924,6 +938,7 @@
  effect_every_owned_pop:0 "所有人口：\n"
  CHANGE_LEADER_PORTRAIT_EFFECT:0 "领导人特质转变为$PORTRAIT|Y$"
  HAS_MODIFIER:0 "拥有$MODNAME|Y$修正"
+ 
  any_megastructure_trigger:0 "任何巨型建筑"
  effect_random_megastructure:0 "随机巨型建筑"
  effect_every_megastructure:0 "所有巨型建筑"
@@ -943,6 +958,7 @@
  TRIGGER_NOT_HAS_ASCENSION_PERK:0 "没有$TRADITION|Y$飞升天赋"
  TRIGGER_EXCESS_FOOD:0 "拥有$COMPARE$ $VAL0|0Y%$盈余食物"
  TRIGGER_NOT_EXCESS_FOOD:0 "没有$COMPARE$ $VAL0|0Y%$盈余食物"
+ 
  any_owned_pop_trigger:0 "任何拥有的人口"
  any_owned_pop_species_trigger:0 "任何帝国物种"
  any_country_trigger:0 "任何帝国"

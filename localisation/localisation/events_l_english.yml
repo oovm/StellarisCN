@@ -1,4 +1,5 @@
 ﻿l_english:
+
  OK:0 "好的。"
  EXCELLENT:0 "非常棒。"
  GOOD:0 "很好。"
@@ -38,6 +39,10 @@
  NODEAL:0 "没门。"
  TOOPOOR:0 "我们无法负担这个价格。"
  SCUM:0 "Xeno scum."
+
+ ####################################
+ # On-Action Events
+ ####################################
  action.1.name:0 "与§H[contact_empire.GetName]§!的第一次接触"
  action.1.message:0 "我们与§H[contact_empire.GetName]§!进行了第一次接触。"
  action.1.desc_01:0 "我带着[contact_empire.GetRulerTitle][contact_empire.GetRulerName]，[contact_empire.GetName]统治者暨全境守护者的问候而来。不要侵犯我们的领土亦不要干涉我们的内政，这样的话我们强大的舰队也许就不会造访你的母星。"
@@ -106,7 +111,10 @@
  action.1.b:0 "§E外星杂修。§!"
  action.1.c:1 "§E很高兴见到你们，[contact_speaker.GetSpeciesNamePlural]。§!"
  action.1.e:1 "§E我们只希望和平相处，[contact_speaker.GetSpeciesNamePlural]。§!"
+ #action.1.f:0 "We greet you as one, [contact_speaker.GetSpeciesNamePlural]."
+ #action.1.g:0 "Our superior collective greets you, [contact_speaker.GetSpeciesNamePlural]."
  action.1.h:1 "§E我们举国欢庆你们的到来，[contact_speaker.GetSpeciesNamePlural]。§!"
+ #action.1.i:1 "We pursue perfection - do not stand in our way."
  action.1.j:1 "§E全体士兵向你们[contact_speaker.GetSpeciesNamePlural]表示致敬。§!"
  action.1.k:0 "§E请尊重我们的主权，否则后果自负。§!"
  action.1.l:0 "§E愿和平常伴[contact_speaker.GetSpeciesNamePlural]。§!"
@@ -118,6 +126,7 @@
  action.1.aa:1 "§E你们的道德准则对我们而言毫无意义。§!"
  action.1.ab:1 "§E你们这群毫无操守的外星渣滓！§!"
  action.1.ac:0 "§E你们不值得我们的仁慈！§!"
+ #action.1.ad:0 "Your kind will not threaten our unity."
  action.1.ae:0 "§E自己滚，或者我们让你滚。§!"
  action.1.af:1 "§E请向你们以及你们古怪的家族表示问候。§!"
  action.1.ag:0 "§E我们可以合作共赢。§!"
@@ -131,6 +140,7 @@
  action.1.ao:0 "§E我们会为种族的延续而战斗，[contact_speaker.GetSpeciesName]。§!"
  action.1.ap:2 "§E[From.GetName]对你们没有恶意。§!"
  action.1.aq:0 "§E希望神灵指引你们达成目的。§!"
+ #action.1.ar:2 ""Who is [From.GetRulerName]?" This is [From.GetRulerName] speaking."
  action.1.as:0 "§E我们举国欢迎你们。§!"
  action.1.at:0 "§E我们会在战场上欢迎你们。§!"
  action.1.au:1 "§E神佑我军，百战不退。[contact_speaker.GetSpeciesNamePlural]。§!"
@@ -142,8 +152,10 @@
  action.1.aac:0 "§E我们都是虚空的一部分，弱者。§!"
  action.1.aad:0 "§E亵渎神灵必受狱火之焚烧，外星异教徒们。§!"
  action.1.aae:0 "§E你们终将会受到更大的利益。§!"
+
  action.4.name:0 "边境争端"
  action.4.message:0 "侵犯边境"
+
  action.4.desc_01:0 "§Y[From.From.GetName]§!明显侵犯了我国的§Y[From.From.From.GetName]§!领域，若再不撤离我国将采取强硬措施。"
  action.4.desc_02:0 "我们侦测到§Y[From.From.GetName]§!进入了我国的§Y[From.From.From.GetName]§!区域。贵国是准备立即撤离还是与我们全面开战？"
  action.4.desc_03:0 "你们的星图还没更新吧，老兄？现侦测到§Y[From.From.GetName]§!出现我国的§Y[From.From.From.GetName]§!领域内。即便不是很讨厌他们的存在，但还是要求你们最好撤离。"
@@ -159,6 +171,8 @@
  action.4.desc_13:0 "立刻把你们在§Y[From.From.From.GetName]§!的星舰撤离！"
  action.4.desc_14:0 "你们驶进§Y[From.From.From.GetName]§!的船只妨碍了我方的领域规划，请立即离开。"
  action.4.desc_15:0 "这是我们的领域。§Y[From.From.From.GetName]§!在这附近太过活跃了，他们必须撤出。"
+
+
  action.4.a.neutral.1.response:0 "很好。不要再次越过边境。"
  action.4.a.neutral.2.response:0 "所以请你离开我们的星系。"
  action.4.a.friendly.1.response:0 "感谢你及时处理这件事情。"
@@ -174,6 +188,7 @@
  action.4.a.fallen.empire.4.response:0 "通讯结束。"
  action.4.a.fallen.empire.5.response:0 "这个小麻烦已经解决。"
  action.4.a.fallen.empire.6.response:0 "这很合规矩。很好。"
+
  action.4.b.neutral.1.response:0 "[From.GetSpeciesName]将誓死保卫自己的星区直至最后一人！"
  action.4.b.neutral.2.response:0 "这正是我们所担心的。你将会后悔这个决定。"
  action.4.b.friendly.1.response:0 "我们居然曾经把你当做朋友..。"
@@ -189,8 +204,10 @@
  action.4.b.fallen.empire.4.response:0 "呵，根除一个潜在的隐患。"
  action.4.b.fallen.empire.5.response:0 "又一个障碍需要扫除！"
  action.4.b.fallen.empire.6.response:0 "一次考验! 这只是一次对于我们的考验! 最终，我们已无需再等。"
+
  action.4.a:0 "我们将立刻撤退。"
  action.4.b:0 "我们的军队想去哪就去哪! (宣战)"
+
  action.5.name:0 "已遭遇[primitive_civ.GetName]"
  action.5.desc_00:1 "我们在§Y[primitive_civ.Capital.GetStarName]§!星系里的§Y[primitive_civ.Capital.GetName]§!上发现了原始外星文明。我们的探测器显示他们已经到达新石器时代，并掌握了火和基本口语，但是我们还没有找到任何文字的迹象。\n\n我们应该在上空建立一个§Y观测站§!，以便进一步研究他们。"
  action.5.desc_01:1 "我们在§Y[primitive_civ.Capital.GetStarName]§!星系内的§Y[primitive_civ.Capital.GetName]§!检测到一个原始外星文明。他们看起来处于铜器时代晚期阶段，已经掌握早期金属加工技术。虽然他们的大部分人口在乡村，但已经形成了几个大型城邦。我们应当考虑在他们的世界上方建立一个§Y观察站§!以更近距离研究他们。"
@@ -202,7 +219,11 @@
  action.6.desc_02:1 "我们在§Y[primitive_civ.Capital.GetStarName]§!星系内的§Y[primitive_civ.Capital.GetName]§!检测到一个前太空外星文明。轨道观测到的大气污染物和光污染与人口密集的机器时代相符。他们看来掌握了航空技术，工厂在城市中大量制造货物。\n\n\n我们应当考虑在他们的世界上方建立一个§Y观测站§!以更近距离研究他们。"
  action.6.desc_03:1 "我们在§Y[primitive_civ.Capital.GetStarName]§!星系内的§Y[primitive_civ.Capital.GetName]§!检测到一个前太空外星文明。有证据表明他们已能驾驭原子能，在他们分为的众多民族国家中可能有很多核武器。突发自取灭亡事件的概率为高。\n\n我们应当考虑在他们的世界上方建立一个§Y观测站§!以更近距离研究他们。"
  action.6.desc_04:1 "我们在§Y[primitive_civ.Capital.GetStarName]§!星系内的§Y[primitive_civ.Capital.GetName]§!检测到一个外星文明.他们看来处于太空时代早期，有他们家园轨道上的众多原始卫星为证。他们的民族国家正在融为一个全球政府，他们探索自己世界之外、加入银河社会似乎只是时间问题。\n\n我们应当考虑在他们的世界上方建立一个§Y观测站§!以更近距离研究他们。"
+
  action.6.name:1 "遭遇海盗"
+ #action.6.desc: "We have sighted hostile ships in the [From.From.GetStarName] system! They are not responding to hails, and their designs are obviously not of [Root.GetSpeciesName] origin. It seems like they are mostly focused on looting our orbital stations, stripping them of valuable resources and technology while taking their crews captive."
+ #action.6.a: "Pirates. We don't need that scum."
+
  action.10.name:0 "在[From.From.From.GetName]遭遇"
  action.10.desc:0 "我们在[From.From.From.GetName]星系遭遇来源未知的船只！这些奇怪的船只已标为§Y[From.GetName]§!，直至我们对其进一步了解。\n\n我们应采取措施，以防他们是敌对的。"
  action.10.a:0 "有意思。"
@@ -229,6 +250,8 @@
  action.20.desc:0 "任何形态或形式的人工智能在全[Root.GetName]宣告为非法，官方已着手拆除所有违法的机器人单位。\n\n负责生产这些单位的机器人组装工厂也将重新部署用于组装更简易、无思维的机器人。"
  action.20.a:0 "好，我们必须摆脱这些恶心的玩意儿。"
  action.20.tooltip:0 "全部智能机器人和合成人种群已肃清。\n\n合成人和智能机器人组装工厂已转化为机器人组装厂。"
+
+ # End of War messages
  action.37.name:1 "战胜§H[From.GetName]§!！"
  action.37.message:1 "我们赢得了对§H[From.GetName]§!的战争！"
  action.37.desc.default:1 "战争结束了，我们承认战败。"
@@ -241,6 +264,7 @@
  action.39.message:1 "我们在与§H[From.GetName]§!的战争中达成了无条件和平"
  action.39.desc.default:1 "战争结束了。这一次没有胜利者。"
  action.39.a:1 "我们暂时接受这个。"
+
  action.37.desc.hw:1 "不管公正与否，你们的确击败了我们。胜者为王败者为寇。"
  action.37.desc.rc:2 "我们似乎低估了[Root.GetSpeciesNamePlural]的实力。不过放心，以后不会了。"
  action.37.desc.pt:1 "你们持续的威胁使得我们被迫让步。希望我们的企业今后不会再受这类事情的阻挠。"
@@ -262,6 +286,7 @@
  action.37.desc.mi:2 "无知的[Root.GetSpeciesNameInsult]-[Root.GetSpeciesSpawnNamePlural]！你们怎敢宣称战胜了我们？"
  action.37.desc.eo:1 "我们眼下决定退一步进行观望。不要让你们未来的行动为你们带来毁灭。"
  action.37.desc.mh:1 "金属。"
+
  action.38.desc.hw:2 "我们按照[From.GetSpeciesAdj]的传统光明正大地战胜了你们。制定条约是我们的特权与职责。"
  action.38.desc.rc:1 "你们讨价还价的本领很厉害，但最终还是我们技高一筹。不要认为资金雄厚的军队在无秩序的市场中无计可施。"
  action.38.desc.pt:1 "最后，我们可以不计前嫌。我么希望这次的冲突让你们明白了战争的代价。"
@@ -283,6 +308,7 @@
  action.38.desc.mi:2 "之前你们明白飞船不要离闪耀的恒星太近，现在你们明白了不要惹[From.GetName]。"
  action.38.desc.eo:2 "虽然挑选的过程花费了一些经历，但[Root.GetSpeciesAdj]的人口暂时不会在对银河的生态系统产生不良影响了。"
  action.38.desc.mh:1 "摧毁。"
+
  action.39.desc.hw:1 "一场没有胜者的战争悲惨又可耻，但有时无法避免。我们改日再战吧。"
  action.39.desc.rc:1 "我们同意结束这场冲突。无所失，亦无所获。"
  action.39.desc.pt:1 "国家恢复正常，和平的历史继续进展，这对我们各自都有好处。"
@@ -304,12 +330,17 @@
  action.39.desc.mi:1 "你们应该得到毁灭，但你们不值得我们浪费宝贵的时间。无条件的和平似乎不可避免。"
  action.39.desc.eo:1 "我们陷得太深了。就让我们当做什么都没发生过吧，同样也希望以后也永远不会发生。"
  action.39.desc.mh:1 "不真实。"
+
  action.41.name:0 "集结！"
  action.41.desc.a:0 "当你的舰队进入了新敌人的领土时，[From.GetName]被启动了。"
  action.41.desc.b:0 "[From.GetNumPlayerFleetsGoneMIA]的舰队失踪了。他们之后将在友方领土会合。"
  action.41.desc.b.1:0 "一支舰队失踪了。他们之后将在友方领土会合。"
  action.41.desc.c:0 "[From.GetNumPlayerWormholeStationsDestroyed]虫洞站被摧毁。"
  action.41.desc.c.1:0 "一个虫洞站被摧毁。"
+
+ ####################################
+ # Anomaly Categories
+ ####################################
  crashed_ship_asteroid_category:0 "坠毁的飞船"
  crashed_ship_asteroid_category_desc:0 "某架飞船坠毁在了这颗小行星的表面。飞行器的残骸仍能在撞击坑里找到。"
  origin_asteroid_category:0 "未知起源"
@@ -420,6 +451,7 @@
  cybrex_uninhabitable_category_desc:1 "在这块荒凉的石头上有古老先驱者文明活动的痕迹。"
  cybrex_habitable_category:1 "先驱者活动的痕迹"
  cybrex_habitable_category_desc:1 "在这个宜居世界有古老先驱者文明活动的痕迹。"
+
  VULTAUMAR:0 "沃塔穆尔"
  VULTAUMAR_DESC:0 "这里是沃塔姆文明的家园，它曾经见证过那些辉煌的日子。"
  YUHTAAN:0 "大亚特星"
@@ -430,6 +462,7 @@
  IRASSIA_DESC:0 "无论这个世界的生物圈里面生活着什么，现在一切都已经逝去了。"
  CYBREX:0 "塞伯勒克斯-环世界"
  CYBREX_DESC:0 "一个被完全摧毁的环世界——塞伯勒克斯文明的最后一站。"
+
  vultaum_1_cat:0 "$precursor_activity$"
  vultaum_2_cat:0 "$precursor_activity$"
  vultaum_3_cat:0 "$precursor_activity$"
@@ -486,6 +519,10 @@
  cybrex_9_cat:0 "$precursor_activity$"
  cybrex_10_cat:0 "$precursor_activity$"
  cybrex_11_cat:0 "$precursor_activity$"
+
+ ####################################
+ # Anomaly Events
+ ####################################
  anomaly.1.name:0 "粪化石小行星"
  anomaly.1.desc:0 "虽然这难以置信，但是所有证据表明小行星[From.GetName]是一个粪化石——被冰冻的一种巨大生物的排泄物。它看上去已经有十亿年了，而且化石中大部分有机物质已经转变成了无机矿物沉淀了下来，我们的科学家非常疑惑，究竟是什么样的生物才能产生如此巨大的排泄物。"
  anomaly.5.name:0 "海盗的财宝"
@@ -584,6 +621,7 @@
  anomaly.710.b:0 "让他们自生自灭。"
  anomaly.715.name:0 "殖民地遗迹"
  anomaly.715.desc:0 "[From.GetName]发现了一个由异星文明在17000年前建立的小型殖民地，但迹象表明建立不久就被放弃了。没有任何居民留下的痕迹，而且除了几个气象站，这个殖民地似乎也并没有太多发展。"
+
  anomaly.2500.name:0 "死者遗骸"
  anomaly.2500.desc:0 "气态巨行星[From.GetName]的衰减轨道上发现了一些大型太空生物的遗骸。这些缺乏感官的生物似乎已经具备了星际间航行的能力，但已知空间没有目击到它们的记录。科学官[Root.GetLeaderName]建议调配额外资源进行彻底的分析。"
  anomaly.2501.desc:0 "科学官[Root.GetLeaderName]推断[From.From.GetName]被当做星际墓地来使用的，许多外星物种都死在了那里。尸体则在重力的作用下经过数百万年的时间慢慢的被拉向气态巨行星。\n\n这种古老的循环在一千五百万年前最后一批生物到达后突然的中断了。我们只能推测可能是被其他的生物所猎杀，或者遇到了天灾。"
@@ -617,6 +655,7 @@
  anomaly.2570.desc:0 "环绕[From.GetName]的众多卫星之一有一个终端轨道。它即将与气态巨行星相撞，这无疑会造成极大的破坏。这将是数百万年一遇的奇观，更巧合的是，我们的一艘飞船将会在撞击前拜访那里。\n\n许多科学家都想亲临现场观测和记录这次事件，但我们时间有限。"
  anomaly.2571.desc:0 "我们成功的从不同角度记录了[CollisionLocation.GetName]和卫星相撞的奇观，并且对领地内的所有观众进行了现场直播。更重要的是，我们的科学家在[Root.GetLeaderName]的领导下记录了大量珍贵的物理数据，这对研究毫无疑问是有帮助的。"
  anomaly.2572.desc:0 "我们与[From.From.GetName]和卫星的撞击擦肩而过。科学家们又发现了一个轨道衰减的卫星，他们预计将会在760万年之后与气态巨行星相撞。可能那时候我们的运气会好一点……"
+
  anomaly.5000.name:0 "气态巨行星信号"
  anomaly.5000.desc:0 "[Root.GetName]从[From.GetName]检测到了一些有趣的读数。那颗气态巨行星的大气层中有高剂量的辐射，似乎是由密集的轨道轰炸引起的。至于他们想干什么则是个迷。\n\n就在[Root.GetName]准备离开轨道时，科学官[Root.GetLeaderName]从行星内部检测到了一个微弱的信号。或许是某种通讯信号，但行星的背景辐射太强，很难分辨清楚。"
  anomaly.5000.a:0 "我们应该调查这个信号。"
@@ -706,6 +745,7 @@
  anomaly.5026.name:0 "大扫除"
  anomaly.5026.desc:0 "你好，[Root.Owner.GetSpeciesNamePlural]！\n\n可以帮我们个忙吗？伯达拉克的强引力把各种垃圾拉进了我们的大气，最近我们决定要进行清理。有个清理组发现了一个废弃的飞行舱，你可以帮忙处理掉它吗？它里面似乎塞满了各种没用的金属。"
  anomaly.5026.a:0 "好的，我们会帮你处理掉……"
+
  henrik.16.name:0 "特殊项目测试"
  henrik.16.desc:0 "此事件将为[Root.GetName]带来特殊项目。"
  henrik.16.a:0 "很好！"
@@ -718,6 +758,10 @@
  henrik.22.desc:0 "我们被[From.GetName]的邪恶部队打败了！"
  henrik.145.desc:0 "我们是[Root.GetSpeciesNamePlural]。"
  henrik.166.desc:0 "事件目标是[test_target.GetName]"
+
+ ####################################
+ # Anomaly Failure Events
+ ####################################
  DISC_FAILURE:0 "失败"
  DISC_CRITICAL_FAILURE:0 "严重失败"
  anomaly_failure.1.desc:1 "科学家[Root.GetLeaderName]命令[Root.GetName]向[From.From.GetName]的弹坑发射了一枚探针。不幸的是，探针的爆燃推进器点火失败了，它炸成了数个碎片并继续坠毁在弹坑的中央。"
@@ -757,6 +801,7 @@
  anomaly_failure.35.desc:0 "在[From.From.GetName]上，First League活动的迹象最后被确定是假线索。科学家[Root.GetLeaderName]已经被要求与[Root.GetName]前往其他地方执行探索任务。"
  anomaly_failure.36.desc:0 "在[From.From.GetName]上，Irassian活动的迹象最后被确定是假线索。科学家[Root.GetLeaderName]已经被要求与[Root.GetName]前往其他地方执行探索任务。"
  anomaly_failure.37.desc:0 "在[From.From.GetName]上，Cybrex活动的迹象最后被确定是假线索。科学家[Root.GetLeaderName]已经被要求与[Root.GetName]前往其他地方执行探索任务。"
+
  anomaly_failure.400.desc:1 "由于未知的原因，一位民间科学家决定驾驶一架太空梭前往[Root.GetName]对小行星[From.From.GetName]进行私人调查。随后，这艘船很快就撞上了这个小行星的地表，并引发了一场大爆炸。\n\n晚些时候事故调查委员会宣布，这位科学家从未接受过D级太空梭的驾驶训练。"
  anomaly_failure.401.desc:0 "在机动前往[From.From.GetName]调查时，[Root.GetName]突然撞上了另外一颗小行星。舰船失去了控制，横冲直撞直到它坠毁在[From.From.GetName]的地表，深深的扎进小行星的地上。\n\n船上的科学家和其他船员确认全体失踪。"
  anomaly_failure.402.desc:0 "在机动前往[From.From.GetName]调查时，[Root.GetName]突然撞上了另外一颗小行星。舰船失去了控制，横冲直撞直到它坠毁在[From.From.GetName]的地表，深深的扎进小行星的地上。\n\n包括科学家在内，船上只有一小部分人幸存了下来。他们通过逃生舱从如同地狱一样的船内逃了出来。"
@@ -780,6 +825,11 @@
  mating_ground:0 "这些生物看起来躁动不安。"
  anomaly_failure.1405.desc:0 "在[From.From.GetName]的轨道上，我们发现了一个某场上古失落之后被废弃的无人战斗机小队。当[Root.GetName]主动传感器扫描它们时，这些无人机启动了并且开启了攻击模式！"
  combat_drones:0 "他们绝无善意！"
+
+
+ ####################################
+ # Colony Events
+ ####################################
  colony.1.name:0 "迁徙森林"
  colony.1.desc:0 "[Root.GetName]的表面被茂密的森林所覆盖，大量的树木拔入数百米高的空中。有趣的是，我们的殖民者发现几乎所有种类的植物都能够进行不同程度的移动。延伸数英里的森林将以一个与[Root.GetPlanetMoon]公转有关的周期，缓慢地迁徙到富含营养的新区域。\n\n不幸的是，这显然阻碍了我们发展殖民地基础设施的努力。移动的树木经常切断电线，并将我们的建筑和道路粉碎成废墟。"
  colony.1.a:0 "我们需要找到一个解决方案。"
@@ -978,6 +1028,11 @@
  colony.183.name:0 "小行星撞击了[Root.GetName]"
  colony.183.desc:0 "我们没能及时阻止这颗撞向[Root.GetName]的小行星。它最终还是撞上了[Root.GetPlanetMoon]，这次撞击造成了大范围的破坏并给予我们的民众极大的伤痛。数百万人因此丧命。"
  colony.183.a:0 "这真是黑暗的一天。"
+
+
+ ####################################
+ # Precursor Events
+ ####################################
  vultaum_artifact:0 "我们获得了一个沃塔姆文明的古代文物。"
  precursor.completed.name:0 "考古项目已完成"
  precursor.completed.a:0 "一个有趣的发现。"
@@ -1199,6 +1254,10 @@
  precursor.301.c.desc:0 "最近，当局在[Root.Capital.GetName]曝光了一个走私团伙，并已经将多人抓捕归案。为了争取宽大处理，其中一个走私头目给我们提供了一个[precursor_planet.GetPlanetMoon]的坐标，据称其中包含有先驱者文明的遗迹。"
  precursor.301.d.desc:0 "最近，我们几个地面部队的新兵蛋子进行了一次在[precursor_planet.GetName]表面的光环式的轨道空降，作为生存训练的一部分。当那些新兵再两个月后被接回来时，其中一个报告说他有几项发现，而这些发现表明了一个古代的先驱者文明曾在很久以前在这世上列席一座。"
  precursor.301.a:0 "我们应该调查此事。"
+
+ ####################################
+ # Tech Risk Events
+ ####################################
  techrisk.3.name:0 "[From.GetName]上的AI叛乱"
  techrisk.3.desc:0 "尽管我们有所堤防，[From.GetName]上一个研究站里的AI系统突破的编程限制，形成了一个团体。让我们科学家惊恐的是，这个新AI有完整的自我意识。\n\n试图控制这个AI的尝试失败了，而且刺激了AI采取暴力手段来保护自己。[From.GetPlanetMoon]上数十万个无人机不听我们的指挥，开始攻击我们的当地部队！"
  techrisk.3.a:0 "我们必须阻止他们！"
@@ -1210,6 +1269,10 @@
  techrisk.7.name:0 "[From.GetName]建造了舰队！"
  techrisk.7.desc:0 "我们从[From.Capital.GetName]附近处收到了情况险峻的报告。看来[From.GetName]灵活运用他们从[From.Capital.GetPlanetMoon]一方抢来的工厂，迅速组建了一只小型战舰舰队。"
  techrisk.7.a:0 "情况真是越来越糟了！"
+
+ #############################
+ # Primitive Alien Events
+ #############################
  acquired_tech_tooltip:0 "这个文明的科技发展节奏加快了。"
  primitive.1.name:0 "遭遇外星文明原型"
  primitive.1.desc:0 "对[From.GetName]的调查发现，[From.GetPlanetMoon]已成为一支原始外星原型文明的家园。我们的探测器显示他们他们的文明已进入新石器时代，掌握了用火的方法并初步创造了口语。但我们还未发现任何有关冶金或书面交流的迹象。"
@@ -1304,6 +1367,12 @@
  primitive.174.a.response:0 "好极了，那么这件事就算了结了。"
  primitive.174.b:0 "这是为了科学。没有什么补偿。"
  primitive.174.b.response:0 "那就这样吧。\n\n你会发现的，我们[From.GetSpeciesNamePlural]记性可是很好的，[Root.GetSpeciesName]！"
+
+
+ ####################################
+ # Observation Post Events
+ ####################################
+
  observation.2.name:0 "小行星接近[From.GetName]"
  observation.2.desc:0 "我们位于[From.GetName]轨道上的观测站中小型天体实验室侦测到一颗4级小行星的接近抛物线。若不采取行动，该小行星将与[From.GetPlanetMoon]北半球发生严重碰撞，冲击力足以造成灭绝等级的事件发生。\n\n我们被动观察的任务通常不考虑对观察对象进行干涉，但我方许多科学家认为在此等事件中应当破例。若不采取任何行动，无异于让[From.Owner.GetName]在[From.GetName]上彻底灭亡。"
  observation.2.a:0 "真是糟糕的处境啊。"
@@ -1316,6 +1385,7 @@
  observation.6.name:0 "小行星已被摧毁"
  observation.6.desc:0 "飞向[asteroid_prim_planet.GetName]的小行星在到达[asteroid_prim_planet.GetPlanetMoon]表面前即被摧毁。碎片在进入大气层时均已烧毁，无法造成实质性的损害。\n\n当地原住民欣赏到了一场极为壮观的流星雨。但除此之外，[asteroid_prim_planet.Owner.GetName]上的原始外星生物对自己与灭绝擦肩而过的事实一无所知……"
  observation.6.a:0 "他们永远也不会发现的……"
+
  observation.11.name:0 "科学家失踪"
  observation.11.desc:0 "我们在[From.GetName]轨道的观测站中由一名科学家失踪了。他曾被派往[From.GetPlanetMoon]表面执行收集植物样本的秘密任务，但却没有跟随队伍剩余成员一起返回飞行器。\n\n我们已开始了限定搜查，以免对当地原住民造成惊扰，但至今为止尚无发现。"
  observation.11.a:0 "继续搜索。"
@@ -1357,6 +1427,7 @@
  observation.29.desc:0 "阿门。我想我应该感激你，我在被精神病院关了这么多年之后，你又把我送回了我的弟子们身边……\n\n很好。我对过去既往不咎。只要你别动我的人，我能确保我们之间会相处的很愉快的。毕竟空间是足够的。"
  observation.29.a:0 "我们拭目以待吧。"
  observation.30.desc:0 "[From.From.GetName]对我们在高层轨道的空间站发射了一大堆地对空导弹！空间站已被摧毁，没有幸存者。\n\n看来[From.From.GetPlanetMoon]表面的原住民的科技领先很多–毫无疑问，这都是我们的游手好闲的科学家的功劳。我们不能把他们当做原始人了，现在也没借口减少队伍中的科学家了。\n"
+
  observation.36.name:0 "穿梭机在[From.GetName]坠毁"
  observation.36.desc:0 "在一次对[From.GetName]的秘密任务中，我方一艘飞行器被当地一国家的一队大气内战斗机拦截。一枚导弹偶然击中了飞行器引擎，使其熄火，飞行器于人迹罕至的荒野区域坠毁。\n\n要想赶在当地原住民之前救出幸存者，我们必须立刻行动。所有我们在此星球行动的证据都必须抹除！"
  observation.36.a:0 "时间就是生命。"
@@ -1379,6 +1450,7 @@
  observation.47.name:0 "人质遭处决"
  observation.47.desc:0 "我们在[From.From.GetName]被抓获的科学家被挂上了“外星怪物”的牌子游街示众后，在无数摄像头聚焦下以极为残酷的方式处决，随后在欢呼的人群面前以极为凶残的方式肢解了。"
  observation.47.a:0 "这群野蛮人！"
+
  observation.51.name:0 "走私犯哨站"
  observation.51.desc:0 "我们在[From.GetName]上空的哨站在[From.GetPlanetMoon]表面发现了非法居民。可能是某些[Root.GetSpeciesName]走私犯或者[Root.GetName]的犯罪分子设立的哨站。\n\n在走私犯们接触到原住民的敌方已经发生了一些案件—有一些是暴力事件。我们需要尽快行动，在犯罪分子有进一步动作之前消灭他们。\n"
  observation.51.a:0 "我们要把他们赶出那里。"
@@ -1389,6 +1461,7 @@
  observation.53.name:0 "走私犯的武器交易"
  observation.53.desc:1 "我们太迟了。[From.From.GetName]上的走私犯已经开始用现代化的武器和简陋的兴奋剂向当地原始人换取珍贵的金属和奴隶。\n一些当地国家之间爆发了战争，在战争中他们使用了新式武器使得伤亡情况变得非常惨重。此时此刻，文化污染带来的恶果已经无法被恢复了。"
  observation.53.a:0 "真是一场灾难。"
+
  observation.1001.name:0 "提议绑架"
  observation.1001.desc:0 "我们在[From.GetName]上的[From.Owner.GetSpeciesNamePlural]土著中找到了一个科学家，他很有前途。他杰出的研究成果远胜同辈，有一些成果用我们的标准来看，也是革命性的。\n\n虽然他的工作会让[From.Owner.GetSpeciesNamePlural]的科技更进一步，但是他的潜力在那样落后的文明中被浪费了。在我们先进的实验室中，他才有机会可以真正研究科学。\n"
  observation.1001.a:0 "策划绑架方案"
@@ -1431,6 +1504,7 @@
  observation.1033.desc:0 "我们注意到[From.GetName]上的[From.Owner.GetSpeciesNamePlural]发生了一个显著的变化。他们的社会开始偏向内向，他们不如以前那样能接受陌生人了。\n\n我们的主动观测计划以及遍及[From.GetPlanetMoon]的绑架可能和这有一些关系，这使得[From.Owner.GetSpeciesNamePlural]对陌生人更加警惕了。"
  observation.1035.desc:0 "[From.Owner.GetSpeciesNamePlural]土著们在我们开始侵略性的观测整个[From.GetName]上的族群时，发生了彻底的变化。\n\n他们对我们的绑架飞船的憎恨使得他们对任何陌生的东西都无比警惕，与此同时，他们族群内部的文化和种族关系变得比以前更为亲密了。"
  observation.1037.desc:0 "我们驻扎在[From.GetName]上空的观测站中的一些绑架小组用航天梭上的推进器在[From.GetPlanetMoon]上的土著[From.Owner.GetSpeciesNamePlural]的田地里搞了一些麦田圈，画了一些复杂的图案。\n\n因为这个恶作剧，机组成员被严厉训斥了一顿。但是那些麦田圈对土著居民居然产生了宗教意义，一个新的宗教成立了，它就和麦田圈有关，并且以惊人的速度在[From.Owner.GetSpeciesNamePlural]中传播开来。"
+
  observation.2000.name:0 "启蒙完成"
  observation.2000.desc:0 "我们派往[From.From.From.GetName]的成千上万的科学家和顾问终于完成了任务，让当地的土著文明水平进步到了太空时代。在他们新成立的政府之下，外星人现在成为了“[From.From.From.Owner.GetName]”并且他们同意成为我们的附庸。\n\n我们在他们家园上方的的观测哨站已经被拆除，这也是我们和他们之间条约的一部分。\n"
  observation.2000.a:0 "这是个伟大的日子。"
@@ -1458,6 +1532,8 @@
  observation.2057.desc:0 "我们启蒙[From.Owner.GetSpeciesNamePlural]并引导他们进步的计划遇到了挫折。我们派[From.GetName]的虔诚的顾问和科学家报告说，原住民没有信仰，这很让人忧虑。他们很乐意接受与我们的科技，但是不接受我们的信仰。\n\n这极大地阻碍了我们启蒙[From.Owner.GetSpeciesNamePlural]的任务。我们的计划又要延期了。"
  observation.2059.desc:1 "[From.GetName]上专制独裁的社会体系阻碍了我们推动[From.Owner.GetSpeciesNamePlural]科技进步的任务。独立思想和积极性–科学需要的品质–在[From.Owner.GetSpeciesNamePlural]身上很罕见。\n\n这种原始的威权主义妨碍了我们的任务–科学家报告说，教育他们会花费超过预期的时间。"
  observation.2061.desc:0 "[From.GetName]现在是乱世，我们的科学家在教育[From.Owner.GetSpeciesNamePlural]人时遇到了很大的困难。他们所谓的科学家时常随兴研究，从不理会公众利益。\n\n我们的启蒙运动还在继续，尽管原住民还有明显的平等主义倾向，但还是会花费超过预期的时间。"
+
+
  observation.3001.name:0 "[From.GetName]：第一阶段-渗透"
  observation.3001.desc:0 "我们的渗透小队已经来到了[From.GetName]，他们的身份信息正在编造。除了一些小事之外，他们的[From.Owner.GetSpeciesName]伪装是完美的。"
  observation.3002.desc:0 "我们的渗透小队已经抵达了[From.GetName]，但是他们的身份还是出了一些问题。发生了一些意外，几个渗透成员被揭发了外星人身份，迫使我们终结了所有的目击者。\n\n这也引发了[From.Owner.GetSpeciesName]当局的关注，这需要我们的行动隐蔽一些。很不幸，这会导致我们的计划延后一段时间。"
@@ -1501,6 +1577,7 @@
  observation.3114.name:1 "[From.From.GetName]：叛逃特工已消灭"
  observation.3114.desc:0 "[Root.GetName]的太空船长汇报了射击任务的成功实施，确认目标已被多次击中。虽然没有发现尸体，但开火区域中的目标是绝对无法存活如此密集的开火的。\n\n当地媒体似乎完全相信了我方潜入特工编造的虚假报道：突然发生的流星雨击中了人口众多的城区。无法避免的悲剧。"
  observation.3114.a:0 "的确是悲剧。"
+
  observation.3131.name:0 "[From.GetName]：局势升温"
  observation.3131.desc:0 "我方试图用专业替身替代[From.GetName]领袖的任务完全败露了。进行任务的特工们不是被追杀至死，就是依照规章制度，为了不被抓获而自杀了。\n\n本应被替身替代的领袖将这一切都归罪于与该国敌对的某政府身上。因此，[From.GetPlanetMoon]的政治局面渐渐变得紧张，战争似乎也要一触即发。我方潜入基地准备了全球性的政治宣传，希望能够缓和情势，但需要我们派遣科技船进入轨道进行协助。"
  observation.3131.a:0 "得在事态失控前尽快解决才行。"
@@ -1540,6 +1617,12 @@
  observation.3149.desc:0 "大部分[From.GetSpeciesAdj]位于[From.Capital.GetName]上的政权放弃了他们好战的本性。[From.Capital.GetPlanetMoon]迎来了一个和平新时代。"
  observation.3151.desc:0 "我们向[From.GetSpeciesNamePlural]展示了他们视野中从来不存在的神圣领域。他们终有了信仰，他们的社会终有了依靠。"
  observation.3153.desc:0 "我们在帮助[From.GetSpeciesNamePlural]摆脱阻碍他们社会进步的原始迷信与宗教信仰方面取得了巨大的进展。他们开始看到科学和理性的价值。"
+
+ 
+ ####################################
+ # Crisis Events
+ ####################################
+
  crisis.11.name:0 "亚空间回声"
  crisis.11.desc:0 "我方多个跟踪站收到来自星际空间某处的特异亚空间回声。收到的回声非常微弱但是正在逐渐增强，它们似乎在向我们的星系靠近..."
  crisis.11.a:0 "黑云压城城欲摧。"
@@ -1567,6 +1650,7 @@
  crisis.20.name:0 "第二波冲击"
  crisis.20.desc:0 "我们已经无法从星系的背景辐射中分辨出亚空间回声的主体，这只意味着一件事情...他们已经到来。\n\n如果以他们先锋的大小作为参考，那么这些入侵者的载体将是无比巨大的。"
  crisis.20.a:0 "他们来了..."
+
  crisis.30.desc_01:0 "§R贾拉克？§!"
  crisis.30.desc_02:0 "§R图罗斯科 米娜。多罗夫！§!"
  crisis.30.desc_03:0 "§R穆贾尼？哈克 哈克 哈克！§!"
@@ -1585,6 +1669,7 @@
  crisis.30.e.response:0 "§R居素伽马克 维'塔！拉赫 图尔，哈克 哈克！§!"
  crisis.30.f:0 "滚回地狱去吧，你这恶魔！"
  crisis.30.f.response:0 "§R哈克 哈克！尼玛 乌！！！§!"
+
  crisis.30.k.response:0 "§R它消失了。§!"
  crisis.30.g:0 "我们能和平相处吗？"
  crisis.30.g.response:0 "§R没有和平！我们很饿。\n\n只有当吞食完这个星系，我们才会离开去继续漫长的旅程。§!"
@@ -1594,6 +1679,7 @@
  crisis.30.i.response:0 "§R幸存者！！只剩下我们了！！！§!"
  crisis.30.j:0 "我们会吃干净你们的星系。"
  crisis.30.j.response:0 "§R我们以前也听过这样的话，哈！哈！哈！\n\n猎者将毁灭一切。你的威胁在那残酷的事实面前毫无意义。"
+
  crisis.51.name:0 "新组织"
  crisis.51.desc:0 "一个同索林原虫进行战斗的组织也在银河系浮出了水面。这个组织似乎主要由被放逐和受压迫的群体组成——难民、退役军人、以及其他在冲击中失去一切的人。\n\n尽管如此，他们拼凑出来的舰队仍旧设法在几场同索林猎杀虫群的战斗中取胜。有些未证实的报告称他们的舰队中有一些设计奇特的战舰..."
  crisis.51.a:0 "他们是什么人？"
@@ -1622,6 +1708,7 @@
  crisis.71.a.response:0 "太棒了。我们确信您勇敢的舰长们会为这些宏伟的军舰添加传奇的历史。你将在[Root.Capital.GetName]附近找到这支舰队。"
  crisis.71.b:0 "我们不需要你的战舰。"
  crisis.71.b.response:0 "我们理解。我们只要求你们继续战斗，我的朋友。每个被你们炸飞的恶心索林原虫都是我们整个银河系的胜利。"
+
  crisis.101.name:0 "受伤的虫后"
  crisis.101.desc:0 "一架深空无人间谍机偶然发现了在[queen_system.GetName]星系的宇宙战场，战斗双方是索林原虫和另一个未知种族。一个索林虫后在战斗中受到重伤，似乎死定了。\n\n无人间谍机报告称，虫后还活着.这也许是一个绝佳的捕捉虫后的机会。"
  crisis.101.a:0 "也许我们应该派出一支探险队。"
@@ -1631,6 +1718,7 @@
  crisis.107.name:0 "其他人得到了虫后"
  crisis.107.desc:0 "我们发现在[queen_system_1.GetName]星系，其他人捕捉了受伤的索林虫后！虫后不仅被完全治愈，她与其他虫群的联系也被切断。现在她服务于她的新主人。报告还指出，虫后已经开始新的孵育。"
  crisis.107.a:0 "我们太慢了！"
+
  crisis.211.name:0 "虫群天灾的末日"
  crisis.211.desc:0 "今天，随着最后一片虫群被铲除干净，银河系大大地松了一口气。他们这些银河系外的侵略者已经吞下失败的苦果，那些曾一时数量多到爆炸的虫群，已经被焚化到只剩下数不清的碳化外壳，在虚空中静静地飘游。\n\n兴高采烈的心情、彻底的喜悦，以快过光速得速度在银河系中扩散开来，自发的胜利游行与庆祝在几乎每个地方都突然自发举行。这是否意味着，银河系的和平与稳定的新时代的开始？"
  crisis.211.a:0 "那些亵渎神灵的生物，将无一幸免。"
@@ -1641,6 +1729,7 @@
  crisis.211.f:0 "我们走着瞧。"
  crisis.211.g:0 "我们还要与其中一个极为卑鄙的仇外种算算恩怨呢。"
  crisis.211.h:0 "在某种程度上看，这是悲剧。他们曾是一种独特的生命。"
+
  crisis.1007.name:1 "不速之客"
  crisis.1007.desc:1 "[extradimensional_system.GetName]星系发生了空间结构的大规模撕裂！我们尚不知道原因是什么，但裂缝似乎是另一个维度的某种单向传送门。奇怪的船只组成的舰队正从裂缝中冒出，攻击其周遭的一切。这似乎是一场大规模入侵的开始！\n\n我们拦截到了这些舰队发送给裂缝另一端的强烈的信号。听起来像是...某种捕猎讯号。"
  crisis.1007.a:0 "真有趣... 来自另一个维度的生命。"
@@ -1655,25 +1744,31 @@
  crisis.1011.name:0 "[Root.GetName]陷落"
  crisis.1011.desc:0 "我们失去了在[Root.GetName]的殖民地!在占据轨道后异次元的入侵者轰炸了行星表面并吃光了我们的公民。它们放过了没有意志的生命体，但是我们的殖民地上已经没有活物了。"
  crisis.1011.a:0 "不惜一切代价阻止那些怪物！"
+
  crisis.1013.name:0 "维度传送门被摧毁"
  crisis.1013.desc:1 "位于[extradimensional_system.GetName]星系的维度传送门已经被摧毁了！这意味着异次元的入侵者已无法从它们扭曲的领域获得增援。\n\n随着传送门的破坏，入侵者的末日也就要来了。浓重的喜悦之情在银河系大范围传播开来。传送门的摧毁者[portal_killer.GetName]赢得了无数崇拜，他的舰队在战斗中给予传送门最后一击。这些船只的船员将被当做世世代代的英雄而歌颂。"
  crisis.1013.a:1 "银河系更加的安全了"
  crisis.1016.name:0 "第一道传送门被毁"
  crisis.1016.desc:0 "最初被异次元入侵者用来进攻我们银河系的传送门被摧毁了。\n\n$crisis.1116.not_last_portal$"
  crisis.1016.a:0 "绝不心慈手软。"
+
  crisis.1116.name:0 "第二道传送门被毁"
  crisis.1116.desc.a:0 "$crisis.1116.second_portal_destroyed$\n\n$crisis.1116.last_portal$$crisis.1116.last_portal_known_killer$"
  crisis.1116.desc.b:0 "$crisis.1116.second_portal_destroyed$\n\n$crisis.1116.last_portal$"
  crisis.1117.desc:0 "$crisis.1116.second_portal_destroyed$\n\n$crisis.1116.not_last_portal$"
+
  crisis.1116.second_portal_destroyed:0 "出现在[extradimensional_system.GetName]星系的第二座维度传送门已经被摧毁了！它已经不能被异次元入侵者用来增援他们的军队。"
  crisis.1116.last_portal:0 "随着传送门的破坏，入侵者的末日也就要来了。浓重的喜悦之情在银河系大范围传播开来。"
  crisis.1116.last_portal_known_killer:0 "传送门的摧毁者[portal_killer.GetName]赢得了无数崇拜，他的舰队在战斗中给予传送门最后一击。这些船只的船员将被当做世世代代的英雄而歌颂。"
  crisis.1116.not_last_portal:0 "但直到最后一条传送门被摧毁，我们都不能放松警惕。只有如此，两个次元间的联系才能被永久切断。"
+
  crisis.1216.third_portal_destroyed:0 "出现在[extradimensional_system.GetName]星系的第三座维度传送门已经被摧毁了！它已经不能被异次元入侵者用来连接我们和他们领域之间的裂隙。"
+
  crisis.1216.name:0 "第三道传送门被毁"
  crisis.1216.desc.a:0 "$crisis.1216.third_portal_destroyed$\n\n$crisis.1116.last_portal$$crisis.1116.last_portal_known_killer$"
  crisis.1216.desc.b:0 "$crisis.1216.third_portal_destroyed$\n\n$crisis.1116.last_portal$"
  crisis.1217.desc:0 "$crisis.1216.third_portal_destroyed$\n\n$crisis.1116.not_last_portal$"
+
  crisis.1050.desc_01:0 "...猎物..."
  crisis.1050.desc_02:0 "...注视着... 我们的荣誉..."
  crisis.1050.desc_03:0 "...营养品..."
@@ -1704,6 +1799,7 @@
  crisis.1052.desc_03:0 "...死..."
  crisis.1052.a:0 "视讯中断"
  crisis.1052.a.response:0 "...如此的... 傲慢..."
+
  crisis.1110.name:0 "第二道传送门"
  crisis.1110.desc:0 "我们的仪器探测到了新的亚空间电涌，这次来自[second_portal_system.GetName]星系！第二个巨大的虫洞出现了，其能量特征几乎与第一个在我们的银河系中发现的相同。\n\n看起来神秘的入侵者已经打开第二个通向他们的领域的传送门，通过它他们可以发送更多的增援。"
  crisis.1110.a:0 "形势每况愈下"
@@ -1717,6 +1813,7 @@
  crisis.1210.a:0 "还有一个？"
  crisis.1211.desc:0 "...搭噶阿里... 沙巴纳什... 来到这个星系真是愚蠢... 在这里我们无法逃脱... 我们将摧毁你们的王国... 然后... 至少... 永恒的王座将是我们的..."
  crisis.1211.a:0 "他们还有完没完？"
+
  crisis.1271.name:0 "成功防御入侵"
  crisis.1271.desc:0 "最后一股异次元入侵者残余已经被彻底了结，但愿我们已经永远摆脱了这一银河系公害。\n\n每个地方的科学家都在热烈庆祝这一伟大胜利，至少出于理性他们已经认为安全了————毕竟他们再也不会被这些陌生的能量生物当作食物来收割。或许，这是银河系合作与友谊的新时代的开端呢？"
  crisis.1271.a:0 "我们心中的铠甲已然风化飘零，但另一场风暴即将来临。"
@@ -1726,6 +1823,7 @@
  crisis.1271.e:0 "银河系的经济应该会快速恢复。"
  crisis.1271.g:0 "那些可怜的生物犯了一个大错————选择了入侵我们的维度。"
  crisis.1271.h:0 "他们如此有侵略性，乃生物之耻。我们应互相学习，取长补短。"
+
  crisis.2192.name:2 "完美的仆人"
  crisis.2192.desc:2 "合成人工人的发明的这些年来，我们致力于平衡他们的独立思考能力，使我们能牢牢控制他们。现在[Root.GetSpeciesAdj]高级工程师完善了一个三定律算法，如果成功应用，将使合成人的使用再无任何顾虑。"
  crisis.2192.a:2 "工具，就是要安全使用的。"
@@ -1770,6 +1868,7 @@
  crisis.2016.a:0 "所有人都在注视这场战争！"
  crisis.2017.desc:0 "AI暴动已经扩散至了[From.GetName]！他们的机器工人已经加入了反叛，有报道称冲突已经造成数以百万计的死亡。"
  crisis.2017.a:0 "威胁与日俱增"
+
  crisis.2100.name:0 "故障的合成人"
  crisis.2100.desc:0 "[Root.GetName]的一个合成人工人近来在一处住房中大开杀戒，在当地安保部门实施镇压之前屠杀了超过12个我国公民。我们的法律团队仍然在调查合成人的残留物，但他们怀疑是某种神经处理器的故障导致了这次悲剧。\n\n这次事件已经在[Root.GetPlanetMoon]上引发了数起针对合成人的复仇袭击，造成了数以千计的合成人损毁。"
  crisis.2100.a:0 "非常不幸。"
@@ -1807,8 +1906,13 @@
  crisis.2209.name:0 "[ruler.GetRegnalName]被刺杀！"
  crisis.2209.desc:1 "一名合成人刺客刺杀了[ruler.GetRegnalName]！他成功地伪装成了我们统治者的私人保镖。\n\n[ruler.GetRegnalName]的尸体被摆成了人工智能使用的标识的图案 - 毫无疑问，这会对我们公民的思潮产生更加恶劣的影响。没有发现刺客的踪迹，只找到了被替换的保镖尸体。"
  crisis.2209.a:0 "这是黑暗的一天..."
+
  crisis.2210.desc:0 "<<01_大使馆_建议>>\n\n\n仅仅是<<玩笑>>。你将被<<终结>>。"
  crisis.2210.a:0 "很好笑。"
+
+ #############################
+ # Pop Events
+ #############################
  pop.1.name:0 "一个新物种"
  pop.1.desc:0 "许多在[Root.Planet.GetName]上的[Root.Planet.Owner.GetSpeciesName]居住者们采用了基因编辑技术以帮助他们适应[Root.Planet.GetPlanetMoon]的不利环境。他们对自身的这些人为改变也被遗传到他们的后代身上，与此同时，他们的外貌和身体特征也在以一种令人警惕的速度发生着改变。 他们已经开始称自己为 [Root.GetSpeciesName]。"
  pop.3.name:0 "[Root.GetName]上不断升级的紧张局势"
@@ -1827,6 +1931,10 @@
  pop.14.name:0 "力量强化"
  pop.14.desc:0 "为了应对[Root.GetName]上[modified_pop_1.GetSpeciesName]和[non_modified_pop_1.GetSpeciesName]居民之间的暴力冲突 ，[modified_pop_1.GetSpeciesNamePlural]对他们的基因调整更进一步。 他们现在更快更强，身体也能承受部分可能导致普通[non_modified_pop_1.GetSpeciesNamePlural]死亡的伤害。\n\n据报道，在最近的一场事故中，仅仅两个手无寸铁的[modified_pop_1.GetSpeciesNamePlural]就干掉了至少12个[non_modified_pop_1.GetSpeciesName]的民兵。我们也许见证了一种危险的升级趋向。"
  pop.14.tooltip:0 "调整§Y[modified_pop_1.Planet.GetName]§!上§Y[modified_pop_1.GetSpeciesName]§!的特性，增加§G$trait_strong$§!天赋。"
+
+ #############################
+ # Galactic Features Events
+ #############################
  galactic_features.1.name:0 "遭遇Tiyanki种群"
  galactic_features.1.desc:0 "[Root.GetName]在[Root.GetStarName]星系遇到了一群 Tiyanki。这些温顺而专注于太空旅行的生物经常游走于各恒星之间。他们只在需要进食能量点的时候偶尔在某些特定的气体巨行星的高层大气中驻足。他们未表现出具有独立意识。"
  galactic_features.2.name:0 " Zanaam 的守卫者"
@@ -1876,6 +1984,10 @@
  galactic_features.351.b.response:0 "该设备由西米欧帝国在长达412循环年的时间内建设。它完成并正式投入使用的时间是 74，605，338 循环年之前。最后的西米欧舰艇出现于67，103，853循环年之前。该日期之后没有西米欧帝国或其附属势力舰艇的访问记录。\n\n截至目前有38，201批次未经授权的舰艇试图获取该设备权限但失败的记录。\n\n在任何情况下不得触碰这些设备。"
  galactic_features.351.c:0 "再见。"
  galactic_features.351.c.response:0 "独立意识体，圣所的自动系统愿你拥有愉快的一天。\n\n在任何情况下不得触碰这些设备。"
+
+ #############################
+ # Country Events
+ #############################
  country.1.name:0 "亚光速探索探针"
  country.1.desc:0 "在我们掌握超光速航行技术前，[Root.Capital.GetName]派出的一些亚光速探测器以近相对论速度正前往临近的星系进行探索。开发探测器的科学家天真地在存储内核中输入了我们文明的信息作为向外星文明的问候。\n\n现在，人们终于意识到这些信息可能被用来对付我们。我们必须在趁早追回那些探测器，以免落入那些毫无怜悯之心的外星生物之手。"
  country.1.a:0 "它们还没走得太远。"
@@ -1990,6 +2102,7 @@
  country.221.desc:0 "[radical_cult.GetName]占用来对付我们的那座外星船坞已经被某种力量毁灭了。初步报告表明异教徒势力已经被完全清除，但我们又收到情报，战役打响前，异端首领已经乘坐新旗舰逃离了。\n\n目前她仍在银河的某处逍遥法外。军方情报组正在确定她的旗舰的确切位置。"
  country.223.name:0 "异教徒旗舰已摧毁"
  country.223.desc:0 "近期[flagship_system.GetName]星系发生激烈战斗，不明势力击败了异教徒的旗舰。我们的司令对未能亲手送葬异教徒感到遗憾。但讨伐邪教及其发动的恐怖袭击的战役终于圆满收场。"
+
  country.250.name:0 "追捕风信子号"
  country.250.desc:0 "秋菊号的姐妹舰风信子号，大约是在我们的祖先从地球来到这里三年后抵达我们当前所在星云的。他们的任务是支援我们的殖民地，亦或建立新的殖民地，如何决策取决于他们抵达时的具体情况。\n\n若该舰确实从地球出发，却未能与[Root.Capital.GetName]取得联系。如果风信子号进入了我们周边的星系，那么我们最好搜索一下附近星系寻找其航迹。"
  country.250.a:0 "确实。就这么办。"
@@ -2024,6 +2137,12 @@
  country.257.name:0 "盖棺定论"
  country.257.desc:0 "风信子号以及她的船员将面临怎样的残酷命运，我们已经明白了。如果事情没有发展到这一步，很可能是秋菊号漂浮在[hyacinth_planet.GetName]的上空，犹如一颗沉默的炸弹，在冷漠的宇宙中提醒人类他们面对的千难万险。\n\n风信子号即将被拖入[Root.Capital.GetName]的低轨道，马上就要成为保留人类遗迹的博物馆。尽管她的遭遇十分悲惨，这艘方舟却和将我们地球上的祖先带来的那只几乎一模一样。望以后的社会学家能从中有所了悟。\n\n"
  country.257.a:0 "也许会有所收获也说不定。"
+
+
+
+ #############################
+ # Progress Events
+ #############################
  progress.1.name:0 "[home_system.GetName]系统已完全调查"
  progress.1.desc:0 "[Root.Capital.GetName]的天文学家通过望远镜凝视着同一星系的其他星球，已有千年之久。我们的祖先发明了机制复杂的太阳系仪来模拟它们的轨道，所使用的是[home_system.GetName]星系出人意料精准的模型。\n\n今天我们的文明已到达历史性的里程碑，我们已经完成太阳系最后一颗星球的调查。未知世界的边界又推向了远方。"
  progress.1.a:0 "创造历史！"
@@ -2062,6 +2181,10 @@
  progress.8.name:0 "立足点"
  progress.8.desc:0 "在探索完毕母星系之后，我们终于该到[Root.Capital.GetName]之外了。我们应该调查邻近的星系，寻找适合建立殖民地的世界。\n\n和往常一样，§S情报日志§!已添加了新条目。"
  progress.8.a:0 "开始搜查吧。"
+
+ #############################
+ # Pirate Events
+ #############################
  pirate.1.name:0 "星际海盗出现"
  pirate.1.desc_01:0 "[Root.Capital.GetName]一大群没有信仰可言的罪犯对一批民用飞船进行了非法改造，他们将它们武装起来用于战斗。这些人控制着我们太空的边缘，这些异端自称为 §S[pirate_band.GetName]§! 来并声称对几桩民用船遇袭的事件负责。\n\n不能再让他们的恐怖活动继续进行下去！"
  pirate.1.desc_02:0 "在过去的几个月里，海军情报部门已经报道了几起民用船只在我们的太空中遇袭的事件。凶手似乎是[Root.Capital.GetName]的逃亡者和[Root.Capital.GetName]变节者  。\n\n这些罪犯通过大幅度改造民用船只已经集结起来了一支临时舰队，现在他们称自己为 §S[pirate_band.GetName]§!。虽然羽翼未丰，但他们的船只显然是一个不容忽视的威胁。"
@@ -2077,18 +2200,26 @@
  pirate.2.e:0 "海盗。我们不需要这人渣。"
  pirate.2.f:0 "贸易必须往来。"
  pirate.2.g:0 "会找到他们的。"
+
  pirate.5.name:0 "太空海盗"
  pirate.5.desc:0 "我们在某些星系所碰到的飞船具备收发标准通信协议的功能。\n\n根据显示屏内容，他们的文明主要存在于太空，而其中的某些成员不属于任何已知的居住在行星上的文明。\n\n遗憾的是，他们的船员对文明交流毫无兴趣。通过拦截他们的通讯信息，我们得知他们靠在宇宙中抢劫为生，偶尔会招募一些在宇宙飞船中生存的其他种族。 "
  pirate.5.a:0 "真是可悲。"
+
  pirate.10.name:0 "海盗庇护所"
  pirate.10.desc.nobirth:0 "[Root.GetName]报告说，舰队在[From.GetName]星系发现了海盗大规模集结的痕迹。\n\n初步扫描的情报显示，这里聚集着大量舰船以及负责维护舰船的空港，看来这里是个历史悠久的海盗据点。这些海盗从很久以前就开始在这里进行抢劫活动，且没有遭遇过任何打击行动。"
  pirate.10.desc.birth:0 "[Root.GetName]报告说，舰队在[From.GetName]星系发现了一个海盗中心。许多[Root.Owner.GetName]的被驱逐者和犯罪分子应该就是受到了这里的邪恶影响，变成了海盗。\n\n这些数目庞大的海盗船奇形怪状且年代久远，因此他们很可能是过去银河纪元的残余——可能是古代星系战争中掠夺船的后裔，后来变成了海盗，对所有目标进行无差别的打击，无论是敌是友。"
  pirate.10.a.nobirth:0 "海盗无论对谁都是巨大的威胁。"
  pirate.10.a.birth:0 "我们去袭击他们的老窝，彻底摧毁这个威胁。"
+
  pirate.15.name:0 "海盗巢穴被摧毁"
  pirate.15.desc:0 "[FromFrom.GetName]报告称，[FromFrom.GetStarName]星系的海盗船舰已经被摧毁了，虽然附近星系中还有一些零零散散的海盗船，但从目前来看，星际海盗已经被扔进历史的废纸堆了——至少现在如此。"
+
  pirate.25.name:0 "海盗站点被袭击"
  pirate.25.desc:0 "[From.From.GetName]摧毁了位于[From.From.GetStarName]星系的一个海盗站点，并取回了它的保险库。"
+
+ #############################
+ # Pretender Events
+ #############################
  pretender.1.name:0 "[From.GetRegnalName]死了，没有留下继任者"
  pretender.1.desc_01:0 "[From.GetRegnalName]去世了，[Root.Capital.GetName]宣布了七天的哀悼日。不幸的是，目前没有指定的继承人，有两个势力正在争夺王位的继承。\n\n虽然最强的竞争者已经继承了[Root.GetRulerName]名下的[Root.GetRulerTitle]王位。但这并没有解决问题。"
  pretender.1.desc_02:1 "[From.GetRegnalName]已经超越了这个领域的存在和开始迈向下一步。不幸的是，神明还没有给出足够的迹象和征兆来挑选出一个合适的继承人来保佑我们。\n\n经过激烈的辩论，虽然不是没有人反对，[Root.GetRulerName]被加冕为下一任[Root.GetRulerTitle]。一些来自神职人员高层的王位觊觎者正在努力激起更多的支持。"
@@ -2096,7 +2227,13 @@
  pretender.1.desc_04:1 "[From.GetRegnalName]的机体已经衰亡了，我们的算法无法确定一个最佳的替代者。为了保持效率，[Root.GetRulerTitle]新任者已被随机选出，现在它在[Root.GetRulerName]上解释主处理器的正确意图，\n\n虽然疑问已被解答，但仍有一些人认为自己才有资格担当这份荣耀。"
  pretender.1.desc_05:1 "[From.GetRegnalName]已经去世，整个[Root.GetName]都在哀悼。遗憾的是现在并没有宣布继承者，这引起了一些贵族的竞争。\n\n[Root.GetRulerName]已经加冕[Root.Capital.GetName]的王位。资本。getName ]，但那些声称自己是[From.GetRegnalName]遥远的血亲的王位觊觎者已经开始挑战新的[Root.GetRulerTitle]。"
  pretender.1.tooltip:1 "王位觊觎者派系出现。"
+
  henrik.710.desc:0 "一个[From.GetSpeciesName]。几个[From.GetSpeciesNamePlural]。"
+
+ ##########################
+ # Leader Events
+ ##########################
+
  admiral_trait_gain:0 "舰队司令获得特性"
  admiral_trait_loss:0 "舰队司令失去特性"
  leader.1.name:0 "表现突出的军官"
@@ -2219,6 +2356,11 @@
  leader.25.desc.explorer:0 "$leader.25.desc.base$§G$trait_ruler_explorer$§!"
  leader.25.desc.fleet_organizer:0 "$leader.25.desc.base$§G$leader_trait_fleet_organizer$§!"
  leader.25.desc.nervous:0 "$leader.25.desc.base$§R$leader_trait_nervous$§!"
+
+ ##########################
+ # Diplomatic Events
+ ##########################
+
  diplomatic.2.name:0 "[From.From.Owner.GetAdj]舰队司令侮辱了我们。"
  diplomatic.2.desc:0 "众所周知[From.From.Owner.GetSpeciesNamePlural]从来没说过其他外星种族的什么好话。即使是在外交的时候，[From.From.Owner.GetName]的脾气也很差，也不要期待他们能给予除了最小程度的尊重之上的任何对待。但在[Root.GetAdj]空间中航行的时候，各种交流还是会遵循基本的外交礼节的。\n\n就在今天的晚些时候，当他们指挥着一支舰队穿过[From.From.GetStarName]星系的时候，同时还[broadcasted_insult_leader.GetName]决定对我们完全不知情的公众们播放这些尖酸刻薄的讽刺言论。他们的舰队司令似乎收到了来自我们一颗星球上的无线电信号，然后粗野不堪地咆哮着对我们的文化和进化源头大肆嘲讽。我们的数百万公众已经收到了这些明显是故意发出的信息。怒火正从我们的人民心中燃起。"
  diplomatic.2.a:0 "[From.From.Owner.GetName]必须马上开除这个心胸狭窄的偏执狂！"
@@ -2288,6 +2430,7 @@
  diplomatic.21.desc:0 "您在[Root.GetName]新的殖民地非常接近我们的边界。我们希望你从这个边境撤出，以避免我们未来出现应在何处划定边界的冲突。"
  diplomatic.21.a:0 "我们将立即停止发展。"
  diplomatic.21.b:0 "这个殖民地是我们未来的一部分。它将被保留。"
+
  diplomatic.1000.name:0 "舰队演习"
  diplomatic.1000.desc:0 "舰队司令[exercise_admiral.GetName]已经制定了一个舰队演习计划，将涉及我们大部分的海军。[exercise_admiral.GetSheHe]为这些演习选择的地点是[exercise_system.GetName]星系，靠近[exercise_neighbor.GetName]的边界。\n\n[exercise_neighbor.GetSpeciesNamePlural]或许会将这次演习视为一种挑衅，但是如果我们取消演习，我们的军队会认为这是软弱的表现。毕竟，[exercise_system.GetName]是我们的势力范围，[exercise_neighbor.GetName]没有权力告诉我们在自己的地盘里能做什么，不能做什么。"
  diplomatic.1000.a:0 "按计划进行演习。"
@@ -2302,9 +2445,11 @@
  diplomatic.1001.desc:0 "主力舰队的演习计划已被取消。舰队进入预定地点的行动被长时间延误，严重影响整个舰队的战备水平。"
  diplomatic.1002.desc:0 "由于[Root.GetName]被卷入一场战争，我们计划的舰队演习被取消，我们的舰队将不得不在战场上历练。"
  diplomatic.1002.a:0 "战火试炼"
+ 
  diplomatic.1006.name:0 "[exercise_system.GetName]有舰队反应"
  diplomatic.1006.desc:0 "我们已经收到了[From.Owner.GetName]大量舰队活动情报报告。他们集中在[exercise_system.GetName]星系，似乎接近我们的边界。[From.Owner.GetSpeciesNamePlural]想要做什么？"
  diplomatic.1006.a:0 "继续监测情况。"
+ 
  diplomatic.1011.name:0 "舰队演习：碰撞"
  diplomatic.1011.desc:0 "根据舰队司令[exercise_admiral.GetName]所制定的演习计划，目前我们正在[exercise_system.GetName]星系进行演习。在演习期间，发生了几次军舰之间的小碰撞。所幸极少船员伤亡，所涉及的军舰也没有遭受致命的损伤，但在演习后他们被命令参与强制劳动。"
  diplomatic.1011.a:0 "至少没有军舰损失。"

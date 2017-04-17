@@ -12,14 +12,14 @@ public class MyFileReader {
                 String encoding="utf-8";
                 File file=new File(filePath);
                 if(file.isFile() && file.exists()){
-                    InputStreamReader read = new InputStreamReader(
+                    InputStreamReader reader = new InputStreamReader(
                     new FileInputStream(file),encoding);
-                    BufferedReader bufferedReader = new BufferedReader(read);
+                    BufferedReader bufferedReader = new BufferedReader(reader);
                     String lineContent = null;
                     while((lineContent = bufferedReader.readLine()) != null){
                         fileContent.add(lineContent);
                     }
-                    read.close();
+                    reader.close();
         }else{
             System.out.println("File not found");
         }

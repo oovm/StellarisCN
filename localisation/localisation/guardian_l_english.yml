@@ -1,4 +1,9 @@
 ﻿l_english:
+
+ ######
+ ### GUARDIANS & ENCLAVES (LEVIATHANS)
+ ######
+ 
  station_xs:0 "远古哨兵"
  station_xs_plural:0 "远古哨兵"
  station_s:0 "远古防卫者"
@@ -23,12 +28,14 @@
  homebase_plural:0 "基地"
  hive_asteroid:0 "蜂巢小行星"
  hive_asteroid_plural:0 "蜂巢小行星"
+
  wraith_01_blue:0 "蓝色幽魂"
  wraith_01_blue_plural:0 "蓝色幽魂"
  sphere:0 "无尽神机"
  sphere_plural:0 "无尽神机"
  npc_warship_01:0 "无畏战舰"
  npc_warship_01_plural:0 "无畏战舰"
+
  wraith_01:0 "幽魂"
  wraith_01_yellow:0 "黄色幽魂"
  wraith_01_red:0 "红色幽魂"
@@ -37,34 +44,43 @@
  wraith_01_red_plural:0 "红色幽魂"
  wraith_frequency_sync:0 "幽魂频率同步"
  spectral_residue_studies:0 "灵质研究"
+
  guardian.5.name:0 "守护者被击败"
  guardian.5.desc:0 "§Y[From.GetName]§!已经在遥远的[From.From.From.GetStarName]星系消除了一个来自古代的威胁。"
+
  guardian.98.name:0 "通讯已建立"
  guardian.98.desc:1 "我们正在接收一段来自§Y[From.GetName]§!独立空间站的信息传输！他们似乎已经成功地破译了我们的语言。"
  guardian.98.a:0 "有趣。"
  guardian.99.name:0 "通讯已建立"
  guardian.99.desc:1 "在成功地破译了他们的语言后，我们已经和§Y[From.From.GetName]§!的独立空间站建立了联系。"
+
  curator_government:0 "策展人协会"
  curator_government_desc:0 "§L一个致力于保护知识和科技的古代学者团体。§!"
  RT_HIGH_CURATOR:0 "大策展人"
  trader_government:0 "商人工会"
  trader_government_desc:0 "§L一个致力于追求利润的星际商人集团。§!"
  RT_HIGH_TRADER:0 "大商人"
+
  artist_government:0 "艺术家联盟"
  artist_government_desc:0 "§L一个致力于创造艺术的星际艺术家联盟。§!"
  RT_HIGH_ARTIST:0 "大艺术家"
+
  opinion-3:0 "好感： £opinion  §R-3§!"
  opinion-5:0 "好感： £opinion  §R-5§!"
+
  opinion5:0 "好感： £opinion  §G+5§!"
  opinion10:0 "好感： £opinion  §G+10§!"
  opinion15:0 "好感： £opinion  §G+15§!"
  opinion20:0 "好感： £opinion  §G+20§!"
+ 
  guardian.102.name:0 "与[From.GetName]的第一次接触"
  guardian.102a.desc:0 "欢迎来到雪拉集团！\n\n我们是来自[trader_system.GetName]星系的商业集团，专业于矿物与能源交易业务，为您的帝国建设添砖加瓦。在此，我谨代表雪拉集团欢迎您。\n\n如果您与您的帝国有任何需求，请不要犹豫联系我们，我们会尽量满足您的一切需要。"
  guardian.102b.desc:0 "我代表里甘商务贸易公司与您沟通。我们公司自从在[trader_system.GetName]星系中创立以来与数个势力开展了长达千年的贸易交流。\n\n如果您有额外的货物需要出手，我们会毫不犹豫地接受。"
  guardian.102c.desc:0 "你好，我的朋友！我是来自穆塔根商业行会的代表，首先请接受来自[trader_system.GetName]星系的热烈欢迎。我们的行会聚集了成百上千位勇于冒险，经验丰富的穆塔根商贸船长。\n\n如果您有任何业务需求，请务必联系我们。"
+ 
  guardian.100.a:0 "我们希望能达成一个交易。"
  guardian.100.b:0 "扫描器离线。"
+ 
  guardian.100.name:0 "雪拉集团"
  guardian.100a.desc:0 "雪拉集团不会对任何客户抱有偏见。毕竟我们没有资格去评断您的道德准则。"
  guardian.100b.desc:0 "您可能更倾向于利用物资去扩张您可畏的军队，或是令人尊重的建设者，不过在雪拉集团，除了钱我们什么都不在乎！"
@@ -72,6 +88,7 @@
  guardian.100d.desc:0 "呃...这位客官，本公司不提供退款服务，这是公司的政策，十分抱歉。"
  guardian.100e.desc:0 "客官您对本公司的精炼矿物感兴趣吗？并不吗？那么能源呢？"
  guardian.100f.desc:0 "这里是雪拉集团。有什么我可以帮您的吗？"
+ 
  guardian.103.name:0 "里甘商务贸易公司"
  guardian.103a.desc:0 "我们公司采用客户匿名制，周全保护您的隐私。"
  guardian.103b.desc:0 "您想知道我们的物资从哪来? 咳咳...这是我们集团的商业机密，即便是向您，[Root.GetName]，这样尊贵的客户我们都无法泄露机密..."
@@ -79,6 +96,7 @@
  guardian.103d.desc:0 "里甘商务贸易公司欢迎您大驾光临。"
  guardian.103e.desc:0 "千年老字号，口碑当然好。"
  guardian.103f.desc:0 "数个驻扎在我们空间站的势力希望与[Root.GetName]贸易磋商，阁下的意见是？"
+ 
  guardian.104.name:0 "穆塔根商业行会"
  guardian.104a.desc:0 "千年之前，穆塔根帝国从浩瀚银河之中汲取惊人财富，然而现在我们这个小小的财阀成了帝国的唯一遗产。"
  guardian.104b.desc:0 "很多人都说穆塔根能在38光年之外嗅到商机，实际不然，其实有效范围只有26光年。"
@@ -86,6 +104,7 @@
  guardian.104d.desc:0 "一个穆塔根人和瑞希妲人走进了一间酒吧...算了，这个笑话好像有点不合时宜，请原谅我的鲁莽。"
  guardian.104e.desc:0 "你好，[Root.GetSpeciesName]。想来一发交易吗？"
  guardian.104f.desc:0 "'折扣'这个词对于我们族人来说是个侮辱性的词汇，请以后和我们打交道时记住这一点。"
+ 
  guardian.105.a:0 "我想与你交易矿物。"
  guardian.105.b:0 "我想与你交易能量币。"
  guardian.105.c:0 "我想与你交易战略资源。"
@@ -94,6 +113,7 @@
  guardian.105.c.sr3:0 "我们已经拥有§Y穆塔根贸易协定§!\n"
  guardian.105.c.trust:0 "这个§Y商人联盟§!需要拥有：\n£opinion  好感度 +50\n"
  guardian.105.d:0 "先这样吧。再见。"
+ 
  guardian.110.desc:0 "能量币兑换矿物的比率是二比一，这是我们当前的汇率。"
  guardian.110.a:0 "获得£minerals §G100§!，支付£energy §R200§!。"
  guardian.110.b:0 "获得£minerals §G500§!，支付£energy §R1000§!。"
@@ -103,6 +123,7 @@
  guardian.110.c.reply:0 "客官大手笔啊，看来今天我们能早点歇业了！"
  guardian.110.d:0 "我们对其他的东西更感兴趣..."
  guardian.110.e:0 "不成交。"
+ 
  guardian.120.desc:0 "矿物兑换能量币的比率是二比一，这是我们当前的汇率。"
  guardian.120.a:0 "获得£energy §G100§!，支付£minerals §R200§!。"
  guardian.120.b:0 "获得£energy §G500§!，支付£minerals §R1000§!。"
@@ -110,6 +131,7 @@
  guardian.120.a.reply:0 "这是您的能量币，我们已经开始准备传送矿物。"
  guardian.120.b.reply:0 "好极了。如果以后您有任何矿物需要出手的话请联系我们，我们是很愿意接收的。"
  guardian.120.c.reply:0 "如果其他顾客都能像您这样一掷千金就好了！我们现在就为您传送能源。"
+ 
  guardian.130.desc:0 "里甘香料是我们最珍贵的商品，它因为其独特的风味而闻名于银河系。当然了，我们也只会卖给最重要的顾客，比如说[Root.GetName]。\n\n如果您能支付得起，我们便会向您的帝国出口10标准年的香料。"
  guardian.130.a.reply:0 "你不会后悔的，除非您吃了太多香料。那样的话会有很小的几率您会立刻自燃，不过也只有很小的几率..."
  guardian.130.a:0 "我们想买你的香料。"
@@ -119,9 +141,12 @@
  guardian.132.desc:0 "史‘拉卡特-度，或被非我们种族的人称作穆塔根水晶的东西。当这些“唱歌的”晶体振动，会散发出一种独特的乐音，能对大多数物体起到镇定作用。\n\n尽管我们通常不与外人分享史‘拉卡特-度的奇迹，但我们愿意为你破例。如果你能负担得起，我们愿意同你签署一个为期十年的水晶出口协议。"
  guardian.132.a.reply:0 "很好。我们的商人将立刻运送晶体去你的行星。愿Shi'rakkat-Du为你歌唱。"
  guardian.132.a:0 "我们将购买你的水晶。"
+
  guardian.133.name:0 "获取战略资源"
+
  guardian.141:0 "[From.GetName]被毁"
  guardian.141.desc:0 "我们的舰队摧毁了[From.GetName]的总部，并正在恢复他们母基地残骸中的贵重物品。我们已经获得了大量资源。"
+ 
  guardian.142.a.desc:0 "$guardian.142.desc.first$ $guardian.142.desc.known$ $guardian.142.desc.second$"
  guardian.142.b.desc:0 "$guardian.142.desc.first$ $guardian.142.desc.unknown$ $guardian.142.desc.second$"
  guardian.142.c.desc:0 "$guardian.142.desc.first$ $guardian.142.desc.known$ $guardian.142.desc.second$\n\n$guardian.142.desc.trade$"
@@ -133,6 +158,7 @@
  guardian.142.desc.trade:0 "不幸的是，所有雪拉集团总部的雪拉凝胶生产设施被摧毁，我们将不再拥有这一战略资源。"
  guardian.142.a:0 "对自由贸易的一次痛击。"
  guardian.142.b:0 "我们为凝胶氪了很多钱！"
+ 
  guardian.143.a.desc:0 "$guardian.143.desc.first$ $guardian.143.desc.known$"
  guardian.143.b.desc:0 "$guardian.143.desc.first$ $guardian.143.desc.unknown$"
  guardian.143.c.desc:0 "$guardian.143.desc.first$ $guardian.143.desc.known$\n\n$guardian.143.desc.trade$"
@@ -143,6 +169,7 @@
  guardian.143.desc.trade:0 "不幸的是，这也消除了银河系唯一的里甘香料来源，我们将不再能够使用这个资源。"
  guardian.143.a:0 "一个惊人的发展。"
  guardian.143.b:0 "我们已经为那个香料付了全款！"
+ 
  guardian.144.a.desc:0 "$guardian.144.desc.first$ $guardian.144.desc.known$ $guardian.144.desc.second$"
  guardian.144.b.desc:0 "$guardian.144.desc.first$ $guardian.144.desc.unknown$ $guardian.144.desc.second$"
  guardian.144.c.desc:0 "$guardian.144.desc.first$ $guardian.144.desc.known$ $guardian.144.desc.second$\n\n$guardian.144.desc.trade$"
@@ -154,6 +181,7 @@
  guardian.144.desc.trade:0 "不幸的是，这意味珍贵的穆塔根水晶已经不能再生产。我们将不再拥有这一战略资源。"
  guardian.144.a:0 "一个重大的贸易被中断。"
  guardian.144.b:0 "我们的水晶！这必须给一个解释。"
+ 
  guardian.150.desc:0 "亲爱的客户，我们很遗憾的通知你，我们同[Root.GetName]的雪拉凝胶协议已经到期。如果你有多余的能量货币，我们当然愿意再延长十年的交易…"
  guardian.150.a:0 "很好。我们希望延长这笔交易。"
  guardian.150.b:0 "我们现在可以不用凝胶了。"
@@ -164,6 +192,7 @@
  guardian.152.desc:0 "时光流逝，不是吗，[Root.GetSpeciesName]？我们之间的穆塔根水晶贸易已经十年了，你希望再签署一个十年的贸易协定么？"
  guardian.152.a:0 "是的。让我们继续这个交易。"
  guardian.152.b:0 "我们现在不需要你的水晶了。"
+ 
  guardian.156.desc:0 "你鲁莽的攻击已经对雪拉集团的财产及员工安全产生了风险。我们别无选择，只能终止我们目前的贸易协议。没有退款。"
  guardian.156.a:0 "通信结束。"
  guardian.157a.desc:0 "恐怕与海盗做生意是违反公司政策的。"
@@ -177,6 +206,8 @@
  guardian.163a.desc:0 "你是恐怖分子！不要以为我们会忘记你对我们人民的侵略。"
  guardian.163b.desc:0 "你会发现穆塔根具有十分持久的记忆力，[Root.GetSpeciesName]。我们不会忘记任何细节。"
  guardian.163c.desc:0 "我们不再相信[Root.GetName]了。"
+ 
+ ### GUARDIAN 300-399 ARTIST
  guardian.300.name:0 "艺术家联盟"
  guardian.300.desc:0 "你好, [my_country.GetRulerName]. 我是[artist_enclave.GetRulerName]， 艺术家联盟的首席大师，向你问好。\n\n我们能为您做什么？或许能为您打造一个用于欣赏的艺术作品？又或许是您希望赞助我们城邦的充满异域之美的创作？"
  guardian.300.desc.continued:0 "很好。那么我们能为您做些什么吗？"
@@ -217,6 +248,7 @@
  guardian.313.a:0 "他们好大的胆子啊！"
  guardian.315.desc:0 "有位客人来了! 这里绝对是个欢乐的场合! 哦，请原谅我的失礼。我认为还是得照常来一段自我介绍。我们是艺术家联盟。\n\n我们的成员已经献身于追求艺术，音乐，文化和所有其他能让任何一个有知觉的生物有所感触的存在。如果你愿意分享我们创造的奇迹，不要犹豫，请务必联系我们!"
  guardian.319.desc:0 "尊敬的 [Root.GetRulerTitle] [Root.GetRulerName]，十年前[Root.GetName] 承诺支持艺术家联盟，并且现在你做到了。\n\n您的赞助的时间马上就要到期了，但是恕我们冒昧，您是否想要为了银河最精美的艺术和作品继续进行捐助？"
+
  guardian.321.name:0 "给赞助者的简讯"
  guardian.321.desc:0 "这里是我们为诸位赞助者提供的最新简讯：\n\n"
  guardian.321.desc.a:0 "很不幸本协会中最近没能产出什么作品。大部分的艺术家都深陷忧郁之中，难以迸发出创作的灵感。这种情绪十分极端，但也有益处。毕竟创作还是要花一定时间的。\n\n任何可能重燃他们对现实物质层面的兴趣的赞助，都会有显著的收效。"
@@ -246,12 +278,16 @@
  guardian.333.desc:0 "我们收到了一条来自艺术家联盟首脑的求救信息。他们的最后一个空间站与他们的文化都被毁灭殆尽。几乎没有幸存者留下来，艺术家联盟已经不复存在了。"
  guardian.334.desc:0 "在摧毁艺术家联盟的空间站后，我们发现残骸中有大量可供回收的资源。舱室中储存的捐赠物、礼品与作品现在漂浮在太空之中，可供我们随意回收取用。"
  guardian.334.desc.unknown:0 "在摧毁[station_system.GetName]星系中的那个不知名的空间站后，我们在遗骸中发现了大量的资源。"
+
+### CURATORS
+
  guardian.500.name:0 "策展人"
  guardian.500a.desc:0 "也许你正在疑惑我身后壁画上图案的意义。这是个好问题，答案也会十分有趣。只需要15千万亿的能量币你便可以得到这个问题的解答。"
  guardian.502.name:0 "与[From.GetName]的初接触"
  guardian.502a.desc:0 "您好，宇宙中的旅行者。我们是策展人。\n\n我们遵从的古训自万古之前便由银河中的支配力量所制定。我们献身于保存世间所有的知识，来避免银河再次陷入荒蛮与死寂的黑暗时期。 \n\n但我们失败了。\n\n我们只留下了很少的幸存者，但相比我们的前辈，我们完成自己神圣使命的决心丝毫没有动摇。我们也许有意与你分享一些我们的知识...如果你们愿意付出一些代价的话。"
  guardian.502b.desc:0 "幸会，宇宙中的探险家。与你进行通话的是[From.GetName]。也许你已经知晓我们古训中的信条。和其他城邦中的策展人同行们一样，只要你们能满足我们的要求，我们便愿意同你们交易。"
  guardian.502.a:0 "幸会。"
+ 
  guardian.500b.desc:0 "现在与通话的是策展人协会，有什么我们可以帮助的吗？"
  guardian.500c.desc:0 "你们知不知道这次对话正在被七个来自不同领域的亚空间实体所密切地监听着？唉，恐怕与他们交流的科技远远超出了你们现在的掌控能力，这不会为你们带来任何的好处。"
  guardian.500d.desc:0 "不用害怕。我们已经升级了关于[Root.GetName]的档案库。即使在你的帝国经历不可避免的消亡后，你们仍将在档案中所铭记。"
@@ -263,6 +299,7 @@
  guardian.500j.desc:0 "[Root.GetSpeciesName]，你们不知道的事情还有很多。求求你... 让我们教授你们更多有关银河系的知识吧。"
  guardian.500k.desc:0 "我们持有整个银河的详细星图， 这是从上百种不同的物种处收集来的信息的汇总。也许这能提起你们的兴趣？"
  guardian.500l.desc:0 "知识就是一切，它们必须被守护。"
+ 
  guardian.500.a:0 "我们对你们绘制的新星图很感兴趣。"
  guardian.500.b:0 "你可以援助我们的研究么？"
  guardian.500.b.alreadyaided:0 "策展人已经增进了我们的研究能力。"
@@ -271,6 +308,7 @@
  guardian.500.d.alreadyrecruited:0 "我们已经雇佣了一位策展人的科学家。"
  guardian.500.d.opinion:0 "需要§Y策展人§!对你的最低的好感：\n£opinion +50"
  guardian.500.e:0 "再见。"
+ 
  guardian.506.name:0 "星图"
  guardian.506a.desc:0 "我们可以提供一些你们尚未调查的星系的详尽而且最新的调查数据。你有多少感兴趣的星系？"
  guardian.506.a:0 "15个星系。"
@@ -279,37 +317,43 @@
  guardian.506.d:0 "你还能提供什么？"
  guardian.506.e:0 "再见。"
  guardian.506.a.reply:0 "我们正在向你们传输调查数据。"
+ 
  guardian.507.name:0 "辅助研究"
  guardian.507.desc:0 "当然，我们已经准备提供给你们几十年的接入我们的巨型数据库的权限。这应该会对你们科学家的研究提供极大的帮助。\n\n自然，我们会为此索取一些报酬，但你会觉得我们所给出的价格非常合理。"
  guardian.507.a:0 "我们乐意购买这项服务。"
  guardian.507.a.reply:0 "明智的选择，[Root.GetSpeciesNamePlural]的后人们会称赞你的选择的。"
+ 
  guardian.508.name:0 "未解之谜"
  guardian.508.desc:0 "在银河中的一些特定的星系里，潜藏着极其强大的存在。耗费了巨大的人力物力，策展人的调查人员煞费苦心地收集了他们的信息，有了这些信息，你在下次遇见它们时应该可以更容易地对付他们。"
  guardian.508.a:0 "告诉我们些我们尚不知道的信息吧。"
  guardian.508.a.reply:0 "这也许会提起你的兴趣...我们在你的§Y情况日志§!中标注了一个星系。"
- guardian.508.b:0 "告诉我们与$guardian.510.name$相关的知识。"
- guardian.508.c:0 "告诉我们与$guardian.515.name$相关的知识。"
- guardian.508.d:0 "告诉我们与$guardian.520.name$相关的知识。"
- guardian.508.e:0 "告诉我们与$guardian.525.name$相关的知识。"
- guardian.508.f:0 "告诉我们与$guardian.530.name$相关的知识。"
- guardian.508.g:0 "告诉我们与$guardian.535.name$相关的知识。"
- guardian.508.h:0 "告诉我们与$guardian.540.name$相关的知识。"
- guardian.508.i:0 "告诉我们与$guardian.545.name$相关的知识。"
+ guardian.508.b:0 "告诉我们与$guardian.510.name$相关的知识。"#ether drake
+ guardian.508.c:0 "告诉我们与$guardian.515.name$相关的知识。"#enigmatic fortress
+ guardian.508.d:0 "告诉我们与$guardian.520.name$相关的知识。"#stellar devourer
+ guardian.508.e:0 "告诉我们与$guardian.525.name$相关的知识。"#dimensional horror
+ guardian.508.f:0 "告诉我们与$guardian.530.name$相关的知识。"#asteroid hiver
+ guardian.508.g:0 "告诉我们与$guardian.535.name$相关的知识。"#infinity machine
+ guardian.508.h:0 "告诉我们与$guardian.540.name$相关的知识。"#automated dreadnought
+ guardian.508.i:0 "告诉我们与$guardian.545.name$相关的知识。"#wraith
+ 
  guardian.590.name:0 "雇佣科学家"
  guardian.590.desc:0 " 我们愿意提供我们之中最杰出的科学家来换取你们的资助。你们要知道这种提议可不是谁都能轻易获得的。\n\n在做出人员安排之前，还必须准备好合适数量的...资金赞助。"
  guardian.590.a:0 "当然，你们可以获得资金支持。"
  guardian.590.a.reply:0 "很好。你现在获得了自由进入这个时代最伟大思想的权限。"
+
  guardian.596.desc:0 "看来我们过分高估了你们像个开化国家一样行事的能力。真奇怪... 我们通常能够在更早的阶段就分辨出那些野蛮的国家。\n\n当然，我们会向你们提供我们数据库的使用权。"
  guardian.597a.desc:0 "你这个蠢货！ 如果攻击我们的话，你的后代们便只能在低技术的悲惨中生活！"
  guardian.597b.desc:0 "你的本能迫使你选择攻击我们，而现在你要付出代价。我们再也不会与[Root.GetName]共享知识了。"
  guardian.597c.desc:0 "我们有那么多可以教授给[Root.GetSpeciesName]的东西，然而你却将其抛之不顾。你们简直是石器时代的野蛮渣滓！"
  guardian.597d.desc:0 "你已经成为了整个策展人组织的敌人。"
+
  guardian.510.name:0 "以太巨龙"
  guardian.510.desc:0 "以太龙族这个物种对我们宇宙中的生命犹如瘟疫一般。最后一只巨龙尽管强大，但也不是无敌的。"
  guardian.510.a:0 "它究竟是什么？"
  guardian.510.a.reply:0 "传说中， 以太巨龙的出现先于任何一个宇宙文明。它们曾经数量众多，但随着时代更迭他们的族群也在逐渐衰落。\n\n不论何时何地，他们的存在对生命而言都如瘟疫一般。这个宇宙的物理法则对以太巨龙并不适用，似乎它们是从另一个世界之中进化而成。而事实上他们的确是异世界的产物。我们认为他们来自在我们的宇宙形成前的上一个宇宙，是上个时空留下的最后的残骸，他们则是\大挤压\之后唯一的幸存者。\n\n这里不远处的巨龙是银河系中的最后一只，说不定是宇宙中最后的幸存者。"
  guardian.510.b:0 "告诉我们如何打败它。"
  guardian.510.b.reply:0 "它的鳞屑会回应冲击的频率，更精确地说，特定的频率对它的皮下组织有着放松的作用，而那里控制着它们的用以移动与防护冲击的鳞片。这个条件反射曾是以太巨龙之间社交行为的关键环节，现在则成为了它的死穴。\n\n调整舰船火力平台的攻击节奏到一个特定的频率，可以有效地增加以太龙所收到的伤害。它并不是主动想生存在这个世界之中————了解它并结束它的痛苦吧。"
+
  guardian.515.name:0 "神秘堡垒"
  guardian.515.desc:0 "它是一种荒诞，巨大且能够自我延续的构造体。你可能从未见过这种建筑，但这样也许对你来说是最好的。"
  guardian.515.a:0 "任何造物都能被毁坏。"
@@ -323,32 +367,38 @@
  guardian.515.bb:0 "提醒下我们该如何进入其中。"
  guardian.515.cc:0 "提醒下我们是谁建造了它。"
  guardian.515.dd:0 "提醒下我们它是由何驱动的。"
+
  guardian.520.name:0 "噬星者"
  guardian.520.desc:0 "就像你的帝国一样，噬星者是银河狩猎场中的一种新的寄生虫。它们从恐惧和核聚变中诞生，平时在星际间游荡。它们会潜进行星内部，从内部汲取养分。另外，它们也很不想被打扰。"
  guardian.520.a.reply:0 "这种恒星吞噬者是一种很罕见的生物，我们并不知道这种怪物的来源。我们手上现有的情报非常有限，只有极少数的情报提供源获得了与它们接触的第一手资料。\n\n但是我们现有的资料都指向了一个事实：这是一种极其可怕的生物，它只会带来毁灭。\n\n噬星者能够靠聚变本身获取能量。我们得出了一个§Y非常§!有说服力的推断：这种生物是由其它位面的太阳物质与暗物质聚变而产生的。它们潜进恒信内部，吞噬其中的物质来为其内部聚变反应堆提供燃料。它们给所有途径的星系带来了死亡。在它的盛宴之后，行星们要么像冰一样粉碎，要么暴露在它胃中的第二太阳之下被烧尽。\n\噬星者渴望食物，它不会停下脚步直到吃光所有东西。当你注视着它的时候，你会看到幸存者那无以言表的狂怒。"
  guardian.520.b.reply:0 "我们唯一确定的事情是，噬星者最重要的部分是它的集成核心。它极度需要维持其内部的反应炉运转，避免让寒冷的虚空接触到它内部使其崩塌。没有了星际间的物质，它什么都不是。\n\n这是一个你们可以利用的缺陷。你们可以将武器按照我们提供的标准来进行校准，这样你们就能穿破保护其消化系统的外层组织。打伤它，你就能看到它的内部器官喷射出来，扩散到整个星系。"
+
  guardian.525.name:0 "位面之魇"
  guardian.525.desc:0 "当位面之魇进入我们的管辖范围内时，监视器检测到了巨大的能量涌动。"
  guardian.525.a:0 "$guardian.510.a$"
  guardian.525.a.reply:0 "这种完全是由怨恨组成的生物，诞生于另外一个位面。那里非常像是许多太空文明所信仰的宗教里描述的地狱。我们所看到的只是它的一小部分——它的完全体更加巨大。\n\n幸运的是它没能完成到我们这个宇宙的转化。一旦它的完全体进入我们的宇宙，它将马上吞噬掉所有的生命。"
  guardian.525.b:0 "$guardian.510.b$"
  guardian.525.b.reply:0 "位面之魇最大的弱点是它通往我们宇宙的位面传送门——没有传送门，它就不能在我们的宇宙中存活下去。我们已经确认了传送门能量矩阵中几个防御薄弱的位置，用传统的武器就能对其造成伤害。现在开始传送目标坐标点。"
+
  guardian.530.name:0 "蜂巢小行星"
  guardian.530.desc:0 "这些令人感到烦躁的虫子曾经比现在更多，它们的足迹遍布整个银河。那个时候，当你航行通过任意一个小行星带时，你都会发现有小虫子围绕着你的船只。"
  guardian.530.a:0 "$guardian.510.a$"
  guardian.530.a.reply:0 "它们是一种会出动出击保卫领土的硅基生物。尽管它们过去对太空文明来说是个巨大的威胁，它们的数量在过去的50万年里急剧下降。剩下的都隐遁了起来。\n\n尽管流传着许多谣言，它们并不具备任何智能生物的特征。它们喜欢在小行星里筑巢，并且攻击所有它们认为是有威胁的东西。"
  guardian.530.b:0 "$guardian.510.b$"
  guardian.530.b.reply:0 "这种生物喜欢用一种未知的物质包裹在他们的蜂巢小行星外面来防御舰载武器的攻击。但是这种物质并不能完全地覆盖在小行星的表面上。\n\n我们现在传输给你的数据就是有关未被防御组织覆盖的区域的，这样你们就对它们造成更大的伤害了。"
+
  guardian.535.name:0 "无限神机"
  guardian.535.desc:0 "嗯对，这种色彩斑斓的机器出现于远古时代。我们对它的研究可以追溯到我们城邦建立之初。在我们之前已经有许多文明也对它进行了研究。\n\n这种机器已经不只是上古时代的产物了。根据我们现有的资料显示，它一直都存在着。但是，它所做的唯一的事情就是绕着黑洞转。我们对无限神机很感兴趣，但是我们明白这种东西对于你们来说还是太难理解了。"
  guardian.535.a.reply:0 "我们并不能从无限神机（就像你们这么称呼的）中提取出任何东西。我们没有获得任何信息。整个银河系中没有任何一个骇客或者工程师能透过它闪亮的外壳看到里面的任何东西——我们很清楚它里面藏着许多有价值的信息。我们输了，我们既不知道它的用途，也不知道它接下去的任务是什么。"
  guardian.535.b.reply:0 "你唯一能对它做的事估计就是破坏它了。我们没能从中获得什么信息，但是它的外壳并不是坚不可摧。采矿者曾经无数次的尝试过从它上面获取资源，但是每次都空手而归。不过，他们发现了一些有趣的东西：无限神机并不像它们看上去的那样坚硬。\n\n它是由一种能够调节其自身属性的材料构成。不论是密度，弹性还是温度它都能根据实时的伤害来进行调整，使其更加不容易被破坏。改变你导弹的发射频率和出力。不管你用什么武器攻击，请不停地改变攻击的方式。这样你们才能克服无限神机外壳的适应性。"
+
  guardian.540.name:0 "自动无畏战舰"
  guardian.540.desc:0 "这是一个悲伤的故事。自动无畏战舰的主人已经过逝百万年之久了，但是这些巨大的舰船还继续在它们帝国的废墟周围警戒着。"
  guardian.540.a:0 "$guardian.510.a$"
  guardian.540.a.reply:0 "这是那曾经无比强大的帝国的旗舰之一。这个帝国在7百万年前曾在这一片地区非常的兴旺。就如同其它很多帝国一样，这个帝国也在一系列与邻国的战争中骤然消亡。\n\n 你遇到的无畏战舰是他们最后的遗物。尽管船员们都已经去世，电脑系统还在尽职地巡逻。许多人尝试过结束这些古老战舰的使命，但无一例外地失败了。 "
  guardian.540.b:0 "$guardian.510.b$"
  guardian.540.b.reply:0 "无畏战舰需要大量的船员来操纵，但是现在它仅依靠着AI来工作，这使得当它的中央计算机受到干扰时将变得非常脆弱。"
+
  guardian.545.name:0 "幽魂"
  guardian.545.desc:0 "幽灵一般的幽魂是一种令人烦躁的生物，如果它们能被称为生物的话。我们把它们当做是一种罕见但是极具破坏力的自然灾害。"
  guardian.545.a:0 "你们对于这种灾难知道多少？"
@@ -359,6 +409,7 @@
  guardian.545.c.reply:0 "黄色的幽魂s的频率是520THz。它们的光是与§YG级行星§!一致的。它们免疫传统武器攻击的能力在有黄矮星的星系里将会被削弱。"
  guardian.545.d:0 "蓝色幽魂是什么样的呢？"
  guardian.545.d.reply:0 "蓝色幽魂的频率是650THz。它们的光是与§YB级行星§!一致的。它们免疫传统武器攻击的能力在有蓝巨星的星系里将会被削弱。"
+
  guardian.593:0 "[From.GetName]已经被摧毁"
  guardian.593.desc:0 "在摧毁[From.GetName]之后，我们的部队搜遍了这片区域的每个它们的古代空间站所占据的有价值的地方，并且计划修复一些数据库中的资料，这对我们的研究很有帮助。"
  guardian.594.a.desc:0 "$guardian.594.ab.desc.start$\n\n$guardian.594.ab.desc.known$"
@@ -374,17 +425,22 @@
  guardian.594.cd.desc.trade:0 "不幸的是，这也意味着我们再也没办法使用策展人巨大的数据库了。"
  guardian.594.a:0 "这对它们的遗产来说是一个悲伤的结局。"
  guardian.594.b:0 "这对我们造成了巨大的损失！"
+
+ ### DRAGON
  guardian.610.name:1 "遭遇以太巨龙"
  guardian.610.desc:1 "在[From.GetName]星系遇到的这种生物不同于以往遇见的[Root.GetName]。\n\n它们具有极强的攻击性与攻击能力，守护着先前被发现蕴藏有大量资源的小行星。"
  guardian.610.a:0 "不祥的兆头。"
+
  guardian.649.desc:0 "我们收到了我们一只舰队在被摧毁前发出的通信。其中指出他们所遇到的巨大的敌人能自动跟踪舰队跃迁的标记……\n\n如果这种怪兽标记了我们的气味，我们必须准备对它进行报复。"
  guardian.649.a:0 "启动一级警戒。"
  guardian.650.name:0 "龙来了"
  guardian.650.desc:0 "我们接收到了来自[Root.GetName]的在进行紧急跃迁之前发出的最后的信号。其中指出他们所遇到的巨大的生物能自动跟踪舰队跃迁的标记……\n\n如果这种怪兽标记了我们的气味，我们必须准备对它进行报复。"
+
  guardian.660.name:0 "巨龙宝库：坟墓"
  guardian.660.desc:0 "埋葬在[Root.GetName]地壳下的是似乎与在[Root.GetStarName]中发现的以太巨龙有密切关系的生物的部分化石残骸。\n\n这种跟龙类关系密切的生物死去千万年之后，它们的软组织变成化石状而且十分坚硬，而其内部结构变成了矿物一般。"
  guardian.660.a:1 "研究残骸。"
  guardian.660.b:0 "把它们切下来。"
+
  guardian.661.name:0 "巨龙宝库：幼畜"
  guardian.661.desc:0 "当我们的采矿空间站在环绕着§Y巨龙宝库§!并且重新定位矿产的位置时，感应器发现了一些新的东西。\n\n一个完好无损的§Y以太巨龙的蛋§!被埋在行星的表面下。它周围是一些运气不太好的生物的被碾碎的外壳。蛋已经从矿坑里挖出来了，但是它未来的命运还不得而知。"
  guardian.661.a:0 "一只年幼的以太巨龙可以成为一位强力的盟友……"
@@ -397,6 +453,7 @@
  guardian.664.a.tooltip:0 " 年幼的以太巨龙§H塞尔§!加入了[Root.Owner.GetName]的舰队。"
  guardian.665.name:0 "巨龙宝库：无果而终"
  guardian.665.desc:0 "从巨龙宝库中发掘出来的以太巨龙的蛋，用外星生物学的话讲就是卵，已经过了孵化期。\n\n已经没有任何希望从里面孵化出什么东西了。"
+
  guardian.670.name:0 "屠龙者"
  guardian.670.desc:3 "可怕的以太巨龙已经被击杀。[From.From.GetLeaderName]司令和[From.From.GetName]那非凡的勇气将被世人铭记。\n\n被那怪物贪婪地保护着的§H小行星§!现在可以被安全地发掘了。谁知道在这几千万年的时间里上面聚集了多少宝贝呢？ "
  guardian.670.desc.noleader:3 "可怕的以太巨龙已经被击杀。[From.From.GetName]那非凡的勇气将被世人铭记。\n\n被那怪物贪婪地保护着的§H小行星§!现在可以被安全地发掘了。谁知道在这几千万年的时间里上面聚集了多少宝贝呢？"
@@ -404,6 +461,8 @@
  guardian.670.b:0 "尽管这是必要的，但是我们还是感到很遗憾。"
  guardian.670.spiritphile.tooltip:0 "解锁帝国唯一§S£building 建筑§! $building_guardian_dragon_shrine$。"
  guardian.670.tooltip:0 "解锁帝国唯一§S£building 建筑§! $building_guardian_dragon_monument$。"
+ 
+ # STELLARITE
  guardian.999.name:0 "坍缩的恒星"
  guardian.999.desc:0 "当[Root.GetName]进入[From.GetName]时，他们发现这里很不对劲。这里的太阳，原先是被标记为矮星，已经变小了很多。并且它的质量正在以一种惊人的速度下降。星系里的行星随之进入了冰河时代。 "
  guardian.999.a:0 "是什么导致了这种现象？"
@@ -429,6 +488,7 @@
  guardian.1040.desc.detail:0 "无限神机被摧毁了。我们部队最终还是突破它的防御系统。它的残存部分慢慢地被拖入一个质量巨大的黑洞中。在被摧毁之前它没有尝试与我们取得联系过。"
  guardian.1040.a:0 "把它拆开。"
  guardian.1040.c:0 "研究神机主脑的原理。"
+
  guardian.1041.desc:0 "无限神机被第三方势力摧毁了。我们再也无法对其进行研究了。"
  guardian.1050.name:0 "永恒的计算机"
  guardian.1050.desc:0 "我们捕获到了来源不明的信号。它来自于我们之前遭遇过的巨型金属星球。经过先前坚持不懈的努力接触，它正在发送有节奏的无线电波，内容指出了它所环绕运行的黑洞。\n\n它所做的内容已经超出了我们任何一个成员的认知，但这个信号可以给我们的科学家提供进入这个金属球体考察的机会。"
@@ -475,6 +535,8 @@
  guardian.1074.name:1 "庞大古埃黑洞空间站"
  guardian.1074.desc:1 "我们失去了庞大古埃黑洞轨道上的空间站。失去独特的研究能力。"
  guardian.1076.desc:1 "我们打开了通往庞大固埃黑洞轨道上空间站的道路。这个黑洞的特性为我们提供了进一步研究的能力。"
+
+ ### WRAITH
  guardian.2010.name:0 "幽灵发条"
  guardian.2010.desc:1 "脉冲星的研究对我们的科学家而言，似乎是灵感的无尽来源，但极少显示出极度危险的现象的兆头。这使得最近来自于[From.GetName]的报告得到了更多关注。\n\n一次初始扫描揭示了脉冲星除了其有规律的电磁辐射束，还在发送着一定波长限度内的另一个辐射束，其间隔越来越短，且只在同一个行星系内可观测。根据初次计算，脉冲的间隔会在大约四十年后达到0。究竟发生了什么有待推测，但毫无缘由的脉冲会使研究者渐渐产生迷信般的恐惧。"
  guardian.2010.a:0 "我们必须留心。"
@@ -488,6 +550,8 @@
  guardian.2014.name:0 "幽魂的毁灭。"
  guardian.2014.desc:0 "诞生于脉冲星中的幽灵终于被毁灭了。尽管它仍是群星间的幽灵，成为一个永远的迷，我们的飞船成功摧毁它的过程被我们最悲观的科学家观测到了，他曾认为这一切是绝不可能的。 \n\n为了让他们自己相信他们没错，这些科学家小心翼翼地记录下幽灵在今天发出的光和能量，这在先前是不可观测的。"
  guardian.2014.a:0 "光芒终以消逝。"
+
+ # ENIGMATIC FORTRESS
  guardian.2101.name:0 "神秘堡垒"
  guardian.2101.desc:0 "随着我们击败了周边防御设施，我们得以进入这座古代建筑，一窥其奥秘。进入和穿越这座建筑可能会很困难，但无论是谁建造了它，必定是采用了我们难以想象的技术。情况变得更糟糕的是，这座堡垒正在恢复。\n\n协助解除堡垒武装的人员自愿尝试进入堡垒，同来自[Root.Capital.GetName]的后备人员一起一探究竟。走向结局的道路上，目前看来，接下来的的路毫无疑问充满挑战。"
  guardian.fortress.continue:0 "外遣小队的远征仍将继续..."
@@ -556,6 +620,8 @@
  guardian.2160.name:0 "堡垒：重启"
  guardian.2160.desc:0 "时间不够了。神秘的堡垒已从我们起初的攻击中恢复、重启防御。与勘探队的通信被干扰了，但最后的通讯表明他们面临着他们预想中的命运。"
  guardian.2160.a:0 "可惜不是我们最希望的那一种。"
+ 
+ ### DIMENSIONAL HORROR
  guardian.3001:0 "虚空中的梦魇"
  guardian.3001.desc:0 "我们在[horror_system.GetName]附近遇到巨型实体，它似乎只是部分地存在于我们的宇宙，这个生物的身体大部分还困在它所来自的噩梦般的位面。\n\n有一个恶质的智能在此工作，古老程度远远超出我们的时间概念，设计也极其异类。我们只能猜测它的目的。"
  guardian.3001.a:0 "肯定不是什么好东西。"
@@ -566,6 +632,8 @@
  guardian.3004b.desc:0 "$guardian.3004.intro$"
  guardian.3004.intro:2 "我们对[guardians_horror_system.GetName]位面裂隙产生的能量异常终于有了结果。创建这些传送门实用的能量跟我们遇见过的都不同。"
  guardian.3004.jumpdrive:0 "最令人感兴趣的是，我们的科学家认为可能使用这些外星能量发明出一种新的星际旅行方法。"
+ 
+ ### AUTOMATED DREADNOUGHT
  guardian.3100:0 "自动无畏战舰"
  guardian.3100.desc:0 "[dreadnought_system.GetName]星系发现一艘形单影只的战舰在巡航。船只上未发现生命迹象，但发出强烈能量特征，可能是猬立的武器系统。\n\n建议小心从事。"
  guardian.3100.a:0 "好一个大家伙！"
@@ -576,16 +644,23 @@
  guardian.3103:0 "修复无畏战舰"
  guardian.3103.desc:0 "这是值得铭记的一天！我们训练有素的修理队和工程师将截停在[guardians_dreadnought_system.GetName]星系的无畏舰修复了。该巨型战舰已补齐船员，经试航后宣布可以入役。"
  guardian.3103.a:0 "我军如虎添翼。"
+
+ ### HIVER
  guardian.3201:0 "蜂巢机群"
  guardian.3201.desc:0 "高速移动的袭击舰攻击我们[hiver_system.GetName]星系的矿站！这些未识别的攻击者从几个休眠小行星中蜂拥而出，显示出巨大力量特征。\n\n我们只能猜测这些小行星是某种尚且未知的宇宙生命形式的母巢。不管它们是什么，我们矿站的扩展似乎引发了它们的行动！"
  guardian.3201.a:0 "它们快速冲过来了！"
  guardian.3202:0 "晶态小行星"
  guardian.3202.desc:0 "[hiver_system.GetName]星系有一个异常密集的小行星带，显示出一些独特属性。几个较大的小行星表面有结晶露出，可能意味着有极其丰富的矿物沉积。\n\n但是，长距传感器在行星带密集区域似乎跟踪到了小物体或者航天器的零星活动。虽然我们无法修复，但在较大的小行星附近至少能看到两个损坏的矿站漂浮在空间中。"
  guardian.3202.a:0 "不太对劲……"
+ 
  guardian.3204:0 "击败蜂巢小行星"
  guardian.3204.desc:0 "我军设法在 [hive_system.GetName] 星系粉碎了蜂巢小行星的攻击力量。它们再度沉寂，我们没有再检测到任何恶意攻击。\n\n其中一个小行星虽然受波及，但还相当完整我们应该考虑派一支科考队看看里面有什么。"
  guardian.3204.a:0 "准备一支外出小队。"
+ 
  guardian.3205.desc:0 "我们的科学小队已经结束了对[hive_system.GetName]星系蜂巢小行星庞大管道和系统的探索。没有遇到攻击我们的星际生物种群，但科学家找到了某种孵化室的残迹。\n\n这使我们能深入洞察它们的生命周期， 大大扩展了我们的星际生物学理解。"
+
+ 
+ ### SPECIAL PROJECTS
  INVESTIGATE_ENCLAVE:0 "$ESTABLISH_COMMUNICATIONS$"
  INVESTIGATE_ENCLAVE_DESC:0 "我们需要进一步研究定居在§Y[Prev.From.GetName]星系的外星人§!。如果他们拥有语言，我们一定要破解他们的语言并和他们建立联系。\n\n奖励：£influence §G影响力§!或开启§S特殊项目§!"
  STELLARITE_DEAD_PROJECT:0 "噬星者"
@@ -612,6 +687,7 @@
  HIVE_ASTEROID_PROJECT_DESC:0 "我们的军队成功平定了在[hive_system.GetName]星系中的一个蜂巢小行星。我们应该派遣一个科研团队去研究小行星的内部结构。"
  DRAGON_INCUBATION_PROJECT:0 "龙蛋孵化"
  DRAGON_INCUBATION_PROJECT_DESC:0 "这颗在龙穴中发现的蛋仍然显示出微弱的生命迹象。模拟龙蛋的孵化环境并最终成功孵化是可行的。尽管我们就算成功孵化了龙蛋，得到的以太龙类几乎不可能拥有与其先祖相同的大小和力量，但是如果我们对其进行合理的驯养，那么这无疑会是我们不可估量资产。\n\n这颗龙蛋脱离了龙巢不能存活太久，我们必须加快行动了。"
+
  TECHNOSPHERE_PROJECT:0 "研究球体"
  TECHNOSPHERE_PROJECT_DESC:0 "这个悬浮在卡冈图雅黑洞边的金属球体已经可供研究了。当我们研究它的处理核心时，我们会发现什么？"
  TECHNOSPHERE_BLACKHOLE:0 "理解无限"
@@ -620,6 +696,8 @@
  TECHNOSPHERE_HACKING_DESC:0 "骇入金属球体的核心程序或许能让我们进一步了解这是什么，以及它在做什么。"
  TECHNOSPHERE_DESTRUCTION:0 "破碎的球体"
  TECHNOSPHERE_DESTRUCTION_DESC:0 "一小队爆破专家应该能够鉴别并利用这个神秘球体外壳的弱点，彻底终结这个沉默的威胁。"
+ 
+ #MISC
  building_stellarite_trophy:0 "噬星者战利品"
  building_stellarite_trophy_desc:0 "由噬星者的残骸组成的战利品永远歌颂着帝国对这个巨兽的胜利。"
  stellarite_object:0 "噬星者亡骸"
@@ -637,20 +715,26 @@
  dreadnought_object:0 "宕机的无畏战舰"
  dreadnought_object_tooltip:0 "尽管遭受到了巨大的伤害，这艘巨型战舰的船体还是在很大程度上幸存了下来。"
  dreadnought_object_desc:0 "尽管遭受到了巨大的伤害，这艘巨型战舰的船体还是在很大程度上幸存了下来。"
+ 
  dormant_hive_base_2_object:0 "休眠的蜂巢小行星"
  dormant_hive_base_2_object_tooltip:0 "这个蜂巢小行星曾经处于激活状态，但是现在武器已处于熄火模式。现在已经没有小型攻击装置存在的迹象了。"
  dormant_hive_base_2_object_desc:0 "这个蜂巢小行星曾经处于激活状态，但是现在武器已处于熄火模式。现在已经没有小型攻击装置存在的迹象了。"
+ 
  pc_crystal_asteroid:0 "晶态小行星"
  pc_crystal_asteroid_desc:0 "这个大型小行星被某种晶态岩层包裹着。"
+
  enclave_traders_sr1:0 "里甘贸易协议"
  enclave_traders_sr2:0 "雪拉贸易协议"
  enclave_traders_sr3:0 "穆塔根贸易协议"
+
  opinion_destroyed_curator:0 "被毁的策展人协会"
  opinion_destroyed_curator_insight:0 "被毁的曾与之交易的策展人城邦"
  opinion_destroyed_trader:0 "被毁的商人工会"
  opinion_destroyed_trader_sr:0 "被毁的曾与之交易的商人城邦"
+
  leader_trait_dragonslayer:0 "屠龙者"
  leader_trait_dragonslayer_desc:0 "这位舰队司令在激烈的战斗中证明了自己。"
+
  infinity_calculations:0 "奇点处理器"
  infinity_calculations_desc:0 "协助无限神机让我们知道了它诞生的秘密。每一个处理元件都能够扩展其自身。这个发现将会大大增强我们的研究能力。"
  infinity_calculations_hacked:0 "$infinity_calculations$"
@@ -661,6 +745,7 @@
  black_hole_pantagruel_research_desc:1 "我们最近在庞大古埃轨道上方工作的空间站观察到了镜像世界，这增强了我们的研究能力。"
  technosphere_praising:0 "圣族技术"
  technosphere_praising_desc:0 "我们的人民将巨大的球形计算器视为圣族在这个的世界真正力量。"
+
  building_artist:0 "艺术纪念碑"
  building_artist_desc:0 "一个艺术纪念碑是天问的象征，问询着自然存在和其道德的意义。或许这只是一个脆弱的文明的思索……又或是塑造人物形象时不可避免的头痛……嗯……"
  building_artist_patron:0 "文化部"
@@ -673,8 +758,10 @@
  enclave_artist_festival_outrage:0 "有组织预谋的恐慌"
  guardian.deal.tooltip:0 "我们难以承受"
  enclave_artist_festival_outrage_desc:0 "世界艺术节为这个星球造成了混乱，发生了严重的踩踏事故。"
+
  draconic_beats:0 "天魔失坠"
  draconic_beats_desc:0 "我们的舰队接到指令，当攻击以太巨龙时要以特定的节奏开火。。"
+
  dimensional_horror_weak_points:0 "平定传送门"
  dimensional_horror_weak_points_desc:0 "如果我们对位面之魇产生的传送门的弱点进行精确打击，那么它将会很快失去稳定性。"
  automated_dreadnought_weak_points:0 "瘫痪无畏战舰"
@@ -684,23 +771,29 @@
  damage_vs_country_type_guardian_horror_mult:0 "对位面之魇的伤害"
  damage_vs_country_type_guardian_dreadnought_mult:0 "对自动无畏战舰的伤害"
  damage_vs_country_type_guardian_hiver_mult:0 "对蜂巢小行星的伤害"
+
  curator_buff_stellarite:0 "噬星者的血管"
  curator_buff_stellarite_desc:0 "策展人让我们向星际吞噬者的阀门机关开火，这样就能耗散它们内部的热量。"
  curator_buff_sphere:0 "无限校验仪"
  curator_buff_sphere_desc:0 "无限神机的实时威胁更新系统有一个弱点。它不能跟上持续的变化。今后我们要为每艘飞船安排一名船员负责校验舰载武器。"
  damage_vs_country_type_guardian_stellarite_mult:0 "对噬星者的伤害"
  damage_vs_country_type_guardian_sphere_mult:0 "对无限机器的伤害"
+ 
  curator_poi_chain_title:0 "宇宙的奥秘"
  curator_poi_chain_desc:1 "知道许多知识是策展人的本业。或许我们可以购买信息，但是这取决于我们要用他们的知识做些什么。"
  curator_poi_title:1 "兴趣点"
  curator_poi_desc:1 "我们从策展人哪里购买了坐标——据说在这些区域有一些有趣的东西。"
+
  technosphere_chain_title:0 "高科技球体"
  technosphere_chain_desc:0 "一个不断发出神秘光线的金属球体正在环绕§Y卡刚都雅黑洞§!。它现在毫无动静，但会一直保持毫无动静么？"
+ 
  STELLARITE_LARGE_MISSILE:0 "大型噬星者导弹"
  HIVE_STRIKE_CRAFT:1 "蜂巢机群"
+
  country_resource_sr_riggan_add:0 "里甘香料"
  country_resource_sr_xuran_add:0 "雪拉凝胶"
  country_resource_sr_muutagan_add:0 "穆塔根水晶"
+
  riggan_spice_effect:0 "\n§Y里甘香料§! 获得快乐加成： £happiness  §G+5%§!"
  xuragel_effect:0 "\n§Y雪拉凝胶§! 获得宜居度加成： §G+5%§!"
  muutagan_crystals_effect:1 "\n§Y穆塔根晶体§! 主流思潮吸引： §G+10%§!"
@@ -718,28 +811,36 @@
  automated_dreadnought_plural:0 "无畏战舰"
  technosphere:0 "无限神机"
  technosphere_plural:0 "无限神机"
+
  guardian_hard:0 "困难难度守护者"
  guardian_insane:0 "疯狂难度守护者"
+
  TECHNO_WEAPON:0 "无限机炮"
  TECHNO_PD:0 "无限点防御"
  WRAITH_RED_LASER:0 "450THz 发射器"
  WRAITH_BLUE_LASER:0 "650THz 发射器"
  WRAITH_YELLOW_LASER:0 "520THz 发射器"
+
  building_guardian_dragon_shrine:1 "以太巨龙神坛"
  building_guardian_dragon_shrine_desc:1 "灭绝的以太巨龙神坛"
  building_guardian_dragon_monument:1 "屠龙者纪念碑"
  building_guardian_dragon_monument_desc:0 "一座纪念击败以太巨龙的伟大纪念碑。"
+ 
  TECH_UNLOCK_CURATOR_LAB_1_TITLE:0 "$TECH_UNLOCK_COMPONENT_LINE$ $tech_curator_lab$"
  TECH_UNLOCK_CURATOR_LAB_1_DESC:0 "$tech_curator_lab_desc$"
  TECH_UNLOCK_CURATOR_LAB_2_TITLE:0 "$TECH_UNLOCK_COMPONENT_LINE$ $tech_archeology_lab$"
  TECH_UNLOCK_CURATOR_LAB_2_DESC:0 "$tech_archeology_lab_desc$"
+ 
  opinion1:0 "$OPINION$：£opinion §G+1§!"
  opinion7:0 "$OPINION$：£opinion §G+7§!"
+ 
  horror_energy_object:0 "$energy_uninhabitable_category$"
+
  guardian.506.f:0 "我们的舰队如何面对战斗？"
  guardian.5106.f1.reply:0 "你的舰队差劲，太差劲。\n\n等等，难不成你想要去……我的天哪，就用你的这些舰队？它，它可是不折不扣的杀戮者。"
  guardian.5106.f2.reply:0 "我强烈不建议你进行作战。你的攻击与其说是威胁它，更像是无谓的吵闹。"
  guardian.5106.f3.reply:0 "嗯……没错……没错，我想事实上你还是有很大的机会的。如果你联合你的整个舰队的话……我提醒你这场胜利不会轻松，但是起码你有胜利的可能性。"
  guardian.5106.f4.reply:0 "你的舰队一个强大的舰队，甚至比得上一些在我们策展人级的编年史都被记载的最伟大的无敌舰队。胜利将掌握在你的手中。"
+ 
  guardian.110.name:0 "交换矿物"
  guardian.120.name:0 "交换能量币"

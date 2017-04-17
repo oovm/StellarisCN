@@ -1,23 +1,23 @@
 package file;
-import java.io.FileWriter;
+
+import java.io.FileOutputStream;
+import java.io.OutputStreamWriter;
 import java.util.ArrayList;
 
 public class MyFileWriter {
 	public static void writeFile(String filePath, ArrayList<String> fileContent) {
-		FileWriter fw = null;
 		try {
-			fw = new FileWriter(filePath);
-			for (String lineContent : fileContent)
-				fw.write(lineContent);
-			fw.close();
+			String encoding = "utf-8";
+			OutputStreamWriter writer = new OutputStreamWriter(new FileOutputStream(filePath), encoding);
+			for (String lineContent : fileContent) {
+				if (fileContent.indexOf(lineContent) == fileContent.size() - 1)
+					writer.write(lineContent);
+				else
+					writer.write(lineContent + "\r\n");
+			}
+			writer.close();
 		} catch (Exception e) {
 			e.printStackTrace();
-		} finally {
-			try {
-				fw.close();
-			} catch (Exception e) {
-				e.printStackTrace();
-			}
 		}
 	}
 }

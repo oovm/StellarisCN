@@ -1,4 +1,10 @@
 ﻿l_english:
+
+ ####################################
+ # Modifiers
+ ####################################
+
+ #Country
  MOD_COUNTRY_FORTIFICATION_STRENGTH:0 "工事强度"
  MOD_COUNTRY_BORDER_MULT:0 "疆域范围"
  MOD_COUNTRY_ROBOT_MAINTENANCE_MULT:0 "机器人维护费"
@@ -72,6 +78,8 @@
  MOD_COUNTRY_SUBJECT_TECHNOLOGY_SHARING_MULT:0 "科技共享"
  MOD_COUNTRY_EXPANSION_DISTANCE_MULT:0 "扩张距离"
  MOD_COUNTRY_GOVERNMENT_CIVIC_POINTS_ADD:0 "国是槽位"
+ 
+ #Pop
  MOD_POP_FERTILITY:0 "生育能力"
  MOD_POP_HAPPINESS:0 "幸福度"
  MOD_POP_HAPPINESS_DESC:0 "所有帝国內人口的幸福度都会受到此数值影响"
@@ -90,6 +98,7 @@
  MOD_POP_XENOPHOBIA:0 "排外主义"
  MOD_POP_GOVERNMENT_ETHIC_ATTRACTION:1 "主流思潮吸引力"
  MOD_POP_GOVERNMENT_ETHIC_ATTRACTION_DESC:0 "政府主流思潮对人口的吸引力受此数值影响。"
+ 
  MOD_COUNTRY_COLONY_INFLUENCE_COST_MULT:0 "殖民地影响力花费"
  MOD_COUNTRY_FACTION_SURPRESSION_COST_MULT:0 "派系镇压花费"
  MOD_COUNTRY_POLICY_HAPPINESS_MULT:0 "政策幸福度影响"
@@ -118,6 +127,8 @@
  MOD_POP_ROBOT_PRODUCTION_OUTPUT:0 "机器人资源产出"
  MOD_POP_FOOD_ADD:0 "人口食物产出"
  MOD_POP_FOOD_MULT:0 "人口食物产出"
+ 
+ #Ship
  MOD_SHIP_ARMOR_ADD:0 "装甲"
  MOD_SHIP_ARMOR_MULT:0 "装甲"
  MOD_SHIP_SHIELD_DAMAGE_MULT:0 "护盾伤害"
@@ -166,6 +177,8 @@
  MOD_SHIP_SCIENCE_SURVEY_SPEED:0 "调查速度"
  MOD_SHIP_TRACKING_ADD:0 "索敌"
  MOD_SHIP_TRACKING_MULT:0 "索敌"
+
+ #Army
  MOD_ARMY_UPKEEP_MULT:0 "陆军维护"
  MOD_ARMY_UPKEEP_MULT_DESC:0 "影响所有帝国内的陆军维护费用，使其每月花费增加或减少。"
  MOD_ARMY_HEALTH:0 "陆军健康值"
@@ -179,6 +192,8 @@
  MOD_ARMY_ATTACK_MORALE_MULT:0 "攻击时陆军士气"
  MOD_ARMY_ATTACK_DAMAGE_MULT:0 "攻击时陆军伤害"
  MOD_ARMY_RANK_INCREASE:1 "陆军等级"
+
+ #Planet
  MOD_PLANET_FORTIFICATION_STRENGTH:0 "行星工事强度"
  MOD_PLANET_ADD_SPACEPORT:0 "额外轨道建筑容量"
  MOD_PLANET_SENSOR_RANGE_ADD:0 "行星传感范围"
@@ -202,6 +217,8 @@
  MOD_PLANET_ARMY_BUILD_COST_MULT_DESC:0 "影响帝国内陆军需要的资源，使其招聘的成本增加或减少。"
  MOD_PLANET_BORDER_MULT:0 "星球疆域扩张"
  MOD_PLANET_BUILDING_BUILD_SPEED_MULT:0 "建筑建造速度"
+ 
+ #Fleet
  MOD_NAVY_SIZE_ADD:0 "$NAVY_SIZE_TITLE$"
  MOD_NAVY_SIZE_MULT:0 "$MOD_NAVY_SIZE_ADD$"
  MOD_NAVY_SIZE_ADD_DESC:0 "§E§H$MOD_NAVY_SIZE_ADD$§!决定了帝国能够供应的舰船上限，大型舰船相对于小型舰船需要更高§H$MOD_NAVY_SIZE_ADD$§!。§!"
@@ -209,6 +226,8 @@
  MOD_FLEET_EMERGENCY_FTL_MIN_DAYS_ADD:1 "紧急超光速跳跃冷却时间"
  MOD_FLEET_EMERGENCY_FTL_MIN_DAYS_MULT:0 "$MOD_FLEET_EMERGENCY_FTL_MIN_DAYS_ADD$"
  MOD_FLEET_FEDERATION_NAVAL_CAP_CONTRIBUTION_MULT:0 "联邦海军容量贡献"
+
+ #Leader
  MOD_LEADER_RULER_SKILL_LEVELS:0 "领袖技能等级"
  MOD_LEADER_SKILL_LEVELS:0 "领袖技能等级"
  MOD_LEADER_AGE:0 "领袖寿命"
@@ -221,16 +240,24 @@
  MOD_LEADER_SCIENTIST_INFLUENCE_COST:0 "科学家招募花费"
  MOD_LEADER_GOVERNOR_INFLUENCE_COST:0 "总督招募花费"
  MOD_LEADER_SPECIES_EXP_GAIN:0 "领袖经验收益"
+
+ #Component
  MOD_COMPONENT_RANGE_MULT:0 "部件作用范围"
+
+ #Pop factions
  MOD_POP_FACTION_SUPPORT_INCREASE_CHANCE_ADD:0 "派系支持上升的机率"
  MOD_POP_FACTION_SUPPORT_INCREASE_CHANCE_MULT:0 "派系支持上升的机率"
  MOD_POP_FACTION_SUPPORT_INCREASE_ADD:0 "派系支持上升值"
  MOD_POP_FACTION_SUPPORT_INCREASE_MULT:0 "派系支持上升值"
+
+ #Unrest
  MOD_PLANET_UNREST_ADD:0 "不满"
  MOD_COUNTRY_UNREST_HAPPY_POP_EFFECT_MULT:0 "人口不满度降低"
  MOD_COUNTRY_UNREST_UNHAPPY_POP_EFFECT_MULT:0 "人口不满度"
  MOD_COUNTRY_UNREST_HAPPY_SLAVE_EFFECT_MULT:0 "奴隶不满度降低"
  MOD_COUNTRY_UNREST_UNHAPPY_SLAVE_EFFECT_MULT:0 "奴隶不满度"
+
+ #Spaceport
  MOD_SPACEPORT_SHIP_BUILD_COST_MULT:0 "舰船花费"
  MOD_SPACEPORT_SHIP_BUILD_COST_MULT_DESC:0 "影响帝国内舰船需要的资源，使其建造的成本增加或减少"
  MOD_SPACEPORT_SHIP_BUILD_TIME_MULT:1 "舰船建造时间"
@@ -239,9 +266,17 @@
  MOD_SPACEPORT_MODULE_COST_MULT_DESC:0 "影响在太空站上添加模组的花费，增加或减少其所需的资源"
  MOD_SPACEPORT_SHIP_BUILD_SPEED_MULT:0 "舰船建造速度"
  MOD_SPACEPORT_DEFENSIVE_WAR_SHIP_BUILD_SPEED_MULT:0 "舰船建造速度（防御战争）"
+
+ ####################################
+ # Economy Modifiers
+ ####################################
  energy_deficit:1 "能量币短缺"
  mineral_deficit:0 "矿物短缺"
  influence_deficit:0 "影响力短缺"
+
+ ####################################
+ # Resource Modifiers
+ ####################################
  tile_resource_energy_mult:0 "能量币"
  tile_resource_energy_mult_DESC:0 "所有帝国内人口的能量币产出都会根据此数值作出调整。"
  tile_resource_minerals_mult:0 "矿物"
@@ -282,6 +317,7 @@
  country_resource_unity_add:0 "月度凝聚力收入"
  tile_resource_unity_add:0 "凝聚力产出"
  country_resource_food_mult:0 "食物产出"
+ 
  country_resource_influence_add:0 "月度影响力收入"
  planet_resource_influence_add:0 "星球影响力产出"
  tile_resource_influence_add:0 "地块影响力产出"
@@ -289,7 +325,13 @@
  tile_resource_influence_mult:1 "$tile_resource_influence_add$"
  country_resource_influence_mult:0 "帝国影响力收入"
  country_resource_physics_research_mult:0 "物理学研究"
+ 
  country_federation_member_resource_unity_mult:0 "联邦成员"
+
+ ####################################
+ # Dynamic Modifiers
+ ####################################
+ 
  pop_ethic_pacifist_attraction_mult:0 "和平主义思潮吸引力"
  pop_ethic_militarist_attraction_mult:0 "军国主义思潮吸引力"
  pop_ethic_materialist_attraction_mult:0 "唯物主义思潮吸引力"
@@ -298,12 +340,14 @@
  pop_ethic_xenophobe_attraction_mult:0 "排外主义思潮吸引力"
  pop_ethic_egalitarian_attraction_mult:0 "平等主义思潮吸引力"
  pop_ethic_authoritarian_attraction_mult:0 "威权主义思潮吸引力"
+ 
  shipsize_corvette_construction_speed_mult:0 "护卫舰建造速度"
  shipsize_destroyer_construction_speed_mult:0 "驱逐舰建造速度"
  shipsize_cruiser_construction_speed_mult:0 "巡洋舰建造速度"
  shipsize_battleship_construction_speed_mult:0 "战列舰建造速度"
  shipsize_colonizer_construction_speed_mult:0 "殖民船建造速度"
  shipsize_outpost_station_speed_mult:0 "前哨站建造速度"
+
  shipsize_corvette_build_cost_mult:0 "护卫舰建造花费"
  shipsize_destroyer_build_cost_mult:0 "驱逐舰建造花费"
  shipsize_cruiser_build_cost_mult:0 "巡洋舰建造花费"
@@ -321,6 +365,7 @@
  shipsize_outpost_station_build_cost_mult:0 "边境哨站建造花费"
  shipsize_wormhole_station_build_cost_mult:0 "虫洞空间站建造花费"
  shipsize_observation_station_build_cost_mult:0 "观测站建造花费"
+
  shipsize_corvette_upkeep_mult:0 "护卫舰维护费"
  shipsize_destroyer_upkeep_mult:0 "驱逐舰维护费"
  shipsize_cruiser_upkeep_mult:0 "巡洋舰维护费"
@@ -338,9 +383,11 @@
  shipsize_outpost_station_upkeep_mult:0 "边境哨站维护费"
  shipsize_wormhole_station_upkeep_mult:0 "虫洞空间站维护费"
  shipsize_observation_station_upkeep_mult:0 "观测站维护费"
+ 
  shipclass_military_station_damage_mult:0 "军用空间站伤害"
  shipclass_military_station_hit_points_mult:0 "军用空间站船体值"
  shipclass_military_station_build_cost_mult:0 "军用空间站建造花费"
+ 
  weapon_type_explosive_weapon_damage_mult:0 "高爆武器伤害"
  weapon_type_explosive_weapon_fire_rate_mult:0 "高爆武器攻击速度"
  weapon_type_kinetic_weapon_damage_mult:0 "动能武器伤害"
@@ -350,6 +397,10 @@
  weapon_type_strike_craft_weapon_damage_mult:0 "舰载机伤害"
  weapon_type_strike_craft_weapon_fire_rate_mult:0 "舰载机攻击速度"
  weapon_type_strike_craft_speed_mult:0 "舰载机速度"
+
+ #vultaum_asteroid_category_research_speed_mult: "Anomaly Research Speed (Precursor - ADD CATEGORIES PROPER)"
+ #vultaum_asteroid_category_research_fail_risk_mult: "Anomaly Fail Risk (Precursor - ADD CATEGORIES PROPER)"
+ # TEMP should these be detailed?
  vultaum_asteroid_category_research_speed_mult:0 "异常点研究速度 (先驱)"
  vultaum_asteroid_category_research_fail_risk_mult:0 "异常点研究失败机率 (先驱)"
  vultaum_gasgiant_category_research_speed_mult:0 "异常点研究速度 (先驱)"
@@ -390,6 +441,7 @@
  cybrex_uninhabitable_category_research_fail_risk_mult:0 "异常点研究失败机率 (先驱)"
  cybrex_habitable_category_research_speed_mult:0 "异常点研究速度 (先驱)"
  cybrex_habitable_category_research_fail_risk_mult:0 "异常点研究失败机率 (先驱)"
+
  vultaum_asteroid_category_research_speed_add:0 "$vultaum_asteroid_category_research_speed_mult$"
  vultaum_asteroid_category_research_fail_risk_add:0 "$vultaum_asteroid_category_research_fail_risk_mult$"
  vultaum_gasgiant_category_research_speed_add:0 "$vultaum_gasgiant_category_research_speed_mult$"
@@ -430,6 +482,7 @@
  cybrex_uninhabitable_category_research_fail_risk_add:0 "$cybrex_uninhabitable_category_research_fail_risk_mult$"
  cybrex_habitable_category_research_speed_add:0 "$cybrex_habitable_category_research_speed_mult$"
  cybrex_habitable_category_research_fail_risk_add:0 "$cybrex_habitable_category_research_fail_risk_mult$"
+
  category_materials_research_speed_mult:0 "科研速度 (材料学)"
  category_rocketry_research_speed_mult:0 "科研速度 (火箭科技)"
  category_voidcraft_research_speed_mult:0 "科研速度 (太空技术)"
@@ -445,10 +498,15 @@
  category_biology_research_speed_mult:0 "科研速度 (生物学)"
  category_new_worlds_research_speed_mult:0 "科研速度 (新世界理论)"
  category_psionics_research_speed_mult:0 "科研速度 (灵能)"
+
  hydroponics_farm_build_cost_mult:0 "水培农场建设花费"
  hydroponics_farm_construction_speed_mult:0 "水培农场建设速度"
  mining_network_build_cost_mult:0 "复合矿场建设花费"
  mining_network_construction_speed_mult:0 "复合矿场建设速度"
+
+ ####################################
+ # Static Modifiers
+ ####################################
  very_easy_player:0 "非常简单难度"
  easy_player:0 "简单难度"
  hard_player:0 "困难难度"
@@ -461,10 +519,13 @@
  inefficient_sector_management:0 "低效率的星区管理"
  ruler_ship:0 "改良型元首独有舰船"
  ruler_station:0 "改良型元首独有空间站"
+
  assist_research:0 "协助科研"
  assist_research_desc:1 "科研船从轨道上支援行星表面上的科研机构"
+
  previous_deal_broken:0 "撕毁贸易协议"
  previous_deal_ended:0 "完成贸易协议"
+ 
  extradimensionals_defeated:0 "异次元的失败"
  nationalist_corruption:1 "民族主义的腐败"
  nationalist_corruption_desc:1 "在这个星球上，危险的民族主义份子降低了生产效率"
@@ -474,28 +535,39 @@
  planet_separatist_supporter_desc:0 "行星分离支持者"
  sector_separatist_supporter:0 "星区分离支持者"
  sector_separatist_supporter_desc:0 "星区分离支持者"
+ 
  sponsored_rebels:0 "受到资助的叛军"
  puppet_government:1 "傀儡政府"
+
  swarm_strength:0 "虫群军力"
  swarm_strength_hard:0 "$prethoryn_strength$"
  swarm_strength_insane:0 "$prethoryn_strength$"
+ 
  exd_strength:0 "异次元军力"
  exd_strength_hard:0 "$exd_strength$"
  exd_strength_insane:0 "$exd_strength$"
+
  ai_strength:0 "备用循环"
  ai_strength_hard:0 "$ai_strength$"
  ai_strength_insane:0 "$ai_strength$"
+
  nomad_strength:0 "银河游牧民"
+
  pirate_power:0 "海盗势力"
  cloud_power:0 "云怪势力"
  enigmatic_power:0 "神秘势力"
  technosphere_power:0 "科技势力"
  dreadnought_power:0 "无畏势力"
  sanctuary_power:0 "圣所势力"
+
  curator_insight:0 "策展人的见识"
  curator_insight_desc:0 "策展人同你分享了他们的知识。尽管这些知识还需要进一步的解读，但这毫无疑问增进了你对宇宙的理解。"
  fallen_empire_gift_databanks:0 "先驱者数据缓存"
  fallen_empire_gift_databanks_desc:0 "失落帝国恩赐给了我们一批科研数据，这毫无疑问可以加速我们的科学发展。"
+ 
+ ####################################
+ # Pop Modifiers
+ ####################################
  pop_base:0 "基值"
  hostile_environment:0 "恶劣的环境"
  hostile_environment_desc:0 "这里的环境非常危险，不适合生存。"
@@ -571,6 +643,10 @@
  pc_savannah_habitability:0 "稀树草原适应性"
  pc_alpine_habitability:0 "高山高原适应性"
  pc_habitat_habitability:2 "栖息地宜居度"
+
+ ####################################
+ # Triggered Modifiers
+ ####################################
  tm_semi_static_we_defensive:0 "正在输掉防卫战争"
  tm_semi_static_we_defensive_desc:0 "依靠着我们的§E半静态§!战时经济政策， 我们英勇的人民开始为对抗外星入侵者而作出牺牲"
  tm_semi_static_we_offensive:0 "正在赢得侵略战争"
@@ -583,8 +659,16 @@
  tm_dynamic_we_defensive_desc:0 "依靠着我们的§E动态§!战时经济政策，我们英勇的人民开始为对抗外星入侵者而作出牺牲"
  tm_dynamic_we_offensive:0 "正在赢得侵略战争"
  tm_dynamic_we_offensive_desc:0 "基于我们的§E动态§!战时经济政策，我们的工人和军事人员由于预期将会胜利而开始放松"
+
+ ####################################
+ # Opinion Modifiers
+ ####################################
+ 
+ ## SPECIES
  opinion_repugnant_species:1 "令人厌恶的统治者"
  opinion_charismatic_species:1 "魅力非凡的统治者"
+
+ ## ETHOS
  opinion_xenophobia:0 "排外主义"
  opinion_xenophobes:0 "排外主义的老顽固"
  opinion_xenophilia:0 "亲外主义者"
@@ -611,12 +695,16 @@
  opinion_dc_vs_democratic:0 "是民主制"
  opinion_dc_vs_oligarchic:0 "是寡头制"
  opinion_dc_vs_autocracy:0 "是独裁制"
+
+ ## POLICIES
  opinion_policy_interference:0 "接触政策"
  opinion_policy_slavery:0 "奴隶政策"
  opinion_policy_purge:0 "清洗政策"
  opinion_policy_orbital_bombardment:0 "轨道轰炸政策"
  opinion_policy_voting_rights:0 "投票权政策"
  opinion_policy_leadership:0 "领袖政策"
+
+ ## WAR
  opinion_declared_war:0 "曾有战争"
  opinion_in_war:0 "战争中"
  opinion_decline_war:0 "拒绝应战"
@@ -629,14 +717,20 @@
  opinion_white_peace_not_accepted:0 "拒绝无条件和平"
  opinion_first_contact_hostility:0 "初接触敌意"
  opinion_first_contact_war:0 "第一次接触战"
+
+ ## ACTIONS
  opinion_warmonger:0 "战争贩子"
  opinion_genocidal:0 "种族灭绝者"
  opinion_genocidal_our_species:1 "清洗我们的种族"
  opinion_slaver:0 "奴隶主"
  opinion_nuker:0 "令人恐惧的轰炸"
+
+ ## WAR DEMANDS
  opinion_cede_planet_against_wish:0 "在和平谈判中忽视我们想要割取星球的诉求"
  opinion_cede_planet_supported_wish:0 "在和平谈判中支持我们想要割取星球的诉求"
  opinion_cede_planet_to_ally:0 "在战争中为盟友割取了星球"
+
+ ## DIPLOMACY
  opinion_alliance:0 "盟友"
  opinion_defensive_pact:0 "共同防御条约"
  opinion_broke_alliance:0 "撕毁盟约"
@@ -677,27 +771,37 @@
  opinion_construction_access:0 "准许工程船通行"
  opinion_migration_treaty:0 "移民协议"
  opinion_research_treaty:0 "科研协议"
+
+ ## SUBJECT
  opinion_subject_relation:0 "附属国关系"
  opinion_subject:0 "拥有相同宗主"
  opinion_is_subject:0 "附属"
  opinion_subject_protection:0 "同意成为被保护国"
  opinion_forced_subjectized:0 "被强制附属"
  opinion_subject_broke_free:0 "从宗主中独立"
+
+ # TRADE
  opinion_trade_gift:1 "礼物"
  opinion_trade_tribute:0 "纳贡要求"
  opinion_in_trade:0 "贸易"
  opinion_was_in_trade:1 "撕毁贸易条约"
+
  opinion_enlightened_us:0 "开化我们"
  opinion_destroyed_portal:0 "摧毁空间传送门"
+ 
  opinion_swarm:0 "异次元入侵者"
  opinion_prey:0 "猎物"
+ 
  opinion_merciful:0 "手下留情"
+ 
  opinion_took_station:0 "夺取资源空间站"
  opinion_liberated_us:0 "解放者"
  opinion_we_liberated:1 "被解放的"
  opinion_broke_away:0 "独立成国"
  opinion_broke_away_from:0 "过去的压迫者"
+
  opinion_primitive_violation:0 "吞并了土著"
+ 
  opinion_fallen_empire_gift:0 "接收恩惠"
  opinion_put_in_their_place:0 "将他们放在正确的位置上"
  opinion_accepted_fallen_empire_demand:0 "同意要求"
@@ -709,16 +813,23 @@
  opinion_majorly_failed_fallen_empire_task:0 "令我们大师缩放"
  opinion_spurned_fallen_empire_gift:0 "摒弃恩惠"
  opinion_completed_fallen_empire_task:0 "完成任务"
+
  opinion_heretical_research:0 "异端研究"
  encroaching_colony:0 "妨碍殖民地"
  encroaching_scientists:0 "妨碍科学家"
+
  opinion_shade_giver:0 "给予庇护"
+
  triggered_opinion_tr_domination_star_lords:0 "$tr_domination_star_lords$"
  triggered_opinion_ap_defender_of_the_galaxy:0 "$ap_defender_of_the_galaxy$"
  triggered_opinion_democratic_authority:0 "相同的权力分配"
  triggered_opinion_oligarchic_authority:0 "$triggered_opinion_democratic_authority$"
  triggered_opinion_dictatorial_authority:0 "$triggered_opinion_democratic_authority$"
  triggered_opinion_imperial_authority:0 "$triggered_opinion_democratic_authority$"
+
+ ####################################
+ # Planet Modifiers
+ ####################################
  capital:0 "首都行星"
  capital_desc:0 "一个星际帝国的首都行星上拥有着复杂而庞大的政府建筑，行政机关及部门总部。"
  distance_from_capital:0 "与首都的距离"
@@ -819,6 +930,8 @@
  wasteland_infrastructure_desc:0 "这个星球上仍然有着一定数量的基础建设，这是由当地土著在核战毁灭自己之前所建的，这将会帮助新建筑的建设。"
  forest_fire:0 "森林火灾"
  forest_fire_desc:0 "森林大火导致迁徙森林发生树踩树事件，并对几个农耕区域造成暂时性伤害。"
+ 
+ 
  upliftable_species:0 "可升变的物种"
  upliftable_species_desc:0 "这里有可被提升的物种，假如我们在这个星球上建立殖民地，提升选择将会被移除。"
  production_targets:0 "生产目标"
@@ -919,6 +1032,7 @@
  spaceport_level_4:0 ""
  spaceport_level_5:0 ""
  spaceport_level_6:0 ""
+
  stone_age_civilization:0 "石器时代土著"
  stone_age_civilization_desc:2 "这个星球已经产生了处于石器时代的原始文明。"
  dead_creatures:0 "太空墓地"
@@ -936,17 +1050,22 @@
  primitive_reservation:0 "外星人保护区"
  primitive_reservation_desc:0 "星球的部份区域将会被用作于封闭性的石器时代土著生活地区，这将会限制殖民者们的可用土地。"
  starvation:0 "饥荒"
+
  subterranean_tech_transaction:0 "地下技术规定"
  subterranean_tech_transation_desc:0 "我们部分的研究材料和资金将会专门用于研究在我们某一个殖民星中的地底文明"
  stellarite_high_temp:0 "温度升高"
  stellarite_high_temp_desc:0 "一个浑身发光的巨兽出现在这个星系，它让这个星球的地表温度升高了。"
  stellarite_low_temp:0 "温度降低"
  stellarite_low_temp_desc:0 "一个浑身发光的巨兽吞食了这个星系太阳的一部分，这使得星球的地表温度比往常要低。"
+
  ed_anchor_buildspeed:0 "建造维度锚"
  shipsize_anchor_station_construction_speed_mult:0 "建造维度锚"
+ 
  EVENT_LOCKED_FLEET:0 "§R不能被攻击§!"
+ 
  precursor_research_speed:0 "异常点研究速度（先驱者）"
  precursor_fail_risk:0 "异常点失败几率（先驱者）"
+ 
  vultaum_1_cat_research_speed_mult:0 "$precursor_research_speed$"
  vultaum_1_cat_research_fail_risk_add:0 "$precursor_fail_risk$"
  vultaum_2_cat_research_speed_mult:0 "$precursor_research_speed$"

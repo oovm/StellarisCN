@@ -1,4 +1,8 @@
 ﻿l_english:
+ 
+ ####################################
+ # Anomaly Categories
+ ####################################
  TUTORIAL_CAT:0 "离开家园"
  TUTORIAL_DESC:1 "在调查我们自己家园的恒星系时，我们在[From.GetName]上面找到了一点东西。这和我们先前在母星上的观测结果有一定的偏差。"
  TROP_BIOLOGY_CAT:0 "热带奇谭"
@@ -7,7 +11,7 @@
  AST_MINING_DESC:0 "我们对小行星的成分进行了初步的分析，并且有了一些有趣的发现。"
  GEN_DERELICT_SHIP_CAT:0 "求救信号"
  GEN_DERELICT_SHIP_DESC:0 "我们进行了初步的探测，在我们的求救频率上面发现了一个不寻常的信号。"
- GEN_LOST_CARGO_CAT:0 "古怪的读数 //readings此处翻译为“读数”//"
+ GEN_LOST_CARGO_CAT:0 "古怪的读数"
  GEN_LOST_CARGO_DESC:0 "在扫描小行星带的时候，我们的科研小队发现了一些不寻常的东西。"
  GEN_OLD_WAR_CAT:0 "钢的追寻"
  GEN_OLD_WAR_DESC:0 "[Root.GetName]上矿物的成分和预期并不相符。"
@@ -45,6 +49,10 @@
  NUKE_PLANET_DESC:0 "这片核废土显然说明了这里曾经的文明。我们的探测器在某些地方侦测到了一些活跃的数据，我们应该对其进行进一步的调查。"
  ARID_PLANET_CAT:0 "干燥的废土"
  ARID_PLANET_DESC:0 "[From.GetPlanetMoon]并不是气候最宜人的地方，但是如果我们最初的侦测数据没有错的话，它上面可能有一些珍贵的资源。"
+ 
+ ####################################
+ # Anomaly Events
+ ####################################
  anomaly.4000.name:0 "生命之道"
  anomaly.4000.desc:0 "[From.GetName]上面的一些植物在自然选择中已经进化出了一套有效的自我防御措施。许多的树木和真菌都会释放出孢子，这些孢子对非植物的生命体来说具有强酸性。还好，科学员[Root.GetLeaderName]发现了中和其中一些孢子的方法，让这颗星球上的森林不那么致命了！"
  anomaly.4000.a.tooltip:1 "把§Y酸性丛林§!添加到[From.GetName]上：\n£blocker  有害沼泽§R+3\n£society §G+2§!"
@@ -86,7 +94,7 @@
  anomaly.4030.b.tooltip:1 "毁掉这个人工智能。\n\n把§Y坠毁的人工智能舰队§!添加到[From.GetName]上：\n£engineering §G+2§!"
  anomaly.4031.desc:0 "谢天谢地，我们成功地在这个人工智能攻击我们之前为它重新编写了程序。它开始为我们舰队中的旗舰服务，并且如果我们想的话，它可以作为舰队的司令。这个人工智能已经被运送到我们的母星，等待指派。"
  anomaly.4035.name:0 "熔炉烈焰"
- anomaly.4035.desc:0 "我们在[From.GetName]发现了有趣的东西，虽然跟[From.GetPlanetMoon]本身没有什么关系。我们像往常一样进行测试时，突然捕获到遥远的星系中的一颗恒星传出的奇怪数据。该星球的辐射指示，可以在不发生核裂变的情况下熔合铍，但这种事根本就是不可能的！\n\n科学小组已经迫不及待想前去一探究竟了，而且他们已经将范围缩小到两个不是很远的星系。查询§S情况日志§!获取细节。"
+ anomaly.4035.desc:0 "我们在[From.GetName]发现了有趣的东西，虽然跟[From.GetPlanetMoon]本身没有什么关系。我们像往常一样进行测试时，突然捕获到遥远的星系中的一颗恒星传出的奇怪数据。该星球的辐射指示，可以在不发生核裂变的情况下熔合铍，但这种事根本就是不可能的！\n\n科学小组已经迫不及待想前去一探究竟了，而且他们已经将范围缩小到两个不是很远的星系。查询§S情况日志§!获取细节。"#Source: http://www.forbes.com/sites/ethansiegel/2015/07/01/the-only-three-heavy-elements-in-the-universe-that-arent-made-in-stars/
  anomaly.4035.a:0 "这可能会带来丰厚的收获。"
  anomaly.4035.poi_1:0 "第一潜在恒星"
  anomaly.4035.poi_2:0 "第二潜在恒星"
@@ -339,6 +347,10 @@
  anomaly.4170.b.tooltip:1 "[From.GetName]获得§Y合理气体开采§!的修正：\n£energy §G+5§!"
  anomaly.4172.conqueror.desc:0 "我们占据的殖民地曾拥有丰富的地下气体资源。但现在已经耗尽，工厂的能量输出降低。"
  anomaly.4172.owner.desc:0 "富含能量的气体已经耗尽。这个殖民地已失去额外的资源输出，大大增加了我们对新矿藏的需求。"
+
+ ####################################
+ # Anomaly Failure Events
+ ####################################
  anomaly_failure.4000.desc:0 "[Root.GetLeaderName]有了惊人发现。[From.From.GetName]的植被对非植物有机体极其危险。我们还不清楚其中原理；只知道[From.From.GetPlanetMoon]十分危险，这将限制其殖民地的发展。"
  anomaly_failure.4000.a:0 "真是个可怕的地方。"
  anomaly_failure.4000.a.tooltip:1 "科学官[Root.GetLeaderName]获得§R偏执狂§!特性。\n\n[From.From.GetName]获得§Y酸性丛林§!的修正：\n£blocker  剧毒沼泽§R+3\n£society §G+6§!"
@@ -390,6 +402,10 @@
  anomaly_failure.4170.b.tooltip:0 "$anomaly_failure.4170.base.tooltip$并失去§R1§!人口。"
  anomaly_failure.4170.c.tooltip:0 "$anomaly_failure.4170.base.tooltip$并失去§R2§!人口。"
  anomaly_failure.4170.d.tooltip:0 "$anomaly_failure.4170.base.tooltip$并失去§R3§!人口。"
+ 
+ ####################################
+ # Colony Events
+ ####################################
  colony.2001.name:0 "天堂的烦恼"
  colony.2001.desc:0 "[Root.GetName]本地的政治动荡导致一小群反叛者得到了更多支持，他们反对我们传统的思潮。他们获得的支持使他们能在区域内更多的权力，并按照自己的信念进行投票，以获得有限的胜利。"
  colony.2001.a:0 "和他们划清界限。"

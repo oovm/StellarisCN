@@ -1,4 +1,8 @@
 ﻿l_english:
+
+ ####################################
+ # Anomaly Categories
+ ####################################
  rogue_moon_category:0 "流浪卫星"
  rogue_moon_category_desc:1 "对[Root.GetName]的初步扫描显示，它和母星间的差别出乎我们的预料。"
  hollow_planet_category:0 "空心行星"
@@ -7,7 +11,12 @@
  strong_magnetic_category_desc:0 "初步扫描仅发现[Root.GetName]为一个异常的强磁场所环绕。"
  undiscovered_planetary_modifier_category:0 "异常境况"
  undiscovered_planetary_modifier_category_desc:0 "调查[From.GetName]上的异常环境。"
+
+ ####################################
+ # Anomaly Events
+ ####################################
  anomaly.6000.name:0 "流浪卫星"
+ # "parent planet" and "its primary", pending PARENTPLANET loc key implementation
  anomaly.6000.desc:0 "[From.GetName]和它的母星组成成分不同。调查发现它原属小行星，后来被现母星的重力捕获。进一步的研究也许能发现它的来处。 "
  anomaly.6001.desc:0 "[From.GetName]内部有一座基地！"
  anomaly.6002.name:0 "空心星球"
@@ -63,8 +72,16 @@
  anomaly.6660.desc.terrible:0 "$anomaly.6660.desc.start$环境苛刻，景色凄凉，难以作为理想的定居点。\n\n$anomaly.6660.desc.end$"
  anomaly.6660.desc.end:0 "随着我们对新星球的调查，我们一定还会遇到类似的不同寻常的状况，显然不能无视其对扩张的潜在影响。"
  anomaly.6660.a.tooltip:0 "在[From.GetName]出现了一个行星修正。"
+
+ ####################################
+ # Anomaly Failure Events
+ ####################################
  anomaly_failure.6000.desc:1 "没有什么值得研究的东西。"
  anomaly_failure.6000.a:1 "好吧。"
+ 
+ ####################################
+ # Colony Events
+ ####################################
  colony_mod.1.name:0 "这里发生什么了？"
  colony_mod.1.desc:0 "很显然[Root.GetName]曾发生了一场灾难并留下了超量辐射，但是详情不明。这个谜团随着在[Root.GetName]定居的殖民者不断增加而开始让人烦扰。毕竟，如果都不知道原因，我们又该怎么防止悲剧再次重演？"
  colony_mod.1.a:0 "让我们来弄清真相吧！"

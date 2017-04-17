@@ -20,6 +20,8 @@
  MUSICPLAYER_DECREASE_VOL:0 "降低音量"
  MUSICPLAYER_ADJUST_VOL:0 "调节音量"
  MUSICPLAYER_SAVE:0 "保存"
+
+ # Base Music Tracks
  maintheme:0 "Creation and Beyond"
  thebirthofastar:0 "The Birth of a Star"
  sigmatauri:0 "Sigma Tauri"
@@ -38,11 +40,15 @@
  pillarsofcreation:0 "Pillars of Creation"
  deepspacetravels:0 "Deep Space Travels"
  ridingthesolarwind:0 "Riding The Solar Wind"
+
+ # Leviathans Music Tracks
  maintheme1:0 "Dragon Breath"
  assemblingthefleet:0 "Assembling the Fleet"
  theawakened:0 "The Awakened"
  thetitan:0 "The Titan"
  thelaststand:0 "The Last Stand"
+
+ # Utopia Music Tracks
  maintheme2:0 "Utopia Main Title"
  cradleofthegalaxy:0 "Cradle of the Galaxy"
  theimperialfleet:0 "The Imperial Fleet"

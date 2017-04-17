@@ -1,4 +1,7 @@
 ﻿l_english:
+ ####################################
+ # Traditions
+ ####################################
  UNITY:0 "凝聚力"
  UNITY_DESC:0 "凝聚力是用来解锁$TRADITIONS$的资源点数。凝聚力每月都会产出，其产量取决于特定建筑，以及我们帝国的凝聚程度。"
  TRADITIONS:0 "传统"
@@ -29,7 +32,13 @@
  TRADITION_COST_MULT_NUM_POPS:0 "$COUNT|Y$人口：$VALUE|Y$"
  TRADITION_COST_MULT_NUM_POPS_EFFECT:1 "人口花费效果：$VALUE$"
  TRADITION_COST_MULT_NUM_GROUPS:0 "$COUNT|Y$已开启的传统组：$VALUE$"
+
+ ################################################################
+ # EXPANSION
+ ################################################################
+
  tradition_expansion:0 "扩张"
+ #tradition_expansion_desc: "We must spread our civilization to new systems and planets if we are to survive. As other empires emerge on the galactic scene, competition will be fierce. The faster we can establish new colonies, the better."
  tradition_expansion_desc:0 "只有将我们的边疆不断延伸到新的星系，我们才能避免灭绝，长盛不衰。"
  tr_expansion_adopt:0 "扩张传统"
  tr_expansion_adopt_desc:0 "$tradition_expansion_desc$\n\n$tr_expansion_adopt_effect$\n\n$tr_expansion_finish_effect$"
@@ -40,6 +49,9 @@
  tr_expansion_a_new_life:0 "新生活"
  tr_expansion_a_new_life_desc:0 "£pops 人口§Y$MOD_POP_GROWTH_REQ_MULT$§!减少§G-10%§!，并且§Y$MOD_PLANET_COLONY_DEVELOPMENT_SPEED_MULT$§!增加§G+50%§!。"
  tr_expansion_a_new_life_delayed:0 "在边远的新世界，全新的生活等待着我们的公民。这是一片充满机遇与冒险的黄金之地！通过积极的营销策略造势，那些生活中的不如意者不断涌向前往新世界的殖民船。"
+#tr_expansion_standardized_colony_ships: "Standardized Colony Ships"
+#tr_expansion_standardized_colony_ships_desc: "Immediately give you a free §Y$colonizer$§!. In addition, §Y$shipsize_colonizer_construction_speed_mult$§! is increased by §G+100%§!."
+#tr_expansion_standardized_colony_ships_delayed: "Simplified designs and less expensive materials allow us to mass-produce colony ships on a hitherto unseen scale. Our colonists may not enjoy as many creature comforts during transport to their new homes, but these ships will still get them where they're going."
  tr_expansion_courier_network:0 "快递网络"
  tr_expansion_courier_network_desc:0 "由于殖民地数量导致的§Y$TRADITION_COST$§!额外花费减少：§G-33%§!。"
  tr_expansion_courier_network_delayed:0 "由小型快递公司打造的传输网络是运送重要人物的可靠选项。其亦可传递不适合超光速通讯的绝密消息。这能够将我们的殖民地以更加紧密的形式结合在一起。"
@@ -51,6 +63,11 @@
  tr_expansion_galactic_ambition_delayed:0 "我们伟大帝国的旗帜终有一天将会插满整个星河的每一个角落。"
  tr_expansion_finish:0 "扩张传统完成。"
  tr_expansion_finish_effect:0 "§E$TRADITIONS_FINISH$：§!\n完成所有$tr_expansion_adopt$增加§Y$MOD_COUNTRY_CORE_SECTOR_SYSTEM_CAP$§!：§Y2§!。"
+ 
+ ################################################################
+ # DOMINATION
+ ################################################################
+
  tradition_domination:0 "支配"
  tradition_domination_desc:0 "如果我们不先发制人，他们终究会将他们的意志强加在我们头上。"
  tr_domination_adopt:0 "支配传统"
@@ -73,6 +90,11 @@
  tr_domination_vassal_acculturation_delayed:0 "我们将会把我们附庸生物和科技上的差异转化成帝国的一部分。他们的文化将会用来服务于我们。任何反抗都是无用的。"
  tr_domination_finish:0 "支配传统完成"
  tr_domination_finish_effect:0 "§E$TRADITIONS_FINISH$：§!\n完成所有$tr_domination_adopt$以为着我们和附庸之间完全共享科技。任何一项科技，如果对方没有完成，将会享受§G+30%§! §Y$MOD_COUNTRY_ALL_TECH_RESEARCH_SPEED$§!加成。"
+
+ ################################################################
+ # HARMONY
+ ################################################################
+
  tradition_harmony:0 "和谐"
  tradition_harmony_desc:0 "和谐富足的人民，为了同一个目标努力工作，这样的力量无可匹敌。"
  tr_harmony_adopt:0 "和谐传统"
@@ -95,6 +117,40 @@
  tr_harmony_mind_and_body_delayed:0 "相当一部分居民通过拥抱新医疗技术和更健康的饮食习惯获得远超以往的预期寿命。"
  tr_harmony_finish:0 "和谐传统完成"
  tr_harmony_finish_effect:1 "§E$TRADITIONS_FINISH$：§!\n完成所有$tr_harmony_adopt$能够减少因 £pops 人口使用§Y$CONSUMER_GOODS$§!产生的矿物消耗：§G-15%§!。"
+
+ 
+################################################################
+# PURITY
+################################################################
+#
+# tradition_purity: "Purity"
+# #tradition_purity_desc: "A star nation built on the rotten foundation of xeno inclusion will inevitably collapse. We must guard against the sinister threat of alien influence at all turns."
+# tradition_purity_desc: "A star nation built on the rotten foundation of xeno inclusion will inevitably collapse."
+# tr_purity_adopt: "Purity Traditions"
+# tr_purity_adopt_desc: "$tradition_purity_desc$\n\n$tr_purity_adopt_effect$\n\n$tr_purity_finish_effect$"
+# tr_purity_adopt_effect: "§E$TRADITIONS_ADOPT$:§!\nAdopting Purity will reduce £pops  Pops' (of your Founder Species) effect on §Y$TRADITION_COST$§! by §G-15%§!."
+# tr_purity_indoctrination: "Indoctrination"
+# tr_purity_indoctrination_desc: "§Y$MOD_POP_GOVERNMENT_ETHIC_ATTRACTION$§! increased by §G+20%§!."
+# tr_purity_indoctrination_delayed: "Our population must be educated on the many unfathomable evils we face as we claim our place in the cosmos, lest their fragile minds begin to wander in dangerous directions..."
+# tr_purity_suffer_not_alien: "Suffer Not the Alien"
+# tr_purity_suffer_not_alien_desc: "Purging alien Pops provides £unity  Unity. Does not apply to robots."
+# tr_purity_suffer_not_alien_delayed: "We cannot rest while the myriad xenos continue to pollute our galaxy with their wretched presence. Their mere existence is a threat to our way of life."
+# tr_purity_the_chosen: "The Chosen"
+# tr_purity_the_chosen_desc: "£building  §Y$building_monument_purity$§! provides additional §G+5%§! £happiness  Happiness."
+# tr_purity_the_chosen_delayed: "Whether chosen by a higher power or simple genetic chance, our exceptional species is without compare. We are clearly destined for great things."
+# tr_purity_natural_order: "Natural Order"
+# tr_purity_natural_order_desc: "Alien slaves have no effect on §Y$TRADITION_COST$§!."
+# tr_purity_natural_order_delayed: "All beings have their assigned station in the universe. Those who belong to a lesser species should take comfort in their servitude to their betters."
+# tr_purity_never_surrender: "Never Surrender"
+# tr_purity_never_surrender_desc: ""
+# tr_purity_never_surrender_delayed: "We will never bow to those who are inferior. Let them hurl themselves against our mighty battle fleets! A thousand years from now, they will just another footnote in the history of our ascension."
+# tr_purity_finish: "Purity Traditions Finished"
+# tr_purity_finish_effect: "§E$TRADITIONS_FINISH$:§!\nAdopting all $tr_purity_adopt$ increases our §Y$MOD_SHIP_FIRE_RATE_MULT$§! by §G+10%§! while fighting other empires."
+ 
+################################################################
+# SUPREMACY
+################################################################
+
  tradition_supremacy:0 "至高"
  tradition_supremacy_desc:0 "河系的未来属于最强有力的征服者。"
  tr_supremacy_adopt:0 "至高传统"
@@ -117,6 +173,10 @@
  tr_supremacy_overwhelming_force_delayed:0 "纪律是铁军的基石。通过基因选择培养，严格的军事操练和加强的战斗环境模拟，我们能够打造冷酷无情、严格执行命令的士兵。他们将是我们征服整个星海的铁齿钢牙。"
  tr_supremacy_finish:0 "至高传统完成"
  tr_supremacy_finish_effect:0 "§E$TRADITIONS_FINISH$：§!\n完成所有$tr_supremacy_adopt$能够增加我们的§Y$MOD_SHIP_FIRE_RATE_MULT$§!：§G+15%§!。"
+ 
+################################################################
+# DIPLOMACY
+################################################################
  tradition_diplomacy:0 "外交"
  tradition_diplomacy_desc:0 "消除敌人最有效的方法是和他们和睦相处。"
  tr_diplomacy_adopt:0 "外交传统"
@@ -139,7 +199,13 @@
  tr_diplomacy_alien_tourism_delayed:0 "我们丰富的文化很容易令我们自豪。我们应该为让其他文明的访客感受它的魅力提供便利。"
  tr_diplomacy_finish:0 "外交传统完成"
  tr_diplomacy_finish_effect:0 "§E$TRADITIONS_FINISH$：§!\n完成所有$tr_diplomacy_adopt$能够增加我们的§Y$MOD_COUNTRY_TRUST_CAP_ADD$§!：§G+50§!。"
+ 
+################################################################
+# DISCOVERY
+################################################################
+
  tradition_discovery:0 "探索"
+ #tradition_discovery_desc: "For the first time in the history of our civilization, we live in an age where our reach extends beyond the confines of our homeworld. Our insatiable curiosity about the universe is what got us this far, and there is still so much left to discover."
  tradition_discovery_desc:0 "是我们对宇宙的好奇引导我们至此，而寰宇之中仍有许多等待我们去发现。"
  tr_discovery_adopt:0 "探索传统"
  tr_discovery_adopt_desc:0 "$tradition_discovery_desc$\n\n$tr_discovery_adopt_effect$\n\n$tr_discovery_finish_effect$"
@@ -161,6 +227,11 @@
  tr_discovery_faith_in_science_delayed:0 "公众已经把科学视为一种类似信仰的东西 - 他们对此的诚恳是毋庸置疑的。宇宙虽大，毫无疑问它可以被科学完全解答。"
  tr_discovery_finish:0 "探索传统完成"
  tr_discovery_finish_effect:0 "§E$TRADITIONS_FINISH$：§!\n完成所有$tr_discovery_adopt$能够增加我们的§Y$MOD_COUNTRY_ALL_TECH_RESEARCH_SPEED$§!：§G+10%§!。"
+ 
+################################################################
+# PROSPERITY
+################################################################
+
  tradition_prosperity:0 "繁荣"
  tradition_prosperity_desc:0 "对于一个星际帝国而言，没有什么比经济实力作为衡量其成败的指标更好。"
  tr_prosperity_adopt:0 "繁荣传统"
@@ -183,19 +254,29 @@
  tr_prosperity_pursuit_of_profit_delayed:0 "利益至上已经成为我们社会的原则。那些在企业中获得成功的人被社会高度认可，而积累财富似乎是一个极其有价值的目标。"
  tr_prosperity_finish:0 "繁荣传统完成"
  tr_prosperity_finish_effect:0 "§E$TRADITIONS_FINISH$：§!\n 完成所有$tr_prosperity_adopt$能够减少§Y$MOD_FLEET_TERRAFORMING_COST_MULT$§!：§G-33%§!。"
+
  requires_tradition_the_federation:0 "§R需要完成外交传统里的§Y星际联邦§!。§!"
+####################################
+# Ascension Perks
+####################################
+
  requires_ascension_perks_1:0 "$TRIGGER_FAIL$需要首先选择另一个飞升天赋。"
  requires_ascension_perks_2:1 "$TRIGGER_FAIL$需要首先选择另外两个飞升天赋。"
  requires_ascension_perks_3:1 "$TRIGGER_FAIL$需要首先选择另外三个飞升天赋。"
+  
  requires_ap_engineered_evolution:1 "$TRIGGER_FAIL$需要§Y$ap_engineered_evolution$§!飞升天赋。"
  requires_not_ap_engineered_evolution:1 "$TRIGGER_FAIL$可能没有选择§Y$ap_engineered_evolution$§!飞升天赋。"
+ 
  requires_ap_the_flesh_is_weak:1 "$TRIGGER_FAIL$需要§Y$ap_the_flesh_is_weak$§!飞升天赋。"
  requires_not_ap_the_flesh_is_weak:1 "$TRIGGER_FAIL$可能没有§Y$ap_the_flesh_is_weak$§!飞升天赋。"
  requires_finished_cybernetics_project:1 "$TRIGGER_FAIL$必须先完成§Y血肉皮囊§!特殊工程。"
+
  requires_ap_mind_over_matter:1 "$TRIGGER_FAIL$需要§Y$ap_mind_over_matter$§!飞升天赋。"
  requires_not_ap_mind_over_matter:1 "$TRIGGER_FAIL$可能没有§Y$ap_mind_over_matter$§!飞升天赋。"
  ap_mastery_of_nature_unlocks:1 "解锁能力清理绝大多数 £blocker §Y地块障碍§!的能力。"
+ 
  requires_ap_voidborn_OR_ap_galactic_wonders:1 "$TRIGGER_FAIL$需要§Y$ap_voidborn$§!或者§Y$ap_galactic_wonders$§!飞升天赋。"
+  
  requires_technology_gene_expressions:2 "$TRIGGER_FAIL$需要 £society  §Y$tech_gene_expressions$§!科技。"
  requires_technology_gene_seed_purification:1 "$TRIGGER_FAIL$需要 £society  §Y$tech_gene_seed_purification$§!科技。"
  requires_technology_gene_tailoring:1 "$TRIGGER_FAIL$需要 £society  §Y$tech_gene_tailoring$§!科技。"
@@ -211,7 +292,9 @@
  requires_technology_terrestrial_sculpting:1 "$TRIGGER_FAIL$。需要 £society  §Y$tech_terrestrial_sculpting$§!科技。"
  hive_mind_biological_ascension_only1:1 "$TRIGGER_FAIL$。蜂巢思维无法开启灵能路线。"
  hive_mind_biological_ascension_only2:1 "$TRIGGER_FAIL$。蜂巢思维无法开启合成路线。"
+ 
  ap_defender_of_the_galaxy_effect_opinion:0 "所有国家的 £opinion §Y好感度§!增加§G+20§!"
+
  ap_engineered_evolution:0 "设计进化"
  ap_evolutionary_mastery:0 "掌控进化"
  ap_the_flesh_is_weak:0 "血肉皮囊"
@@ -219,10 +302,12 @@
  ap_world_shaper:0 "世界塑性师"
  ap_mind_over_matter:0 "心胜于物"
  ap_transcendence:0 "超凡脱俗"
+
  ap_master_builders:0 "建筑大师"
  ap_imperial_prerogative:0 "帝都特权"
  ap_one_vision:0 "万众一心"
  ap_consecrated_worlds:0 "祝圣世界"
+
  ap_galactic_force_projection:0 "星河力量投射"
  ap_defender_of_the_galaxy:0 "星河卫士"
  ap_galactic_contender:0 "逐鹿星河"
@@ -232,12 +317,16 @@
  ap_the_circle_of_life:0 "生命之环"
  ap_galactic_wonders:0 "星河奇迹"
  ap_interstellar_dominion:0 "星际主权"
+ 
  ap_engineered_evolution_desc:0 "将我们的进化之道完全放任于自然是一种低效且缓慢的做法。为何不在生物进化上一步到位，羽化而登仙呢？"
  ap_evolutionary_mastery_desc:0 "自然进化，是一头思维简单的野兽沿着唯一的道路奔向早已确定的终点。我们绝不能仅仅满足于此-我们需要同时探索进化上的所有可能性。"
+
  ap_the_flesh_is_weak_desc:0 "肉体带来的孱弱和限制同星际时代已经显得格格不入了。为了完全激发我们的潜能，我们必须选择义体和电子植入物。"
  ap_synthetic_evolution_desc:0 "是时候舍弃这一副禁锢我们思想和灵魂的血肉皮囊了。通过将我们的神经模式转移到合成人躯干，我们能够进化到全新的阶段。"
+
  ap_mind_over_matter_desc:0 "我们内心的潜能仅仅只有一小部分被开发使用。在我们种族内部，现在只有为数不多的个体能够操纵灵能的力量。"
  ap_transcendence_desc:0 "我们正处于是否唤醒灵能真正力量的分水岭。我们的心灵已经成熟，虚空之中有更高阶的存在在脑海中低语…"
+ 
  ap_world_shaper_desc:0 "通过细致的雕琢和改造来彻底地转变一个星球的生态系统，其难度不亚于让一位艺术家用软绵绵的粘土雕刻人像。"
  ap_master_builders_desc:0 "建造巨型建筑需要超乎想象的资源存贮和预案计划。我们正在迈向宏观工程的全新层面。"
  ap_imperial_prerogative_desc:0 "随着我们文明不断的成长，文明的心脏地带也需要进一步的扩张。更多的星系将被置于中央政府的直接控制之下。"

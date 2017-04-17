@@ -1,4 +1,7 @@
 ﻿l_english:
+ ####################################
+ # Constructions
+ ####################################
  MESSAGE_CONSTRUCTION_MESSAGE_TYPE_TITLE:1 "建造已完成"
  MESSAGE_BUILDING_CONSTRUCTION:1 "$PLANET|Y$已经完成了它的地表建造队列。"
  MESSAGE_BUILDING_CONSTRUCTION_MESSAGE_TYPE_TITLE:2 "建造完成"
@@ -8,6 +11,10 @@
  MESSAGE_SPACEPORT_CONSTRUCTION_MESSAGE_TYPE_TITLE:0 "建造完成"
  MESSAGE_ARMY_RECRUITMENT_TITLE:0 "军队招募完毕"
  MESSAGE_ARMY_RECRUITMENT:0 "$PLANET|Y$上的军队招募已经完毕。"
+
+ ####################################
+ # Fleet Orders
+ ####################################
  MESSAGE_FLEET_ORDER_FINISH_BUILD_ORBITAL_STATION:0 "§H$FLEET$§!已经在$PLANET|Y$的轨道上建造了一个$SHIPCLASS|Y$。"
  MESSAGE_FLEET_ORDER_ANOMALY:0 "§H$FLEET$§!在$PLANET|Y$上发现了一个§H异常点§!。"
  MESSAGE_FLEET_ORDER_FINISH_BUILD_SPACE_STATION:0 "§H$FLEET$§!已经在$STAR|Y$上建造了一个$SHIPCLASS|Y$。"
@@ -20,12 +27,20 @@
  MESSAGE_FLEET_ORDER_AUTO_EXPLORE_CANCELLED:0 "§H$FLEET$§!取消了自动探索指令。周围已经没有任何尚未探索的星系了。"
  FLEET_BUILD_ORDER_CANCELLED_MESSAGE_TYPE_TITLE:0 "$AUTO_EXPLORE_CANCELLED_MESSAGE_TYPE_TITLE$"
  MESSAGE_FLEET_BUILD_ORDER_CANCELLED_MESSAGE:0 "$FLEET|H$无法在$SYSTEM|H$中建设$STATION|H$。建造资源已经退还。"
+
+ ####################################
+ # Misc Fleet
+ ####################################
  MESSAGE_FLEET_REPARATIONS_DONE_MESSAGE_TYPE_TITLE:0 "修复完成"
  MESSAGE_REPARATIONS_DONE:0 "$FLEET|Y$舰队已经完全修复。"
  MESSAGE_FLEET_UPGRADE_DONE_MESSAGE_TYPE_TITLE:0 "舰队升级"
  MESSAGE_UPGRADE_DONE:0 "$FLEET|Y$舰队已经全部升级完毕。"
  MESSAGE_EMERGENCY_FTL_CASUALTIES_TITLE:0 "紧急跃迁的损失"
  EMERGENCY_FTL_CASUALTIES_DESC:0 "舰队受到了一些伤害。\n\n船只损失：$LOST$\n大破船只: $NEAR_LOST$"
+
+ ####################################
+ # Diplomacy
+ ####################################
  MESSAGE_MADE_FIRST_CONTACT_WE:0 "我们在§H$STAR$§!星系遭遇了§H$WHO$§!。"
  MESSAGE_MADE_FIRST_CONTACT_THEM:0 "已经与§H$STAR$§!星系的§H$WHO$§!建立了联系。"
  ACTION_DECLARE_WAR_VOTE_PASSED:0 "§H[Actor.GetAllianceName]§!的宣战投票已经通过，我们现在与§H[Recipient.GetName]§!§Y处于战争状态§!!"
@@ -43,6 +58,7 @@
  ACTION_FORM_FEDERATION_VOTE_PASSED:0 "§H[Actor.GetAllianceName]§!对建立联邦进行投票表决。"
  ACTION_FORM_FEDERATION_VOTE_FAILED:0 "关于建立联邦的投票未能通过。"
  ACTION_RELEASE_SUBJECT_PASSED:0 "§H[Actor.GetName]§!已经帮助我们获取了独立。"
+
  MESSAGE_TRADE_DEAL_END_MISSING_RESOURCE_TITLE:0 "贸易协定中止，我们缺乏资源"
  MESSAGE_TRADE_DEAL_END_MISSING_RESOURCE_THEM_TITLE:0 "贸易协定中止，他们缺乏资源"
  MESSAGE_TRADE_DEAL_END_CLOSED_BORDERS_TITLE:0 "贸易协定中止，我们关闭了己方边境"
@@ -119,6 +135,7 @@
  ACTION_ASK_TO_BECOME_RELEASED_VASSAL_PROPOSAL_FAILED_RECIPIENT:0 "从§H[Actor.GetName]§!被释放的请求被自动否决了。"
  ACTION_OFFER_TRADE_DEAL_PROPOSAL_FAILED_ACTOR:0 "我们与§H[Recipient.GetName]§!签订贸易协定的提议被否决了。"
  ACTION_OFFER_TRADE_DEAL_PROPOSAL_FAILED_RECIPIENT:0 "与§H[Actor.GetName]§!签订贸易协定的提议被自动否决了。"
+ 
  MESSAGE_MAKE_RIVAL_TITLE:0 "$RIVALRY$"
  MESSAGE_RECALL_EMBASSY_TITLE:0 "大使被召回"
  MESSAGE_END_RIVALRY_TITLE:0 "$RIVALRY$状态结束"
@@ -173,6 +190,7 @@
  MESSAGE_BREAK_SUPPORT_TITLE:0 "收回支持"
  MESSAGE_OPEN_BORDERS_TITLE:0 "边境已开放"
  MESSAGE_CLOSE_BORDERS_TITLE:0 "边境已关闭"
+ 
  ACTION_MAKE_RIVAL_NOTIFICATION:1 "§H[From.GetName]§!已经宣布§H[Root.GetName]§!为他们的§H$RIVAL$§!。\n\n这毫无疑问会加剧双方的敌意。"
  ACTION_END_RIVALRY_NOTIFICATION:2 "§H[From.GetName]§!已经结束了同§H[Root.GetName]§!的$RIVALRY$状态。\n\n他们正在迈向和解。"
  ACTION_EMBASSY_NOTIFICATION:1 "§H[From.GetName]§!向§H[Root.GetName]§!派遣了大使。\n\n随着时间的推移，双边关系会得到改善。"
@@ -217,6 +235,7 @@
  ACTION_BREAK_SUPPORT_NOTIFICATION:1 "§H[From.GetName]§!停止了对§H[Root.GetName]§!支持独立。\n\n看来 [Root.GetName] 注定要继续寄人篱下了。"
  ACTION_OPEN_BORDERS_NOTIFICATION:1 "§H[From.GetName]§!对§H[Root.GetName]§!的舰队开放了他们的边境。\n\n这会缓解双方之间的紧张气氛。"
  ACTION_CLOSE_BORDERS_NOTIFICATION:1 "§H[From.GetName]§!对§H[Root.GetName]§!的舰队关闭了他们的边境。\n\n这毫无疑问让双方的剑拔弩张更上一层楼。"
+ 
  MESSAGE_OFFER_FEDERATION_ASSOCIATION_TITLE:0 "邀请成为联邦协从国"
  ACTION_OFFER_FEDERATION_ASSOCIATION_NOTIFICATION:2 "§H[Root.GetName]§!成为了§H[From.GetAllianceName]§!的协从国。\n\n它们似乎渴望更加亲密的关系。"
  MESSAGE_ASK_FOR_FEDERATION_ASSOCIATION_TITLE:0 "要求成为联邦协从国"
@@ -226,7 +245,13 @@
  MESSAGE_END_FEDERATION_ASSOCIATION_TITLE:0 "中止协从国地位"
  ACTION_END_FEDERATION_ASSOCIATION_NOTIFICATION:2 "§H[From.GetName]§!决定放弃§H[Root.GetAllianceName]§!的协从国的地位。\n\n这难道是它们间关系恶化的前兆？"
  DIPLO_ACTION_END_FEDERATION_ASSOCIATION_DESC:0 "§H$COUNTRY$§!决定中止同§H$ALLIANCE$§!的协从关系。\n\n这难道是它们间关系恶化的前兆？"
+   
+ 
  MESSAGE_DIPLOMACY_TITLE:0 "外交"
+
+ ####################################
+ # War
+ ####################################
  SURRENDER_OUR_SIDE:0 "我们的战争领导者已经宣布无条件投降，双方已经停火。敌人将有六个月的时间来提出他们的要求。"
  SURRENDER_THEIR_SIDE:0 "敌方的战争领导者已经宣布无条件投降，双方已经停火。我们现在有六个月的时间来决定我们的要求。"
  WAR_END_VICTORY:0 "我们赢得了战争"
@@ -266,13 +291,25 @@
  MESSAGE_ENEMY_VASSAL_ENTER_WAR_DESC:1 "敌人的一个附庸$ENEMY|Y$已经加入了战争来对付我们。"
  MESSAGE_ENEMY_LEAVES_WAR:0 "敌人脱离战争"
  MESSAGE_ENEMY_LEAVES_WAR_DESC:1 " 由于变成了一个附庸或者已经被$OVERLORD|Y$所吞并，$ENEMY|Y$已经脱离了战争。"
+ 
+ ####################################
+ # Fleet Detected
+ ####################################
  MESSAGE_FLEET_DETECTED_WE:0 "$WHO|Y$的§H$FLEET$§!已经在通往§Y$TARGET$星系§!的直线航道上被发现了！"
  MESSAGE_FLEET_DETECTED_MESSAGE_TYPE_TITLE:0 "发现舰队"
  MESSAGE_OBJECT_DETECTED_WE:0 "一个不明物体已经在通往§Y$TARGET$星系§!的直线航道上被发现了！"
  MESSAGE_OBJECT_DETECTED_MESSAGE_TYPE_TITLE:0 "发现不明物体"
+
+ ####################################
+ # Fleet Evade
+ ####################################
  MESSAGE_FLEET_EVADE_HOSTILE:0 "$FLEET$已经在$SYSTEM|H$遭遇了一支来自敌对方$HOSTILE|R$的舰队并且正在努力回避他们。"
  MESSAGE_FLEET_EVADE_HOSTILE_FLEET_TYPE:0 "$TYPE$$NAME|H$"
  MESSAGE_FLEET_EVADE_HOSTILE_MESSAGE_TYPE_TITLE:0 "回避敌方舰队"
+
+ ####################################
+ # Leaders
+ ####################################
  FLEET_LEADER_DEATH:0 "$CLASS|Y$$LEADER|Y$在$SHIP|Y$被击毁时壮烈牺牲了。"
  ARMY_LEADER_DEATH:0 "我们的$CLASS|Y$，$LEADER|Y$在指挥$ARMY|Y$时去世了。"
  PLANET_LEADER_DEATH:0 "我们的$CLASS|Y$，$LEADER|Y$在$PLANET|Y$上去世了。"
@@ -296,30 +333,60 @@
  MESSAGE_LEADER_LEVEL_UP_TITLE:0 "一个领袖已经升级"
  LEADER_LEVEL_UP_DESC:0 "$CLASS|Y$$LEADER|Y$已经升级了\n\n技能：$LEVEL|Y$\n"
  LEADER_LEVEL_UP_NEXT_LEVEL_DESC:0 "$CLASS|Y$$LEADER|Y$已经升级了\n\n技能：$LEVEL|Y$\n下级所需经验：$EXP|Y0$"
+
  LEADER_ADMIRAL_BASE_EXPERIENCE:0 "§T舰队战斗：$VAL|0H$经验§!"
  LEADER_ADMIRAL_HOSTILE_KILLED_EXPERIENCE:0 "§T敌方战损：$VAL|0H$经验§!"
  LEADER_ADMIRAL_FRIENDLY_LOST_EXPERIENCE:0 "§T友方战损：$VAL|0H$经验§!"
+
  LEADER_GENERAL_BASE_EXPERIENCE:0 "§T地面战斗：$VAL|0H$经验§!"
  LEADER_GENERAL_HOSTILE_KILLED_EXPERIENCE:0 "§T敌方战损：$VAL|0H$经验§!"
  LEADER_GENERAL_FRIENDLY_LOST_EXPERIENCE:0 "§T友方战损：$VAL|0H$经验§!"
  MESSAGE_NEW_HEIR_TITLE:0 "§H新的继承人§!"
  NEW_HEIR_TEXT:0 "§Y$HEIR$§!是本帝国的新继承人，他将会在现今的统治者去世后继承大统。"
+
+ ####################################
+ # Technology
+ ####################################
  MESSAGE_TECHNOLOGY_RESEARCH_FINISH:0 "我们已经完成了$TECHNOLOGY|H$的研究。"
  MESSAGE_TECHNOLOGY_ORDER_FINISH_MESSAGE_TYPE_TITLE:0 "科技研究完毕"
+
+ ####################################
+ # Debris
+ ####################################
  MESSAGE_DEBRIS_ANALYZED_FINISH:0 "我们已经分析了在$SYSTEM|Y$中的残骸。"
  MESSAGE_DEBRIS_ANALYZED_FINISH_BONUS:1 "£$AREA_KEY$ §Y$AREA$研究§!：§G+$VAL|0$§!点"
  MESSAGE_DEBRIS_ANALYZED_FINISH_TECH_PROGRESS:1 "$TECH|Y$：§G+$VAL|%0$§!研究进度。"
  MESSAGE_DEBRIS_ANALYZED_FINISH_MESSAGE_TYPE_TITLE:0 "残骸分析完毕"
+
+ ####################################
+ # Anomaly
+ ####################################
  MESSAGE_ANOMALY_DETECTED_TYPE_TITLE:0 "异常点"
+
+ ####################################
+ # No Access
+ ####################################
  MESSAGE_WORMHOLE_CLOSED_NO_ACCESS:0 " 由$FROM|Y$通向$TARGET|Y$的虫洞被关闭了，因为那儿是$WHO|Y$的领地。"
  MESSAGE_FLEET_LEAVE_SYSTEM_NO_ACCESS:0 "$FLEET|Y$从$FROM|Y$被强制遣回$RETURN|Y$，因为那儿是$WHO|Y$的领地。"
  MESSAGE_WORMHOLE_CLOSED_NO_ACCESS_TITLE:0 "虫洞关闭"
  MESSAGE_FLEET_LEAVE_SYSTEM_NO_ACCESS_TITLE:0 "没有通行权"
+
+ ####################################
+ # Revolt
+ ####################################
  MESSAGE_REVOLT:0 "$PLANET|Y$!星上的居民起义了！"
  MESSAGE_PLANET_REVOLT_TITLE:0 "起义！"
+
+ ####################################
+ # Terraforming
+ ####################################
  MESSAGE_TERRAFORMATION_FINISH:1 "$PLANET|Y$已经被改造成了$PLANET_CLASS|Y$。"
  MESSAGE_TERRAFORMATION_CANCELED:0 "$PLANET|Y$的地貌改造工程已经中止！"
  MESSAGE_TERRAFORM_MESSAGE_TYPE_TITLE:0 "地貌改造"
+
+ ####################################
+ # Trade
+ ####################################
  MESSAGE_TRADE_DEAL_END_NO_ENERGY:0 "我们与$WITH|Y$的贸易条约已经结束了，因为我们缺少能量点来维持它。"
  MESSAGE_TRADE_DEAL_END_NO_ENERGY_THEM:0 "$WITH|Y$已经结束了与我们的贸易条约，因为他们缺少能量点来维持它。"
  MESSAGE_TRADE_DEAL_END_MISSING_RESOURCE:0 "我们与$WITH|Y$的贸易条约已经结束了，因为我们缺少$RESOURCE|Y$来维持它。"
@@ -336,29 +403,63 @@
  MESSAGE_TRADE_DEAL_END_SUPPORT_INDEPENDENCE_VASSALAGE_THEM:1 "$WITH|Y$中止了和我们的协定，他们已经成为了一个附属国，无法再支持我们的独立运动。"
  MESSAGE_TRADE_DEAL_END_SUPPORT_INDEPENDENCE_ALLIANCE:0 "我们中止了和$WITH|Y$的协议，我们已经加入了一个同盟，因此无法再继续对他们进行保障独立。"
  MESSAGE_TRADE_DEAL_END_SUPPORT_INDEPENDENCE_ALLIANCE_THEM:0 "$WITH|Y$中止了和我们的协定，他们已经加入了一个同盟，因此无法再继续对我们进行保障独立。"
+
+ ####################################
+ # Special Project
+ ####################################
  MESSAGE_UPLIFTING_FAILED_TITLE:0 "提升特别项目失败"
  MESSAGE_UPLIFTING_FAILED:1 "我们在$PLANET|Y$上提升$SPECIES|Y$的项目已经失败了。"
  MESSAGE_SPECIES_MODIFICATION_FAILED_TITLE:0 "改造物种特别项目失败"
  MESSAGE_SPECIES_MODIFICATION_FAILED:0 "我们改造$SPECIES|Y$特性的项目已经失败。"
  MESSAGE_SPECIAL_PROJECT_AVAILABLE_TITLE:0 "特别项目可用"
  SPECIAL_PROJECT_AVAILABLE:0 "特别项目可供研究。"
+
+
+ ####################################
+ # Event
+ ####################################
  MESSAGE_EVENT_MESSAGE_TYPE_TITLE:0 "事件"
+
+ ####################################
+ # Invasion
+ ####################################
  MESSAGE_INVASION_TITLE:0 "入侵结束"
  MESSAGE_INVASION_ATTACKER_WIN:0 "我们已经成功地入侵了$PLANET|H$！"
  MESSAGE_INVASION_ATTACKER_LOSE:0 "我们入侵$PLANET|H$失败了。"
  MESSAGE_INVASION_DEFENDER_WIN:0 "我们成功地规避了一场对$PLANET|H$的侵略！"
  MESSAGE_INVASION_DEFENDER_LOSE:0 "我们没能避免一场对$PLANET|H$的入侵。"
+
+ ####################################
+ # Subject changes
+ ####################################
  MESSAGE_SUBJECT_TYPE_CHANGED_TITLE:0 "附庸地位变更"
  MESSAGE_SUBJECT_CHANGED_DESC:0 "$REASON$$SUBJECT|Y$现在是$OVERLORD|Y$属下的一个$NEW_TYPE|Y$。"
  MESSAGE_SUBJECT_CHANGE_REASON_protectorate_me:0 "由于我们技术上的进步， "
  MESSAGE_SUBJECT_CHANGE_REASON_protectorate:0 "由于他们技术上的进步，"
+
+ ####################################
+ # Triggered Modifiers
+ ####################################
  MESSAGE_TRIGG_MOD_LOST_TITLE:0 "失去条件效果"
  TRIGG_MOD_LOST:1 "条件效果 '$NAME|H$' 不再有效。"
  MESSAGE_TRIGG_MOD_GAINED_TITLE:0 "获得条件效果"
  TRIGG_MOD_GAINED:1 "$NAME|H$\n\n$DESC$"
+
+ ####################################
+ # Combat Stats
+ ####################################
  MESSAGE_COMBAT_STATS_TITLE:0 "舰队战斗统计"
+ 
+ ####################################
+ # Edicts
+ ####################################
  MESSAGE_INVALIDATED_EDICT_TITLE:0 "法案取消"
  COUNTRY_EDICT_BECAME_INVALID:0 "由于没有满足前置条件，这个法案$EDICT|Y$已经失效。"
+
+#####################################
+# Megastructures
+#####################################
+
  MESSAGE_MEGASTRUCTURE_BUILT_TITLE:0 "奇观建成"
  MESSAGE_MEGASTRUCTURE_BUILT:1 "$FLEET|H$已经成功在$SYSTEM|H$建成了$MEGASTRUCTURE|H$。"
  MESSAGE_MEGASTRUCTURE_UPGRADED_TITLE:0 "奇观升级"

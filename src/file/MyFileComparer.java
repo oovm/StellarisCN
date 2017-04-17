@@ -47,14 +47,14 @@ public class MyFileComparer {
 		}
 	}
 
-	public static void main(String[] argv) {
-		String originFolderPath = "C:/Users/white/workspace/StellarisCN/Origin/localisation 1.5.1";
-		String targetFolderPath = "C:/Users/white/Desktop/english";
-		File file = new File(originFolderPath);
-		String[] fileNameList = file.list();
-		for (String fileName : fileNameList) {
-			System.out.println(fileName);
-			compareFile(originFolderPath + "/" + fileName, targetFolderPath + "/" + fileName);
-		}
-	}
+//	public static void main(String[] argv) {
+//		String originFolderPath = "./Origin/localisation 1.5.1";
+//		String targetFolderPath = "./Localisation/localisation";
+//		File file = new File(originFolderPath);
+//		String[] fileNameList = file.list();
+//		for (String fileName : fileNameList) {
+//			System.out.println(fileName);
+//			compareFile(originFolderPath + "/" + fileName, targetFolderPath + "/" + fileName);
+//		}
+//	}
 }

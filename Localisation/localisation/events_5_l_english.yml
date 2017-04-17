@@ -1,4 +1,5 @@
 ﻿l_english:
+ 
  anomaly.186.name:0 "Limbo"
  anomaly.186.desc.v1:0 "这个文库是为那些抱有希望的长眠者准备的坟墓。\n\n科学家[Root.GetLeaderName]声称我们在数据库中找到的那些巨大的三元数据块是一些神经图像，数字化的大脑扫描。毫无疑问，[From.From.GetName]上的外星人认为无论何种灾难降临至他们的星球时，这是延续生存的唯一方式。他们并没有复活自己的方式，不过他们将希望寄托于那近乎于不可能的可能性上，那就是，最终，有人会找到这种方式的。"
  anomaly.186.desc.v2:0 "这个文库是为那些抱有希望的长眠者准备的坟墓。\n\n我们在数据库中找到的那些巨大的三元数据块是一些神经图像，数字化的大脑扫描。毫无疑问，[From.From.GetName]上的外星人认为无论何种灾难降临至他们的星球时，这是延续生存的唯一方式。他们并没有复活自己的方式，不过他们将希望寄托于那近乎于不可能的可能性上，那就是，最终，有人会找到这种方式的。\n\n利用我们在机器人领域的先进技术，我们可以将这些扫描数据载入机器人，然而我们无法确定我们的机器人能否精密到承载高等智慧。"
@@ -45,3 +46,26 @@
  anomaly.1199.name:0 "生死弥留：觉醒"
  anomaly.1199.desc:0 "经历无数次试炼与挫折后，工程部门终于设法将神经扫描传输进机器人中，结果令人振奋。古外星人完全重获意识并且表达了独立自主，重建帝国的意愿。"
  anomaly.1199.a:0 "我们不会阻拦他们的。"
+
+ #action.7000.name: "Robotic Workforce Operational"
+ #action.7000.1: "Noted."
+#
+ #action.7000.desc_colle: "Engineers from [Root.Planet.GetName] report that our first robotic #workforce is finally operational and tending to its assignment with unparalleled efficiency, #setting an example to local workers, who are now eager to be reallocated to more suitable tasks."
+ #action.7000.desc_indiv: "$action.7000.desc_intro$ Reactions among the locals have been enthusiastic #as workers hope the use of robotic labor  will free up their schedules to focus on what's truly #important in life - individual pursuits and personal growth."
+ #action.7000.desc_phobe: "$action.7000.desc_intro$ Though suspicious at first, the locals seem to be #in agreement that robots are preferable to aliens, and have expressed hope that this initiative #will quell any potential need for alien labor."
+ #action.7000.desc_phile: "$action.7000.desc_intro$ Curious locals have amassed to the site to #welcome the newcomers and have been sighted attempting to interact with the AI. So far the robots #have been unresponsive, focusing on their assignments."
+ #action.7000.desc_milit: "$action.7000.desc_intro$ Locals are celebrating the triumphant occasion #with a parade, confident that robotic labor will help strengthen our empire." 
+ #action.7000.desc_pacif: "$action.7000.desc_intro$ Reactions from the community have been cautiously #optimistic, with some expressing concern that we use the technology responsibly and for a worthy #cause."
+ #action.7000.desc_mater: "$action.7000.desc_intro$ [Empire] visionaries speak of a robotic #revolution and [planet] has become the envy of the  empire as our citizens dream of a future #where manual labor is but a distant memory."
+ #action.7000.desc_spiri: "$action.7000.desc_intro$ Sadly the local population has reacted with #skepticism and suspicion, and community leaders have spoken out against the initiative, calling #it an insult to everything they stand for."
+ #action.7000.desc_fcolle: "Engineers from [Root.Planet.GetName] report that our first robotic #workforce is finally operational and tending to its assignment with unparalleled efficiency, #setting an example to local workers, who are now eager to be reallocated to more suitable tasks."
+ #action.7000.desc_findiv: "$action.7000.desc_intro$ Reactions among the locals have been #enthusiastic as workers hope the use of robotic labor will free up their schedules to focus on #what's truly important in life - individual pursuits and personal growth."
+ #action.7000.desc_fphobe: "$action.7000.desc_intro$ Though suspicious at first, the locals seem to #be in agreement that robots, though not ideal, are preferable to aliens, and have expressed hope #that this initiative will quell any potential need for alien labor."
+ #action.7000.desc_fphile: "$action.7000.desc_intro$ Curious locals have amassed to the site to #welcome the newcomers and have been sighted attempting to interact with the AI. So far the robots #have been unresponsive, focusing on their assignments."
+ #action.7000.desc_fmilit: "$action.7000.desc_intro$ Locals are celebrating the triumphant occasion #with a parade, confident that robotic labor will help strengthen our empire."
+ #action.7000.desc_fpacif: "$action.7000.desc_intro$ Reactions from the community have been #cautiously optimistic, with some expressing concern that we use the technology responsibly and #for a worthy cause."
+ #action.7000.desc_fmater: "$action.7000.desc_intro$[Empire] visionaries speak of a robotic #revolution and [planet] has become the envy of the  empire as our citizens dream of a future #where manual labor is but a distant memory."
+ #action.7000.desc_fspiri: "$action.7000.desc_intro$ Sadly the local population has reacted with #skepticism and suspicion and community leaders have spoken out against the initiative, calling it #an insult to everything they stand for."
+ #action.7000.desc_intro: "Engineers from [Root.Planet.GetName] report that our first robotic #workforce is now online and ready for action."
+ ##action.7000.desc_intro: "$action.7000.desc_intro$"#
+ 

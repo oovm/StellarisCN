@@ -1,4 +1,9 @@
 ﻿l_english:
+
+ ####################################
+ # Special Research Projects
+ ####################################
+ 
  MIGRATING_FORESTS_1_PROJECT:0 "研究迁移的森林"
  MIGRATING_FORESTS_1_PROJECT_DESC:0 "部分科学家希望能够通过对这些外来植被的研究进而找到一种不对森林造成破坏的办法。"
  MIGRATING_FORESTS_2_PROJECT:0 "烧毁迁移的森林"
@@ -177,6 +182,8 @@
  CYBREX_ARCHEOLOGY_10_DESC:0 "在[From.GetName]附近轨道发现了大约1千具外星人尸体。他们死亡时间与塞伯勒克斯控制这部分星系时间大致相符。"
  CYBREX_ARCHEOLOGY_11:0 "塞伯勒克斯研究站"
  CYBREX_ARCHEOLOGY_11_DESC:0 "在[From.GetName]附近轨道发现的塞伯勒克斯研究站其中一个工作模块中包含了一些赛伯勒克斯族的残留物。"
+ 
+ 
  TARBLAC_PROCUREMENT:0 "无常的塔布拉克"
  TARBLAC_PROCUREMENT_DESC:0 "在海洋世界[This.GetName]的海面下方发现了塔布拉克。"
  TASSARGOID_PROCUREMENT:0 "强壮的塔萨古德"
@@ -219,6 +226,7 @@
  SYNTH_INFILTRATION_PROJECT_DESC:0 "卑劣的合成人对[Root.GetSpeciesNamePlural]的渗透正在[Root.GetName]内进行。我们需要拿出一个有效而可靠的方法来识别他们。"
  CAPTURE_QUEEN:0 "俘获虫后"
  CAPTURE_QUEEN_DESC:0 "[queen_system.GetName]大战后，一个美丽的异虫虫后在这场灾难中重伤濒死，但其仍有生命体征，抓住她，大功一件。"
+ 
  ESTABLISH_COMMUNICATIONS:0 "调查[Prev.From.GetName]"
  ESTABLISH_COMMUNICATIONS_DESC:1 "我们需要掌握更多关于代号为§Y[Prev.From.GetName]§!的神秘外星人的情报。如果他们拥有自己的语言，我们就尽早破译并与其建立联系。\n\n奖励£influence §G影响力§!或开启§S特殊项目§!"
  INVESTIGATE_SPACE_AMOEBA:0 "$ESTABLISH_COMMUNICATIONS$"
