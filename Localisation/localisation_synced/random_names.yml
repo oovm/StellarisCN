@@ -1,336 +1,328 @@
 ﻿l_default:
-  ######################
-  # Pre-Communication Name
-  ######################
-  Aleph: Aleph
-  Alpha: Alpha
-  Angels: Angels
-  Apostles: Apostles
-  Ayin: Ayin
-  Banshees: Banshees
-  Beta: Beta
-  Beth: Beth
-  Blimps: Blimps
-  Bogies: Bogies
-  Bogles: Bogles
-  Boojums: Boojums
-  Bravo: Bravo
-  Brownies: Brownies
-  Bugbears: Bugbears
-  Cacodemons: Cacodemons
-  Centaurs: Centaurs
-  Changelings: Changelings
-  Charlie: Charlie
-  Chi: Chi
-  Chimeras: Chimeras
-  Clowns: Clowns
-  Cooks: Cooks
-  Creeps: Creeps
-  Croaks: Croaks
-  Crooks: Crooks
-  Crunchers: Crunchers
-  Daleth: Daleth
-  Delta: Delta
-  Demons: Demons
-  Devas: Devas
-  Devils: Devils
-  Doolies: Doolies
-  Dragons: Dragons
-  Echo: Echo
-  Epsilon: Epsilon
-  Eta: Eta
-  Extros: Extros
-  Fairies: Fairies
-  Fauns: Fauns
-  Fetches: Fetches
-  Fiends: Fiends
-  Floaters: Floaters
-  Foxtrot: Foxtrot
-  Freaks: Freaks
-  Frights: Frights
-  Frogs: Frogs
-  Furies: Furies
-  Gamma: Gamma
-  Genies: Genies
-  Ghosts: Ghosts
-  Ghoulies: Ghoulies
-  Gimel: Gimel
-  Gnomes: Gnomes
-  Goblins: Goblins
-  Golems: Golems
-  Golf: Golf
-  Goonies: Goonies
-  Goosecreatures: Goosecreatures
-  Gorgons: Gorgons
-  Gremlins: Gremlins
-  Grendels: Grendels
-  Griffins: Griffins
-  Groogies: Groogies
-  Harpies: Harpies
-  Haunters: Haunters
-  He: He
-  Heth: Heth
-  Hippos: Hippos
-  Hobgoblins: Hobgoblins
-  Hombres: Hombres
-  Hotel: Hotel
-  Houries: Houries
-  Howlies: Howlies
-  Hydras: Hydras
-  Ickies: Ickies
-  Ifrits: Ifrits
-  Ikiryos: Ikiryos
-  Ikuchis: Ikuchis
-  Imps: Imps
-  India: India
-  Iota: Iota
-  Jabberwocks: Jabberwocks
-  Jackalopes: Jackalopes
-  Jinkies: Jinkies
-  Juliett: Juliett
-  Kaph: Kaph
-  Kappa: Kappa
-  Kelpies: Kelpies
-  Kilo: Kilo
-  Kitsunes: Kitsunes
-  Kobolds: Kobolds
-  Krakens: Krakens
-  Lambda: Lambda
-  Lamedh: Lamedh
-  Lamias: Lamias
-  Lemures: Lemures
-  Lima: Lima
-  Lurkers: Lurkers
-  Manes: Manes
-  Manticores: Manticores
-  Mazikeen: Mazikeen
-  Mem: Mem
-  Mermaids: Mermaids
-  Merries: Merries
-  Mike: Mike
-  Minotaurs: Minotaurs
-  Mirages: Mirages
-  Mogwais: Mogwais
-  Morphies: Morphies
-  Mu: Mu
-  Munchers: Munchers
-  Muppets: Muppets
-  Murmies: Murmies
-  Nagas: Nagas
-  Naiads: Naiads
-  Nephilim: Nephilim
-  Nightmares: Nightmares
-  Nixies: Nixies
-  November: November
-  Nu: Nu
-  Nun: Nun
-  Nymphs: Nymphs
-  Obakes: Obakes
-  Ogres: Ogres
-  Omega: Omega
-  Omicron: Omicron
-  Onis: Onis
-  Oscar: Oscar
-  Others: Others
-  Outers: Outers
-  Papa: Papa
-  Pards: Pards
+  Aleph: 阿列夫
+  Alpha: α
+  Angels: 天使
+  Apostles: 使徒
+  Ayin: 艾因
+  Banshees: 报丧女妖
+  Beta: β
+  Beth: 贝斯
+  Blimps: 软飞艇
+  Bogies: 妖魔
+  Bogles: 妖怪
+  Boojums: 蛇鲨
+  Bravo: 喝彩
+  Brownies: 布朗尼
+  Bugbears: 熊地精
+  Cacodemons: 卡寇魔
+  Centaurs: 半人马
+  Changelings: 调换儿
+  Charlie: 查理
+  Chi: χ
+  Chimeras: 奇美拉
+  Clowns: 小丑
+  Cooks: 厨子
+  Creeps: 蠕行
+  Croaks: 嘎嘎
+  Crooks: 恶徒
+  Crunchers: 嚼食者
+  Daleth: 达雷特
+  Delta: 德尔塔
+  Demons: 恶魔
+  Devas: 提婆
+  Devils: 魔鬼
+  Doolies: 新兵
+  Dragons: 龙
+  Echo: 回声
+  Epsilon: ε
+  Eta: η
+  Extros: 外倾者
+  Fairies: 仙子
+  Fauns: 牧神
+  Fetches: 一击
+  Fiends: 恶棍
+  Floaters: 漂流者
+  Foxtrot: 狐步
+  Freaks: 怪人
+  Frights: 骇恐
+  Frogs: 青蛙
+  Furies: 复仇女神
+  Gamma: γ
+  Genies: 精灵
+  Ghosts: 幽灵
+  Ghoulies: 食尸鬼
+  Gimel: 基摩尔
+  Gnomes: 侏儒
+  Goblins: 哥布林
+  Golems: 魔像
+  Golf: 高尔夫
+  Goonies: 灵精
+  Goosecreatures: 鹅型兽
+  Gorgons: 蛇发女妖
+  Gremlins: 麻烦精
+  Grendels: 格伦德尔
+  Griffins: 狮鹫
+  Groogies: 格鲁吉斯
+  Harpies: 鹰身女妖
+  Haunters: 鬼魂
+  He: 赫
+  Heth: 赫斯
+  Hippos: 河马
+  Hobgoblins: 巨哥布林
+  Hombres: 汉子
+  Hotel: 旅店
+  Houries: 美人
+  Howlies: 白鬼
+  Hydras: 九头蛇
+  Ickies: 骚扰者
+  Ifrits: 火精灵
+  Ikiryos: 生灵
+  Ikuchis: 海怪
+  Imps: 小恶魔
+  India: 印度
+  Iota: ι
+  Jabberwocks: 伽卜沃奇
+  Jackalopes: 鹿角兔
+  Jinkies: 惊喜
+  Juliett: 朱丽叶
+  Kaph: כ
+  Kappa: κ
+  Kelpies: 水马
+  Kilo: 基洛
+  Kitsunes: 狐妖
+  Kobolds: 狗头人
+  Krakens: 海怪
+  Lambda: 拉姆达
+  Lamedh: 拉米得
+  Lamias: 蛇身女妖
+  Lemures: 夜游神
+  Lima: 利马
+  Lurkers: 地刺
+  Manes: 冥神
+  Manticores: 蝎狮
+  Mazikeen: 玛茲琴
+  Mem: 麦莫
+  Mermaids: 人鱼
+  Merries: 莫里斯
+  Mike: 麦克
+  Minotaurs: 米诺陶斯
+  Mirages: 蜃景
+  Mogwais: 魔怪
+  Morphies: 墨菲
+  Mu: μ
+  Munchers: 狼吞者
+  Muppets: 愚人
+  Murmies: 木乃伊
+  Nagas: 娜迦
+  Naiads: 那伊阿得斯
+  Nephilim: 拿非利
+  Nightmares: 梦魇
+  Nixies: 水精灵
+  November: 十一月
+  Nu: ν
+  Nun: 努恩
+  Nymphs: 宁芙
+  Obakes: 妖物
+  Ogres: 食人魔
+  Omega: ω
+  Omicron: ο
+  Onis: 百鬼
+  Oscar: 奥斯卡
+  Others: 他者
+  Outers: 外人
+  Papa: 爸爸
+  Pards: 豹子
   Pe: Pe
-  Phantoms: Phantoms
-  Phi: Phi
-  Pi: Pi
-  Podlings: Podlings
-  Poxies: Poxies
-  Psi: Psi
-  Pucks: Pucks
-  Qoph: Qoph
-  Quebec: Quebec
-  Rakshasas: Rakshasas
-  Res: Res
-  Revenants: Revenants
-  Rho: Rho
-  Rocs: Rocs
-  Romeo: Romeo
-  Sade: Sade
-  Samekh: Samekh
-  Satyrs: Satyrs
-  Scaries: Scaries
-  Screamers: Screamers
-  Screechers: Screechers
-  Shades: Shades
-  Shadows: Shadows
-  Sharkies: Sharkies
-  Shoggoths: Shoggoths
-  Sierra: Sierra
-  Sigma: Sigma
-  Sin: Sin
-  Sirens: Sirens
-  Snarks: Snarks
-  Sneakies: Sneakies
-  Spacers: Spacers
-  Sphinxes: Sphinxes
-  Spirits: Spirits
-  Spooks: Spooks
-  Sprites: Sprites
+  Phantoms: 幻影
+  Phi: φ
+  Pi: π
+  Podlings: 魔荚
+  Poxies: 无用者
+  Psi: 灵能
+  Pucks: 淘气鬼
+  Qoph: 屈夫
+  Quebec: 魁北克
+  Rakshasas: 罗刹
+  Res: 余烬
+  Revenants: 幽灵
+  Rho: ρ
+  Rocs: 大鹏
+  Romeo: 罗密欧
+  Sade: 萨德
+  Samekh: ס‎
+  Satyrs: 森神
+  Scaries: 恐惧
+  Screamers: 尖啸者
+  Screechers: 尖叫者
+  Shades: 阴影
+  Shadows: 影子
+  Sharkies: 诱惑者
+  Shoggoths: 修格斯
+  Sierra: 雪乐
+  Sigma: σ
+  Sin: 原罪
+  Sirens: 塞壬
+  Snarks: 毒蛇
+  Sneakies: 鬼祟
+  Spacers: 太空人
+  Sphinxes: 斯芬克斯
+  Spirits: 灵魂
+  Spooks: 鬼魅
+  Sprites: 雪碧
   Stands: Stands
-  Sylphs: Sylphs
-  Tango: Tango
-  Tau: Tau
-  Taw: Taw
-  Tengus: Tengus
-  Teth: Teth
-  Theta: Theta
-  Tooters: Tooters
-  Trappers: Trappers
-  Trolls: Trolls
-  Twinkies: Twinkies
-  Unicorns: Unicorns
+  Sylphs: 气精灵
+  Tango: 探戈
+  Tau: τ
+  Taw: 道
+  Tengus: 天狗
+  Teth: ט‎
+  Theta: Θ
+  Tooters: 吹号者
+  Trappers: 捕兽者
+  Trolls: 巨怪
+  Twinkies: 小蛋糕
+  Unicorns: 独角兽
   Uniform: Uniform
-  Upsilon: Upsilon
-  Vampires: Vampires
-  Victor: Victor
-  Viles: Viles
-  Visitants: Visitants
-  Wrkncacnter: Wrkncacnter
-  Wargs: Wargs
-  Waw: Waw
-  Werewolves: Werewolves
-  Whiskey: Whiskey
-  Wights: Wights
-  Wisps: Wisps
-  Witches: Witches
-  Wraiths: Wraiths
-  X-Ray: X-Ray
-  Xi: Xi
-  Yankee: Yankee
-  Yetis: Yetis
-  Yodh: Yodh
-  Zayin: Zayin
-  Zeta: Zeta
-  Zombies: Zombies
-  Zulu: Zulu
-  
-  ################
-  # Nation?
-  # Nebula/Black Hole
-  ################
-  Abaddons Demesne: Abaddons Demesne
-  Abbanis Nebula: Abbanis Nebula
-  Absajha Min: Absajha Min
-  Accord: Accord
-  Administration: Administration
-  Adventurers: Adventurers
-  Aliens: Aliens
-  Alliance of: Alliance of
-  Alliance: Alliance
-  Allied: Allied
-  Alpha Hydri: Alpha Hydri
+  Upsilon: 厄普西隆
+  Vampires: 吸血鬼
+  Victor: 维克多
+  Viles: 维勒斯
+  Visitants: 访客
+  Wrkncacnter: 沃尔肯卡克讷特尔
+  Wargs: 座狼
+  Waw: 沃
+  Werewolves: 狼人
+  Whiskey: 威士忌
+  Wights: 苦灵
+  Wisps: 小精灵
+  Witches: 巫师
+  Wraiths: 幽灵
+  X-Ray: X射线
+  Xi: ξ
+  Yankee:  扬基
+  Yetis: 雪人
+  Yodh: 约德
+  Zayin: 载音
+  Zeta: ζ
+  Zombies: 僵尸
+  Zulu: 祖鲁
+  Abaddons Demesne: 地狱领域
+  Abbanis Nebula: 阿班尼斯旋臂
+  Absajha Min: 阿卜悉伽 闵
+  Accord: 协议
+  Administration: 管理员
+  Adventurers: 冒险者
+  Aliens: 异类
+  Alliance of: 联盟：
+  Alliance: 联盟
+  Allied: 同盟
+  Alpha Hydri: 水蛇座α
   Ampal Dir: Ampal Dir
-  Ancients: Ancients
+  Ancients: 先民
   Antak Rham: Antak Rham
-  Anti-War Coalition: Anti-War Coalition
-  Arbitrators: Arbitrators
-  Archivists: Archivists
+  Anti-War Coalition: 反战联盟
+  Arbitrators: 仲裁者
+  Archivists: 保管员
   Arija Patch: Arija Patch
-  Army: Army
-  Artist Enclave: Artist Enclave
-  Ascensions End: Ascensions End
-  Assembly of: Assembly of
-  Assembly: Assembly
-  Associated: Associated
-  Association: Association
-  Astral Hunters: Astral Hunters
-  Autocracy: Autocracy
-  Autonomist: Autonomist
+  Army: 军
+  Artist Enclave: 艺术家飞地
+  Ascensions End: 飞升尽头
+  Assembly of: 议会：
+  Assembly: 议会
+  Associated: 合作
+  Association: 协会
+  Astral Hunters: 星间猎人
+  Autocracy: 独裁国
+  Autonomist: 自治者
   BTiran: BTiran
-  BX-799 Singularity: BX-799 Singularity
+  BX-799 Singularity: BX-799 奇点
   Bal Durk: Bal Durk
-  Bandit Kingdom: Bandit Kingdom
-  Bandits0: Bandits0
-  Barbarians: Barbarians
+  Bandit Kingdom: 强盗王国
+  Bandits0: 强盗0
+  Barbarians: 野蛮人
   Beldrish: Beldrish
-  Belvares Maelstrom: Belvares Maelstrom
-  Bendraks: Bendraks
-  Beta Aquilae: Beta Aquilae
-  Beta Caeli: Beta Caeli
-  Beta Corvi: Beta Corvi
-  Beta Hydri: Beta Hydri
+  Belvares Maelstrom: 贝瓦雷斯大漩涡
+  Bendraks: 本德拉克
+  Beta Aquilae: 天鹰座β
+  Beta Caeli: 雕具座β
+  Beta Corvi: 乌鸦座β
+  Beta Hydri: 水蛇座β
   Bhakkan: Bhakkan
   Bion Dazat: Bion Dazat
-  Bir Zun: Bir Zun
-  Black Flotilla: Black Flotilla
-  Black Guild: Black Guild
-  Bleeding Corsairs: Bleeding Corsairs
-  Blessed: Blessed
-  Bloc: Bloc
-  Blood Brigade: Blood Brigade
-  Blood Clan: Blood Clan
-  Blood Clans: Blood Clans
-  Blood Companions: Blood Companions
-  Blood Host: Blood Host
-  Bloody Cutthroats: Bloody Cutthroats
-  Blorgs Bane: Blorgs Bane
+  Bir Zun: 庇尊
+  Black Flotilla: 黑色舰队
+  Black Guild: 黑色行会
+  Bleeding Corsairs: 流血海盗船
+  Blessed: 被佑者
+  Bloc: 阵营
+  Blood Brigade: 血旅
+  Blood Clan: 血族
+  Blood Clans: 血之部落
+  Blood Companions: 血之战友团
+  Blood Host: 血之主人
+  Bloody Cutthroats: 血腥割喉
+  Blorgs Bane: Blorg之祸
   Bodrassan: Bodrassan
   Bogeys: Bogeys
   Boltaran: Boltaran
-  Brawl: Brawl
-  Brazen Band: Brazen Band
-  Brigade: Brigade
-  Brigands0: Brigands0
-  Broons Singularity: Broons Singularity
-  Brotherhood of the Void: Brotherhood of the Void
-  Buccaneers0: Buccaneers0
-  Burning Brigands: Burning Brigands
+  Brawl: 殴斗
+  Brazen Band: 刺耳乐队
+  Brigade: 旅
+  Brigands0: 土匪0
+  Broons Singularity: 布鲁恩奇点
+  Brotherhood of the Void: 虚空兄弟会
+  Buccaneers0: 海盗0
+  Burning Brigands: 燃烧土匪
   Caaganian: Caaganian
-  Cabal of the Captains: Cabal of the Captains
-  Cartel: Cartel
+  Cabal of the Captains: 提督密会
+  Cartel: 卡特尔
   Cebellus Shroud: Cebellus Shroud
   Celgaari: Celgaari
-  Centralized: Centralized
-  Chi Draconis: Chi Draconis
-  Chroniclers: Chroniclers
-  Church of Light: Church of Light
-  Cibaaran Maelstrom: Cibaaran Maelstrom
-  Civilization: Civilization
-  Clans: Clans
+  Centralized: 集权
+  Chi Draconis: 天龙星χ
+   Chroniclers: 史学家
+  Church of Light: 光之教堂
+  Cibaaran Maelstrom: Cibaaran漩涡
+  Civilization: 文明
+  Clans: 部落
   Cleskas: Cleskas
-  Coalition: Coalition
-  Cold Ones: Cold Ones
-  Collective: Collective
-  Colonies: Colonies
-  Combine: Combine
-  Combined: Combined
-  Commando: Commando
-  Committee: Committee
-  Commonalities: Commonalities
-  Commonality: Commonality
-  Commonwealth: Commonwealth
-  Compact: Compact
+  Coalition: 联盟
+  Cold Ones: 冷酷者
+  Collective: 集体
+  Colonies: 殖民地
+  Combine: 联合
+  Combined: 联合
+  Commando: 突击队
+  Committee: 委员会
+  Commonalities: 诸共同体
+  Commonality: 共同体
+  Commonwealth: 联邦
+  Compact: 协约
   Con Viab: Con Viab
-  Concordat: Concordat
-  Confederacy: Confederacy
-  Confederated: Confederated
-  Confederation of: Confederation of
-  Confederation: Confederation
-  Conflict: Conflict
-  Conglomerate: Conglomerate
-  Congress: Congress
-  Consciousness: Consciousness
-  Consensus: Consensus
-  Conservers: Conservers
-  Consolidated: Consolidated
-  Consortium: Consortium
-  Constituents: Constituents
-  Cooperative: Cooperative
-  Corsairs0: Corsairs0
-  Council: Council
-  Covenant: Covenant
-  Crimson Commando: Crimson Commando
-  Crossroads Nebula: Crossroads Nebula
-  Crusaders: Crusaders
-  Curator Enclave: Curator Enclave
-  Cursed Ones: Cursed Ones
-  Cutthroats: Cutthroats
+  Concordat: 政教联合体
+  Confederacy: 邦联
+  Confederated: 邦联
+  Confederation of: 联盟：
+  Confederation: 联盟
+  Conflict: 战斗
+  Conglomerate: 集团公司
+  Congress: 代表大会
+  Consciousness: 意识
+  Consensus: 共意
+  Conservers: 贮存者
+  Consolidated: 整合
+  Consortium: 财团
+  Constituents: 选民
+  Cooperative: 合作企业
+  Corsairs0: 海盗船0
+  Council: 议会
+  Covenant: 契约
+  Crimson Commando: 赭红突击队
+  Crossroads Nebula: 交岔星云
+  Crusaders: 十字军战士
+  Curator Enclave: 收藏者飞地
+  Cursed Ones: 被诅咒者
+  Cutthroats: 割喉
   D-471 Singularity: D-471 Singularity
   Dark Hopes Nebula: Dark Hopes Nebula
   Dark Riders: Dark Riders
@@ -566,8 +558,8 @@
   Reclaimers: Reclaimers
   Reconquerors: Reconquerors
   Red Captaincy: Red Captaincy
-  Red Corsairs: Red Corsairs
-  Red Prophets: Red Prophets
+  Red Corsairs: 红海盗
+  Red Prophets: 红先知
   Regime: Regime
   Regions: Regions
   Regulators: Regulators
@@ -622,55 +614,55 @@
   Star Raiders: Star Raiders
   Star Reapers: Star Reapers
   Star Wretches: Star Wretches
-  Star: Star
-  Stars: Stars
-  State: State
-  States: States
-  Steel Claws: Steel Claws
-  Stellar Marauders: Stellar Marauders
-  Stellar: Stellar
-  Storm Lords: Storm Lords
-  Suns: Suns
+  Star: 星
+  Stars: 诸星
+  State: 国
+  States: 诸邦
+  Steel Claws: 钢爪
+  Stellar Marauders: 星际掠夺者
+  Stellar: 星辰
+  Storm Lords: 风暴之主
+  Suns: 诸恒星
   Surellian: Surellian
   Suskats Maw: Suskats Maw
   Suuldic: Suuldic
-  Syndicate: Syndicate
-  Systems: Systems
+  Syndicate: 辛迪加
+  Systems: 诸星系
   TKani: TKani
   TLazims: TLazims
   Taldurakkan: Taldurakkan
   Tar Valemm: Tar Valemm
   Tau Ceti: Tau Ceti
   Tau Cygni: Tau Cygni
-  Technocracy: Technocracy
+  Technocracy: 技术官僚国
   Tel-Karanian: Tel-Karanian
   Temestra Badlands: Temestra Badlands
-  Temple of Unity: Temple of Unity
+  Temple of Unity: 联合神庙
   Ter Meku Black Hole: Ter Meku Black Hole
   Terbanic: Terbanic
-  Territories: Territories
-  Terrors: Terrors
+  Territories: 区域
+  Terrors: 恐怖
   Theocracy: Theocracy
-  Throne of God: Throne of God
+  Throne of God: 神座
   TirMulian: TirMulian
   Tormentors: Tormentors
   Trader Enclave: Trader Enclave
   Tram Bodon: Tram Bodon
   Trax Ofko: Trax Ofko
-  Traxis Badlands: Traxis Badlands
-  Treasure Hunters: Treasure Hunters
-  Tribes: Tribes
-  True Path: True Path
+  Traxis Badlands: 特拉克西斯蛮荒地
+  Treasure Hunters: 宝物猎人
+  Tribes: 诸部落
+  True Path: 真理之路
   Tunari Vortex: Tunari Vortex
   Twin Fangs Nebula: Twin Fangs Nebula
   Tyjanock Expanse: Tyjanock Expanse
   Ultaaran Miasma: Ultaaran Miasma
   Unar Patch: Unar Patch
-  Underground: Underground
-  Unified: Unified
+  Underground: 地下
+  Unified: 合一
   Union of: Union of
-  Union: Union
-  United: United
+  Union: 联邦
+  United: 联合
   Urakhannons Maw: Urakhannons Maw
   Uran Tokh: Uran Tokh
   Uskandi: Uskandi
@@ -707,15 +699,15 @@
   Wir Thosk: Wir Thosk
   Worlds: Worlds
   Wum Jiam: Wum Jiam
-  X-941 Singularity: X-941 Singularity
-  XT-81 Singularity: XT-81 Singularity
+  X-941 Singularity: X-941 奇点
+  XT-81 Singularity: XT-81 奇点
   Xel Madak: Xel Madak
   Xeldorian: Xeldorian
   Xenos United: Xenos United
   Xhalgaaran: Xhalgaaran
   Xu Nur: Xu Nur
   Xulbaks Maw: Xulbaks Maw
-  Xuukanis Black Hole: Xuukanis Black Hole
+  Xuukanis Black Hole: Xuukanis 黑洞
   Yameks Singularity: Yameks Singularity
   Yel Barrasta: Yel Barrasta
   Yinarim Nebula: Yinarim Nebula
@@ -843,9 +835,6 @@
   AT: AT
   AT-: AT-
   AZ-11-: AZ-11-
-  #################
-  #    System     #
-  #################
   Abdrade: Abdrade
   Ablapus: Ablapus
   Acamar: Acamar
