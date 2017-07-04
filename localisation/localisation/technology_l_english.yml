@@ -71,7 +71,7 @@
  tech_strike_craft_1:0 "航母作战"
  tech_strike_craft_1_desc:0 "这些从母舰发射的短程载人舰载机依靠速度以及小巧的体积带来的灵活性突破敌军的防线。\n\n"
  tech_strike_craft_2:0 "改良型舰载机"
- tech_strike_craft_2_desc:0 "新一代的舰载机，更稳定的操作手感，更先进的电控设备，更强的火力。\n\n"
+ tech_strike_craft_2_desc:0 "新一代舰载机装备了改进的航空电子设备，同时拥有更优良的操作性能及更强劲的武器装备。"
  tech_strike_craft_3:0 "先进型舰载机"
  tech_strike_craft_3_desc:0 "针对舰载机设工艺的提纯与升华。这些先进的战斗机与轰炸机性能远超前代，是每个飞行员所梦寐以求的。\n\n"
 
@@ -81,7 +81,7 @@
  tech_assault_armies:0 "跨行星远征军"
  tech_assault_armies_desc:0 "去侵略其他的星球确实是一项了不起的事业。但是在我们派遣军队之前，还要面对后勤补给线的巨大挑战。\n\n"
  tech_drop_pod:0 "近地轨道降落舱"
- tech_drop_pod_desc:0 一次性降落舱的使用可以减少对脆弱的的登陆艇的依赖，并允许我们在短时间内将轻装部队部署到星球表面的任何一个角落。\n\n"
+ tech_drop_pod_desc:0 "一次性降落舱的使用可以减少对脆弱的的登陆艇的依赖，并允许我们在短时间内将轻装部队部署到星球表面的任何一个角落。\n\n"
 
  # Ship Armor Components
  tech_ship_armor_1:0 "纳米复合材料"
@@ -143,9 +143,9 @@
  #tech_mining_network_5_desc:0 ""
  tech_synchronized_work_patterns:0 "协同工作模式"
  tech_synchronized_work_patterns_desc:0 "通过协调各矿区工作进度，我们可以更有效率地进行采集作业。\n\n"
- tech_engineering_lab_1:0 "Nanomechanics" # Could also be Nanomatter
+ tech_engineering_lab_1:0 "纳米力学"# Could also be Nanomatter
  tech_engineering_lab_1_desc:0 "借助更先进的实验仪器，我们可以开始探讨纳米尺度物理系统的研究和应用了。"
- tech_engineering_lab_2:0 "Supersolid Materials" # As above, could be Supersolid Matter
+ tech_engineering_lab_2:0 "超固体材料"# As above, could be Supersolid Matter
  tech_engineering_lab_2_desc:0 "充分了解与生产这种超固材料可以使任何一个宇宙帝国受益。"
  tech_engineering_lab_3:0 "超流体材料"
  tech_engineering_lab_3_desc:0 "针对超流理论的研究使得量子力学和引力相互作用理论可以统一。"
@@ -158,19 +158,23 @@
  #tech_enhanced_combat_software:0 "Combat Software 2.0"
  #tech_enhanced_combat_software_desc:0 ""
  tech_synthetic_leaders:0 "合成人人格矩阵"
- tech_synthetic_leaders_desc:0 "在植入了人格后，合成人不再只是冰冷的机器，而是可以与之互动的真正意义上的"人"，甚至有的合成人还具有非凡的领袖才能。\n\n"
+ tech_synthetic_leaders_desc:0 "在植入了人格后，合成人不再只是冰冷的机器，而是可以与之互动的真正意义上的人，甚至有的合成人还具有非凡的领袖才能。\n\n"
  tech_mineral_processing_1:0 "矿物处理技术"
  tech_mineral_processing_1_desc:0 "优化的工业体系能为矿物精炼和加工处理提高不少效率。"
  tech_mineral_processing_2:0 "先进矿物处理技术"
  tech_mineral_processing_2_desc:1 "第二阶段的加工技术允许我们对矿物进行粗炼，这样不仅可以提高效率同时也方便矿物的运输与储存。"
+ tech_assembly_pattern:0 "配件样式"
+ tech_assembly_pattern_desc:0 ""
+ tech_construction_templates:0 "建设模板"
+ tech_construction_templates_desc:0 ""
  
  # Space Mining
  tech_space_construction:0 "外太空建设"
  tech_space_construction_desc:0 "如何在太空中进行建设这个难题考验着我们的工程师，不过这是一个我们必须跨越的鸿沟，只有掌握了这项技术我们才能真正意义上成为宇宙帝国。\n\n"
  #tech_mine_rare_resources_t1: "Zero-Gravity Refining"
- #tech_mine_rare_resources_t1_desc: "New refining techniques are necessary in order to process the many exotic materials we are finding as we explore the galaxy.\n\n"
+ #tech_mine_rare_resources_t1_desc: "New refining techniques are necessary in order to process the many exotic materials we are finding as we explore the galaxy."
  #tech_mine_rare_resources_t3: "Nanoparticle Extraction"
- #tech_mine_rare_resources_t3_desc: "An efficient way of extracting nanoparticles will allow us to exploit new strategic resources that were previously beyond our reach.\n\n"
+ #tech_mine_rare_resources_t3_desc: "An efficient way of extracting nanoparticles will allow us to exploit new strategic resources that were previously beyond our reach."
  tech_mining_station_improvement_1:0 "就地加工"
  tech_mining_station_improvement_1_desc:0 "直接在矿物出产地加工矿物将显著地提高我们的开采效率。\n\n"
  tech_mining_station_improvement_2:0 "自动化矿物开采技术"
@@ -191,6 +195,10 @@
  #tech_aura_nanobot_desc:0 ""
  tech_aura_minefield:0 "感应地雷"
  #tech_aura_minefield_desc:0 ""
+ 
+ # Megastructures
+ tech_mega_engineering:0 "巨型建筑工程"
+ tech_mega_engineering_desc:0 "为了完成那些规模宏大得令人吃惊的建设项目，我们必须掌握对这些巨型建筑所需的工程建设及资源存储的基本认知。"
  
  # ###################################
  # Engineering - Weapons
@@ -259,7 +267,7 @@
 
  # Science Ship Actions
  tech_deep_scan:0 "深空扫描仪"
- tech_deep_scan_desc:0 "Unused" # TEMP
+ tech_deep_scan_desc:0 "未使用"# TEMP
  tech_databank_uplinks:0 "数据库上行链路"
  tech_databank_uplinks_desc:0 "数据库传输专用的高容量量子带宽使得长距离完全同步传输所有的研究信息成为可能。"
  tech_improved_databank_uplinks:0 "上行链路小型化"
@@ -275,17 +283,17 @@
  tech_physics_lab_3:0 "时空理论"
  tech_physics_lab_3_desc:0 "三维空间与第四个维度紧密联系。"
  tech_administrative_ai:0 "人工智能管理"
- tech_administrative_ai_desc:0 "逻辑电路经特殊重组后有着相当的学术热情。" 
+ tech_administrative_ai_desc:0 "逻辑电路经特殊重组后有着相当的学术热情。"
  tech_self_aware_logic:0 "自知逻辑"
  tech_self_aware_logic_desc:0 "优先进行自我反省。"
- tech_sentient_ai:0 "感性AI" #Sentient AI
+ tech_sentient_ai:0 "感性AI"
  tech_sentient_ai_desc:0 "智能AI的进一步发展演化不再仅仅是一个学术课题，其本身也是研究者之一。"
  tech_combat_computers_1:0 "特战电脑"
- tech_combat_computers_1_desc:0 "Active matrices tuned for specific combat-centric tasks greatly improve engagement efficiency." # The development of active combat personalities allows combat-AI to specialize heavily in specific tasks.
+ tech_combat_computers_1_desc:0 "具备特定战斗任务优化算法的电脑能够极大提升战斗效率。"# The development of active combat personalities allows combat-AI to specialize heavily in specific tasks.
  tech_combat_computers_2:0 "拓展战斗算法"
  tech_combat_computers_2_desc:0 "更加先进的预测算法可以使得你在战场上处处先人一步。"
  tech_combat_computers_3:0 "感性战斗模拟"
- tech_combat_computers_3_desc:0 "Running sentient AIs through high-intensity combat simulations yields valuable insight into potential optimizations for risk-evaluation techniques." # The effectiveness of Ship-AIs have proved far greater with the sensation of a fear of death.
+ tech_combat_computers_3_desc:0 "感知型AI经过高强度战斗模拟试验后得到的数据能够为风险预测技术提供潜在的优化。"# The effectiveness of Ship-AIs have proved far greater with the sensation of a fear of death.
  tech_pd_tracking_1:0 "主动反制"
  tech_pd_tracking_1_desc:0 "有效的进攻是最好的防守。"
  tech_pd_tracking_2:0 "互联支援系统"
@@ -300,14 +308,16 @@
  tech_cryostasis_1_desc:0 "这艘殖民船由人工智能控制，船员和殖民者都可以处于深度睡眠之中。"
  tech_cryostasis_2:0 "自主殖民船"
  tech_cryostasis_2_desc:1 "这是一个相当先进的系统，能根据当前情况自动选择并执行最优方案。"
- tech_automated_exploration: "自动化探索协议"
- tech_automated_exploration_desc: "这款先进的AI能够协助科学研究员探索未知的新世界，寻找新的生命形式和文明，以及前往无人的深空。在人工只能的协助下，科研船将有能力探索整个银河系。"
+ tech_automated_exploration:0 "自动化探索协议"
+ tech_automated_exploration_desc:0 "这款先进的AI能够协助科学研究员探索未知的新世界，寻找新的生命形式和文明，以及前往无人的深空。在人工只能的协助下，科研船将有能力探索整个银河系。"
  
  # Resources
  tech_lythuric_gas:1 "莱素气体精炼"
  tech_lythuric_gas_desc:1 "小剂量的这种气体就能显著提升能量力场的完整性。它也会使得暴露在气体之中的生物变得迟钝。"
  tech_mine_teldar:0 "特达尔晶石开采"
  tech_mine_teldar_desc:0 "特达尔晶石会发射出可见光频谱之外的射线"
+ tech_mine_yuranic:0 "育兰水晶开采"
+ tech_mine_yuranic_desc:0 "育兰水晶具有一种罕见的特性，使得它可以提升能量武器的功效。"
  tech_mine_neutronium:0 "零号元素提取"
  tech_mine_neutronium_desc:1 "零号元素是一种由中子构成的超高密度物质，可用来锻造超高强度的护甲。"
  tech_mine_dark_matter:0 "暗物质收集"
@@ -324,8 +334,8 @@
  tech_antimatter_power_desc:0 "通过利用由物质/反物质湮灭产生的能量，我们的发电效率会比聚变高出数个数量级。\n\n"
  tech_zero_point_power:0 "零点动力"
  tech_zero_point_power_desc:0 "这些发电机提取真空能量，提供几乎无限供应的动力。再没有更高效的方法来产生能量了。\n\n"
- tech_enigmatic_power_core: "神秘能源产生器"
- tech_enigmatic_power_core_desc: "这些能量产生器似乎在以一种完全不符合自然规律的方式运行着。然而他们似乎能够产生比想象中要多得多的能量。"
+ tech_enigmatic_power_core:0 "神秘能源产生器"
+ tech_enigmatic_power_core_desc:0 "这些发生器能够让粒子以一些看起来完全违反常理的方式进行相互作用。或许它们可以注入更多能量，来让不可能变为可能。"
  
  # Shield Components
  tech_shields_1:0 "偏射盾"
@@ -342,9 +352,11 @@
  tech_shield_rechargers_1_desc:0 "这些增容器储存的剩余能量可以在护盾故障的情况下很快转移。这将大大增加该护盾的充电速率。\n\n"
  tech_planetary_shield_generator:0 "行星护盾"
  tech_planetary_shield_generator_desc:0 "在行星大气层中产生强大的能量护盾比在太空真空中更具挑战，但它提供了应对轨道轰炸的强力防御。"
- tech_enigmatic_deflector: "神秘偏射盾"
- tech_enigmatic_deflector_desc: "这些偏射装置似乎在以一种完全不符合自然规律的方式运行着。然而它们可以形成一个比人们预测要强好几倍的保护力场。"
- 
+ tech_enigmatic_deflector:0 "神秘偏射盾"
+ tech_enigmatic_deflector_desc:0 "这些偏射装置似乎在以一种完全不符合自然规律的方式运行着。然而它们可以形成一个比人们预测要强好几倍的保护力场。"
+ tech_psionic_shield:0 "灵能护盾"
+ tech_psionic_shield_desc:0 "借助一支精干的灵能专家队伍，这些极度强大的护盾拥有纯净的精神能量。这些能量会借助大型灵能发生器阵列得到大幅提升。"
+
  # Sensor Components
  tech_sensors_2:0 "重力传感器"
  tech_sensors_2_desc:0 "这些传感器已经被调谐到寻找空间中任意的引力变化，例如那些由飞船的存在而产生的。\n\n"
@@ -406,14 +418,18 @@
  #tech_aura_shield_dampener_desc:0 ""
  tech_aura_quantum_destabilizer:1 "量子扰乱器"
  tech_aura_quantum_destabilizer_desc:1 "量子扰乱器搅动当地的量子场，扰乱在敌方飞船上敏感的定位设备。\n\n"
- tech_enigmatic_disruption_field: "神秘干扰场"
- tech_enigmatic_disruption_field_desc: ""
+ tech_enigmatic_disruption_field:0 "神秘干扰场"
+ tech_enigmatic_disruption_field_desc:1 "在周围区域大量地散布这种弱且随机的电磁脉冲，敌军部分护盾和武器系统会被干扰。"
  
  # Aux
- tech_enigmatic_encoder: "神秘编码器"
- tech_enigmatic_encoder_desc: ""
- tech_enigmatic_decoder: "神秘解码器"
- tech_enigmatic_decoder_desc: ""
+ tech_enigmatic_encoder:0 "神秘编码器"
+ tech_enigmatic_encoder_desc:1 "神秘编码器根据一些变幻莫测的算法给反馈给舰队指挥前的飞行路径数据进行加密。"
+ tech_enigmatic_decoder:0 "神秘解码器"
+ tech_enigmatic_decoder_desc:1 "根据标准测试的平均结论，目标的飞行路径越诡异神秘解码器预测算法的精准度越高。"
+ 
+ # Ascension perk
+ tech_ascension_theory:0 "飞升理论"
+ tech_ascension_theory_desc:0 "我们的历史在科技、政治和文化的戏剧性飞跃中循环往复。这些飞跃往往带来激变的时代，而又随安定的时光而来。通过探究这其中的核心机制，探究这些飞跃的重复性前提，处于我们自身利益考虑，也许我们能够有效地减少这个循环。"
  
  # ###################################
  # Physics - Weapons
@@ -513,11 +529,17 @@
  tech_xeno_zoo:0 "异种动物园"
  tech_xeno_zoo_desc:1 "在研究各种外星生命形态并对它们的潜在风险有了清晰的认识后，我们将能够收集活体样本并保持展出。\n\n"
  tech_colonization_1:0 "新世界协议"
- tech_colonization_1_desc:1 "计算得出建立行星殖民地所需的资源和工具后，我们能够将勇敢的开拓者集结在巨大的“方舟飞船”上，相信他们将会撑过星际间漫长的旅程并到达新的家园。\n\n"
+ tech_colonization_1_desc:1 "通过对建立行星殖民地所需的资源和设备的计算，我们能够将那些无畏的先驱者迁入巨大的“方舟”，他们相信自己能在穿越星海的漫漫旅途中存活，抵达新的家园。"
  tech_colonization_2:0 "大气过滤"
  tech_colonization_2_desc:1 "通过调整每一个大气过滤基准点以更好地过滤掉有害元素，殖民生活条件可能会得到改善。\n\n"
  tech_colonization_3:0 "恶劣环境适应"
  tech_colonization_3_desc:1 "对异星危险环境的进一步研究可以帮助缓解殖民者在外星日常生活中遇到的困难。\n\n"
+ tech_colonization_4:0 "外星土壤富化"
+ tech_colonization_4_desc:1 "对不同土壤类型以及其能够培育的作物的研究能够协助改善殖民者在外星球上的生活条件。\n\n"
+ tech_colonization_5:0 "恶劣气候适应"
+ tech_colonization_5_desc:1 "对不同星球气候的进一步研究允许我们的殖民者在之前被认定为不宜居住的区域进行殖民。\n\n"
+ tech_tomb_world_adaption:0 "死寂星球适应"
+ tech_tomb_world_adaption_desc:0 "通过对辐射环境彻底全面的研究，我们最终设法让我们的殖民者在曾经被核战争毁灭的星球上扎根。"
  tech_free_enterprises:0 "自由企业"
  #tech_free_enterprises_desc:0 ""
  tech_frontier_initiatives:0 "边疆自主权"
@@ -556,26 +578,26 @@
  tech_continental_colonization_desc:1 "$tech_arctic_colonization_desc$"
  tech_frontier_health:0 "边疆保健"
  tech_frontier_health_desc:1 "对异星的殖民为生物医学研究开辟了一个全新的领域。\n\n"
- tech_frontier_hospital: "边疆医院"
- tech_frontier_hospital_desc: "随着殖民地的不断发展，其医疗需求也不断上涨。殖民地越大，其受到异星世界病原体的威胁也就越严重。\n\n"
- tech_tb_mountain_range:0 "山脉移除"
- tech_tb_mountain_range_desc:1 "有时地形改造和破坏之间的差异是很小。\n\n"
- tech_tb_volcano:0 "火山移除"
- tech_tb_volcano_desc:1 "构造稳定技术可使活火山平定下来。\n\n"
+ tech_frontier_hospital:0 "边疆医院"
+ tech_frontier_hospital_desc:0 "随着殖民地的不断发展，其医疗需求也不断上涨。殖民地越大，其受到异星世界病原体的威胁也就越严重。\n\n"
+ tech_tb_mountain_range:0 "行星地貌重塑"
+ tech_tb_mountain_range_desc:1 "借助于清洁核能源、自动化及材料合成技术的进步，古人所说的移山只会是个时间问题。"
+ tech_tb_volcano:0 "深层地壳工程"
+ tech_tb_volcano_desc:1 "材料技术和深立井采矿技术的进步使我们在前人不可想象的深度与温度下进行地质工程改造。那些熔岩肆虐的区域现在可以被征服和开发，甚至是可以重新安居人口。"
  tech_tb_dangerous_wildlife:0 "危险野生生物移除"
  tech_tb_dangerous_wildlife_desc:1 "策略性地栖息地破坏与搜寻-消灭模式相结合，可以在非常短的时间内有效地消除有害的野生生物。\n\n"
- tech_tb_dense_jungle:0 "茂密丛林移除"
- tech_tb_dense_jungle_desc:1 "快速地砍伐森林本身并没有什么革命性。然而在严格控制的地区按严格的时间表完成却是。\n\n"
- tech_tb_quicksand_basin:0 "流沙盆地移除"
- tech_tb_quicksand_basin_desc:1 "引入为固化设计的水凝胶使得流沙盆地几乎在瞬间凝固。\n\n"
- tech_tb_noxious_swamp:0 "有毒沼泽移除"
- tech_tb_noxious_swamp_desc:1 "集中排水和排毒的处理让有毒沼泽彻底被根除。\n\n"
- tech_tb_massive_glacier:0 "巨型冰川移除"
- tech_tb_massive_glacier_desc:1 "以增加一些当地的热量和湿度为代价，急速汽化发动机能快速有效地清除冰川。\n\n"
- tech_tb_toxic_kelp:0 "毒性海藻移除"
- tech_tb_toxic_kelp_desc:1 "专业的无人机可以以机械方式清除大量毒性海藻最并将灭藻剂的使用量限制到最小。\n\n"
- tech_tb_deep_sinkhole:0 "深坑移除"
- tech_tb_deep_sinkhole_desc:1 "专用的气溶胶构造稳定剂可用于快速干净地密封现存的天坑并稳定任何可能会引起危险的地下空洞。\n\n"
+ tech_tb_dense_jungle:0 "选择性落叶剂"
+ tech_tb_dense_jungle_desc:1 "通过空间生态系统的分类、基因序列及计算机模型分析，辅以基因编辑和播种机制，我们能够按照我们的喜好来重塑外星球的植物群落。"
+ tech_tb_quicksand_basin:0 "土壤修复"
+ tech_tb_quicksand_basin_desc:1 "土壤的沉积过程通常需要数百万年。通过先进的水力压裂、化工及水利管理技术，即使是最贫瘠的底土也可变为沃土。"
+ tech_tb_noxious_swamp:0 "异星水利掌控"
+ tech_tb_noxious_swamp_desc:1 "有意识的物种花费数千年来改造沼泽地形。由模块化渡槽、泵站、化学修复履带式拖拉机以及自动化土壤压实器组成的协作系统将以前人未及的速度的改造沼泽地形。"
+ tech_tb_massive_glacier:0 "气候控制网络"
+ tech_tb_massive_glacier_desc:1 "假若控制得当，轨道系统的镜面和阴影会对星球气候产生惊人的影响。"
+ tech_tb_toxic_kelp:0 "海洋生态系统治理"
+ tech_tb_toxic_kelp_desc:1 "只要给足够的能量、网络化的传感器和分布式工作站，即使是洋流也能被控制在一个适当的水平上。"
+ tech_tb_deep_sinkhole:0 "地下殖民"
+ tech_tb_deep_sinkhole_desc:1 "许多星球在地表下显示出可以扩展的空洞。地底的探测、开发和建设技术可以大幅扩张某些星球的宜居区域。"
  
 
  # Terraforming
@@ -583,15 +605,15 @@
  tech_terrestrial_sculpting_desc:1 "重塑宏观尺度的行星地壳的问题没有简单的解决方法————只有更大的铲子和轨道部署的钻头。\n\n"
  tech_atmospheric_manipulation:0 "大气操控"
  tech_atmospheric_manipulation_desc:1 "湿度调节器和化学扩散装置是从根本上改变大气的第一步。\n\n"
- tech_climate_restoration: "气候恢复"
- tech_climate_restoration_desc: "通过发展大气操纵领域的研究，我们将有机会对最恶劣的环境进行生态改造。\n\n"
- tech_gaia_creation: "创建盖亚"
- tech_gaia_creation_desc: "地形改造艺术的终点，就是创造一个盖亚星球——一个能够让任何形态的生命都能完美适应的世界。\n\n"
+ tech_climate_restoration:0 "气候恢复"
+ tech_climate_restoration_desc:0 "通过发展大气操纵领域的研究，我们将有机会对最恶劣的环境进行生态改造。\n\n"
+ tech_gaia_creation:0 "创建盖亚"
+ tech_gaia_creation_desc:0 "地形改造艺术的终点，就是创造一个盖亚星球——一个能够让任何形态的生命都能完美适应的世界。\n\n"
 
  # Genetics
  tech_genome_mapping:0 "基因图谱"
  tech_genome_mapping_desc:1 "通过基因测序将一个个体的DNA展开以得到定制的治疗和疗法。\n\n"
- tech_epigenetic_triggers:0 "基因表达学机制"
+ tech_epigenetic_triggers:0 "表观遗传学机制"
  tech_epigenetic_triggers_desc:1 "先进的基因甲基化技术让科学家能够对基因序谱进行更重要的改造。\n\n"
  tech_cloning:0 "克隆"
  tech_cloning_desc:1 "去核人造子宫技术的突破使基于共同的遗传模板的个体得以批量生产。n\n"
@@ -603,6 +625,8 @@
  tech_morphogenetic_field_mastery_desc:1 "最初仅仅适用于药用研究，然而在形态形成场上的研究是我们能够和有机体进行直接的、潜意识的交流。\n\n"
  tech_gene_tailoring:0 "基因剪裁"
  tech_gene_tailoring_desc:1 "广泛使用的基因修改工具肯定会对我们种族的发展产生积极影响。\n\n"
+ tech_genetic_resequencing:0 "基因重组"
+ tech_genetic_resequencing_desc:0 "当我们力求提高我们的物种时，我们将不再受限于一个种族简单的生物结构。DNA只是我们的种族雕塑家可以驾驭的另一种材料而已。"
  tech_gene_expressions:0 "定向基因表达"
  tech_gene_expressions_desc:1 "更严谨的控制细胞水平上的核糖核酸与蛋白质的生产。\n\n"
  tech_selected_lineages:0 "择优血脉"
@@ -611,8 +635,8 @@
  tech_capacity_boosters_desc:1 "不论代价有多高，我们不再收遗传的概率所扰。通过对DNA库严格的管理来我们能打造出未来的领袖。\n\n"
  tech_regenerative_hull_tissue:0 "船体组织再生"
  tech_regenerative_hull_tissue_desc:0 "转基因版的硅基细菌可以无形地操纵无机材料的再生。\n\n"
- tech_vitality_boosters: "活性增强器"
- tech_vitality_boosters_desc: ""
+ tech_vitality_boosters:0 "活性增强器"
+ tech_vitality_boosters_desc:0 "没有什么比长寿更好了，除了比长寿多活一秒。"
  
  # Fleet Organization
  tech_doctrine_fleet_size_1:0 "理论：空间作战"
@@ -665,28 +689,35 @@
  tech_galactic_ambitions_desc:2 "减少战争需要§H割让的星球§!和§H割让的前线哨岗§!等成本。\n\n"
  tech_manifest_destiny:0 "昭昭天命"
  tech_manifest_destiny_desc:1 "我们必须有勇气去抓住自己的命运，让现实过得有意义。\n\n"
-
+ tech_interstellar_campaigns:0 "星际会战"
+ tech_interstellar_campaigns_desc:0 "在整个河系的社会等级中，一台良好运转的战争机器是施加影响的关键。以我们军队的力量作为后盾，我们便可以索取一切我们想要得到的。"
+ tech_galactic_campaigns:0 "河系作战"
+ tech_galactic_campaigns_desc:0 "管理的进一步提高为更大规模的跨星系军事力量提供了可能，必需的军事力量会增强我们的需求。"
+ 
  # Empire Management
  tech_planetary_government:0 "行星政府"
  tech_planetary_government_desc:1 "一旦殖民地建立完毕，开拓者们变成了公民，对可以提供稳定生活的强大政府的需求胜过殖民地所需要的灵活性。\n\n"
  tech_planetary_unification:0 "行星统一"
- tech_planetary_unification_desc:2 "Ancient warring tribes, historical nations in conflict, now unified in empire. We must not, will not, crumble.\n\n" # We have progressed from warring tribes, from conflicting nations, to a unified Empire, a single will ready to grasp the stars.
+ tech_planetary_unification_desc:2 "远古时期的蛮族部落，历史上的逐鹿群雄，如今团结成为一个庞大的帝国。我们绝不会，也永远不会，消亡。"# We have progressed from warring tribes, from conflicting nations, to a unified Empire, a single will ready to grasp the stars.
  tech_adaptive_bureaucracy:0 "适应性行政"
- tech_adaptive_bureaucracy_desc:1 "The progress we make calls for a new, nimbler form of administration that may aid rather than hinder us in our pursuits.\n\n" # The leaps/progress/discoveries we have made demand a new form of administrative system, one that can be shaped by opportunity rather than limit it.
+ tech_adaptive_bureaucracy_desc:1 "我们所取得的进步需要一种更加灵活的全新管理形式，能够在我们追求事业的路上提供帮助，而不是碍手碍脚。"# The leaps/progress/discoveries we have made demand a new form of administrative system, one that can be shaped by opportunity rather than limit it.
+ tech_colonial_bureaucracy:0 "殖民地官僚系统"
+ tech_colonial_bureaucracy_desc:0 "地区管理技术的进步使得我们可以对殖民地事务进行进一步的监控，而不会过度增加中央决策机构的负担。"
+ tech_galactic_bureaucracy:0 "河系官僚系统"
+ tech_galactic_bureaucracy_desc:0 "多层级管理可以有效地把最重要的信息展示给中央。"
  tech_colonial_centralization:0 "殖民地集中化"
  tech_colonial_centralization_desc:1 "为每一种情况制定不同的治理策略，以满足每一个殖民地的需要。\n\n"
  tech_galactic_administration:0 "银河管理"
  tech_galactic_administration_desc:1 "星际帝国的行政需求很多也很复杂。我们会应付自如的。\n\n"
  tech_living_state:0 "生存状况"
- tech_living_state_desc:1 "The Empire lives, the Empire breathes. We may make up its body, but it is not for the left hand to know what the right hand is doing.\n\n" # Our Empire is a living thing, all of us vital organs in its future well-being. OR At some point the system took on a purpose of its own.
+ tech_living_state_desc:1 "帝国生生不息。我们构筑成为帝国的躯体，但左膀无需知道右臂在做什么。"# Our Empire is a living thing, all of us vital organs in its future well-being. OR At some point the system took on a purpose of its own.
  tech_collective_self:0 "集体自立"
- tech_collective_self_desc:1 "Finding aspects of the self within the group is natural and inevitable; eventually those shared aspects must be valued higher than individual identities.\n\n" # Identifying with something above/beyond [the] self makes personal sacrifice a small thing
+ tech_collective_self_desc:1 "团体内的求同存异是自然而然且不可避免的；最终，同性一定会比个性发挥更大的价值。"# Identifying with something above/beyond [the] self makes personal sacrifice a small thing
  tech_ethical_equations:0 "道德方程"
- tech_ethical_equations_desc:1 "Limiting the freedoms of others while preserving one's own may require unusual mental acrobatics - a feat we are now better-equipped to perform.\n\n" # At some point the decision must be made whether to keep to antiquated values or do what is necessary to prosper in a new future/world.
+ tech_ethical_equations_desc:1 "禁锢他人的同时释放自我是一项困难异常的思想杂技——现在我们得益于更为先进的装备终于可以达成这项壮举了。"# At some point the decision must be made whether to keep to antiquated values or do what is necessary to prosper in a new future/world.
  tech_neural_implants:0 "神经植入体"
- tech_neural_implants_desc:2 "Cognition is little but the processing of sensory input. It can be altered." # Free will is nothing more than a sensory illusion.
- tech_paradise_dome:0 "乐土天穹"
- tech_paradise_dome_desc:1 "$building_paradise_dome_desc$"
+ tech_neural_implants_desc:2 "所谓认知，不过是对感官信号的处理而已。这种情况可以改善。"
+ # Free will is nothing more than a sensory illusion.
  tech_galactic_benevolence:0 "银河大同"
  tech_galactic_benevolence_desc:1 "我们的人民团结且强大，他们的统治者也很仁慈。有时，民众需要认识到这个事实。"
  tech_hyper_entertainment_forum:0 "极乐广场"
@@ -701,18 +732,40 @@
  tech_symbol_unity_desc:0 "随着我们更多更深地了解这个银河的奥秘，重申我们的信仰并将我们的人民团结在同一面旗帜下的需求日益迫切。"
  tech_visitor_center:0 "外星人游客中心"
  tech_visitor_center_desc:0 "因为我们知道在太空中我们并不孤独，我们应该开始准备欢迎我们的新朋友"
+ tech_subdermal_stimulation:0 "皮层刺激"
+ tech_subdermal_stimulation_desc:0 "在感官改造工程与娱乐体验革命性交叉领域中，深层组织植入无疑是先进的新发明。“我之所在，皮囊不将束之。”"
  
  # Social Engineering
  tech_artificial_moral_codes:0 "人为道德规范"
- tech_artificial_moral_codes_desc:1 "It is circumstance that dictate what is moral. Define the circumstances, and ethics is like clay in your hands." # The opinion of the group shape the actions/decisions of the individual.
+ tech_artificial_moral_codes_desc:1 "具体情境规定了到底什么是道德的。若拥有定义情景的能力，伦理道德不过手中黏土，可以随意摆弄。"
+ # The opinion of the group shape the actions/decisions of the individual.
  tech_synthetic_thought_patterns:0 "综合思维模式"
- tech_synthetic_thought_patterns_desc:2 "Thinking outside the box merely places you in another, somewhat larger box." # There is really no such thing as thinking outside the box OR Thinking outside the box is merely thinking inside another, bigger, box.
+ tech_synthetic_thought_patterns_desc:2 "跳出囹圄思考，唯一能够发现的是明白自己身处另一个更大的囹圄之内。"
+ # There is really no such thing as thinking outside the box OR Thinking outside the box is merely thinking inside another, bigger, box.
  tech_will_to_power:0 "权力意志"
- tech_will_to_power_desc:1 "As power is simply the ability to impose one's will on others, the will to power is a self-fulfilling prophecy." # Seeking control over ones environment is inherent in all beings. We have simply mastered it/we are simply the most effective.
+ tech_will_to_power_desc:1 "简单说来，权力便是将一个人的意志强加于其他人的能力，因此权力意志便是自我满足的预言。"
+ # Seeking control over ones environment is inherent in all beings. We have simply mastered it/we are simply the most effective.
 
  #Other
  tech_xeno_integration:0 "异种整合"
- tech_xeno_integration_desc:1 "From disparate components do we build a whole greater than the sum of its parts.\n\n" # A whole that is/can be greater than the sum of its parts.
+ tech_xeno_integration_desc:1 "借助分工不同的部件，我们会建立比部分之和更强大的整体。"
+ # A whole that is/can be greater than the sum of its parts.
+
+ # Unity
+ tech_cultural_heritage:0 "社会文化历史"
+ tech_cultural_heritage_desc:0 "共同历史的研究与理解，对于作出迈向未来的重大决定是尤为必要的。"
+ tech_heritage_site:0 "传承遗迹"
+ tech_heritage_site_desc:0 "实体遗迹承载着我们过去久远的共同起源，它会逐步建立对过去成就的崇敬，激励人们面对未来的雄心壮志。"
+ tech_hypercomms_forum:0 "本地超通讯"
+ tech_hypercomms_forum_desc:0 "并不是所有关于超光速通讯频道的研究都是有用功，但是其中某些研究的成果也许会找到将我们的人民团结在一起的新目的。"
+ tech_autocurating_vault:0 "自动化治疗程序"
+ tech_autocurating_vault_desc:0 "对种类迥异的数据集进行的持续的和非同步的分析允许我们对于社会潮流中迄今为止难以预测的浪潮进行精准的数学建模。"
+ tech_holographic_rituals:0 "全息祭典"
+ tech_holographic_rituals_desc:0 "因见证着而信仰着，信仰带来真实。"
+ tech_transcendent_faith:0 "超意识信仰"
+ tech_transcendent_faith_desc:0 "离开母星的摇篮为我们开启了理解信仰的新大门，而信仰的位置被摆在了更广阔的背景中。"
+ tech_alien_sanctuary:0 "异星公民归化"
+ tech_alien_sanctuary_desc:0 "先进归化中心的引入能保证每一个来到帝国的新人都能以个性化的装备来寻找他们适应的社会，同时保住他们的本有长处。"
 
   
  # ###################################
@@ -768,9 +821,9 @@
  tech_repeatable_improved_planet_sensor_range:0 "行星信号增强器"
  tech_repeatable_improved_planet_sensor_range_desc:1 "我们的舰队越来越远离祖先的家，因此我们的传感科技也不断突破极限。"
  tech_repeatable_reduced_building_cost:0 "引力分析"
- tech_repeatable_reduced_building_cost_desc:1 "Increasingly powerful computation paradigms allow us to adapt individual construction projects to planetary and ultra-local gravitational conditions.\n\n" #by adapting each construction-project to local gravitational conditions we can save on materials used
+ tech_repeatable_reduced_building_cost_desc:1 "计算模型的日益强大使得单体建筑项目能够更好地适应星球的极端重力条件。"#by adapting each construction-project to local gravitational conditions we can save on materials used
  tech_repeatable_reduced_building_time:0 "组装算法"
- tech_repeatable_reduced_building_time_desc:1 "The application of game and puzzle theory has the potential to greatly optimize modular assembly and construction.\n\n" # through the use of advanced puzzle-logic we can make sure each building is assembled in the optimal order and pattern
+ tech_repeatable_reduced_building_time_desc:1 "博弈论和模糊理论的应用具有大幅优化模块组装和建造的潜力。"# through the use of advanced puzzle-logic we can make sure each building is assembled in the optimal order and pattern
  
  #Society:
  tech_repeatable_improved_tile_food_output:0 "转基因作物"
@@ -836,16 +889,16 @@
  #####################################
  # Gateways
  #####################################
- gateway_capital: "§H内政路线§!\n§E这项科技将促使你的帝国进一步发展大型建筑和£influence §H影响力§!获取研究。建造§H高级建筑§!需要拥有行星都城。§!"
- gateway_biological: "§H生物路线§!\n§E这项科技将促使你的帝国进一步发展生物强化和适应性科技。§!"
- gateway_ship: "§H舰船路线§!\n§E这项科技将促使你的帝国进一步发展更大型的太空港和更加强大的战舰。"
- gateway_psionics: "§H灵能路线§!\n§E这项科技将促使你的帝国进一步发展灵能领域。"
- gateway_robotics: "§H机器人路线§!\n§E这项科技将促使你的帝国进一步发展机器人领域。"
+ gateway_capital:0 "§H内政路线§!\n§E这项科技将促使你的帝国进一步发展大型建筑和£influence §H影响力§!获取研究。建造§H高级建筑§!需要拥有行星都城。§!"
+ gateway_biological:0 "§H生物路线§!\n§E这项科技将促使你的帝国进一步发展生物强化和适应性科技。§!"
+ gateway_ship:0 "§H舰船路线§!\n§E这项科技将促使你的帝国进一步发展更大型的太空港和更加强大的战舰。"
+ gateway_psionics:0 "§H灵能路线§!\n§E这项科技将促使你的帝国进一步发展灵能领域。"
+ gateway_robotics:0 "§H机器人路线§!\n§E这项科技将促使你的帝国进一步发展机器人领域。"
  
  #####################################
  # Enclave Techs
  #####################################
- tech_curator_lab: "策展人探索实验室"
- tech_curator_lab_desc: "这些整合了来自策展人协会的先进科技的船载实验设施可以进一步提高调查速度。\n\n"
- tech_archeology_lab: "策展人考古实验室"
- tech_archeology_lab_desc: "一个搭载了远古先进设备的船载实验室，它包括一个由策展人协会提供的大型数据库，其可以对新发现随时进行交叉比对。\n\n"
+ tech_curator_lab:0 "策展人探索实验室"
+ tech_curator_lab_desc:1 "这些飞船实验装置融合了古代策展人的先进科技，可以大幅提高调查速度。"
+ tech_archeology_lab:0 "策展人考古实验室"
+ tech_archeology_lab_desc:1 "飞船实验室装备有先进的考古学装备，包括由策展人提供的大容量数据库，新的发现可以很容易地在其中标注出来。"

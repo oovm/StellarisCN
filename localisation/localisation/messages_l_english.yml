@@ -8,7 +8,7 @@
  MESSAGE_CONSTRUCTION_FINISH:0 "$PLANET|Y$星已经完成了它的建造队列。"
  MESSAGE_CONSTRUCTION_FINISH_SPACEPORT:0 "$PLANET|Y$的太空港已经完成了它的建造队列。"
  MESSAGE_ORDER_FINISH_COLONIZE_PLANET:0 "我们已经在$SYSTEM|Y$星系中建立了$COLONY|Y$殖民地。"
- MESSAGE_SPACEPORT_CONSTRUCTION_MESSAGE_TYPE_TITLE: "建造完成"
+ MESSAGE_SPACEPORT_CONSTRUCTION_MESSAGE_TYPE_TITLE:0 "建造完成"
  MESSAGE_ARMY_RECRUITMENT_TITLE:0 "军队招募完毕"
  MESSAGE_ARMY_RECRUITMENT:0 "$PLANET|Y$上的军队招募已经完毕。"
 
@@ -23,8 +23,10 @@
  MESSAGE_FLEET_SYSTEM_FULLY_SURVEYED:0 "$SYSTEM|Y$星系已经被完全探索。"
  MESSAGE_FLEET_ORDER_FINISH_MESSAGE_TYPE_TITLE:0 "舰队指令完成"
  MESSAGE_SYSTEM_SURVEYED_TITLE:0 "调查星系"
- AUTO_EXPLORE_CANCELLED_MESSAGE_TYPE_TITLE: "舰队指令取消"
- MESSAGE_FLEET_ORDER_AUTO_EXPLORE_CANCELLED: "§H$FLEET$§!取消了自动探索指令。周围已经没有任何尚未探索的星系了。"
+ AUTO_EXPLORE_CANCELLED_MESSAGE_TYPE_TITLE:0 "舰队指令取消"
+ MESSAGE_FLEET_ORDER_AUTO_EXPLORE_CANCELLED:0 "§H$FLEET$§!取消了自动探索指令。周围已经没有任何尚未探索的星系了。"
+ FLEET_BUILD_ORDER_CANCELLED_MESSAGE_TYPE_TITLE:0 "$AUTO_EXPLORE_CANCELLED_MESSAGE_TYPE_TITLE$"
+ MESSAGE_FLEET_BUILD_ORDER_CANCELLED_MESSAGE:0 "$FLEET|H$无法在$SYSTEM|H$中建设$STATION|H$。建造资源已经退还。"
 
  ####################################
  # Misc Fleet
@@ -34,7 +36,7 @@
  MESSAGE_FLEET_UPGRADE_DONE_MESSAGE_TYPE_TITLE:0 "舰队升级"
  MESSAGE_UPGRADE_DONE:0 "$FLEET|Y$舰队已经全部升级完毕。"
  MESSAGE_EMERGENCY_FTL_CASUALTIES_TITLE:0 "紧急跃迁的损失"
- EMERGENCY_FTL_CASUALTIES_DESC:0 "舰队受到了一些伤害。\n\n船只损失: $LOST$\n大破船只: $NEAR_LOST$"
+ EMERGENCY_FTL_CASUALTIES_DESC:0 "舰队受到了一些伤害。\n\n船只损失：$LOST$\n大破船只: $NEAR_LOST$"
 
  ####################################
  # Diplomacy
@@ -73,9 +75,9 @@
  ACTION_REQUEST_WAR_PROPOSAL_FAILED_ACTOR:0 "我们关于§H[Third_party.GetName]§!的战争提案被否决了。"
  ACTION_REQUEST_WAR_PROPOSAL_FAILED_ALLIANCE:0 "§H[Actor.GetName]§!关于§H[Third_party.GetName]§!的战争提案被否决了。"
  ACTION_REQUEST_WAR_PROPOSAL_FAILED_RECIPIENT:0 "§H[Actor.GetName]§!关于§H[Third_party.GetName]§!的战争提案被自动否决了。"
- ACTION_PROPOSE_INVITE_PROPOSAL_FAILED_ACTOR:0 "Our invitation proposal of§H[Third_party.GetName]§!被否决了。"
- ACTION_PROPOSE_INVITE_PROPOSAL_FAILED_ALLIANCE:0 "The invitation proposal from§H[Actor.GetName]§!on§H[Third_party.GetName]§!被否决了。"
- ACTION_PROPOSE_INVITE_PROPOSAL_FAILED_RECIPIENT:0 "The invitation proposal from§H[Actor.GetName]§!on§H[Third_party.GetName]§!被自动否决了。"
+ ACTION_PROPOSE_INVITE_PROPOSAL_FAILED_ACTOR:0 "我们关于邀请§H[Third_party.GetName]§!的提案被否决了。"
+ ACTION_PROPOSE_INVITE_PROPOSAL_FAILED_ALLIANCE:0 "由§H[Actor.GetName]§!发起的邀请§H[Third_party.GetName]§!的提案被否决了。"
+ ACTION_PROPOSE_INVITE_PROPOSAL_FAILED_RECIPIENT:0 "由§H[Actor.GetName]§!发起的邀请§H[Third_party.GetName]§!的提案被自动否决了。"
  ACTION_OFFER_PEACE_PROPOSAL_FAILED_ACTOR:0 "我们给§H[Recipient.GetName]§!的和平提议被自动否决了。"
  ACTION_OFFER_PEACE_PROPOSAL_FAILED_RECIPIENT:0 "§H[Actor.GetName]§!提出的和平提议被自动否决了。"
  ACTION_FORM_DEFENSIVE_PACT_PROPOSAL_FAILED_ACTOR:0 "我们希望同§H[Recipient.GetName]§!签署共同防御条约的提案被自动否决了。"
@@ -92,6 +94,8 @@
  ACTION_KICK_FROM_FEDERATION_PROPOSAL_FAILED_RECIPIENT:0 "由§H[Actor.GetName]§!发起的将我们踢出联邦的投票被自动否决了。"
  ACTION_INVITE_TO_FEDERATION_PROPOSAL_FAILED_ACTOR:0 "我们希望与§H[Recipient.GetName]§!结盟的邀请被否决了。"
  ACTION_INVITE_TO_FEDERATION_PROPOSAL_FAILED_RECIPIENT:0 "§H[Actor.GetName]§!的结盟邀请被自动否决了。"
+ ACTION_ASK_FOR_FEDERATION_ASSOCIATION_PROPOSAL_FAILED_ACTOR:0 "我们希望成为§H[Recipient.GetAllianceName]§!的联邦协从国的要求被否决了。"
+ ACTION_ASK_FOR_FEDERATION_ASSOCIATION_PROPOSAL_FAILED_RECIPIENT:0 "§H[Actor.GetName]§!希望成为§H[Recipient.GetAllianceName]§!的联邦协从国的要求被自动否决了。"
  ACTION_DEMAND_VASSALIZATION_PROPOSAL_FAILED_ACTOR:0 "我们附庸§H[Recipient.GetName]§!的要求被否决了。"
  ACTION_DEMAND_VASSALIZATION_PROPOSAL_FAILED_RECIPIENT:0 "附庸§H[Actor.GetName]§!的要求被自动否决了。"
  ACTION_DEMAND_PROTECTORATE_PROPOSAL_FAILED_ACTOR:0 "我们向§H[Recipient.GetName]§!提供保护的提议被否决了。"
@@ -213,6 +217,7 @@
  ACTION_INVITE_TO_FEDERATION_NOTIFICATION:2 "§H[From.GetName]§!加入了§H[From.GetAllianceName]§!.\n\n他们在面对敌人时将同仇敌忾。"
  ACTION_ASK_TO_JOIN_FEDERATION_NOTIFICATION:2 "§H[Root.GetName]§!加入了§H[From.GetAllianceName]§!.\n\n他们在面对敌人时将同仇敌忾。"
  ACTION_LEAVE_FEDERATION_NOTIFICATION:2 "§H[From.GetName]§!离开了§H[Root.GetAllianceName]§!。\n\n我们或许可以趁火打劫..."
+ ACTION_KICK_FROM_FEDERATION_NOTIFICATION:1 "§H[From.GetAllianceName]§!发起了将§H[Root.GetName]§!踢出联邦的投票。"
  ACTION_ASK_TO_BE_RELEASED_SUBJECT_NOTIFICATION:2 "§H[From.GetName]§!准许了§H[Root.GetName]§!的独立。\n\n看来，外强中干的他们已经无法控制自己的附属了。"
  ACTION_RELEASE_SUBJECT_NOTIFICATION:2 "§H[From.GetName]§!准许了§H[Root.GetName]§!的独立。\n\n看来，外强中干的他们已经无法控制自己的附属了。"
  ACTION_INSULT_NOTIFICATION:2 "§H[From.GetName]§!羞辱了§H[Root.GetName]§!。\n\n冲突正在酝酿之中..."
@@ -239,6 +244,7 @@
  ACTION_REVOKE_FEDERATION_ASSOCIATION_NOTIFICATION:2 "§H[Root.GetName]§!被§H[From.GetAllianceName]§!除名了。\n\n这难道是它们间关系恶化的前兆？"
  MESSAGE_END_FEDERATION_ASSOCIATION_TITLE:0 "中止协从国地位"
  ACTION_END_FEDERATION_ASSOCIATION_NOTIFICATION:2 "§H[From.GetName]§!决定放弃§H[Root.GetAllianceName]§!的协从国的地位。\n\n这难道是它们间关系恶化的前兆？"
+ DIPLO_ACTION_END_FEDERATION_ASSOCIATION_DESC:0 "§H$COUNTRY$§!决定中止同§H$ALLIANCE$§!的协从关系。\n\n这难道是它们间关系恶化的前兆？"
    
  
  MESSAGE_DIPLOMACY_TITLE:0 "外交"
@@ -449,3 +455,12 @@
  ####################################
  MESSAGE_INVALIDATED_EDICT_TITLE:0 "法案取消"
  COUNTRY_EDICT_BECAME_INVALID:0 "由于没有满足前置条件，这个法案$EDICT|Y$已经失效。"
+
+#####################################
+# Megastructures
+#####################################
+
+ MESSAGE_MEGASTRUCTURE_BUILT_TITLE:0 "奇观建成"
+ MESSAGE_MEGASTRUCTURE_BUILT:1 "$FLEET|H$已经成功在$SYSTEM|H$建成了$MEGASTRUCTURE|H$。"
+ MESSAGE_MEGASTRUCTURE_UPGRADED_TITLE:0 "奇观升级"
+ MESSAGE_MEGASTRUCTURE_UPGRADED:1 "位于$SYSTEM|H$星系的$MEGASTRUCTURE|H$已经完成了升级。"
