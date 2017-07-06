@@ -1,6 +1,6 @@
 # 群星 贴吧汉化补丁
 
-## ![使用方法](http://image.flaticon.com/icons/png/32/109/109697.png) V20161024  对应版本1.3.0
+## ![使用方法](http://image.flaticon.com/icons/png/32/109/109697.png) V20170511  对应版本1.6.1
 
 #### 使用方法 1
 订阅此MOD，并在游戏开始界面勾选
@@ -10,11 +10,9 @@
 #### 使用方法 2
 游戏文件夹下创建mod文件夹,下载最新release并解压整个汉化包.
 
+问题反馈: https://tieba.baidu.com/p/5110668425?pn=1
 
-
-问题反馈: http://tieba.baidu.com/p/4831990001
-
-或者提交issue.
+或者提交issue与PR到** Defeat 分支**.
 
 ## ![人员名单](http://image.flaticon.com/icons/png/32/109/109718.png) Members
 
@@ -22,12 +20,9 @@
 
 1.3部分汉化
 
-汉化主持：瓦良吉小队长
-
-技术主持：FDKPIBC
-
-校对：瓦良吉小队长
-翻译：皮尔，莱诺奇，诺夫哥罗德，卖力偷咸鱼，TDA_Anmie，myygz，from to，Delle Botti，某科学的宅电磁兔，默击，fantasm，传火咸鱼，汉成祖，备甲，枫冷
+汉化主持：瓦良吉小队长[摸鱼]
+校对：瓦良吉小队长[摸鱼], GalAster[划水]
+翻译：咸喵, 九月四日君助, DesertEagleF, 卖力偷咸鱼, 神牛不学大, navilloso[划水], baka_tenshi
 
 
 ## ![许可协议](http://image.flaticon.com/icons/png/32/109/109689.png)License
