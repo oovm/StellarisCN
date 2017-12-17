@@ -4,4 +4,4 @@ tags={
 	"Translation"
 }
 remote_file_id="683409704"
-supported_version="1.7.*"
+supported_version="1.8.*"
