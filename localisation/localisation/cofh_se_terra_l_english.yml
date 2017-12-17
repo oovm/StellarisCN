@@ -1,0 +1,54 @@
+﻿l_english:
+
+# Modifiers
+
+ cofh_se_pm_toxic:0 "残留毒性"
+ cofh_se_pm_toxic_desc:0 "这个星球的毒性残留在它的生态系统。生命必须在这里挣扎多一点。"
+
+ cofh_se_pm_barren:0 "稀薄大气"
+ cofh_se_pm_barren_desc:0 "目前星球的大气层是难以置信的薄，使得生活更加困难。"
+
+ cofh_se_pm_barren_cold:0 "稀薄大气"
+ cofh_se_pm_barren_cold_desc:0 "目前星球的大气层是难以置信的薄，使得生活更加困难。"
+
+ cofh_se_pm_molten:0 "建造限制"
+ cofh_se_pm_molten_desc:0 "虽然宜居，重大地震事件仍席卷世界各地。建筑物需要大量加固。"
+
+ cofh_se_pm_frozen:0 "微弱磁场"
+ cofh_se_pm_frozen_desc:0 "虽然可以居住，这个世界的磁场非常弱，只提供最小的宇宙辐射的保护。"
+
+# Requirements
+
+ requirement_cofh_se_no_black_hole_neutron_star_pulsar:0 "§R该恒星不可能是黑洞，中子星或脉冲星。§!"
+ requirement_cofh_se_no_dyson_sphere:0 "§R该恒星没有戴森球存在于它周围。§!"
+ requirement_cofh_se_no_megastructure:0 "§R目前没有巨型建筑存在轨道之上。§!"
+ requirement_cofh_se_not_terraforming_candidate:0 "§R该方法无需改造申请者。§!"
+ requirement_cofh_se_valid_planet_size:0 "§R行星尺寸必须在允许范围内。§!"
+
+# Technology - Non-Repeatable
+
+# Society
+
+ tech_cofh_se_atmospheric_purification:0 "大气净化"
+ tech_cofh_se_atmospheric_purification_desc:0 "先进的过滤和净化系统，能让一个星球的大气中去除几乎所有的有毒废物。"
+
+ tech_cofh_se_atmosphere_creation:0 "大气制造"
+ tech_cofh_se_atmosphere_creation_desc:0 "给予足够的时间和资源，即使是最荒凉的世界也能创造一种大气。"
+
+ tech_cofh_se_dynamo_manipulation:0 "磁场操控"
+ tech_cofh_se_dynamo_manipulation_desc:0 "基本操控知识能让即使是最遥远的冰冻世界也有生存下去。"
+
+ tech_cofh_se_tectonic_restriction:0 "地壳约束"
+ tech_cofh_se_tectonic_restriction_desc:0 "基本操控知识能让即使是最凶狠的熔岩世界也能被驯服。"
+
+ COFH_SE_TECH_UNLOCK_TERRAFORMING_TOXIC_CHANGE_TITLE:0 "§H解锁功能:§! 大气净化"
+ COFH_SE_TECH_UNLOCK_TERRAFORMING_TOXIC_CHANGE_DESC:0 "§H大气净化§!\n允许我们把剧毒的世界转化为可居住星球。"
+
+ COFH_SE_TECH_UNLOCK_TERRAFORMING_BARREN_CHANGE_TITLE:0 "§H解锁功能:§! 大气制造"
+ COFH_SE_TECH_UNLOCK_TERRAFORMING_BARREN_CHANGE_DESC:0 "§H大气制造§!\n允许我们把贫瘠的世界转化为可居住星球。"
+
+ COFH_SE_TECH_UNLOCK_TERRAFORMING_FROZEN_CHANGE_TITLE:0 "§H解锁功能:§! 发电机操控"
+ COFH_SE_TECH_UNLOCK_TERRAFORMING_FROZEN_CHANGE_DESC:0 "§H发电机操控§!\n允许我们改造冰冻世界为可居住的星球。"
+
+ COFH_SE_TECH_UNLOCK_TERRAFORMING_MOLTEN_CHANGE_TITLE:0 "§H解锁功能:§! 地壳约束"
+ COFH_SE_TECH_UNLOCK_TERRAFORMING_MOLTEN_CHANGE_DESC:0 "§H地壳约束§!\n允许我们改造熔岩世界为可居住的星球。"

@@ -1,0 +1,51 @@
+﻿l_english:
+
+ habitat_small_MEGASTRUCTURE_DETAILS:1 "§Y$pc_habitat$§! 是一个理论上被设计为永久居住并能够自给自足的空间站。"
+ habitat_small_CONSTRUCTION_INFO_DELAYED:2 "一个轨道居住地只能修建居住地特有的 £buildings  §Y建筑§!并且只有 §Y6§!个区块。"
+ habitat_small:0 "小型居住地"
+ habitat_small_DESC:0 "一个小型居住用空间站在一个非宜居星球的轨道上环绕，其表面能够居住一些 §H人口§!，并能够建造特定的§H建筑§!。"
+
+ 
+ habitat_big_MEGASTRUCTURE_DETAILS:1 "§Y$pc_habitat$§! 是一个理论上被设计为永久居住并能够自给自足的空间站。"
+ habitat_big_CONSTRUCTION_INFO_DELAYED:2 "一个大型轨道居住地只能修建居住地特有的 £buildings  §Y建筑§!并且有 §Y18§!个区块。"
+ habitat_big:0 "大型居住地"
+ habitat_big_DESC:0 "一个大型居住用空间站在一个非宜居星球的轨道上环绕，其表面能够居住一些 §H人口§!，并能够建造特定的§H建筑§!。"
+  
+  
+ habitat_huge_MEGASTRUCTURE_DETAILS:1 "§Y$pc_habitat$§! 是一个理论上被设计为永久居住并能够自给自足的空间站。"
+ habitat_huge_CONSTRUCTION_INFO_DELAYED:2 "一个巨型轨道居住地只能修建居住地特有的 £buildings  §Y建筑§!并且有 §Y24§!个区块。"
+ habitat_huge:0 "巨型居住地"
+ habitat_huge_DESC:0 "一个巨型居住用空间站，比之前建造的大得多，在一个非宜居星球的轨道上环绕，其表面能够居住一些 §H人口§!，并能够建造特定的§H建筑§!。"
+  
+  
+ # Edicts
+ 
+ edict_upgradehabitat1:0 "升级居住地"
+ edict_upgradehabitat1_desc:0 "升级小型居住地到普通居住地"
+
+ edict_upgradehabitat2:0 "升级居住地"
+ edict_upgradehabitat2_desc:0 "升级普通居住地到大型居住地"
+ 
+ edict_upgradehabitat3:0 "升级居住地"
+ edict_upgradehabitat3_desc:0 "升级大型居住地到巨型居住地"
+
+ # Modifiers
+ 
+ habitat_upgrade_begining:0 "正在进行的扩建项目"
+ habitat_upgrade_begining_desc:0 "即使在空间站，装修也不安静"
+ 
+ habitat_upgrade_cooldown:0 "最近结束的扩建工程"
+ habitat_upgrade_cooldown_desc:0 "没有进一步升级居住地的意愿"
+ 
+ # Events
+ 
+ habitatupgrade.1.name:2 "居住地扩建"
+ habitatupgrade.1.desc:1 "随着技术的进步，我们现在能够建立更大、更好的的居住站。我们可以升级旧有居住站到更新的设计"
+ 
+ habitatupgrade.1.a:0 "昂贵，但值得"
+ habitatupgrade.1.b:0 "也许以后"
+ habitatupgrade.1.b.tooltip:0 "我们需要更多的矿物、能量或影响力"
+ 
+ habitatupgrade.4.name:2 "居住地扩建完成"
+ habitatupgrade.4.desc:1 "漫长的轨道居住地扩建项目终于结束了。新建的更大、更好的栖息地区域已准备好容纳更多新居民"
+

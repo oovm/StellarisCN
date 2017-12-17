@@ -1,6 +1,6 @@
 # 群星 贴吧汉化补丁
 
-## ![使用方法](http://image.flaticon.com/icons/png/32/109/109697.png) V1.6.2 <font color=#9400D3 face="黑体">兼容1.7版本!</font>
+## ![使用方法](http://image.flaticon.com/icons/png/32/109/109697.png) V1.7.2
 
 * 使用方法 1
     * 订阅此MOD，并在游戏开始界面勾选

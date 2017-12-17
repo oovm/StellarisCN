@@ -1,0 +1,69 @@
+﻿l_english:
+
+ #############################
+ # Civilian Trade Events
+ #############################
+  
+ 
+ #############################
+ # Civilian Trade modifiers
+ #############################
+  
+  
+
+ trade_network:0 "已接入贸易网络"
+ trade_network_desc:0 "星际贸易商最近在这个星球上建立了一个贸易站，这将小幅提振我们的经济。"
+
+ foreign_trade_network:0 "对外贸易网络"
+ foreign_trade_network_desc:0 "来自另一个帝国的附近行星已经建立了贸易网络。"
+
+ trade_network_minerals:0 "已接入贸易网络"
+ trade_network_minerals_desc:0 "星际贸易商最近在这个星球上建立了一个贸易站，这将小幅提振我们的经济。"
+
+ trade_network_energy:0 "已接入贸易网络"
+ trade_network_energy_desc:0 "星际贸易商最近在这个星球上建立了一个贸易站，这将小幅提振我们的经济。"
+
+ trade_network_farming:0 "粮食贸易网络"
+ trade_network_farming_desc:0 "附近的一个星球上建立了一个以出口食品贸易网络，提供人口增长。"
+
+ trade_network_reeducation:0 "贸易网络教育"
+ trade_network_reeducation_desc:0 "我们在范围内接受来自附近星球的广播，他们都重申我们最有价值的信念。"
+
+ trade_network_propaganda:0 "贸易网络新闻"
+ trade_network_propaganda_desc:0 "我们在范围内接受来自附近星球的广播，新闻很好！"
+
+ trade_network_infrastructure:0 "贸易网络基础设施"
+ trade_network_infrastructure_desc:0 "附近的一个星球已经建立了一个贸易网络，专注于建筑材料的出口。"
+
+ trade_ship_arrived:0 "贸易运停靠"
+ trade_ship_arrived_desc:0 "来自附近殖民地的一艘民用贸易船停靠并卸下了资源和消费品。"
+ 
+ circus_in_town:0 "马戏飞船停留在本星系"
+ circus_in_town_desc: "万人空巷！伟大的克伦佩勒马戏团正停留在这个星系。快来看看这迷人、梦幻般、超脱尘世，且恐怖生物和绝美景致并存的“花环号”吧！"
+ 
+
+
+ ####################################
+ # Hull Sizes
+ ####################################  
+ 
+ civilian_trade_freighter:0 "民间货舰"
+ civilian_trade_freighter_plural:0 "民间货舰"
+ civilian_trade_tanker:0 "民间油轮"
+ civilian_trade_tanker_plural:0 "民间油轮"
+ 
+
+ ####################################
+ # War Demands
+ ####################################  
+  
+  
+ war_demand_trade_sanctions_header:1 "§H贸易制裁§!"
+ war_demand_trade_sanctions_subtext:0 "[parameter:country.GetName]"
+ war_demand_trade_sanctions_tooltip_header:0 "$war_demand_trade_sanctions_header$"
+ war_demand_trade_sanctions_tooltip_content:1 "[parameter:country.GetName] 将宣布对其贸易网络的制裁计划。强制限制贸易政策10年，并造成贸易效果降低20。"
+ war_demand_trade_sanctions_tooltip_proper_header:0 "$war_demand_trade_sanctions_header$"
+ war_demand_trade_sanctions_tooltip_proper_content:1 "$war_demand_trade_sanctions_tooltip_content$"
+
+ SMALL_CIVILIAN_FISSION_REACTOR:0 "民用裂变反应堆"
+ SMALL_CIVILIAN_FISSION_REACTOR_DESC:0 "这种能量通过诱发裂变产生，但它也会产生有害的核废料。平民设施"

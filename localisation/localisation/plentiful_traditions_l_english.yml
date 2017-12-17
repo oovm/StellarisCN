@@ -1,0 +1,603 @@
+﻿l_english:
+
+ASCENSION_PERKS_NEW:0 "飞升特典"
+PLENTIFUL_TRADITIONS_VERSION:0 "丰富的传统 §GV1.41§!"
+
+#Mystics - WILL CHANGE A LOT
+pft_plentiful_factions_mystics:0 "神秘主义派系"
+pft_plentiful_factions_mystics_desc:1 "神秘派的核心价值观是双重的，他们自认为是生命和精神的保存者，并且是生命之钥三大原则的支持者。强迫其他生物与他们和谐相处，自然和精神是他们的信仰的一部分，但也只能作为最后的手段。 他们偏爱那些创造了人们去宗教场所朝圣的工具，并且非常讨厌机器人的构造。\n\n§L唯心主义主流思潮§!"
+
+MYSTICS_BIOAFFLUENCE:0 "生物的多样化"
+MYSTICS_BIOAFFLUENCE_DESC:0 "允许在帝国内建造机器人会令[Root.GetName]非常不满。"
+MYSTICS_PILGRIMAGE:0 "朝圣"
+MYSTICS_PILGRIMAGE_DESC:0 "在帝国内建造神社，方尖碑，寺庙，柱和圣殿会令[Root.GetName]高兴。"
+MYSTICS_REDEMPTION:0 "赎回"
+MYSTICS_REDEMPTION_DESC:0 "殖民任何§Y废土世界§!会令[Root.GetName]神秘主义派系高兴。"
+MYSTICS_CITADEL:0 "大周期"
+MYSTICS_CITADEL_DESC:0 "在帝国内建造一个§Y$building_citadel_of_faith$§!会令[Root.GetName]非常高兴。"
+MYSTICS_PROFIT:0 "无私"
+MYSTICS_PROFIT_DESC:0 "在帝国内建造一个§Y$building_galactic_stock_exchange$§!会得罪[Root.GetName]。"
+MYSTICS_VITALITY:0 "节俭"
+MYSTICS_VITALITY_DESC:0 "研究§Y$tech_nano_vitality_crops$§!科技会令[Root.GetName]高兴。"
+MYSTICS_STOCKPILE:0 "收获保护"
+MYSTICS_STOCKPILE_DESC:0 "放置我们的£food $tile_resource_food_mult$库存到§Y$food_stockpiling_2_name$§!或§Y$food_stockpiling_3_name$§!会令[Root.GetName]高兴。"
+
+MYSTICS_SYNTHS:0 "沉默建筑"
+MYSTICS_SYNTHS_DESC:0 "看到其他星系国民在为他们的§Y控制论§!和§Y合成人§!修建而游行，那些没有生命和精神，肯定会令[Root.GetName]不满。"
+#Mystics - WILL CHANGE A LOT
+
+#Miners - WILL CHANGE A LOT
+pft_plentiful_factions_miners:0 "矿工派系"
+pft_plentiful_factions_miners_desc:1 "矿工们的要求很简单。只要能够成为银河系主要的矿物原料出口国，任何事情都能进行。\n\n§L唯物主义道德§!"
+
+MINERS_GOODS:0 "物流效率"
+MINERS_GOODS_DESC:0 "连续使用§Y$edict_plentiful_traditions_industrial_goods$§!帝国法令会使[Root.GetName]更满意。"
+MINERS_CIVIC:0 "公民性"
+MINERS_CIVIC_DESC:0 "一个活跃有效的§Y$civic_mining_guilds$§!公民性会使[Root.GetName]更满意。"
+MINERS_FACILITY:0 "矿物提纯"
+MINERS_FACILITY_DESC:0 "在帝国内建造§Y$building_plentiful_traditions_purification_facility$§!会使[Root.GetName]非常满意。"
+
+MINERS_NETWORK:0 "钻头"
+MINERS_NETWORK_DESC:0 "在帝国内建造§Y$building_mining_network_5$§!会使[Root.GetName]非常满意。"
+MINERS_PROCESSING:0 "加工"
+MINERS_PROCESSING_DESC:0 "在帝国内建造§Y$building_mineral_processing_plant_2$§!会使[Root.GetName]非常满意。"
+MINERS_SILO:0 "采矿储存"
+MINERS_SILO_DESC:0 "在帝国内建造§Y矿物储蓄仓§!会使[Root.GetName]非常满意。"
+MINERS_ORBITAL:0 "安全的水力压裂法"
+MINERS_ORBITAL_DESC:0 "在太空港建造§Y$sm_orbital_fracking_cannon$§!会使[Root.GetName]更满意。"
+MINERS_EXCAVATION:0 "无限制挖掘"
+MINERS_EXCAVATION_DESC:0 "连续在一个星球上使用§Y$edict_plentiful_traditions_ionized_excavation$§!星球法令会使[Root.GetName]更满意。"
+MINERS_MINIMUM:0 "丰富的矿脉"
+MINERS_MINIMUM_DESC:0 "任何时候储蓄至少§Y10000§!的£minerals §Y矿物§!会使[Root.GetName]更满意。"
+MINERS_DEPOSIT:0 "牵引光束"
+MINERS_DEPOSIT_DESC:0 "只在最好的矿脉上开采£minerals §Y矿物§!会使[Root.GetName]更满意。"
+
+modifier_plentiful_traditions_ionized_excavation:0 "离子化开采"
+modifier_plentiful_traditions_ionized_excavation_desc:1 "你的星球暂时得到£minerals  §Y矿物§!产出加成。"
+#Miners - WILL CHANGE A LOT
+
+################################################################
+# CYBERNETICS
+################################################################
+
+tradition_cybernetics:0 "控制论"
+tradition_cybernetics_desc:0 "这些身体是一种祝福，还是一种限制？我们能成为更多东西吗？"
+tr_cybernetics_adopt:0 "控制论传统"
+tr_cybernetics_adopt_desc:0 "$tradition_cybernetics_desc$\n\n$tr_cybernetics_adopt_effect$\n\n$tr_cybernetics_finish_effect$"
+tr_cybernetics_adopt_effect:0 "§E$TRADITIONS_ADOPT$:§!\n§Y$MOD_COUNTRY_ROBOT_BUILD_SPEED_MULT$§!增加§G+10%§!。"
+
+tr_cybernetics_finish:0 "控制论传统完成"
+tr_cybernetics_finish_effect:0 "§E$TRADITIONS_FINISH$:§!\n采纳所有的$tr_cybernetics_adopt$使我们§Y$MOD_COUNTRY_NUM_TECH_ALTERNATIVES_ADD$§!§G+1§!。\n\n§H解锁建筑:§!$building_plentiful_traditions_cybernetics_facility$，\n一个增加星球£physics §Y物理研究§!产出的独特建筑。\n\n"
+ 
+tr_cybernetics_1:0 "规律性蓝图"
+tr_cybernetics_1_desc:0 "§Y$MOD_POP_ROBOT_PRODUCTION_OUTPUT$§!增加§G+10%§!并且§Y$MOD_NAVY_SIZE_MULT$§! 增加§G+10%§!。"
+tr_cybernetics_1_delayed:0 "允许那些有意识的工厂在物理学上构建新的想法来提高机器人的工作效率。。"
+ 
+tr_cybernetics_2:0 "模板"
+tr_cybernetics_2_desc:0 "§Y$MOD_COUNTRY_ROBOT_MAINTENANCE_MULT$§!减少§G-10%§!。"
+tr_cybernetics_2_delayed:0 "计算开始成形并质疑我们的目的。我们的一些科学家不确定是否应该进一步推动这一进程。"
+ 
+tr_cybernetics_3:0 "奇点"
+tr_cybernetics_3_desc:0 "§Y$country_resource_energy_mult$§!增加§G+5%§!并且§Y$MOD_SHIP_UPKEEP_MULT$§!减少§G-5%§!。"
+tr_cybernetics_3_delayed:0 "应该进一步研究提高我们的处理能力和能源产生效率。"
+ 
+tr_cybernetics_4:0 "贾扎里发条"
+tr_cybernetics_4_desc:0 "§Y$MOD_SHIP_WEAPON_RANGE_MULT$§!增加§G+15%§!。"
+tr_cybernetics_4_delayed:0 "宇宙仍然拥有太多的未知变量。"
+ 
+tr_cybernetics_5:0 "深度学习"
+tr_cybernetics_5_desc:1 "£physics  §Y物理研究§!产出增加§G+15%§!。"
+tr_cybernetics_5_delayed:0 "随着我们继续提高我们的集体能力，我们计算出其他帝国有很高的几率将我们视为威胁。我们需要更多的能量和能源，但是该怎么做？"
+
+# Cybernetics buildings
+building_plentiful_traditions_cybernetics_facility:0 "控制设施"
+building_plentiful_traditions_cybernetics_facility_desc:0 "控制论设施将帮助帝国的技术进步。"
+
+################################################################
+# BIOGENESIS
+################################################################
+
+tradition_biogenesis:0 "生物合成"
+tradition_biogenesis_desc:0 "任何生物体都可以变得更好，不惜一切代价去价追求完美。"
+tr_biogenesis_adopt:0 "生物合成传统"
+tr_biogenesis_adopt_desc:0 "$tradition_biogenesis_desc$\n\n$tr_biogenesis_adopt_effect$\n\n$tr_biogenesis_finish_effect$"
+tr_biogenesis_adopt_effect:0 "§E$TRADITIONS_ADOPT$:§!\n人口的§Y$MOD_POP_GROWTH_SPEED$§!增加§G+10%§!。"
+
+tr_biogenesis_finish:0 "生物合成传统完成"
+tr_biogenesis_finish_effect:0 "§E$TRADITIONS_FINISH$:§!\n采纳所有的$tr_biogenesis_adopt$使§Y$MOD_COUNTRY_GOVERNMENT_CIVIC_POINTS_ADD$§!§G+1§!并且我们的§Y$MOD_COUNTRY_MODIFY_SPECIES_COST_MULT$§!减少§G-15%§!。\n\n允许使用§Y蝗虫之灾§!战争诉求。\n§Y10§!年内对方帝国£food $tile_resource_food_mult$生产减少§G-10%§!。\n\n"
+ 
+tr_biogenesis_1:0 "基因工程农业"
+tr_biogenesis_1_desc:0 "§Y$MOD_POP_FOOD_MULT$§!增加§G+10%§!。"
+tr_biogenesis_1_delayed:0 "专业养殖者能更好地种植食物。"
+ 
+tr_biogenesis_2:0 "气候化"
+tr_biogenesis_2_desc:0 "§Y$MOD_PLANET_CLEAR_BLOCKER_TIME_MULT$§!减少§G-15%§!并且§Y$category_biology_research_speed_mult$§!增加§G+20%§!。"
+tr_biogenesis_2_delayed:0 "环境也一样，能够根据我们的需求进行改变，如果这样能有一些...“帮助“。"
+ 
+tr_biogenesis_3:0 "自然之路"
+tr_biogenesis_3_desc:0 "§Y$MOD_FLEET_TERRAFORMING_COST_MULT$§!减少§G-15%§!。"
+tr_biogenesis_3_delayed:0 "我们生活在对于我们来说最适合的地方，直到我们决定“地方”不再是一个问题的时候。"
+ 
+tr_biogenesis_4:0 "激素治疗"
+tr_biogenesis_4_desc:0 "§Y$MOD_COUNTRY_TRAIT_POINTS$§!增加§G+3§!。"
+tr_biogenesis_4_delayed:0 "给我们的公民一个清新的基因浴是完美的关键。"
+ 
+tr_biogenesis_5:0 "嫁接实验室"
+tr_biogenesis_5_desc:1 "£society  §Y生物研究§!产出增加§G+15%§!。"
+tr_biogenesis_5_delayed:0 "我们的公民正在考虑他们是否想要或需要进一步升级他们的细胞。"
+
+# Biogenesis war demands
+war_demand_plentiful_traditions_locust_swarm_header:1 "§H蝗虫之灾§!"
+war_demand_plentiful_traditions_locust_swarm_subtext:0 "[parameter:country.GetName]"
+war_demand_plentiful_traditions_locust_swarm_tooltip_header:0 "$war_demand_plentiful_traditions_locust_swarm_header$"
+war_demand_plentiful_traditions_locust_swarm_tooltip_content:2 "我们的生物工程师将尝试在[parameter:country.GetName]的边界某处释放蝗虫群，§Y10§!年内对方帝国 £food $tile_resource_food_mult$生产减少§Y-10%§!。"
+war_demand_plentiful_traditions_locust_swarm_tooltip_proper_header:0 "$war_demand_plentiful_traditions_locust_swarm_header$"
+war_demand_plentiful_traditions_locust_swarm_tooltip_proper_content:1 "$war_demand_plentiful_traditions_locust_swarm_tooltip_content$"
+war_demand_plentiful_traditions_locust_swarm_no_planets:1 "帝国的全部星球都会被割让。"
+modifier_plentiful_traditions_locust_swarm:0 "蝗虫之灾"
+modifier_plentiful_traditions_locust_swarm_desc:0 "在我们的帝国内有蝗虫群进入的迹象，它们摧毁了我们的£food $tile_resource_food_mult$供应。"
+
+################################################################
+# FAITH / House of Prayer, dedicated to my old cat Foopie, may you rest in peace floof <3
+################################################################
+
+tradition_faith:0 "信仰"
+tradition_faith_desc:0 "我们的信念让我们进一步前进。真理就在那里，我们必须努力追寻正确的道路。"
+tr_faith_adopt:0 "信仰传统"
+tr_faith_adopt_desc:0 "$tradition_faith_desc$\n\n$tr_faith_adopt_effect$\n\n$tr_faith_finish_effect$"
+tr_faith_adopt_effect:0 "§E$TRADITIONS_ADOPT$:§!\n§Y$MOD_POP_GOVERNMENT_ETHIC_ATTRACTION$§!增加§G+15%§!。"
+
+tr_faith_finish:0 "信仰传统完成"
+tr_faith_finish_effect:0 "§E$TRADITIONS_FINISH$:§!\n采纳所有的$tr_faith_adopt$使我们§Y$country_resource_influence_add$§!§G+1§!。\n\n§H解锁建筑:§!$building_plentiful_traditions_house_of_prayer$。\n一个独特的建筑，增加星球£unity 凝聚力，并提升 §Y$pop_ethic_spiritualist_attraction_mult$§!和帝国的影响力。\n\n"
+ 
+tr_faith_1:0 "心灵力量"
+tr_faith_1_desc:0 "§Y$MOD_COUNTRY_SENSOR_RANGE_MULT$§!增加§G+25%§!。"
+tr_faith_1_delayed:0 "控制精神，心灵的力量。"
+ 
+tr_faith_2:0 "觉醒到来"
+tr_faith_2_desc:0 "§Y$MOD_COUNTRY_EDICT_LENGTH_MULT$§!增加§G+15%§!。"
+tr_faith_2_delayed:0 "突破限制，我们的觉醒只是一个开始。"
+ 
+tr_faith_3:0 "赦免"
+tr_faith_3_desc:0 "§Y$MOD_COUNTRY_EDICT_INFLUENCE_COST$§!减少§G-10%§!。"
+tr_faith_3_delayed:0 "依靠赦免和真理的安慰来生活。"
+ 
+tr_faith_4:0 "贡献"
+tr_faith_4_desc:0 "§Y$country_resource_minerals_mult$§!增加§G+10%§!。"
+tr_faith_4_delayed:0 "对事业的贡献揭示了个人和群体的真理。"
+ 
+tr_faith_5:0 "启迪之路"
+tr_faith_5_desc:1 "§Y$MOD_POP_GOVERNMENT_ETHIC_ATTRACTION$§!增加§G+25%§!并且§Y$MOD_COUNTRY_FACTION_INFLUENCE_MULT$§!增加§G+10%§!。"
+tr_faith_5_delayed:0 "我们需要了解自身的本质，宇宙的真实以及生命存在的目的和意义。这是一条被称为启迪之路的旅程。"
+ 
+# Faith buildings
+building_plentiful_traditions_house_of_prayer:0 "教堂"
+building_plentiful_traditions_house_of_prayer_desc:0 "教堂是一个重要的精神场所，人们可以聚在一起祷告。他们是银河系已知的精神社会的主要生命力。"
+
+################################################################
+# ORDER
+################################################################
+
+tradition_order:0 "秩序"
+tradition_order_desc:0 "若没有秩序，就只有混乱。"
+tr_order_adopt:0 "秩序传统"
+tr_order_adopt_desc:0 "$tradition_order_desc$\n\n$tr_order_adopt_effect$\n\n$tr_order_finish_effect$"
+tr_order_adopt_effect:0 "§E$TRADITIONS_ADOPT$:§!\n§Y紧急超光速冷却§!减少§G-25%§!并且§Y$MOD_SHIP_SPEED_MULT$§!增加§G+10%§!。"
+
+tr_order_finish:0 "秩序传统完成"
+tr_order_finish_effect:0 "§E$TRADITIONS_FINISH$:§!\n采纳所有的$tr_order_adopt$使我们的§Y$MOD_MEGASTRUCTURE_BUILD_COST_MULT$§!减少§G-15%§!。 \n\n允许使用§Y伪旗行动§!战争诉求。\n§Y10§!年内对方帝国$MOD_PLANET_UNREST_ADD$§Y+25§!。\n\n允许使用§Y破坏行动§!战争诉求。\n§Y10§!年内对方帝国研究速度降低§Y-10%§!。\n\n"
+ 
+tr_order_1:0 "堡垒"
+tr_order_1_desc:0 "§Y$MOD_SHIP_ARMOR_MULT$§!增加§G+10%§!。"
+tr_order_1_delayed:0 "若只知道进攻，混沌会在拐角处等待他。我们必须依靠更强的大炮给宇宙带来秩序。"
+ 
+tr_order_2:0 "英勇"
+tr_order_2_desc:0 "§Y$MOD_SHIP_SHIELD_HP_MULT$§!增加§G+10%§!。"
+tr_order_2_delayed:0 "我们的舰队和军队是一体的，给混沌带来秩序。"
+ 
+tr_order_3:0 "征收"
+tr_order_3_desc:0 "§Y$MOD_SHIP_HITPOINTS_MULT$§!增加§G+10%§!。"
+tr_order_3_delayed:0 "为了秩序统一，即使是一些让人不幸的牺牲的事，也会使我们完整。"
+ 
+tr_order_4:0 "对抗"
+tr_order_4_desc:0 "§Y$category_voidcraft_research_speed_mult$§!增加§G+15%§!。\n\n§H解锁建筑:§! $building_plentiful_traditions_experimental_weapons_facility$。\n一个增加星球£engineering  §Y工程研究§!产出的独特建筑。"
+tr_order_4_delayed:0 "我们会用帝国铁拳欢迎任何敌人的规则。"
+ 
+tr_order_5:0 "内部工作"
+tr_order_5_desc:1 "£engineering §Y工程研究§!产出增加§G+15%§!。"
+tr_order_5_delayed:0 "我们的工程师，机械师和其他公民祝福我们的秩序，这给帝国带来了不可思议的优势。"
+
+# Order buildings
+building_plentiful_traditions_experimental_weapons_facility:0 "实验武器工厂"
+building_plentiful_traditions_experimental_weapons_facility_desc:0 "这个实验武器的设施将极大地促进帝国工程研究的进步。"
+
+# Order war demands
+war_demand_plentiful_traditions_false_flag_header:1 "§H伪旗行动§!"
+war_demand_plentiful_traditions_false_flag_subtext:0 "[parameter:country.GetName]"
+war_demand_plentiful_traditions_false_flag_tooltip_header:0 "$war_demand_plentiful_traditions_false_flag_header$"
+war_demand_plentiful_traditions_false_flag_tooltip_content:2 "我们的特种部队将试图在[parameter:country.GetName]边界内的某个地方创造一面虚假的国旗，造成§Y10§!年内对方帝国$MOD_PLANET_UNREST_ADD$§Y+25§!"
+war_demand_plentiful_traditions_false_flag_tooltip_proper_header:0 "$war_demand_plentiful_traditions_false_flag_header$"
+war_demand_plentiful_traditions_false_flag_tooltip_proper_content:1 "$war_demand_plentiful_traditions_false_flag_tooltip_content$"
+war_demand_plentiful_traditions_false_flag_no_planets:1 "帝国的全部星球都会被割让。"
+modifier_plentiful_traditions_false_flag:0 "$minor_terrorist_action$"
+modifier_plentiful_traditions_false_flag_desc:0 "$minor_terrorist_action_desc$"
+
+war_demand_plentiful_traditions_sabotage_header:1 "§H破坏行动§!"
+war_demand_plentiful_traditions_sabotage_subtext:0 "[parameter:country.GetName]"
+war_demand_plentiful_traditions_sabotage_tooltip_header:0 "$war_demand_plentiful_traditions_sabotage_header$"
+war_demand_plentiful_traditions_sabotage_tooltip_content:2 "我们的间谍企图对[parameter:country.GetName]采取破坏行动，§Y10§!年内他们的研究速度减少§Y-10%§! 。"
+war_demand_plentiful_traditions_sabotage_tooltip_proper_header:0 "$war_demand_plentiful_traditions_sabotage_header$"
+war_demand_plentiful_traditions_sabotage_tooltip_proper_content:1 "$war_demand_plentiful_traditions_sabotage_tooltip_content$"
+war_demand_plentiful_traditions_sabotage_no_planets:1 "帝国的全部星球都会被割让。"
+modifier_plentiful_traditions_sabotage:0 "破坏行动"
+modifier_plentiful_traditions_sabotage_desc:0 "我们被另一个帝国蓄意破坏了。"
+
+################################################################
+# ASPIRATION
+################################################################
+
+tradition_aspiration:0 "志向"
+tradition_aspiration_desc:0 "不与他人分享，就没有成功的意义。\n\n§R与§Y$tradition_malice$§!互斥。§!"
+tr_aspiration_adopt:0 "志向传统"
+tr_aspiration_adopt_desc:0 "$tradition_aspiration_desc$\n\n$tr_aspiration_adopt_effect$\n\n$tr_aspiration_finish_effect$"
+tr_aspiration_adopt_effect:0 "§E$TRADITIONS_ADOPT$:§!\n£physics  §Y物理研究§!£society  §Y生物研究§!和£engineering  §Y工程研究§!产出增加§G+5%§!。"
+
+tr_aspiration_finish:0 "志向传统完成"
+tr_aspiration_finish_effect:0 "§E$TRADITIONS_FINISH$:§!\n采纳所有的$tr_aspiration_adopt$使潘属国多给予你§G10%§!的收入，并且我们§Y$category_industry_research_speed_mult$§!增加§G+15%§!。\n\n§H解锁建筑:§!$building_plentiful_traditions_trading_terminal$。\n允许使用§Y丰富的贸易行为§!星球法令。\n\n"
+ 
+tr_aspiration_1:0 "不屈不挠的毅力"
+tr_aspiration_1_desc:0 "我们人口§Y$CONSUMER_GOODS$§!的矿物开销减少§G-10%§!。"
+tr_aspiration_1_delayed:0 "想想未来，而不是过去。在逆境中采取行动并表现出勇气和坚强。"
+ 
+tr_aspiration_2:0 "更好的职位"
+tr_aspiration_2_desc:0 "§H解锁建筑:§!$building_plentiful_traditions_trading_depot$"
+tr_aspiration_2_delayed:0 "努力克服反复的失败才能带来幸福的生活。"
+ 
+tr_aspiration_3:0 "魅力"
+tr_aspiration_3_desc:0 "§Y$MOD_POP_OTHER_SPECIES_HAPPINESS$§!增加§G+5%§!。此外，其他帝国对我们的£opinion  §Y看法§!增加§G+20§!。"
+tr_aspiration_3_delayed:0 "在充满危险的银河中，有时候一个友好的姿态和一些魅力是战争与和平之间的区别。"
+ 
+tr_aspiration_4:0 "劝说"
+tr_aspiration_4_desc:0 "§Y$MOD_COUNTRY_TRADE_ATTRACTIVENESS$§!增加§G+25%§!。"
+tr_aspiration_4_delayed:0 "做你必须做的，即使你无法获得的更大回报。"
+ 
+tr_aspiration_5:0 "信用"
+tr_aspiration_5_desc:1 "§Y$MOD_COUNTRY_TRUST_GROWTH$§!增加§G+25%§!。"
+tr_aspiration_5_delayed:0 "记住过去的投机和友善的行为，因为他们会记得你。"
+
+# Aspiration buildings
+building_plentiful_traditions_trading_terminal:0 "交易终端"
+building_plentiful_traditions_trading_terminal_desc:0 "帝国的交易终端是星际贸易的中心，为所有参与者提供了大量的商机。\n\n允许在这个星球使用§Y丰富的贸易行为§!星球法令。"
+building_plentiful_traditions_trading_depot:0 "交易所"
+building_plentiful_traditions_trading_depot_desc:0 "帝国交易所允许在帝国之间采取统一的交易方式。"
+
+# Aspiration edicts
+triggered_opinion_tr_aspiration_3:0 "富有魅力的吸引"
+opinion_plentiful_deeds:0 "丰富的贸易行为"
+modifier_plentiful_traditions_plentiful_deeds:0 "丰富的贸易行为"
+modifier_plentiful_traditions_plentiful_deeds_desc:1 "获得附近帝国对你的帝国的临时意见加成。"
+edict_plentiful_traditions_plentiful_deeds:0 "§Y丰富的贸易行为§!"
+edict_plentiful_traditions_plentiful_deeds_desc:1 "该法令派遣贸易特使到附近的帝国，这个星球上人口幸福§G+5%§!。\n受影响的帝国将暂时对你的看法提升。\n\n"
+ 
+################################################################
+# MALICE
+################################################################
+
+tradition_malice:0 "恶意"
+tradition_malice_desc:0 "恐惧。如此肥沃的土地却是痛苦的种子。让我们来享受别人的痛苦。\n\n§R与§Y$tradition_aspiration$§!互斥§!"
+tr_malice_adopt:0 "恶意传统"
+tr_malice_adopt_desc:0 "$tradition_malice_desc$\n\n$tr_malice_adopt_effect$\n\n$tr_malice_finish_effect$"
+tr_malice_adopt_effect:0 "§E$TRADITIONS_ADOPT$:§!\n§Y$MOD_COUNTRY_INSULT_EFFICIENCY$§!增加§G+50%§!并且我们恶意的本性使其他帝国对我们的£opinion  §Y看法§!§R-15§!。\n\n§H解锁建筑:§! $building_plentiful_traditions_tower_of_fright$。\n允许使用§Y恐怖信号§!星球法令，使附近的帝国变得害怕。"
+
+tr_malice_finish:0 "恶意传统完成"
+tr_malice_finish_effect:0 "§E$TRADITIONS_FINISH$:§!\n采纳所有的$tr_malice_adopt$解锁§Y恶意的目的§!法令。\n该法令使我们§Y$damage_vs_country_type_fallen_empire_mult$§!和§Y$damage_vs_country_type_awakened_fallen_empire_mult$§!增加§G+15%§!。\n\n"
+ 
+tr_malice_1:0 "绝望"
+tr_malice_1_desc:0 "§Y$MOD_COUNTRY_UNREST_UNHAPPY_SLAVE_EFFECT_MULT$§!减少§G-15%§!。"
+tr_malice_1_delayed:0 "即使是我们的奴隶也没有希望。多么令人振奋！"
+ 
+tr_malice_2:0 "痛苦"
+tr_malice_2_desc:0 "§Y$MOD_COUNTRY_RIVALRY_INFLUENCE_GAIN$§!增加§G+30%§!。"
+tr_malice_2_delayed:0 "我们对手的尖叫声将能被清楚大声地听到，甚至在太空中也可以。"
+ 
+tr_malice_3:0 "恐惧"
+tr_malice_3_desc:0 "§Y$MOD_POP_SLAVE_MINERAL_OUTPUT$§!和§Y$MOD_POP_SLAVE_FOOD_OUTPUT$§!增加§G+10%§!。"
+tr_malice_3_delayed:0 "我们的奴隶似乎正努力去死，但为什么呢？死亡只不过是种痛苦的浪费罢了。"
+ 
+tr_malice_4:0 "愤怒"
+tr_malice_4_desc:0 "§Y$MOD_COUNTRY_FACTION_INFLUENCE_MULT$§!增加§G+25%§!。"
+tr_malice_4_delayed:0 "我们会慢慢读懂他们的痛苦，一页一页地。"
+ 
+tr_malice_5:0 "恶毒"
+tr_malice_5_desc:1 "§Y$MOD_COUNTRY_MAX_RIVALRIES$§!§G+3§!。"
+tr_malice_5_delayed:0 "恶意趋使的举动，有时也会被怨恨中断。"
+
+# Malice buildings
+building_plentiful_traditions_tower_of_fright:0 "惊恐之塔"
+building_plentiful_traditions_tower_of_fright_desc:0 "向附近的帝国发出可怕信号的无线电塔。我们的公民很高兴能听到其他帝国的痛苦。\n\n允许在这个星球使用§M恐怖信号§!星球法令。"
+
+# Malice edicts
+triggered_opinion_tr_malice_adopt:0 "恶意的"
+opinion_signal_of_fright:0 "害怕"
+edict_plentiful_traditions_malicious_intent:0 "恶意的目的"
+edict_plentiful_traditions_malicious_intent_desc:1 "这个法令能增强我们的决心，我们将揭示我们敌人最大的弱点。"
+edict_plentiful_traditions_signal_of_fright:0 "§M恐怖信号§!"
+edict_plentiful_traditions_signal_of_fright_desc:1 "这个行星法令发出一个§M恐怖信号§！在整个帝国和附近的异族帝国传播，使你的种族变得更快乐，而其他帝国变得害怕，生产力降低。\n"
+modifier_plentiful_traditions_signal_of_fright_positive:0 "高兴"
+modifier_plentiful_traditions_signal_of_fright_positive_desc:1 "受恐怖信号影响的敌人都被吓坏了，这让星球的人稍微快乐起来。"
+modifier_plentiful_traditions_signal_of_fright_negative:0 "吓坏了"
+modifier_plentiful_traditions_signal_of_fright_negative_desc:1 "我们的人口受到恐惧信号的影响。"
+
+################################################################
+# PURITY
+################################################################
+
+tradition_purity:0 "纯正"
+tradition_purity_desc:0 "一个星际帝国如果建立在包含异种的堕落基础上将不可避免的走向崩溃。\n\n§R与§Y$tradition_benevolence$§!互斥。§!"
+tr_purity_adopt:0 "纯正传统"
+tr_purity_adopt_desc:0 "$tradition_purity_desc$\n\n$tr_purity_adopt_effect$\n\n$tr_purity_finish_effect$"
+tr_purity_adopt_effect:0 "§E$TRADITIONS_ADOPT$:§!\n§Y$MOD_TRADITION_COST_NUM_XENO_SLAVES_MULT$§!减少§G-20%§!"
+
+tr_purity_finish:0 "纯正传统完成"
+tr_purity_finish_effect:0 "§E$TRADITIONS_FINISH$:§!\n采纳所有的$tr_purity_adopt$使我们§Y$MOD_MEGASTRUCTURE_BUILD_SPEED_MULT$§!增加§G+15%§!。\n\n"
+ 
+tr_purity_1:0 "决心"
+tr_purity_1_desc:0 "§Y$pop_ethic_xenophobe_attraction_mult$§!增加§G+15%§!。"
+tr_purity_1_delayed:0 "由于我们主张的在宇宙中的未知，我们的人民必须被教育接受我们面临着众多叵测的威胁的事实，以免他们脆弱的心灵滑向危险的方向…"
+ 
+tr_purity_2:0 "毅力"
+tr_purity_2_desc:0 "§Y$MOD_SPACEPORT_SHIP_BUILD_SPEED_MULT$§!增加§G+15%§!。"
+tr_purity_2_delayed:0 "在那些异种停止用它们卑鄙的存在污染银河之前我们不能停歇，他们的存在就是对我们生存的威胁。"
+ 
+tr_purity_3:0 "安全措施"
+tr_purity_3_desc:0 "我们所有星球§Y$MOD_PLANET_UNREST_ADD$§!§G-20§!。"
+tr_purity_3_delayed:0 "无论是被高等的存在选中还是被简单的基因改造，我们杰出的物种都是无可比拟的。 我们命中注定将造就伟大的事业。"
+ 
+tr_purity_4:0 "力量"
+tr_purity_4_desc:0 "§Y$MOD_ARMY_HEALTH$§!增加§G+25%§!。"
+tr_purity_4_delayed:0 "我们绝不会向那些低贱的东西低头。让它们来我们强大的舰队前送死！"
+ 
+tr_purity_5:0 "天罚"
+tr_purity_5_desc:1 "§Y$MOD_COUNTRY_BORDER_MULT$§!增加§G+15%§!且§Y$MOD_COUNTRY_MAX_RIVALRIES$§!增加§G+1§!。"
+tr_purity_5_delayed:0 "宇宙中所有的存在都有它们被指定好的身份。那些低贱的物种应该为他们能服侍比它们高贵的物种感到安心。"
+
+################################################################
+# BENEVOLENCE/AFFINITY
+################################################################
+
+tradition_benevolence:0 "亲和"
+tradition_benevolence_desc:0 "给予的行为是所有生命形式与生俱来的报酬。\n\n§R与§Y$tradition_purity$§!互斥。§!"
+tr_benevolence_adopt:0 "亲和传统"
+tr_benevolence_adopt_desc:0 "$tradition_benevolence_desc$\n\n$tr_benevolence_adopt_effect$\n\n$tr_benevolence_finish_effect$"
+tr_benevolence_adopt_effect:0 "§E$TRADITIONS_ADOPT$:§!\n§Y$MOD_TRADITION_COST_NUM_XENOS_MULT$§!减少§G-15%§!"
+
+tr_benevolence_finish:0 "亲和传统完成"
+tr_benevolence_finish_effect:0 "§E$TRADITIONS_FINISH$:§!\n采纳所有的$tr_benevolence_adopt$使我们§Y$country_resource_unity_mult$§!增加§G+15%§!。\n\n"
+ 
+tr_benevolence_1:0 "宽容"
+tr_benevolence_1_desc:0 "§Y$pop_ethic_xenophile_attraction_mult$§!增加§G+15%§!。"
+tr_benevolence_1_delayed:0 "宽容的对待他人使我们远离我们的敌人。"
+
+tr_benevolence_2:0 "同理心的社会"
+tr_benevolence_2_desc:0 "§Y$category_statecraft_research_speed_mult$§!增加§G+15%§!。"
+tr_benevolence_2_delayed:0 "理解和分享其他物种之间的感受让我们继续前行。"
+ 
+tr_benevolence_3:0 "怜悯"
+tr_benevolence_3_desc:0 "§Y$MOD_POP_MIGRATION_SPEED$§!增加§G+30%§!。"
+tr_benevolence_3_delayed:0 "允许那些稀少物种迁移的自由，可以打破不幸的枷锁。"
+ 
+tr_benevolence_4:0 "探路者"
+tr_benevolence_4_desc:0 "§Y$MOD_COUNTRY_LEADER_POOL_SIZE$§!§G+2§!并且§Y$MOD_COUNTRY_LEADER_CAP$§!§G+1§!。"
+tr_benevolence_4_delayed:0 "新世界的发现让我们走得更近。"
+ 
+tr_benevolence_5:0 "团结的激情"
+tr_benevolence_5_desc:1 "§Y$MOD_PLANET_MIGRATION_XENO_PULL$§!增加§G+30%§!。"
+tr_benevolence_5_delayed:0 "在广阔的空间里结交新朋友。"
+
+################################################################
+# MUTAGENESIS
+################################################################
+
+tradition_mutagenesis:0 "诱变"
+tradition_mutagenesis_desc:0 "相对于关心他人，我们更热衷于追求新发现的遗传物质。"
+#Other living organisms are nothing but building blocks towards the perfection of our collective.
+tr_mutagenesis_adopt:0 "诱变传统"
+tr_mutagenesis_adopt_desc:0 "$tradition_mutagenesis_desc$\n\n$tr_mutagenesis_adopt_effect$\n\n$tr_mutagenesis_finish_effect$"
+tr_mutagenesis_adopt_effect:0 "§E$TRADITIONS_ADOPT$:§!\n§Y$MOD_POP_FOOD_REQ_MULT$§!减少§G-15%§!。"
+
+tr_mutagenesis_finish:0 "诱变传统完成"
+tr_mutagenesis_finish_effect:0 "§E$TRADITIONS_FINISH$:§!\n采纳所有的$tr_mutagenesis_adopt$使殖民地数量所导致的§Y$TRADITION_COST$§!增加效果降低§G-15%§!。\n\n§H解锁建筑:§!$building_plentiful_traditions_pillar_of_affliction$。\n一个独特的建筑，增加星球£society §Y社会研究§!产出。\n\n"
+
+tr_mutagenesis_1:0 "泛滥"
+tr_mutagenesis_1_desc:0 "§Y$MOD_POP_ENVIRONMENT_TOLERANCE$§!增加§G+10%§!。"
+tr_mutagenesis_1_delayed:0 "别的世界只是在等待一个有可能发生的有意思的突变。"
+
+tr_mutagenesis_2:0 "地穴"
+tr_mutagenesis_2_desc:0 "§Y$MOD_PLANET_FORTIFICATION_STRENGTH$§!增加§G+75%§!并且§Y$MOD_COUNTRY_CORE_SECTOR_SYSTEM_CAP$§!增加§G+1§!。"
+tr_mutagenesis_2_delayed:0 "我们的防御地穴可以使那些进入的威胁短暂地停止机能。"
+
+tr_mutagenesis_3:0 "诱变生长"
+tr_mutagenesis_3_desc:0 "§Y$MOD_SHIP_AUTO_REPAIR_ADD$§!增加§G+1.5%§!。"
+tr_mutagenesis_3_delayed:0 "我们添加到舰船的精心调制的突变剂给予舰船不同的再生能力。"
+
+tr_mutagenesis_4:0 "疫病"
+tr_mutagenesis_4_desc:0 "§Y$MOD_TRADITION_COST_NUM_FOUNDER_POPS_MULT$§!减少§G-75%§!。\n\n解锁§Y有毒的瘟疫§!战争诉求。\n§Y10§!年内对方帝国人口§Y$MOD_POP_GROWTH_SPEED$§!降低§G-10%§!。"
+tr_mutagenesis_4_delayed:0 "没有必要让其他人浪费那个地方的能源和生长资源，反正他们总会成为集体的原料。"
+
+tr_mutagenesis_5:0 "育种池"
+tr_mutagenesis_5_desc:1 "§H解锁建筑:§! $building_plentiful_traditions_mutagenesis_lab$。\n一个增加星球£food §Y$tile_resource_food_mult$§!产出的独特建筑。"
+tr_mutagenesis_5_delayed:0 "银河系的能量来源是为了使我们的帝国蓬勃发展而存在的，占有这些能量我们就能找到将集体变得更加完美的方法。"
+
+# Mutagenesis buildings
+building_plentiful_traditions_pillar_of_affliction:0 "灾难之柱"
+building_plentiful_traditions_pillar_of_affliction_desc:0 "这个能吸收附近遗传物质来缓慢变异的柱形建筑简直是活着的。它那坚固结构的宽度和高度会随着帝国的发展而不断增加。"
+building_plentiful_traditions_mutagenesis_lab:0 "诱变实验室"
+building_plentiful_traditions_mutagenesis_lab_desc:0 "实验室的大型玻璃容器中装着那些看起来不象活着的生物体。"
+
+# Mutagenesis war demands
+war_demand_plentiful_traditions_toxic_plague_header:1 "§H有毒的瘟疫§!"
+war_demand_plentiful_traditions_toxic_plague_subtext:0 "[parameter:country.GetName]"
+war_demand_plentiful_traditions_toxic_plague_tooltip_header:0 "$war_demand_plentiful_traditions_toxic_plague_header$"
+war_demand_plentiful_traditions_toxic_plague_tooltip_content:2 "我们将试图在[parameter:country.GetName]边界范围内传播有毒的瘟疫。§Y10§!年内对方帝国 £pops人口§Y$MOD_POP_GROWTH_SPEED$§!减少§G-10%§!。"
+war_demand_plentiful_traditions_toxic_plague_tooltip_proper_header:0 "$war_demand_plentiful_traditions_toxic_plague_header$"
+war_demand_plentiful_traditions_toxic_plague_tooltip_proper_content:1 "$war_demand_plentiful_traditions_toxic_plague_tooltip_content$"
+war_demand_plentiful_traditions_toxic_plague_no_planets:1 "帝国的全部星球都会被割让。"
+modifier_plentiful_traditions_toxic_plague:0 "有毒的瘟疫"
+modifier_plentiful_traditions_toxic_plague_desc:0 "我们注意到我们的人口发生了有毒瘟疫，§Y10§!年内帝国£pops人口§Y$MOD_POP_GROWTH_SPEED$§!减少§R-10%§!。"
+
+################################################################
+# INDUSTRY
+################################################################
+
+tradition_industrial:0 "工业"
+tradition_industrial_desc:0 "我们必须专注于开采提取，在原料的加工上别具匠心且没有浪费太多精力和材料是非常高雅的。"
+tr_industrial_adopt:0 "工业传统"
+tr_industrial_adopt_desc:0 "$tradition_industrial_desc$\n\n$tr_industrial_adopt_effect$\n\n$tr_industrial_finish_effect$"
+tr_industrial_adopt_effect:0 "§E$TRADITIONS_ADOPT$:§!\n§Y$shipsize_mining_station_build_cost_mult$§!减少§G-15%§!。\n\n§H解锁太空港模块:§!$sm_orbital_fracking_cannon$。\n一个能增加星球£minerals  §Y矿物§!产量的太空港模块。"
+
+tr_industrial_finish:0 "工业传统完成"
+tr_industrial_finish_effect:0 "§E$TRADITIONS_FINISH$:§!\n采纳所有的$tr_industrial_adopt$§H解锁星球法令:§!$edict_plentiful_traditions_ionized_excavation$。\n支付影响力来提高星球矿场的效率，星球的 £minerals §Y矿物§!产出§G+10%§!并且一定几率获得额外的£minerals §Y矿物§!奖励。\n\n§H解锁星球法令:§! $edict_plentiful_traditions_harvest_erupt$。\n从一个星球内部引爆，摧毁殖民地和星球表面使星球内部矿物£minerals §Y矿物§!积淀裸露出来。\n\n"
+
+tr_industrial_1:0 "磁流体农业"
+tr_industrial_1_desc:0 "§Y$hydroponics_farm_build_cost_mult$§!减少§G-15%§!。"
+tr_industrial_1_delayed:0 "我们的农业工程师和物理学家已经提出了新的规划，应该能让我们的食物生产更有效率。"
+
+tr_industrial_2:0 "多功能货舱"
+tr_industrial_2_desc:0 "§Y$shipsize_colonizer_build_cost_mult$§!减少§G-20%§!。"
+tr_industrial_2_delayed:0 "工业化殖民地的船舶可能不具备所有最新功能，但是付出越多回报越多。"
+
+tr_industrial_3:0 "晶体制导系统"
+tr_industrial_3_desc:0 "§Y$MOD_POP_RESETTLEMENT_COST_MULT$§!减少§G-30%§!。"
+tr_industrial_3_delayed:0 "用于重新安置人口的舰船不需要附带漂亮的房间，冷冻室，美味的食物和最新的娱乐设施。"
+
+tr_industrial_4:0 "光束聚焦冶金"
+tr_industrial_4_desc:0 "§H解锁建筑:§! $building_plentiful_traditions_purification_facility$。\n一个能增加星球£minerals §Y$tile_resource_minerals_mult$§!产出的独特建筑。"
+tr_industrial_4_delayed:0 "专用的钻头使用聚焦光束将矿物加热切割，这种提取方式在其他领域的成本相对昂贵。"
+
+tr_industrial_5:0 "创新会计学"
+tr_industrial_5_desc:1 "§H解锁法令:§! $edict_plentiful_traditions_industrial_goods$。\n使我们£pops 人口§Y$CONSUMER_GOODS$§!的矿物开销减少§G-20%§!。"
+tr_industrial_5_delayed:0 "正确的会计师即使在太空也是非常有用的。那些运输珍贵矿物和贸易的货船必须“认真地”审核，收费。"
+
+# Industrial buildings
+building_plentiful_traditions_purification_facility:0 "精炼设备"
+building_plentiful_traditions_purification_facility_desc:0 "精炼设备能提高星球整体的矿物产出。"
+
+sm_orbital_fracking_cannon:0 "轨道压裂轰击"
+
+tech_plentiful_traditions_orbital_fracking_cannon:0 "轨道压裂轰击"
+tech_plentiful_traditions_orbital_fracking_cannon_desc:0 "轨道压裂技术的进步在理论上可以提高我们星球上矿物网络的矿物产出。轨道压裂轰击需要一整个太空港模块来保证能有效地覆盖整个地球。"
+
+# Industrial edicts
+edict_plentiful_traditions_industrial_goods:0 "工业制品"
+edict_plentiful_traditions_industrial_goods_desc:1 "该法令减少了在我们帝国的星球上运输日常消费品的低效率物流。"
+
+edict_plentiful_traditions_ionized_excavation:0 "§R离子化挖掘§!"
+edict_plentiful_traditions_ionized_excavation_desc:1 "该法令提升§Y矿场§!的开采效率，有一定几率获得额外的£minerals  §Y矿物§!奖励并且星球的£minerals  §Y矿物§!产出增加§G+10%§!。\n\n"
+
+edict_plentiful_traditions_harvest_erupt:0 "§R星球爆发§!"
+edict_plentiful_traditions_harvest_erupt_desc:1 "该法令准备将我们的星球从内部引爆，摧毁殖民地和我们的星球。这使得我们的采矿船能开采更多矿物，通常深埋核心的许多矿物质变得更容易获得。\n能够获得的£minerals  §Y矿物§!数量取决于星球的§Y大小§!以及我们勤劳的工程师的技能。我们期望我们的工程师能在§Y2§!年内准备就绪。\n\n§R警告§!:这将摧毁殖民地!"
+
+plentiful_traditions_harvest_pedict.1.title:0 "星球爆发"
+plentiful_traditions_harvest_pedict.1.desc:0 "随着我们对§Y[From.GetName]§!殖民地人口的疏散，我们的工程师精心准备了能引爆整个星球的设备。我们希望这个星球上露出的大量£minerals  §YMineral§!沉积物，我们可以用它来进一步扩大我们的帝国。"
+plentiful_traditions_harvest_pedict.1.a:0 "引爆§Y大型§!星球来获得£minerals §Y矿物§!!!"
+plentiful_traditions_harvest_pedict.1.b:0 "引爆§Y中型§!星球来获得£minerals §Y矿物§!!!"
+plentiful_traditions_harvest_pedict.1.c:0 "引爆§Y小型§!星球来获得£minerals §Y矿物§!!!"
+plentiful_traditions_harvest_pedict.1.d:0 "离开。让§Y[From.GetName]§!保持原样。"
+
+################################################################
+# MYSTICISM
+################################################################
+
+tradition_mysticism:0 "神秘主义"
+tradition_mysticism_desc:0 "遵循与自然和谐相处之路，舍弃欲望之心，纵是拥有世间万物都不如生物多样化的丰富来得尤为重要。"
+tr_mysticism_adopt:0 "神秘主义传统"
+tr_mysticism_adopt_desc:0 "$tradition_mysticism_desc$\n\n$tr_mysticism_adopt_effect$\n\n$tr_mysticism_finish_effect$"
+tr_mysticism_adopt_effect:0 "§E$TRADITIONS_ADOPT$:§!\n§Y$MOD_SHIP_FIRE_RATE_MULT$§!和§Y$MOD_SHIP_WEAPON_DAMAGE$§!增加§G+5%§!。"
+
+tr_mysticism_finish:0 "神秘主义传统完成"
+tr_mysticism_finish_effect:0 "§E$TRADITIONS_FINISH$:§!\n采纳所有的$tr_mysticism_adopt$将§H解锁星球法令：§!$edict_plentiful_traditions_sacred_act$。\n支付影响力从而允许星球的方尖塔，寺庙，柱和圣所的£unity §Y凝聚力§!产出增加§G+10%§!并且有一定几率获得额外的凝聚力奖励。\n\n"
+
+tr_mysticism_1:0 "怜悯指导"
+tr_mysticism_1_desc:0 "§Y$MOD_LEADER_AGE$§!增加§G+20§!。\n\n§H解锁建筑：§!$building_plentiful_traditions_obelisk1$。\n一个稍微增加£food §Y$tile_resource_food_mult$§!和£energy §Y$tile_resource_energy_mult$§!的独特星球建筑。\n方尖碑必须在受祝福的地基上升级，每颗星球只能建造一座方尖碑。"
+tr_mysticism_1_delayed:0 "以德服人，仁服于人。"
+
+tr_mysticism_2:0 "无私节俭"
+tr_mysticism_2_desc:0 "§Y$MOD_POP_FOOD_REQ_MULT$§!和人口§Y$CONSUMER_GOODS$§!减少§G-5%§!。\n\n§H解锁建筑:§!$building_plentiful_traditions_obelisk2$。\n一个稍微增加£energy §Y$tile_resource_energy_mult$§!和£minerals §Y$tile_resource_minerals_mult$§!的独特星球建筑。\n方尖碑必须在受祝福的地基上升级，每颗星球只能建造一座方尖碑。"
+tr_mysticism_2_delayed:0 "饭疏食饮水，曲肱而枕之，乐亦在其中矣。不义而富且贵，于我如浮云。"
+
+tr_mysticism_3:0 "圆谦"
+tr_mysticism_3_desc:0 "§Y$pc_nuked_habitability$§!增加§G+50%§!。\n\n§H解锁建筑:§!$building_plentiful_traditions_obelisk3$。\n一个稍微增加£minerals §Y$tile_resource_food_mult$§!和£food §Y$tile_resource_food_mult$§!的独特星球建筑。\n方尖碑必须在受祝福的地基上升级，每颗星球只能建造一座方尖碑。"
+tr_mysticism_3_delayed:0 "人生自古谁无死，留取丹心照汗青。"
+
+tr_mysticism_4:0 "生命之键"
+tr_mysticism_4_desc:0 "§Y$country_resource_unity_mult$§!增加§G+5%§!并且§Y$MOD_LEADER_SPECIES_EXP_GAIN$§!增加§G+15%§!"
+tr_mysticism_4_delayed:0 "上失其道，民散久矣。如得其情，则哀矜而勿喜。"
+
+tr_mysticism_5:0 "坚定的意志"
+tr_mysticism_5_desc:1 "§H解锁建筑:§!$building_plentiful_traditions_sanctum_of_keys$。\n一个稍微增加人口§Y$MOD_POP_HAPPINESS$§!和§Y$MOD_POP_ENVIRONMENT_TOLERANCE$§!的独特星球建筑，并且增加一定的 £unity §Y凝聚力§!。"
+tr_mysticism_5_delayed:0 "己所不欲，勿施于人。"
+
+# Mysticism buildings
+building_plentiful_traditions_obelisk0:0 "受祝福的地基"
+building_plentiful_traditions_obelisk0_desc:0 "一块简单的混泥土板，它自身没有什么用处，但我们可以在这坚实的基础上建造神圣的建筑。\n\n可以升级成§Y$building_plentiful_traditions_obelisk1$§!, §Y$building_plentiful_traditions_obelisk2$§!和§Y$building_plentiful_traditions_obelisk3$§!。"
+building_plentiful_traditions_obelisk1:0 "怜悯之塔"
+building_plentiful_traditions_obelisk1_desc:0 "怜悯之塔的建立，是对土地肥沃的祝福。"
+building_plentiful_traditions_obelisk2:0 "节俭之塔"
+building_plentiful_traditions_obelisk2_desc:0 "节俭之塔的建立，是对自然能量的敬畏。"
+building_plentiful_traditions_obelisk3:0 "谦虚之塔"
+building_plentiful_traditions_obelisk3_desc:0 "谦虚之塔的建立，是对矿物丰富的坚信。"
+building_plentiful_traditions_sanctum_of_keys:0 "键之圣所"
+building_plentiful_traditions_sanctum_of_keys_desc:0 "键之圣所是个神圣之地，神秘的结构使得它免受来自外界的影响。"
+
+# Mysticism edicts
+edict_plentiful_traditions_sacred_act:0 "§G神圣行为§!"
+edict_plentiful_traditions_sacred_act_desc:1 "支付影响力从而允许星球的方尖塔，寺庙，柱和圣所的£unity §Y凝聚力§!产出增加§G+10%§!并且有一定几率获得额外的凝聚力奖励。\n\n"
+
+################################################################
+# Syndicalism
+################################################################
+
+tradition_syndicalism:0 "工联主义"
+tradition_syndicalism_desc:0 "我们的商业伙伴”确信“以任何方式这么做会使商业更加频繁有效 。"
+tr_syndicalism_adopt:0 "工联主义传统"
+tr_syndicalism_adopt_desc:0 "$tradition_syndicalism_desc$\n\n$tr_syndicalism_adopt_effect$\n\n$tr_syndicalism_finish_effect$"
+tr_syndicalism_adopt_effect:0 "§E$TRADITIONS_ADOPT$:§!\n§Y$MOD_SHIP_FIRE_RATE_MULT$§!增加§G+8%§!。"
+
+tr_syndicalism_finish:0 "工联主义完成"
+tr_syndicalism_finish_effect:0 "§E$TRADITIONS_FINISH$:§!\n采纳所有的$tr_syndicalism_adopt$会使§Y$MOD_COUNTRY_ENGINEERING_TECH_RESEARCH_SPEED$§!增加§G+10%§!并且§Y$MOD_COUNTRY_TRADE_ATTRACTIVENESS$§!增加§G+20%§!。\n\n"
+
+tr_syndicalism_1:0 "编造要求"
+tr_syndicalism_1_desc:0 "§Y$MOD_COUNTRY_BORDER_MULT$§!增加§G+10%§!并且§Y$MOD_NAVY_SIZE_ADD$§!增加§G+15§!。"
+tr_syndicalism_1_delayed:0 "许多帝国往往不得不忍受在冲突时期时比别人更多的严厉制裁。"
+
+tr_syndicalism_2:0 "高利贷活动"
+tr_syndicalism_2_desc:0 "§Y$MOD_NAVY_SIZE_MULT$§!增加§G+10%§!。\n\n§H解锁太空港模块:§!$sm_orbital_trading_beacon$。\n一个能增加£energy  §Y能源点数§!的太空站模块。"
+tr_syndicalism_2_delayed:0 "有时，违法的情况是必要的.......并且有效"
+
+tr_syndicalism_3:0 "无谋的贪欲"
+tr_syndicalism_3_desc:0 "§H解锁星球法令:§! $edict_plentiful_traditions_overcharge$。支付影响力促进星球的能源生产，星球的£energy  §Y能源点数§!产量§G+10%§!并且有一定几率获得额外的能源点数奖励。\n\n"
+tr_syndicalism_3_delayed:0 "仔细地检测能源生产以及物流可以保持帝国的稳定。但是，星球上电厂短暂的超负荷运作并不总是被注意到。"
+
+tr_syndicalism_4:0 "同案犯"
+tr_syndicalism_4_desc:0 "£energy §Y$country_resource_energy_mult$§!增加§G+5%§!并且§Y$MOD_COUNTRY_TRUST_GROWTH$§!增加§G+15%§!。\n\n此外，其他国家对我们的£opinion  §Y看法§!增加§G+10§!。"
+tr_syndicalism_4_delayed:0 "交易协议并不总是需要正式化才能使其有效。有时候你需要一些信用去说服那些合适的人。"
+
+tr_syndicalism_5:0 "不祥的运营商"
+tr_syndicalism_5_desc:1 "§Y$MOD_SPACEPORT_SHIP_BUILD_TIME_MULT$§!减少§G-15%§!。\n\n§H解锁建筑:§!$building_plentiful_traditions_syndicate_quarters$。\n一个独特的星球建筑，能为帝国提供更多的§Y$MOD_NAVY_SIZE_ADD$§!。\n\n"
+tr_syndicalism_5_delayed:0 "遵循手续是很好,但开展业务时最好“在桌子下”进行，在那些没有信用记录的地方。"
+
+# Syndicalism buildings
+building_plentiful_traditions_syndicate_quarters:0 "联合宿舍"
+building_plentiful_traditions_syndicate_quarters_desc:0 "联合宿舍会增加帝国海军的容量。"
+
+sm_orbital_trading_beacon:0 "轨道交易信标"
+
+tech_plentiful_traditions_orbital_trading_beacon:0 "轨道交易信标"
+tech_plentiful_traditions_orbital_trading_beacon_desc:0 "交易技术的进步使得我们能够更有效地处理我们的发电网络产生的能源。"
+
+# Syndicalism edicts
+edict_plentiful_traditions_overcharge:0 "§Y超载§!"
+edict_plentiful_traditions_overcharge_desc:1 "该法令通过支付影响力来促进星球的能源生产，星球的£energy  §Y能源点数§!产量§G+10%§!并且有一定几率获得额外的£energy  §Y能源点数§!奖励。\n\n"
+
+modifier_plentiful_traditions_overcharge:0 "超载"
+modifier_plentiful_traditions_overcharge_desc:1 "你的星球获得暂时的£energy  §YEnergy§!产出加成。"

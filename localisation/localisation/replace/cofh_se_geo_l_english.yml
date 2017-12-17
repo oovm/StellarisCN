@@ -1,0 +1,35 @@
+﻿l_english:
+
+# Buildings
+
+building_cofh_se_geo_complex:0 "地质勘测局"
+building_cofh_se_geo_complex_desc:0 "一个致力于研究复杂的地质和物理研究的设施。可以升级到专门的研究中心。\n\n§G减轻改造过程的痛苦度。§!"
+
+building_cofh_se_geo_institute:0 "地质研究所"
+building_cofh_se_geo_institute_desc:0 "一个只研究复杂的地质和物理研究的研究设施，能极大改善星球改造速度。\n\n§G减轻改造过程的痛苦度。§!"
+
+building_cofh_se_geo_reactor_engineering:0 "地壳稳定器"
+building_cofh_se_geo_reactor_engineering_desc:0 "工程研究设施，专门对地壳进行必要的研究与操作，可提高星球的矿产产量。\n\n§G减轻改造过程的痛苦度。§!"
+
+building_cofh_se_geo_reactor_physics:0 "能量调制器"
+building_cofh_se_geo_reactor_physics_desc:0 "物理研究设施，专门对大气能量进行必要的研究与操作，可提高星球的能源产量。\n\n§G减轻改造过程的痛苦度。§!"
+
+building_cofh_se_geo_reactor_society:0 "植物注液器"
+building_cofh_se_geo_reactor_society_desc:0 "社会研究设施，专门针对植物进行必要研究与操作，可提高星球的食物产量。\n\n§G减轻改造过程的痛苦度。§!"
+
+# Modifiers
+
+cofh_se_geo_terraforming_adaptation:0 "适应性改造过程"
+
+# Technology - Non-Repeatable
+
+# Society
+
+tech_cofh_se_geophysics:0 "地球物理学应用"
+tech_cofh_se_geophysics_desc:0 "通过对地球物理学的应用，我们可以更快进行星球改造的进程。"
+
+tech_cofh_se_geoengineering:0 "行星地质工程"
+tech_cofh_se_geoengineering_desc:0 "通过对地球物理学的研究，我们可以更细致地对已有人居住的世界进行和平改造，无需影响人们的生活。"
+
+COFH_SE_TECH_GEOPHYSICS_TITLE:0 "§H解锁功能:§!地球物理学分析"
+COFH_SE_TECH_GEOPHYSICS_DESC:0 "§H地球物理学分析§!\n改造星球将会清除所有障碍并提供£society £physics £engineering §Y研究§!。"

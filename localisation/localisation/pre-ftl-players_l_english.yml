@@ -1,0 +1,39 @@
+﻿l_english:
+ 
+ # ###################################
+ # Categories
+ # ###################################
+
+ # Warp Drives
+ tech_wormhole_generation_1:0 "亚空间虫洞"
+ tech_wormhole_generation_1_desc:0 "由隧道直接穿过亚空间，临时通道可以在正常空间中的两个不同点之间建立。这些点之间的旅行将是几乎瞬间的。\n\n"
+ tech_wormhole_generation_15:0 "可实现的虫洞旅行"
+ tech_wormhole_generation_15_desc:0 "通过验证证明了虫洞旅行是可行的，但我们还需要一个更完善办法去产生一个稳定又足够大的虫洞满足更多星际旅行.\n\n"
+ tech_hyper_drive_1:0 "超空间旅行"
+ tech_hyper_drive_1_desc:0 "像蜘蛛网的丝线一样，超空间的超维度领域在大多数恒星的重力井之间运作。超光速旅行在理论上是可能沿着这些超空间航道进行。\n\n"
+ tech_hyper_drive_15:0 "可实现的超空间旅行"
+ tech_hyper_drive_15_desc:0 "通过验证证明了超空间旅行是可行的，但我们还需要一个更完善办法防止在超空间旅行中会出现穿越到未知地带.\n\n"
+ tech_warp_drive_1:0 "曲率旅行"
+ tech_warp_drive_1_desc:0 "通过将船只封包在曲率场中并在其周围形成亚空间泡沫，在理论上其速度超过光速是可能的。\n\n"
+ tech_warp_drive_15:0 "可实现的曲率旅行"
+ tech_warp_drive_15_desc:0 "通过验证证明了曲速旅行是可行的，但我们还需要一个更完善办法去创造一个更稳定的时空泡以及提高曲速等级.\n\n"
+ 
+ # Drive components
+ SUBLIGHT_DRIVE_0:0 "亚光速引擎"
+ SUBLIGHT_DRIVE_0_DESC:1 "通过长年累月的实验和不计其数为宇宙探险奉献的船员实现的亚光速引擎.\n\n"
+ 
+ #Map Modes
+ plentiful_mapmodes_ftl_map_mode:0 "FTL地图模式"
+ plentiful_mapmodes_ftl_map_mode_desc:0 "帝国边境颜色根据§YFTL技术§!."
+ HAS_HYPER_DRIVE_1:0 "§Y[This.GetName]§!拥有一级§YHyper Drive§!科技."
+ HAS_HYPER_DRIVE_2:0 "§Y[This.GetName]§!拥有二级§YHyper Drive§!科技."
+ HAS_HYPER_DRIVE_3:0 "§Y[This.GetName]§!拥有三级§YHyper Drive§!科技."
+ HAS_WORMHOLE_GENERATION_1:0 "§Y[This.GetName]§!拥有一级§YWormhole Generation§!科技."
+ HAS_WORMHOLE_GENERATION_2:0 "§Y[This.GetName]§!拥有二级§YWormhole Generation§!科技."
+ HAS_WORMHOLE_GENERATION_3:0 "§Y[This.GetName]§!拥有三级§YWormhole Generation§!科技."
+ HAS_WARP_DRIVE_1:0 "§Y[This.GetName]§!拥有一级§YWarp Drive§!科技."
+ HAS_WARP_DRIVE_2:0 "§Y[This.GetName]§!拥有二级§YWarp Drive§!科技."
+ HAS_WARP_DRIVE_3:0 "§Y[This.GetName]§!拥有三级§YWarp Drive§!科技."
+ HAS_JUMP_DRIVE:0 "§Y[This.GetName]§!拥有§YJump Drive§!科技."
+ HAS_PSI_DRIVE:0 "§Y[This.GetName]§!拥有§YPsi Drive§!科技."
+ HAS_NO_DRIVE:0 "§Y[This.GetName]§!没有FTL科技."

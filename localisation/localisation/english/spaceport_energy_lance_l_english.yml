@@ -1,0 +1,21 @@
+﻿l_english:
+
+ SPACEPORT_ENERGY_LANCE_1:0 "能量长矛防御模块"
+ SPACEPORT_ENERGY_LANCE_1_DESC:0 "能量长矛防御模块"
+
+ SPACEPORT_ENERGY_LANCE_2:0 "微粒长矛防御模块"
+ SPACEPORT_ENERGY_LANCE_2_DESC:0 "微粒长矛防御模块"
+
+ ENERGY_LANCE_SPACEPORT_3:0 "超子长矛防御模块"
+ ENERGY_LANCE_SPACEPORT_3_DESC:0 "超子长矛防御模块"
+
+ sm_spaceport_energy_lance_1:0 "能量长矛防御模块"
+ sm_spaceport_energy_lance_1_desc:0 "能量长矛防御模块"
+
+ sm_spaceport_energy_lance_2:0 "微粒长矛防御模块"
+ sm_spaceport_energy_lance_2_desc:0 "微粒长矛防御模块"
+
+ sm_spaceport_energy_lance_3:0 "快子长矛防御模块"
+ sm_spaceport_energy_lance_3_desc:0 "快子长矛防御模块"
+
+
