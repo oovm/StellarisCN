@@ -16,7 +16,7 @@
  MANDATE_mandate_miner_DESC:1 "建设至少4个新的矿物空间站以加强[Root.Owner.GetName]的矿产储量上限。\n\n奖励：\n$mandate_influence_reward_t2$"
  MANDATE_mandate_shipwright:0 "船舶工人"
  MANDATE_mandate_shipwright_DESC:2 "在任期结束时，维持至少占用 75% 海军容量的军事舰艇，以确保[Root.Owner.GetSpeciesAdj]的公民安全保障。\n\n奖励：\n$mandate_influence_reward_t2$"
- MANDATE_mandate_peacemaker:0 "和平制造者"
+ MANDATE_mandate_peacemaker:0 "和平使者"
  MANDATE_mandate_peacemaker_DESC:1 "在统治期间，从所有[Root.Owner.GetName]卷入的战争中恢复到和平状态。\n\n奖励：\n$mandate_influence_reward_t2$"
  MANDATE_mandate_slaver:0 "奴役者"
  MANDATE_mandate_slaver_DESC:1 "使奴隶制合法化以确保[Root.Owner.GetName]日后的繁荣昌盛。\n\n奖励：\n$mandate_influence_reward_t2$"
