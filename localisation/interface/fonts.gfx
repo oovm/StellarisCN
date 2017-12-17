@@ -37,14 +37,14 @@ bitmapfonts = {
 
 	bitmapfont = {
 		name = "standard_font"
-		path = "gfx/fonts/cn/common"
+		path = "gfx/fonts/WenQuanYi-MicroHei_16"
 		color = 0xffffffff
 	}
 
 	
 	bitmapfont = {
 		name = "large_title_font"
-		path = "gfx/fonts/cn/orbitron"
+		path = "gfx/fonts/MSShangHei-Light_36"	#暂停按钮、载入字符（大号艺术字体）
 		color = 0xffffffff
 	}
 	
@@ -58,7 +58,7 @@ bitmapfonts = {
 	
 	bitmapfont = {
 		name = "large_title_font_28"
-		path = "gfx/fonts/cn/orbitron_28"
+		path = "gfx/fonts/MSShangHei-Light_24"	#国家标题（小号艺术字体）
 		color = 0xffffffff
 	}
 	
@@ -74,7 +74,7 @@ bitmapfonts = {
 		name = "cg_16b"
 		color = 0xffffffff
 		fontfiles = {  
-			"gfx/fonts/cn/cg_16b"
+			"gfx/fonts/WenQuanYi-MicroHei_13"
 		}  
 		color = 0xffffffff
 		cursor_offset = { -3 -5 }
@@ -117,13 +117,13 @@ bitmapfonts = {
 		
 	bitmapfont = {
 		name = "hoi_16mbs"
-		path = "gfx/fonts/cn/hoi_16mbs"
+		path = "gfx/fonts/WenQuanYi-MicroHei_16"
 		color = 0xffffffff
 	}
 
 	bitmapfont = {
 		name = "malgun_goth_24"
-		path = "gfx/fonts/cn/malgun_goth_24"
+		path = "gfx/fonts/WenQuanYi-MicroHei_16"
 		color = 0xffffffff
 		cursor_offset = { -4 -3 }
 		selection_offset = { 0 1 }
@@ -138,21 +138,22 @@ bitmapfonts = {
 	}
 	
 	### MAP NAME FONTS ###
+	#地图上的国家名、星云名、星区名、边界名
 	bitmapfont = {
 		name = "map_name_border"
-		path = "gfx/fonts/cn/orbitron"
+		path = "gfx/fonts/MSShangHei-Light_36"
 		color = 0xffffffff
 	}
 	
 	bitmapfont = {
 		name = "map_name_nebula"
-		path = "gfx/fonts/cn/orbitron"
+		path = "gfx/fonts/MSShangHei-Light_36"
 		color = 0xffffffff
 	}		
 	
 	bitmapfont = {
 		name = "map_name_sector"
-		path = "gfx/fonts/cn/orbitron"
+		path = "gfx/fonts/MSShangHei-Light_36"
 		color = 0xffffffff
 	}	
 

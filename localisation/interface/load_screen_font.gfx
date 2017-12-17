@@ -2,7 +2,7 @@ bitmapfonts = {
 	
 	bitmapfont = {
 		name = "load_screen"
-		path = "gfx/fonts/cn/orbitron_28"
+		path = "gfx/fonts/MSShangHei-Light_24"
 		color = 0xffffffff
 	}
 	

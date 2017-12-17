@@ -1,0 +1,100 @@
+﻿l_english:
+
+
+  pc_blue_dwarf_star:0 "蓝矮星"
+
+ pc_blue_dwarf_star_desc:1 "当一个小于0.25倍太阳质量的M型红矮星通过聚变耗尽了氢元素，它变得越来越需要保持平衡，而不是像红巨星那样成长，于是变成一个蓝矮星。"
+
+ sc_blue_dwarf_star:0 "§H蓝矮星§!"
+
+
+  pc_black_dwarf_star:0 "黑矮星"
+
+ pc_black_dwarf_star_desc:1 "这是白矮星进化的最后阶段；经过10^15年，它的表面温度会小于5K，从而辐射更少的能量和热量，慢慢变成黑矮星。"
+
+ sc_black_dwarf_star:0 "§H黑矮星§!"
+
+
+
+  pc_dark_star:0 "暗星"
+
+ pc_dark_star_desc:1 "也被称为暗物质星，是在普通恒星形成之前早期宇宙形成的恒星。他们大多由重子物质组成，但它的暗物质成分产生足够的热量阻止了核聚变的发生，使它们几乎用肉眼看不见。"
+
+ sc_dark_star:0 "§H暗星§!"
+
+
+ 
+ pc_quasi_star:0 "似星体"
+
+ pc_quasi_star_desc:1 "亦称黑洞星，这些巨大的恒星形成于早期宇宙，当一个大的原恒星的核心塌缩成黑洞的同时，它的外层包含了在正常情况下会导致超新星的能量爆发。然后下落的物质进入黑洞核心产生补偿平衡恒星的引力坍缩和保持足够的辐射压力。"
+
+ sc_quasi_star:0 "§H似星体§!"
+
+ 
+ pc_strange_star:0 "奇异星"
+
+ pc_strange_star_desc:1 "一些中子星足够大，它们的核中的中子分解成夸克，变成夸克星，但在非常高的压力下，形成中子的上半夸克可以转化为奇异夸克。如果这发生在恒星的整体体积，改称为奇异星。"
+
+ sc_strange_star:0 "§H奇异星§!"
+
+
+ 
+ pc_white_hole:0 "白洞"
+
+ pc_white_hole_desc:1 "这是一个时空的区域，所有的时间轨迹都是向外流动的，也就是说，任何事物都不能从外部进入，尽管物质和光可以逃离它。从这个意义上说，它是物质和光无法逃脱的黑洞的反向。"
+
+ sc_white_hole:0 "§H白洞§!"
+
+
+ 
+ q_star:0 "Q型恒星"
+
+ q_star_desc:0 "实际上，这不是黑洞，而是由外来物质构成的非常致密的中子星，有时称为灰洞。"
+
+
+ 
+ intermediate_black_hole:0 "中等质量黑洞"
+
+ intermediate_black_hole_desc:0 "这是一个比恒星黑洞更大的黑洞，但是比一个超大质量黑洞要小得多，比如星系中心的黑洞。他们有三个起源的假设。第一个是它们由两个或多个合并的恒星黑洞形成。第二个是它们来源于恒星中大质量恒星的碰撞。而第三个假说它们是原始黑洞的大爆炸过程中形成的。"
+
+
+ 
+ pop_iii_star:0 "第三星族星"
+
+ pop_iii_star_desc:0 "这颗星星属于宇宙中形成的第一代恒星，因此含有很少的重元素。"
+
+
+ 
+ tz_object:0 "索恩基特科夫对象"
+
+ tz_object_desc:0 "这颗红巨星的核心上有一颗中子星，由两颗恒星碰撞而成。"
+
+
+ 
+ electroweak_star:0 "电弱星"
+
+ electroweak_star_desc:0 "这个恒星中心的温度很高，有电磁力和弱核力相结合的条件，导致弱电燃烧。这一转变的核心为轻子夸克，产生足够的辐射压力以阻止其核心的重力坍缩。"
+
+
+ 
+ sr_strange_matter:0 "奇异物质"
+
+ sr_strange_matter_desc:0 "宇宙中的物质最稳定的形式，从奇异星获得。"
+
+
+ 
+ sr_quark_gluon_plasma:0 "夸克胶子等离子体"
+
+ sr_quark_gluon_plasma_desc:0 "这种物质形式类似于早期宇宙的状态。它在夸克星的核心被发现。"
+
+
+ 
+ tech_mine_quark_gluon_plasma:0 "夸克胶子等离子体萃取"
+
+ tech_mine_quark_gluon_plasma_desc:0 "从夸克星核中提取夸克胶子等离子体的方法，可以详细研究早期宇宙的条件。"
+
+
+ 
+ tech_mine_strange_matter:0 "奇异物质回收"
+
+ tech_mine_strange_matter_desc:0 "宇宙中的物质的最稳定的形式的理解允许更强的结构空间和陆地上的建构。"

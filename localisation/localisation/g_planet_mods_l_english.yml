@@ -1,0 +1,943 @@
+﻿l_english:
+
+ ####################################
+ # Modifiers
+ ####################################
+
+ ####################################
+ # Planet Modifiers
+ ####################################
+ Frequent_Thunderstorms:0 "雷暴频繁"
+ Frequent_Thunderstorms_desc:0 "这个星球有着不稳定的强对流天气，形成雷暴频繁肆虐星球地表。"
+ 
+ Global_Thunderstorms:0 "全球雷暴"
+ Global_Thunderstorms_desc:0 "这个星球被强对流天气覆盖，激烈的全球性风暴持续肆虐星球地表。"
+ 
+ Hyper_Complex_Biome:1 "非常复杂的生物群落"
+ Hyper_Complex_Biome_desc:1 "这个星球进化出极其复杂的动植物群落，而且地表还充斥着各种有待探索的生命。它们为生物学提供了很好的研究机会。"
+ 
+ Single_Biome:1 "单一的生物群落"
+ Single_Biome_desc:1 "这个星球进化出非常简单的动植物群落，而且地表还充斥着各种有待探索的生命。它们为生物学提供了很好的研究机会。"
+ 
+ unstable_tectonics_2:0 "不稳定的地质构造"
+ unstable_tectonics_2_desc:0 "这个星球的板块构造非常不稳定，容易发生大地震和火山活动。"
+ 
+ Strong_Volcanism:0 "强烈的火山活动"
+ Strong_Volcanism_desc:0 "这个星球有着极不稳定的板块构造，容易发生大规模的火山活动。"
+ 
+ asteroid_impacts_2:0 "小行星撞击"
+ asteroid_impacts_2_desc:0 "围绕这颗行星运行的轨道路径上满布小行星、流星和彗星，对地表的撞击事件以惊人的频率发生。"
+ 
+ Highly_Charged_Air_Particles:0 "极电荷大气粒子"
+ Highly_Charged_Air_Particles_desc:0 "这个星球充满极电荷大气微粒，这是一个值得研究的奇怪现象。"
+ 
+ Thin_Atmospheres:0 "不寻常的稀薄大气层"
+ Thin_Atmospheres_desc:0 "这个星球有着不寻常的稀薄大气，生存是个挑战。"
+ 
+ Dense_Atmospheres:0 "不寻常的稠密大气层"
+ Dense_Atmospheres_desc:0 "这个星球有着异常稠密的大气层。非常适合生活。"
+
+ strong_magnetic_field_2:0 "强磁场"
+ strong_magnetic_field_2_desc:1 "这个星球有着异常高的磁场，这会干扰我们的仪器和计算机。"
+ 
+ weak_magnetic_field_2:0 "弱磁场"
+ weak_magnetic_field_2_desc:1 "这个星球有着异常弱的磁场，这会干扰我们的仪器和计算机。"
+ 
+ low_gravity_2:0 "极低重力"
+ low_gravity_2_desc:0 "这个星球的密度非常低，因此重力比大多数同等大小的世界都要低得多。"
+ 
+ high_gravity_2:0 "极高重力"
+ high_gravity_2_desc:0 "这个星球的密度非常高，所以有着让人不适的高重力。"
+ 
+ mineral_rich_2:1 "高密度矿脉"
+ mineral_rich_2_desc:1 "这个星球地壳中存在大量的优质矿物，使得这里的采矿业成为有利可图的行业。"
+ 
+ ultra_rich_2:1 "极其密集的矿脉"
+ ultra_rich_2_desc:1 "这个星球地壳中矿物的特殊质量和矿脉的密度为采矿业提供了一个真正惊人的机会。"
+ 
+ mineral_poor_2:1 "稀疏的矿脉"
+ mineral_poor_2_desc:1 "我们不知道这个星球是否天然形成就是这样，还是某个未知的种族曾经剥夺了它更宝贵的资源，我们只知道，这个世界上存在的矿物量非常低。"
+ 
+ Time_Displaced_Planet:1 "时间流失的星球"
+ Time_Displaced_Planet_desc:1 "这个星球发出异常的时间读数，在这里时间已经流失，我们无法判断这个世界是什么时候诞生的，或者这种异常是如何发生的，但它确实提供了很好的机会来研究时间的本质！\n £physics §G6 £society §G6 £engineering §G6"
+ 
+ Floating_Islands:0 "漂浮的岛屿"
+ Floating_Islands_desc:0 "这个星球的一些矿物或物质使大型岩石漂浮在空中形成漂浮的岛屿，这些岛屿悬浮在数十到数百英尺的地面上。"
+
+ Hostile_Flora:0 "有敌意的植物"
+ Hostile_Flora_desc:0 "这个星球的植物似乎不寻常地充满敌意，它们的成分也对外来生物的生理机能造成严重伤害。"
+
+ Magma_Ocean:0 "岩浆海洋"
+ Magma_Ocean_desc:0 "大量的熔岩暴露在地表，从裸露的火山口中大量流出，或者仅仅是地核的一部分被暴露在空气中。"
+
+ Toxic_Gas:0 "有毒气体"
+ Toxic_Gas_desc:0 "这个星球的一些地区暂时或长久被毒气覆盖，迫使人们极度谨慎的应对。"
+
+ Extensive_Cavern_System:0 "广泛的洞穴系统"
+ Extensive_Cavern_System_desc:0 "这个星球有着蜂巢结构的洞穴遍布数百万英里，并沿着数百英里的隧道向地心延伸，这些地质结构是数百万年来由地质运动雕刻而成的。"
+
+ Titanic_Predators:0 "捕食者"
+ Titanic_Predators_desc:0 "这个星球是巨型怪物的家园，它们在天空翱翔，几乎吞吃掉视野内的一切生物。"
+
+ Unnatural_World:0 "反常的世界"
+ Unnatural_World_desc:0 "“这个星球有些让人不安的东西”探险家紧张的低声说，耳边传来不明物体移动的声音，传感器确实报告说，这个世界与现实有些不同步。"
+
+ Atmospheric_Stimulant:0 "大气兴奋剂"
+ Atmospheric_Stimulant_desc:0 "空气中的一些东西让这里的人变得烦躁不安，他们以一百英里的时速生活，似乎真的很紧张。"
+
+ Unusual_Seasons:0 "不寻常的季节"
+ Unusual_Seasons_desc:0 "由于这个星球的轨道、地表、甚至天空都会经历不同的季节，因此在飞行中可以目视季节的变化，并导致大气的剧烈变化。"
+
+ Perfect_Seasons:0 "完美的季节"
+ Perfect_Seasons_desc:0 "一年四季的天气都很好，几乎没有变化，这里是真正的天堂。"
+
+ Ruined_Battlefield:0 "战场遗址"
+ Ruined_Battlefield_desc:0 "各种伤痕累累的地形和废墟散落在这个星球上，数个世纪前，这里似乎经历过一场大规模的星球大战，人类全部灭亡，眼前悲凉的景象让人深思生存本身的意义。"
+
+ Spaceship_Graveyard:0 "宇宙飞船墓地"
+ Spaceship_Graveyard_desc:0 "一场巨大的战争曾经在天空中肆虐，现在星球地表上到处散落着统治过这个星球的未知文明废弃的飞船残骸。"
+
+ Living_Planet:0 "有生命的星球"
+ Living_Planet_desc:0 "这个星球就像一个巨大的有机体一样，它本身就是活的。"
+
+ Gemstones:0 "宝石"
+ Gemstones_desc:0 "这个星球上满布奇异的宝石和矿藏:不是所有的宝石都有用，但它们散发迷人的光彩，吸引着人们的眼球。"
+
+ Ideal_for_Life:0 "理想的生态"
+ Ideal_for_Life_desc:0 "这很难解释，但无论这个星球的特殊之处是什么，它都能让人口更正确的增长，人们更健康，更有魅力，寿命更长，免疫系统也更强。"
+
+ Endless_Fish:0 "无尽的鱼"
+ Endless_Fish_desc:0 "没有人知道这个星球是如何维持如此庞大的鱼群数量的，但它确实意味着我们可以永远的捕鱼！"
+
+ Artificial_Water:0 "人造水"
+ Artificial_Water_desc:0 "仔细观察之下，这个星球里水的成分不是自然形成！而是由一种奇怪的纳米复合材料组合而成，它的表现就像液体一样。"
+
+ Clear_Skies:0 "晴朗的天空"
+ Clear_Skies_desc:0 "这个星球有着非常平静的大气层，并且理想地位于星系内。不知何故，这个空间的精确位置让我们看到了宇宙最美丽的景象。"
+
+ Android_Pleasure_Palace:0 "机器人的行宫"
+ Android_Pleasure_Palace_desc:0 "我们不知道是谁建造的，但听起来是个有趣的地方。"
+
+ Melted_Ice_Caps:0 "融化的冰盖"
+ Melted_Ice_Caps_desc:0 "这个星球的地质记录表明它曾经存在一个巨大的极地冰冠，但不知何故，这些都消失了。"
+
+ Small_Islands:0 "小岛"
+ Small_Islands_desc:0 "这个海洋星球的岛屿异常的小，让建立大规模的定居点和人口中心变得困难。"
+
+ Windy:0 "风"
+ Windy_desc:0 "这个星球有着不寻常的狂风，尽管它仍然适宜居住。"
+
+ Simple_Organisms:0 "简单的生命体"
+ Simple_Organisms_desc:0 "这个星球充满了生机勃勃的简单生物体，并且都是小型的单细胞生物。"
+
+ Newly_Evolved_Complex_Organisms:0 "复杂的生命体"
+ Newly_Evolved_Complex_Organisms_desc:0 "这个星球有着庞大而复杂的多细胞生物群正在蓬勃发展。"
+
+ Delicious_Ingredients:0 "美味的食材"
+ Delicious_Ingredients_desc:0 "这个星球的动植物异常美味。"
+
+ Recent_Mass_Extinction:0 "最近的大规模灭绝"
+ Recent_Mass_Extinction_desc:0 "根据我们的科学家的研究发现，这个星球最近经历了一次大规模的物种灭绝事件。"
+
+ Friendly_Wildlife:0 "友好的野生动物"
+ Friendly_Wildlife_desc:0 "这个星球的动物多数性情温顺，并且容易驯服。"
+
+ Pleasant_Weather:0 "气候宜人"
+ Pleasant_Weather_desc:0 "这个星球的大气和地质系统异常温和，适合大多数物种生存。"
+
+ Unusual_Formations:0 "不寻常的地层"
+ Unusual_Formations_desc:0 "这个星球有着无数个奇怪但却很自然的地质形状，绵延数英里。"
+
+ Flat_Terrain:0 "平坦的地形"
+ Flat_Terrain_desc:0 "这个星球多数是索然无味的平坦地形。"
+
+ Rugged_Terrain:0 "崎岖的地形"
+ Rugged_Terrain_desc:0 "这个星球的地形极不均匀，起伏频繁。"
+
+ Many_Extremophiles:0 "极端微生物群落"
+ Many_Extremophiles_desc:0 "出于某种未知原因，这个星球充满了极端微生物群落。"
+
+ Great_Temperature_Variation:0 "巨大的温度变化"
+ Great_Temperature_Variation_desc:0 "这个星球受温度的极端变化影响，有时非常热，有时非常冷。"
+
+ Gorgeous_Sky:0 "美丽的天空"
+ Gorgeous_Sky_desc:0 "这个星球大气的化学成分，让天空形成一种生动的、璀璨的、耀眼的色彩和光线的混合展示。"
+
+ Large_Asteroid:0 "大型小行星"
+ Large_Asteroid_desc:0 "这颗小行星异常巨大，甚至可能被认为是某种原始行星。"
+
+ Asteroid_Moon:0 "小行星卫星"
+ Asteroid_Moon_desc:0 "这颗小行星足够大，有很多小卫星围绕它公转。"
+
+ Ice_Age:0 "冰河时代"
+ Ice_Age_desc:0 "这个星球目前正处于一个主要的冰河时代。"
+
+ Ancient_Temple:0 "古老的寺庙"
+ Ancient_Temple_desc:0 "一座古老的庙宇，专门用来纪念一个时代的逝去。壁画上的文字表明，这是一个由许多不同的外来物种共同拥有的寺庙。墙上的图像把外星人描绘成具有不同寻常力量的生物，他们挥舞着发光的棍子，用灵能移动物体，并参与了很多的冥想。"
+
+ Metal_Asteroid:0 "金属小行星"
+ Metal_Asteroid_desc:0 "这颗小行星是由单一的致密元素构成的。"
+
+ Dense_Core:0 "致密核心"
+ Dense_Core_desc:0 "这颗小行星有一个不寻常的致密内核，也许它可以被开采。\n ￡矿物 §G9"
+
+ Unusual_Sun_Spots:0 "不寻常的太阳黑子"
+ Unusual_Sun_Spots_desc:0 "异常的太阳黑子正在覆盖这颗恒星，我们不确定恒星在这个周期的哪个点，因为这种情况，非常不寻常。"
+ 
+ Unusual_Bright_Sun:0 "异常明亮"
+ Unusual_Bright_Sun_desc:0 "由于恒星表面活动的增加，这颗恒星异常明亮。一种罕见的元素和重力的结合似乎是造成这种不寻常现象的原因。我们可以利用这一点！\n ￡能源币 §G14"
+
+ Tilted_Axis:0 "轴线倾斜"
+ Tilted_Axis_desc:0 "这个星球的自转轴比其他星球倾斜得多，导致天气模式更为极端。"
+
+ Perpendicular_Axis:0 "轴线垂直"
+ Perpendicular_Axis_desc:0 "这个星球的自转轴很极端，所以在一年的某些时候，世界上一半的人几乎每天都在忍受极其恶劣的天气的折磨。"
+
+ Radioactive_Mantle:0 "放射性地幔"
+ Radioactive_Mantle_desc:0 "这个星球的岩石表面放射性元素含量非常高，比如铀。"
+
+ Locust_Plagues:0 "蝗灾"
+ Locust_Plagues_desc:0 "这个星球是一种极为贪婪的蝗虫的家园。"
+
+ Acidic_Seas:0 "酸性海洋"
+ Acidic_Seas_desc:0 "这个星球还没有分离出它的碳酸和硫酸，它的海洋带有异常的酸性。"
+
+ Empathic_Life:0 "灵能生命体"
+ Empathic_Life_desc:0 "这个星球的大多数生命形式都进化出天生的心灵感应防御系统，可以产生强烈的恐惧或者愉悦感来迷惑潜在的捕食者。"
+
+ Seasonal_Flooding:0 "季节性洪水"
+ Seasonal_Flooding_desc:0 "由于极端的潮汐力或周期性的冰川融化循环，这个星球的所有地区都有可能出现严重的洪水。"
+
+ Lingering_Pollution:0 "挥之不去的污染"
+ Lingering_Pollution_desc:0 "这个星球的生态圈正从一个未知文明数千年前造成的严重工业污染中缓慢恢复。"
+
+ Thin_ozone_layer:0 "稀薄的臭氧层"
+ Thin_ozone_layer_desc:0 "臭氧层不会吸收和过滤太多恒星光线辐射。"
+
+ Symbiotic_life:0 "共生生命体"
+ Symbiotic_life_desc:0 "这个星球天然的寄生虫已经被证明对我们的定居者的健康有好处，每个殖民者都已植入一个，遗憾的是，它需要特殊的大气条件，这将使出口花费过于昂贵。"
+
+ Resilent_parasites:0 "弹性的寄生虫"
+ Resilent_parasites_desc:0 "这个星球有一种寄生虫拥有强韧的生命力，非常难以清除，长远来看，殖民者注定要承受潜在的健康风险。"
+
+ Ice_Flora:0 "冰系植被"
+ Ice_Flora_desc:0 "我们的科学家对这个星球两极的奇妙冰层感到震惊，因为这些冰层实际上类似于内生植物和绿色植被的植物生命形式，具有自己的繁殖和冷冻合成方式！"
+
+ Strange_Ice_River:0 "奇怪的冰河"
+ Strange_Ice_River_desc:0 "这个星球永恒的寒冷中,我们的科学家发现了一些宏伟的现象:一条流动的冰河与很多奇怪的物理性质,它违背了所有的逻辑和定律，我们需要重新评估几个重要的宇宙法则理论。"
+
+ Juggernaut_Manta_Rays:0 "主宰魔鬼鱼"
+ Juggernaut_Manta_Rays_desc:0 "我们的科学家们发现了匪夷所思的鱼群，它们类似魔鬼鱼，体型极其巨型,拥有非常厚的皮肤和其它地方特性,让它们无法被伤害,除非连同整个世界一起摧毁。它们在巨大的海洋里漫游，对入侵者极为敏感，并迅速作出有敌意的反应，然而科学家相信我们可以从它们那里获得有价值的知识。"
+
+ Black_Oily_Stone:0 "黑色油性石头"
+ Black_Oily_Stone_desc:0 "森林似乎刻意避开大陆中心的一块空旷地带，那里散落着成堆的黑色油腻石头似乎构成一种奇怪的模式。当地听不到任何来自自然界的声音，就连科学家脚下的草丛都显得异常怪异，但却非常茂盛，周围的环境让人不安。"
+
+ Crystal_Moon_Palace:0 "水晶月宫"
+ Crystal_Moon_Palace_desc:0 "我们的科学家在卫星表面发现了一个完全由水晶建成的美丽宫殿，内部布满了奇怪的符文和神秘的装置，我们希望能从中破解出关于这个失落已久的未知文明的信息。"
+
+ Cities_in_the_sky:0 "天空之城"
+ Cities_in_the_sky_desc:0 "这里的风景点缀着未知文明的遗迹，明亮的金属尖塔和巨石高耸入云，塔的形状是为了将阳光集中在某些区域，以提供良好的生存环境。"
+
+ Old_World:0 "古老文明"
+ Old_World_desc:0 "这个星球的地表下埋藏着大量的考古层，分布着一层又一层的高级遗迹，见证了高智慧生物的进化和灭绝，因进化而崛起，再因暴力而灭绝。"
+
+ Dunes:0 "沙丘"
+ Dunes_desc:0 "这个星球已经被流动沙丘覆盖，虽然对殖民定居是个挑战，但沙丘也提供了丰富的矿产资源。"
+
+ Extensive_reef_systems:0 "广泛的珊瑚礁系统"
+ Extensive_reef_systems_desc:0 "这个星球的浅海被大量珊瑚礁所主宰，珊瑚孕育出让人印象深刻的生物多样性，让它不仅拥有渔业和旅游业的巨大发展潜力，丰富多样的生命形式也具有非常高的研究价值。"
+ 
+ Protomolecule_Infected_Station:0 "原分子病毒感染站"
+ Protomolecule_Infected_Station_desc:0 "起初，这个小行星空间站似乎被遗弃并且损坏了，但当我们从各种频道中接收到奇怪的声音，我们开始进行近距离的观察，结果发现空间站内部布满了奇怪的晶体，漂浮着发光的微粒，还有一个会移动的生物金属核心，就像有生命一样。这个地方给人一种有些什么事情在发生的感觉。 \n £society §G12"
+
+ Trubbles:0 "大麻烦"
+ Trubbles_desc:0 "它们只是坐在那里，看起来很可爱，直到它们疯狂地繁殖，把所有的东西都淹没了。"
+
+ Strange_Voices:0 "奇怪的声音"
+ Strange_Voices_desc:0 "在这个星球最初的扫描过程中，勘探人员听到了奇怪的声音，声音承诺给予永生，无限的权力和力量，并且会满足你所有的欲望，你所要做的就是来到地表，举行一个特定的仪式……"
+
+ Hot_Geysers:0 "高热间歇泉"
+ Hot_Geysers_desc:0 "地表满布热气弥漫的间歇泉，偶尔一些泉口喷发出上万加仑的滚烫液体和气体，直达数百英尺的高空，这是一个让人叹为观止的景象。"
+
+ Cryogeysers:0 "冷冻间歇泉"
+ Cryogeysers_desc:0 "由于环境压力很低，这里的间歇泉只会喷发蒸汽一样的气体，我们观测到气体成分携带有大量尘埃和冰颗粒。"
+
+ Very_Hot_Core:0 "非常热的地核"
+ Very_Hot_Core_desc:0 "这个星球有一个非凡的热内核，地表温度远远高于我们的预估。这个发现可以帮助我们更好地了解地球化的改造过程。\n§H发现这个星球可以获得地球化改造速度加成§! §G+10%§! §H累计最高§! §G+30%§!"
+
+ Solidified_Core:0 "凝固的地核"
+ Solidified_Core_desc:0 "这个星球的地核已经停止运动，它的核心已经冷却并且变得完全稳定，地表的温度非常低，地球化改造将会是相当困难。"
+
+ Low_Metallicity:0 "低金属丰度"
+ Low_Metallicity_desc:0 "这颗恒星的元素含量异常低，无法融合，与其它恒星相比，它更具活力。"
+
+ High_Metallicity:0 "高金属丰度"
+ High_Metallicity_desc:0 "这颗恒星有着不寻常的高浓度元素，它无法融合，比其它恒星更暗淡，但最终寿命将会更长。"
+
+ Plasmoid_Life:0 "等离子生命体"
+ Plasmoid_Life_desc:0 "不知何故，这颗恒星上进化出完全由等离子体构成的生命体，具有极高研究价值，如果我们能近距离研究它的话……"
+
+ Compact_Star:0 "致密星"
+ Compact_Star_desc:0 "恒星寿命终结后残留的星体表面可能是已知宇宙中最极端的环境之一，仅次于黑洞。"
+
+ Pulsar_clock:0 "脉冲星计时器"
+ Pulsar_clock_desc:0 "这颗脉冲星不仅速度很快，还具有惊人的规律性，它是宇宙中最精确的计时器之一。不过以我们种族的寿命来看，它不太可能被我们利用……\n £physics §G12\n §B零素矿石 §G1"
+
+ Stellar_Spectacle:0 "恒星奇观"
+ Stellar_Spectacle_desc:0 "这颗恒星的表面经常爆发大规模的活动，就像一场充满活力的光影表演。"
+
+ Plasma_Tornadoes:0 "等离子龙卷风"
+ Plasma_Tornadoes_desc:0 "这颗恒星的光球层往往凝聚出白炽的漩涡。"
+
+ Temple_of_the_Ancient_One:0 "古代文明的庙宇"
+ Temple_of_the_Ancient_One_desc:0 "雄伟得让人屏息,美丽的无法形容的神秘石制寺庙已经荒废破败，任何人都会被它的奇异魅力所吸引。墙上涂鸦一样写着故事，这看着更像危险警告，描述以前到达这里的探险者，在圣殿里徘徊游荡，最后他们无法抵抗强大的异象，开始出现幻觉和幻听,最后全都疯狂地进入寺庙密室，再也没有出现……现在,耀眼的光芒在你眼前飘荡，对神圣的前往在你脑内涌现，神殿深处，似乎有个声音在召唤你去点燃祭坛的火焰……"
+
+ Beautiful_Lakes:0 "美丽的湖泊"
+ Beautiful_Lakes_desc:0 "这个星球有着很多让人叹为观止的美丽小湖泊，水平如镜，清澈见底，郁郁葱葱的丛林和奇异的湖底生物衬托出画一样的美景。"
+
+ Proto_Forests:0 "原始森林"
+ Proto_Forests_desc:0 "直径1米，高度达8米，以原始森林来说，这里的树木相当矮小，从远处看,树木的树干向外伸展，以一种前所未见的方式互相连结，形成一个圆圈，树木圈逐层增大，向外扩散，整个森林形成同心环结构，让人瞠目结舌。森林内满布巨型食肉真菌，形态多样的动物在这个世界里，注定只能成为猎物。（作者丢术语，看不懂，完全脑补。）"
+
+ Dense_Forests:0 "茂密的森林"
+ Dense_Forests_desc:0 "令人惊讶的是，在这个星球上可以发现茂密的森林。树木群聚在一起形成了一个浓密的树冠，为植被和生活在其下的野生动物提供了庇护。"
+
+ Planetwide_Forest:0 "无尽的森林"
+ Planetwide_Forest_desc:0 "这个星球被巨大的森林完全覆盖，它提供了非常适合生存的栖息地，和其他类型的地形相比，它的选择性更多样化。"
+ 
+ Inspirational:0 "励志"
+ Inspirational_desc:0 "很难想象黑洞的实际应用，由于实际应用还非常遥远，不少人认为我们应该节省探索它的资源。但是，正是这种对未知世界的探索和追寻，把我们定义为智慧生物。\n £physics §G12\n §B暗物质 §G1"
+ 
+ Hiveworld:0 "蜂巢世界化石"
+ Hiveworld_desc:0 "这个星球上的化石遗迹似乎有成千上万个突触节点散布在上面，作为巨型生物工厂，可以生产出无数的生物种类，我们把它命名为蜂巢世界。它似乎在自己种族身上融合了数以百万计的生物工程，每一个都是一个生物工厂，能够创造出数以万亿计的生物，还能够复制基因组，将各种生物完美融合在一起，适应它们所处的任何环境。我们只希望不会和这些生物扯上任何关系。"
+ 
+ Periodic_Meteor_Showers:0 "周期性的流星雨"
+ Periodic_Meteor_Showers_desc:0 "这是一种周期性的天体现象，很多流星被观测到在夜空中的某一节点以辐射形式运动，它们是由一种叫做流星体的宇宙碎片形成的，以极高的速度进入星球的平行轨道并被引力牵引。强烈或不寻常的流星雨被称为流星爆发和流星风暴。这些现象不但具有研究价值，还是非常美丽壮观的景象。"
+ 
+ Arachnophobia:0 "蜘蛛恐惧症\n §G 允许你培育§! §B魔蛛掠食者§! §G部队§!"
+ Arachnophobia_desc:0 "这个星球是巨型蜘蛛的巢穴，踏足这块土地，明显是疯狂的自杀行为。早期探险家的报告提及夜间从树顶和洞穴传来的嘶嘶声,还有当巨型蜘蛛途经他们的飞船时无尽的重击声。按照目前这个接近地表的危险程度，我们怀疑他们在报告里说谎。"
+ 
+ Giant_Worm:0 "巨型蠕虫"
+ Giant_Worm_desc:0 "在沙漠下面生活着巨型蠕虫，它们很容易被有节奏的振动所吸引，并且会立刻撕碎振源，以寻找振动的起源。它们具有强烈的守土意识，如果两条蠕虫感知到彼此的存在,他们会喷出有毒的废气，发出愤怒的咆哮，最后互相撕咬直到一方倒下为止。因此见过一只蠕虫，并且活着描述它，这会是一件罕见的事情。"
+ 
+ Artificial_Core:0 "人造地核"
+ Artificial_Core_desc:0 "这个星球的地核留有明显的人造痕迹，以极其先进的科技力量维持地核的自转和运动，应该是过去某个强大的未知文明所为。"
+
+ Fast_Rotation:0 "快速自转"
+ Fast_Rotation_desc:0 "这个星球的自转速度非常快，导致昼夜更替的周期快得让人生畏，在这个世界生存是一件非常具有挑战性的事情。"
+ 
+ Surface_Of_Bones:0 "地表的骨头"
+ Surface_Of_Bones_desc:0 "骨骼、头骨、残骸，就像眼前所看到的一样，这个星球整个地表都被骨骸覆盖，非常可怕的景象。无论这里发生过什么，它都发生在很久以前。"
+ 
+ Ghost_Ships:0 "幽灵船"
+ Ghost_Ships_desc:0 "传感器，眼睛，不管用什么方式都只有一个结果，显示在远处有一个鬼影一样的物体，它看起来像漂浮的容器，但却是透明的。然而当我们接近时，却也没有任何发现，就像它从来没出现过一样。"
+ 
+ Omnious_Fog:0 "不祥的雾"
+ Omnious_Fog_desc:0 "每天黑夜降临，一种深紫色的雾就开始从地下渗出，扫描结果显示，这只是水蒸气。但浓雾四处飘荡，仿佛有自己的意志一样，让人不寒而栗。"
+ 
+ Beautiful_Planet_Rings:0 "美丽的星环"
+ Beautiful_Planet_Rings_desc:0 "这个星球的星环光芒四射，色彩斑斓，无时无刻都能受到恒星照射，从地表观看，这些光环非常绚丽壮观。"
+ 
+ Blood_Moon:0 "猩红之月"
+ Blood_Moon_desc:0 "卫星经常会变成血红色，奇怪的是，卫星的表面确实变红了，这不仅仅是一种大气的折射幻觉，我们不知道为什么会发生这样的事情，但它没有任何好处……"
+ 
+ Solar_Eclipse:0 "日食"
+ Solar_Eclipse_desc:0 "这个星球的每个月，卫星都会和恒星之间完美地排列，形成一场壮观的全球日食，美丽的金色光芒闪烁不定得照耀着地表，其他星球很少见到这么奇特的现象。"
+ 
+ Lunar_Dance:0 "月舞"
+ Lunar_Dance_desc:0 "这个星球的数个卫星有非常独特的交织轨道，它们左右摆动，互相围绕，错落有致，看起来混乱，但如果你观测时间足够长，你会感到感受到美妙的旋律，这是月球舞蹈。"
+ 
+ Dark_Skies:0 "黑暗天际"
+ Dark_Skies_desc:0 "这个星球里，昏暗无光已经成为常态，即使在白昼，这颗星球也只会接收到微不足道的恒星照射。"
+ 
+ Musical_Creatures:0 "音乐生物"
+ Musical_Creatures_desc:0 "这个星球的生物是使用音符来交流，而且发展出闻所未闻的音乐系统，这不仅是研究人员的福音，还给宇宙增加了一种美妙的旋律，简直是不可思议。"
+ 
+ Odd_Cloud_Shapes:0 "怪云的形状"
+ Odd_Cloud_Shapes_desc:0 "也许是因为这颗行星大气层独特的化学作用，它的云经常呈现出不寻常的形状，非常生动有趣。有人说，这里的云就像有生命一样。"
+ 
+ Giant_Mold_Blobs:0 "巨型黏菌斑点"
+ Giant_Mold_Blobs_desc:0 "大量的黏菌栖息在这颗星球上，四处漫游以获取食物，它们好像会对外来刺激作出反应。"
+ 
+ Subterranean_Eco_System:0 "地下生态系统"
+ Subterranean_Eco_System_desc:0 "这个星球的荒芜贫瘠的地表下满布纵横交错，深不见底的洞穴网络，我们在其中观测到庞大丰富的生命反应。"
+ 
+ Colossal_Cliffs:0 "巨型悬崖"
+ Colossal_Cliffs_desc:0 "这些悬崖斜插高空，高耸入云，云层只能环绕它们的山腰，只有非常恐怖的地质运动才能形成这样的地形。如果你踏足其上……请注意不要踏空。"
+ 
+ Massive_Waterfalls:0 "巨型瀑布"
+ Massive_Waterfalls_desc:0 "巨型瀑布是这个星球最常见的地形,它们延伸数英里，每天从断崖上倾注数万亿加仑的水。导致这个世界水汽弥漫，加上光线折射形成各种色彩斑斓的彩虹，就像仙境一样。"
+ 
+ Strange_Alien_Eggs:0 "外星生物的蛋"
+ Strange_Alien_Eggs_desc:0 "不确定是什么生物的蛋，它们似乎是休眠，我们最好不要碰……"
+ 
+ Mushroom_Forest:0 "蘑菇森林"
+ Mushroom_Forest_desc:0 "这个星球上的巨型蘑菇取代了树木的地位，形成一片片蘑菇森林，这些蘑菇非常奇特，经常喷射出孢子薄雾，它们质地柔软，很容易清除。"
+
+ 
+
+ ########################################
+ ######### precursor modifiers ##########
+ 
+ Precursor_City:0 "先驱者的城市"
+ Precursor_City_desc:0 "这个星球有着一个属于未知文明的古城遗迹，奇怪的是，建筑群虽然看起来荒废残旧但多数都保持着结构的完整无损。"
+ 
+ Precursor_Remnants:0 "先驱者的残留建筑"
+ Precursor_Remnants_desc:0 "这个星球仍然存在着大量的基础设施，是由一个古老的未知文明建造的。"
+ 
+ Precursor_Energy_Grid:0 "先驱者的能源网络"
+ Precursor_Energy_Grid_desc:0 "这个星球曾经是一个古老的未知文明的生产中心，虽然它的产能结构只能从遗迹中略窥一二，但它仍是一个令人印象深刻的行业典范。"
+ 
+ Precursor_Mines:0 "先驱者的矿场"
+ Precursor_Mines_desc:0 "这个含矿量丰富的星球曾经是一个古老的未知文明的矿物采集中心，为什么它被遗弃到了今天已经是个谜，至少它还能给我们提供极为丰富的矿物量。"
+ 
+ Precursor_Shipyards:0 "先驱者的造船厂"
+ Precursor_Shipyards_desc:0 "这颗星球的外太空飘荡着一座古老的大型造船厂，它们满布尖顶和卷须的奇特风格充满魅力，这些巨型板块以几乎不能察觉的速度向外太空缓慢移动，我们不知道是什么让它逃脱了引力的掌握而离开轨道，我们所知道的是，它的能源供应还未停止，似乎还能继续运作。也许有一天，我们可以把它纳为己有。"
+
+ Precursor_Planetary_Gun:0 "先驱者的防御系统"
+ Precursor_Planetary_Gun_desc:0 "大规模的星球防御系统，遍布世界各地，能够攻击任何角度的外太空入侵，如果它还能正常运作的话……"
+ 
+ Precursor_Bunker_Grid:0 "先驱者的地堡系统\n §G 允许你回收§! §B先驱者堡垒§! §G部队§!"
+ Precursor_Bunker_Grid_desc:0 "一个巨大而广阔的地下堡垒系统，是一个古老的未知文明遗留下来的。"
+
+ Precursor_Mechs:0 "先驱者的机甲\n §G 允许你回收§! §B先驱者机甲§! §G部队§!"
+ Precursor_Mechs_desc:0 "大批被遗弃的钛合金机甲在这个星球的地表上矗立着，等待着被重新激活。"
+ 
+ Precursor_Planetary_Shield:0 "先驱者的护盾阵列"
+ Precursor_Planetary_Shield_desc:0 "一个巨大的护盾系统阵列遍布世界各地，重新激活它可能会消耗大量能量，但它可以为所有人提供一个安全的避风港。"
+ 
+ Precursor_Floating_City:0 "先驱者的浮空城"
+ Precursor_Floating_City_desc:0 "这个星球有着几个能自给自足的浮空城市，经过岁月的侵蚀，它们看起来破败不堪，但仍然可以正常运作。地表上有一些城市的废墟，科学家很想知道它们是否也曾经悬浮在空中。"
+ 
+ Precursor_Capital_Complex:0 "先驱者的首都中心"
+ Precursor_Capital_Complex_desc:0 "这个星球上有一座已经损毁荒废的巨型城市遗址，城市中心耸立着一座雄伟的大型建筑物，错综复杂的交通网络向四面八方扩散，城市各处满布大规模的设施建设，我们相信这是属于一个古老的未知文明的首都。"
+ 
+ Precursor_Communication_Hub:0 "先驱者的通信枢纽"
+ Precursor_Communication_Hub_desc:0 "这个星球的废墟中，矗立着一座巨大的尖塔，它仍然在运作，塔顶装置发出的光束直射太空，我们相信它会连接到一个卫星网格，也许用于交流或监视，我们应该尝试破解和使用它。"
+ 
+ Precursor_Satalite_Grid:0 "先驱者的卫星网络"
+ Precursor_Satalite_Grid_desc:0 "这颗星球的外太空有着大量的先驱者卫星，数以百计作用未明的小型卫星和阵列在轨道上环绕着星球运行。"
+ 
+ Precursor_Singularity_Drive:0 "奇点驱动引擎"
+ Precursor_Singularity_Drive_desc:0 "这个星球有着类似于实验设施的地下区域，导致遗迹的中央建筑里设立了一个巨大的奇点动力引擎，它会和能量产生共鸣，其中几个还没损坏的机器人仍然在进行维护工作。"
+
+ 
+ #############################################
+ ######### Fallen Empires modifiers ##########
+ 
+ Utopian_World:0 "乌托邦世界"
+ Utopian_World_desc:0 "没有任何污染、毒性或疾病的迹象，这个星球在任何方面都是完美的，气候宜人，物产丰富，建筑物散发出悦目的光芒，它们不会受到任何外来因素的影响，光线会随着它附近的人群而跳跃。所有的一切都非常和谐和令人舒适。"
+ 
+ Utopian_Services:0 "乌托邦式服务"
+ Utopian_Services_desc:0 "这个星球为它的居民提供一切所需，从让人长寿的生活环境到让人身心愉悦的悠闲活动。所有需求都得到顾及。"
+ 
+ Primitive_Reserve:0 "原始生态保护区"
+ Primitive_Reserve_desc:0 "这个巨大的穹顶状结构里似乎没有高级生命的迹象，但可以发现有数量庞大的原始生命体在里面生活和漫游。这也许是个生态研究所，或者是个异种动物园。"
+ 
+ 
+ #######################################
+ ###### 5 hot exclusive modifiers ######
+
+ Exotic_Spices:0 "异国香料"
+ Exotic_Spices_desc:0 "小灌木林和植物覆盖着地表，尽管这个星球的环境非常恶劣，但植物的生长速度非常快，而且种类繁多。更令人兴奋的是，这里的植物非常适合作为食物的调味香料，它们产生的异国风味简直是独一无二。"
+
+ Sandstorms:0 "沙尘暴"
+ Sandstorms_desc:0 "起风的时候，巨大的沙墙会拔地而起，在地表覆盖一层薄薄的沙尘，尽管这些沙尘暴经常发生，但它们与其说是危险，还不如说是恶作剧。用扫帚轻轻一扫，就足以清理所有沙尘，幸运的是，下一次起风很快就会把它们吹走。"
+ 
+ Sand_Tornadoes:0 "沙龙卷风"
+ Sand_Tornadoes_desc:0 "这个星球偶尔会出现沙龙卷，虽然规模非常小，但它们通常集群出现在同一地区，一般三到七个沙龙卷互相环绕肆虐，而且各自内部的沙粒互相反射光线，使得沙龙卷在阳光下散发出迷人的光芒，非常奇幻绚丽。"
+ 
+ Silicon_Crystals:0 "硅晶体"
+ Silicon_Crystals_desc:0 "这个星球有着大量的硅晶体，它们先形成一簇巨大晶柱，然后逐层向外生长，就像一朵朵水晶花。它们的颜色取决于土壤的成分，色浅的土壤会产生黄色和棕色的晶体，而颜色较深的土壤会产生明亮的红色或紫色晶体。在这个世界的地表可以发现还有千奇百样的其它类型。"
+ 
+ Quicksand:0 "流沙"
+ Quicksand_desc:0 "这个星球分布着大量的流沙地形，由于干流沙居多，这让它们更具欺骗性和危险。踏足这个世界必须事先仔细绘制路线，并且每一步都必须进行检查。"
+
+ 
+ ########################################
+ ###### 5 cold exclusive modifiers ######
+
+ Never_Ending_Aurora:0 "永不落幕的极光"
+ Never_Ending_Aurora_desc:0 "由于这个星球存在高磁场，因此天空中存在着永不落幕的极光，这些极光是磁层被太阳风充分干扰时产生的，导致大气成分的电离和激发形成不同颜色和奇形怪状的光。"
+ 
+ Spirals_of_Ice:0 "螺旋状的冰"
+ Spirals_of_Ice_desc:0 "在这个星球上发现了非比寻常的特征，寒冷的风和潮湿的空气形成了螺旋状的冰，其中一些螺旋上升得如此之大，它们能和我们最高的建筑物相当。令人惊讶的是，在它们身上没有任何裂缝，也没有气泡。在夜晚，它们在迷人的色彩里反射出星系的光芒。"
+ 
+ Furry_Packs:0 "毛茸茸的包"
+ Furry_Packs_desc:0 "这个星球上到处都是巨大的漫游包，它们都是一种巨型生物，头上长着巨大的角，长而敏捷，粗壮的四肢很适合长途跋涉，身上覆盖着比身体还要大数倍的棕色皮毛，白天它们到处漫游，夜晚会把身体全部缩进毛皮内以保持温暖。它们有囤积食物的习性，无时无刻都在寻找食物。"
+ 
+ Blizzards:0 "暴风雪"
+ Blizzards_desc:0 "这个星球的天气总是遵循一成不变的模式，以轻微的降雪开始，然后狂风吹袭，最后瞬间演变成恐怖的暴风雨。由于风雪的密度如此之大，你几乎看不到自己小臂和下身。"
+ 
+ Abominable_Predators:0 "惹人厌的食肉动物"
+ Abominable_Predators_desc:0 "在寒冷的夜晚，这种生物在陆地上游荡，寻找食物。巨人般的体型和前臂让人感觉到自己的渺小。虽然它们没有成群结队地捕猎，但有证据显示它们出生后会群居生活到四至六岁才开始独立生活。这些生物有一层厚厚的蓝白相间的皮毛和巨大锐利的爪子。它的行为模式几乎是类人猿一样，并且被观察到会通过呼噜声和手势与同伴进行交流。"
+ 
+
+ ########################################
+ ###### 5 life exclusive modifiers ######
+
+ Rich_Soil:0 "肥沃的土壤"
+ Rich_Soil_desc:0 "这个星球上肥沃的土壤生长出非常健康和茂密的植被，这里应该是理想的食物生产基地。"
+ 
+ Otherworldly_Colours:0 "超凡脱俗的颜色"
+ Otherworldly_Colours_desc:0 "这个星球的植物有着丰富多样的颜色，最值得注意的是，植被的颜色取决于星球的纬度，从赤道上鲜黄色的花丛和树木，到接近北极的深紫色草地，让人感觉奇异和陌生。"
+ 
+ Misty:0 "朦胧"
+ Misty_desc:0 "这个星球的地表几乎被浓雾完全覆盖，压力和温度的结合导致海洋和湖泊释放出大量水蒸气漂浮在空气里。"
+ 
+ Ecological_Nervous_System:0 "生态神经系统"
+ Ecological_Nervous_System_desc:0 "这个星球的植物似乎通过一个复杂的根系系统相互连接，它的结构很容易让人联想到神经系统。观察发现，外力导致一株植物死亡会对附近的植物产生明显的影响，它们会关闭花朵，或者向反方向缓慢生长。"
+ 
+ Carnivorous_Flies:0 "食肉苍蝇"
+ Carnivorous_Flies_desc:0 "这些细小的苍蝇表面上只是一种烦人的昆虫，但其实是这个星球里最危险的生物。它们会在夜晚的黑暗中发光，以吸引其它苍蝇进行交配。白天它们四处寻找食物。作为群居性的食肉动物，它们的猎物根本无法反抗，数小时内就会被吃光。细小的体型和飞行模式，决定了它们不会被细小的管道、隧道和通风口阻止!最糟糕的是，它们的翅翼振动不会发出任何噪音来提醒猎物有危险来袭！"
+
+
+ #########################################
+ ###### 5 ocean exclusive modifiers ######
+
+ Algae_Boom:0 "藻类繁荣"
+ Algae_Boom_desc:0 "这个星球正处于已长达一个世纪之久的藻类繁荣时期。数百万吨的藻类覆盖着星球上的海洋和湖泊。虽然看起来很糟糕，但实际上它是个非常高效的空气过滤系统，对整个生态都极有益处。"
+
+ Ocean_Forests:0 "海洋森林"
+ Ocean_Forests_desc:0 "这个星球的海底下奇特的树木正在生长。这些树和地表上的树木非常相似，但它们有在海底生存的能力，并且在水里开花结果并繁衍。真是一种奇异的景象。"
+ Clear_Water:0 "清澈的水"
+ Clear_Water_desc:0 "这个星球上的海洋和湖泊无论有多深都能清澈见底。"
+ 
+ Warm_Water_Lakes:0 "温暖湖泊"
+ Warm_Water_Lakes_desc:0 "这个星球的湖泊非常温暖。这里不寻常的土壤成分导致湖泊保持着相当多的热量，从而使湖泊的温度维持在温暖的程度。如果需要到某个星球进行完美的度假，那么就是这里了。"
+ 
+ Torrential_Rainstorms:0 "倾盘暴雨"
+ Torrential_Rainstorms_desc:0 "特大暴雨在这个星球上经常发生。风雨太过密集，三秒内你就会被淋得湿透。"
+ 
+
+ ##############################################
+ ###### 5 deep ocean exclusive modifiers ######
+
+ Ocean_Currents:0 "洋流"
+ Ocean_Currents_desc:0 "这个星球的洋流非常复杂。温暖的海流可以到达这个世界的任何地方，为生存提供更有利的条件。"
+ 
+ Ocean_Ridges:0 "海洋山脊"
+ Ocean_Ridges_desc:0 "巨大的水下山脊覆盖着海洋表面。这里繁衍着各种各样的简单藻类和珊瑚。"
+ 
+ Ocean_Trenches:0 "海沟"
+ Ocean_Trenches_desc:0 "这个星球海底深不可测的深沟可能永远都不会被充分探索。这种深度的水压足以让任何勘探船损坏，甚至彻底摧毁制造它的材料。它是如此的黑暗，如此深邃，凝视这些幽深的深渊，让人非常不安，仿佛它随时都可以吞噬你。"
+ 
+ Unique_Marine_Habitats:0 "独特的海洋栖息地"
+ Unique_Marine_Habitats_desc:0 "这个星球的黑暗深海下,生态系统依赖于化学物质,这一过程是以化学合成为基础的食物网,而不是阳光和光合作用。"
+ 
+ Massive_Waves:0 "巨大的海浪"
+ Massive_Waves_desc:0 "这个星球上的海洋周期性地产生巨大的波浪，在全球范围内传播。一旦它们到达陆地，就会产生危险的海啸。"
+
+
+ #############################################
+ ###### 5 terraform exclusive modifiers ######
+
+ Extinct_Species:0 "灭绝物种"
+ Extinct_Species_desc:0 "感谢我们的科学家付出的努力，这个星球现在已经成为我们新的家园了。"
+ 
+ Terraform_Result_Better:0 "地球化改造结果: §L比预期更好§!"
+ Terraform_Result_Better_desc:0 "这个星球的地球化改造过程取得了比预期更好的成绩！"
+ 
+ Terraform_Result_Unbelievable:0 "地球化改造结果: §T不可思议§!"
+ Terraform_Result_Unbelievable_desc:0 "这个星球的地球化改造过程取得了令人难以置信的成绩！"
+
+ Terraform_Result_Perfect:0 "地球化改造结果: §Y完美§!"
+ Terraform_Result_Perfect_desc:0 "这个星球的地球化改造过程取得了完美的成绩！"
+ 
+ 
+ #######################################
+ ####### MEGASTRUCTURE MODIFIERS ####### 
+ 
+ ###### Ringworld Exclusive modifiers ######
+ Ringworld_Tier_1:0 "环形世界的建造: §L比预期更好§!"
+ Ringworld_Tier_1_desc:0 "环形世界的建设过程取得了比预期更好的成绩！"
+ 
+ Ringworld_Tier_2:0 "环形世界的建造: §T美丽的结构§!"
+ Ringworld_Tier_2_desc:0 "环形世界的建设过程取得了令人难以置信的好成绩！这个设计中采用的结构令人惊叹。"
+ 
+ Ringworld_Tier_3:0 "环形世界的建造: §Y完美的设计§!"
+ Ringworld_Tier_3_desc:0 "环形世界的建设过程取得完美的成绩！它的结构是如此卓越，布局是如此完美。在这个世界里，所有的支持系统都比预期的运行得更好。"
+ 
+ Ringworld_Breath_Taking_view:0 "令人屏息的风景"
+ Ringworld_Breath_Taking_view_desc:0 "这里的人造大气层是如此清晰透彻，我们有可能看到大部分的圆环世界和星星。这种让人惊心动魄的景象，令人不禁惊叹这种奇迹怎么可能实现。"
+ 
+ Ringworld_Neural_Nexus:0 "神经网络"
+ Ringworld_Neural_Nexus_desc:0 "这个圆环世界配备了一个完全覆盖的神经网络，可以集中控制每一个方面以维持世界的正常运作。"
+ 
+ Ringworld_Idyllic_Gardens:0 "田园诗般的花园"
+ Ringworld_Idyllic_Gardens_desc:0 "花园这一部分是难以想象的美景。空气飘散着鲜花绿草和土壤的清新味道，树枝在微风里摇荡，阳光透过树叶挥洒在地上，昆虫有规律的叫声显示着生命的顽强，这一切都让人心旷神怡、流连忘返。"
+ 
+ Ringworld_Xeno_Zoo:0 "异种动物园"
+ Ringworld_Xeno_Zoo_desc:0 "大型异种动物园已经建立在这个圆环世界，让它的居民有个放松和了解宇宙之外的地方。"
+ 
+ Ringworld_Badlands:0 "荒地"
+ Ringworld_Badlands_desc:0 "这个圆环世界有很大一部分区域的被规划成荒地，对于需要暂时逃避一切的人来说，可以选择在这里生活，挥洒汗水，享受自给自足的满足。"
+ 
+ Ringworld_Battle_Simularors:0 "战斗模拟器"
+ Ringworld_Battle_Simularors_desc:0 "一个大型人造战区建立在圆环世界里。我们的军队可以在多种环境中进行训练，从失重的战斗环境到城市甚至丛林战区。让军队可以训练得更充分，战斗经验更充足。"
+ 
+ Ringworld_Endless_Ocean:0 "无尽的海洋"
+ Ringworld_Endless_Ocean_desc:0 "环形世界的这一部分被设计成无穷无尽的海洋。"
+ 
+ Ringworld_Mass_Transit_Systems:0 "公共交通系统"
+ Ringworld_Mass_Transit_Systems_desc:0 "圆环世界已经建立了一个复杂的公共交通系统，允许高效和快速的运输，大大降低了在资源和时间上的运输花费。"
+
+ 
+ ###### Habitat Exclusive modifiers ######
+ Habitat_Tier_1:0 "栖息地建设: §L比预期更好§!"
+ Habitat_Tier_1_desc:0 "栖息地的建设过程取得了比预期更好的成绩！"
+ 
+ Habitat_Tier_2:0 "栖息地建设: §T美丽的结构§!"
+ Habitat_Tier_2_desc:0 "栖息地建设过程取得了令人难以置信的好成绩！这个设计中采用的结构令人惊叹。"
+ 
+ Habitat_Tier_3:0 "栖息地建设: §Y完美的设计§!"
+ Habitat_Tier_3_desc:0 "栖息地建设过程取得完美的成绩！它的结构是如此卓越，布局是如此完美。在这个世界里，所有的支持系统都比预期的运行得更好。"
+ 
+ Habitat_Stadium:0 "人造重力体育场"
+ Habitat_Stadium_desc:0 "在公众的要求下，这个栖息地已经建立了一个大型的体育场。它配备了人造的重力发生器，允许举办各种令人兴奋的运动和游戏。"
+ 
+ Habitat_Trade_Docks:0 "扩展贸易码头"
+ Habitat_Trade_Docks_desc:0 "由于这个栖息地处于各种贸易路线的交汇，让它成为一个贸易中枢。这样一来，标准的码头已经承受不了商船频繁升降的港口压力，因此为贸易商建立了额外的扩展码头。"
+ 
+ Habitat_Holonet_Entertainment_Systems:0 "全息网娱乐系统"
+ Habitat_Holonet_Entertainment_Systems_desc:0 "这个栖息地内已经安装了很多娱乐系统。它具备了全息图和硬光发射器，可以提供形式多样的触觉娱乐。对思想和身体都是豪华的享受！"
+ 
+ Habitat_Replicator_Systems:0 "复制器系统"
+ Habitat_Replicator_Systems_desc:0 "这里不需要食物的加工系统和运输系统，因为它配备了小型但高效的物质能量复制器。简单地告诉它你需要什么，它就会在你面前被创造出来！我们是真正活在未来！"
+
+
+ #####################
+ ### Tile Blockers ###
+
+ c_tb_Precursor_Planetary_Shield:0 "§B先驱者星球护盾§!"
+ c_tb_Precursor_Planetary_Shield_desc:0 "一个可以自我维护和自我供电的巨型护盾阵列建立在这里。它的护盾可以覆盖整个星球。"
+ 
+ c_tb_Ruined_Battlefield:0 "§H战场遗址§!"
+ c_tb_Ruined_Battlefield_desc:0 "无穷无尽的废墟和残骸覆盖在地表和海面上。条幅、旗帜、武器、战车、飞船、村镇和城市。这些废墟和残骸显示曾经发生过一场血腥的战争，所有的一切都毁灭了。也许最好给他们一个合适的葬礼。"
+ 
+ c_tb_Spaceship_Graveyard:0 "§H坠毁的飞船§!"
+ c_tb_Spaceship_Graveyard_desc:0 "一艘巨大的太空船残骸半埋在泥土里，可以看出是因为某些原因坠毁，它似乎已经在这里损毁了数个世纪，大部分的机件都已经毁坏或被侵蚀，但还是有不少的研究价值。"
+ 
+ c_tb_Android_Pleasure_Palace:0 "§G机器人行宫§!"
+ c_tb_Android_Pleasure_Palace_desc:0 "一座维护得相当不错但非常古老的建筑物耸立在这里。它看起来很热闹，灯光闪烁、音乐醉人，隐隐可以看到，里面有着各种各样的机器人生物，在彼此之间做着没羞没躁、不可描述的事情。"
+ 
+ c_tb_Toxic_Gas:0 "有毒气体"
+ c_tb_Toxic_Gas_desc:0 "大范围的有毒气体漂浮在这片区域。涉足这里等于是自杀行为。"
+ 
+ c_tb_Unusual_Formations:0 "不寻常的地层"
+ c_tb_Unusual_Formations_desc:0 "这里的大量地形都有着奇特但却很自然的地质形状，而且它们太过大型，清除之前我们无法对这里的土地进行利用。"
+ 
+ c_tb_Locust_Plagues:0 "蝗虫"
+ c_tb_Locust_Plagues_desc:0 "这些生物不仅看起来比其他任何昆虫都更可怕，它们还对任何有叶子的东西都有着无尽的食欲，清除它们也许是更好的选择。"
+ 
+ c_tb_Seasonal_Flooding:0 "洪泛区"
+ c_tb_Seasonal_Flooding_desc:0 "这里的土地周期性地泛滥，在这里定居是非常不明智的。我们强烈建议开发毗连的河流，建造水坝、水库和泄洪道，以阻止洪水淹没这里的一切。"
+ 
+ c_tb_Ice_Flora:0 "冰系植被"
+ c_tb_Ice_Flora_desc:0 "柔和的蓝白色的花朵和树木点缀着风景。让人惊叹的是，他们如何能在这么寒冷的环境下生存下来。叶子似乎存在一种半结晶结构，它能轻柔地折射太阳光，在表面散发出一种奇异美丽的色彩。"
+ 
+ c_tb_Planetwide_Forest:0 "无尽的森林"
+ c_tb_Planetwide_Forest_desc:0 "大面积的森林区域覆盖住地表所有地方，包括河流和山脉。给人一种进去后再也出不来的感觉……"
+ 
+ c_tb_Dense_Forests:0 "茂密的森林"
+ c_tb_Dense_Forests_desc:0 "茂密高耸的树木和树冠，遮蔽了整个天空。在这些树木覆盖下的地表上，可以发现种类繁多的植物和动物在生息繁衍。"
+ 
+ c_tb_Proto_Forests:0 "原始森林"
+ c_tb_Proto_Forests_desc:0 "这种树木互相连接成环，并逐层扩张的生长方式，真是一种奇特的景象，但又给人很自然的感觉。"
+ 
+ c_tb_Temple_of_the_Ancient_One:0 "§R古代人的寺庙§!"
+ c_tb_Temple_of_the_Ancient_One_desc:0 "一座巨大雄伟的石制寺庙耸立在这里。破败的外墙被茂密的树丛和杂草包围，寺庙内仍然透出隐隐的火光。谁知道这座诡异的寺庙隐藏着什么……"
+ 
+ c_tb_Arachnophobia:0 "巨型蜘蛛"
+ c_tb_Arachnophobia_desc:0 "假设有一个世界和我们的世界非常相似。除了蜘蛛能长到12英尺长，繁殖能力极强，它们擅长隐藏，而且经常成群结队的捕食…… \n-§BLuna Lovewell§!。"
+ 
+ c_tb_Dunes:0 "沙丘"
+ c_tb_Dunes_desc:0 "视野范围内全是沙子，这里的沙丘高到几乎遮蔽眼前的天空。在我们清除它们之前，最好注意不要被淹没。"
+ 
+ c_tb_Mushroom_Forest:0 "蘑菇森林"
+ c_tb_Mushroom_Forest_desc:0 "巨大的蘑菇森林覆盖着地表。它们相当柔软，应该不难清除。不过，巨大的蘑菇顶部下确实是个露营的好去处。"
+
+ 
+ ######################
+ ### Techs Blockers ###
+
+ tech_c_tb_Toxic_Gas:0 "航空化学中和剂"
+ tech_c_tb_Toxic_Gas_desc:0 "要清除这些随风飘荡的有毒气体云不是那么容易。我们最好的办法是在天空中洒下化学中和剂。"
+ 
+ tech_c_tb_Unusual_Formations:0 "大规模拆除"
+ tech_c_tb_Unusual_Formations_desc:0 "由于这些岩层不稳定的性质，所以我们只需要使用男性船员们最喜欢的方式--炸药。"
+ 
+ tech_c_tb_Locust_Plagues:0 "天敌"
+ tech_c_tb_Locust_Plagues_desc:0 "通过将无害的自然天敌引入到环境中，我们应该能够控制它们的种群。我们确信这个计划不会出问题。"
+ 
+ tech_c_tb_Seasonal_Flooding:0 "洪水管理"
+ tech_c_tb_Seasonal_Flooding_desc:0 "洪水管理策略通常涉及多个工程项目，它们可以归入两个类别之一。硬工程项目包括人工结构的建造，通过科学技术和一些蛮力的结合，防止河流泛滥。软工程项目恰恰相反，这些项目利用自然资源和当地人对河流的了解，以减少洪水带来的风险。"
+ 
+ tech_c_tb_Arachnophobia:0 "它们可不是闹着玩的！"
+ tech_c_tb_Arachnophobia_desc:0 "如果可以的话，我们会登上飞船一走了之！但遗憾的是我们不能,所以我们还是要面对这些需要仰视的巨型蜘蛛。也许一个巨大的火焰喷射器会很有用。 Something with fire §Ralways§! works."
+ 
+ tech_c_tb_Dunes:0 "沙丘清除"
+ tech_c_tb_Dunes_desc:0 "沙丘清除工程的管理包括成功种植植被。仅仅是在沙地上散布和留下种子被认为是一种潜在的浪费，因为强风会把种子吹走。在任何现有的沙山或沙质地区的洼地里，都应该种植苗圃。种子应该种植在潮湿的环境下,并轻轻覆盖着一层沙子。大草丛应该种植在深孔里，并把顶部叶子剪短,以减少风的阻力。"
+ 
+ ######################
+ ####### Armies #######
+ 
+ c_precursor_mech_army:0 "回收先驱者机甲"
+ c_precursor_mech_army_desc:0 "回收先驱者机甲。它耗费了大量的能源，但我们终于成功地完成了工作！它雄伟地耸立在土地上，搭载有大量的武器装备系统。不幸的是，这台机器的庞大意味着我们只能用它来防御。"
+ 
+ precursor_mech_army_trigger_tooltip:0 "§B只能在拥有“先驱者机甲”的星球上建造。§!"
+ 
+ c_precursor_bunker_army:0 "回收先驱者地堡"
+ c_precursor_bunker_army_desc:0 "回收先驱者地堡。这个星球的地下堡垒复杂性惊人，显然是由先进的人工智能设计的。似乎每个地堡都是一个自我维护的系统，我们可以利用它来维持我们的防御优势。几乎无法穿透的墙壁意味着敌人需要耗费多几倍的时间才能完成渗透。只要有足够的这种掩体，我们就有可能无限期地阻止敌人的进攻。"
+ 
+ precursor_bunker_army_trigger_tooltip:0 "§B只能在拥有“先驱者地堡系统”的星球上建造。§!"
+ 
+ c_giant_arachnid_army:0 "魔蛛掠食者部队"
+ c_giant_arachnid_army_desc:0 "付出了很多的生命、汗水和眼泪后,我们成功驯服了这些巨型蜘蛛!脑控植入物的建议让我们找到了控制这些巨型蜘蛛的方向。它们通常会尝试吃掉遇到的任何东西，这些空降的巨型蜘蛛部队足以帮助我们赢得这场战争!"
+ 
+ giant_arachnid_army_trigger_tooltip:0 "§B只能在拥有“巨型蜘蛛”的星球上建造。§!\n§R只能拥有5个§!"
+
+ 
+ #########################
+ ####### Anomalies #######
+ 
+ C_BLACK_HOLE_CAT:0 "诱人的黑暗"
+ C_BLACK_HOLE_CAT_DESC:0 "那里有些奇怪的东西，我们应该原地警戒一段时间。"
+ 
+ anomaly.78877.name:0 "励志"
+ anomaly.78877.desc:0 "很难想象黑洞的实际应用，由于实际应用还非常遥远，不少人认为我们应该节省探索它的资源。但是，正是这种对未知世界的探索和追寻，把我们定义为智慧生物。"
+ 
+ c_Inspirational:0 "增加了 £physics §G12 和 §B暗物质 §G1 "
+ 
+ 
+ C_SUN_CAT:0 "天空中的钻石"
+ C_SUN_CAT_DESC:0 "这个恒星非常明亮，进行完整的轨道扫描可能会对造成这一现象的原因有所发现。"
+ 
+ anomaly.78878.name:0 "异常明亮"
+ anomaly.78878.desc:0 "由于恒星表面活动的增加，这颗恒星异常明亮。一种罕见的元素和重力的结合似乎是造成这种不寻常现象的原因。我们可以利用这一点！"
+ 
+ c_sun_energy_deposit:0 "增加了 £energy §G14 "
+ 
+ 
+ C_WEIRD_CAT:0 "奇怪的东西"
+ C_WEIRD_CAT_DESC:0 "我们的扫描仪检测到不寻常的读数。根据我们的远程扫描和星图，这个星球不应该是它目前的样子。 我们应该 §Hdefinitely§! 调查."
+ 
+ anomaly.78879.name:0 "时间流失的星球"
+ anomaly.78879.desc:0 "这个星球发出异常的时间读数，在这里时间已经流失，我们无法判断这个世界是什么时候诞生的，或者这种异常是如何发生的，但它确实提供了很好的机会来研究时间的本质！"
+ 
+ c_Time_Displaced_Planet:0 "增加了 £physics §G6 £society §G6 £engineering §G6"
+ 
+ 
+ C_PROTO_CAT:0 "不寻常的气体"
+ C_PROTO_CAT_DESC:0 "我们的扫描仪探测到来自这颗小行星表面有不寻常的气体排放。我们应该调查一下。"
+ 
+ anomaly.78880.name:0 "原分子病毒感染站"
+ anomaly.78880.desc:0 "起初，这个小行星空间站似乎被遗弃并且损坏了，但当我们从各种频道中接收到奇怪的声音，我们开始进行近距离的观察，结果发现空间站内部布满了奇怪的晶体，漂浮着发光的微粒，还有一个会移动的生物金属核心，就像有生命一样。这个地方给人一种有些什么事情在发生的感觉。"
+ 
+ c_proto_molecule_deposit:0 "增加了 £society §G12 "
+ 
+ 
+ C_CLOCK_CAT:0 "黑暗中闪烁"
+ C_CLOCK_CAT_DESC:0 "这个脉冲星的某些现象看起来是非常的一致。它会在释放大量能量的同时，定期脉冲。"
+ 
+ anomaly.78881.name:0 "脉冲星计时器"
+ anomaly.78881.desc:0 "这颗脉冲星不仅速度很快，还具有惊人的规律性，它是宇宙中最精确的计时器之一。不过以我们种族的寿命来看，它不太可能被我们利用……"
+ 
+ c_Pulsar_clock:0 "增加了 £society §G12 和 §B零素矿石 §G1 "
+ 
+ ####################################
+ # Colony Events
+ ####################################
+ 
+ c_colony.3.name:0 "不完全是废金属"
+ c_colony.3.desc:0 "我们对这个星球的初步扫描显示出了数百只来自失事飞船的残骸。不幸的是，由于严重的撞击和爆炸，飞船的大部分机件和设备都已经损坏，我们的扫描仪器受到了严重的电磁干扰，因此无法对每一个残骸都进行详细的解读。现在我们已经开始做视觉检查了，结果让人惊喜，其中的一些残骸探测到仍有电磁辐射,这意味着它们有进一步研究的价值，也许它们的数据库仍然保存着某些方面的技术设计或其他更有用的知识。"
+ 
+ c_colony.3.a:0 "开始打捞程序。"
+ 
+ c_colony.4.name:0 "好得令人难以置信"
+ c_colony.4.desc:0 "我们最初的目标访问数据库并不是很成功,我们发现这些飞船属于两个不同的文明。一个高度发达，另一个则不那么重要。遗憾的是，从数据库中获取的数据并不多。在打捞的过程中，我们偶然发现了另一艘船的残骸。这一项要远得多，我们的工程师建议用附近的残骸来修复它。情况允许的话，可以把它作为一个模板来尝试挽救附近的一些损毁不太严重的船只。"
+ 
+ c_colony.4.a:0 "试图打捞舰船。(需要 60 天)"
+ c_colony.4.b:0 "棒极了！"
+ 
+ c_colony.5.name:0 "初步修复的巡洋舰"
+ c_colony.5.desc:0 "它飞起来了!这艘飞船看起来有些过时，它令人惊讶地支持相当多的武器系统和防御系统！"
+ 
+ c_colony.6.name:0 "初步修复的巡洋舰队"
+ c_colony.6.desc:0 "它们飞起来了!这些飞船看起来有些过时，它们令人惊讶地支持相当多的武器系统和防御系统！"
+ 
+ c_colony.7.name:0 "打捞无畏舰"
+ c_colony.7.desc:0 "为了让这艘飞船正常运转，我们不得不打捞六艘巨大的船只，它庞大得让人难以置信。我们的工程师没办法确定它如何保持结构的完整性，所以我们不太可能复制它的设计。它将为我们服务。"
+ 
+ c_colony.8.name:0 "古老的护卫舰"
+ c_colony.8.desc:0 "我们不仅修复了它的操作系统，还设法修复了其中一部分武器防御系统。我们的军事专家猜测，这艘飞船只是一只舰队的一部分。它尽管体积小，但有一个非常先进的设计，可以在防御和进攻系统中注入相当多的能量，我们应该注意这一点。"
+ 
+ c_colony.9.name:0 "古老的战列巡洋舰"
+ c_colony.9.desc:0 "我们的工程师只能修复这些先进的古老飞船的其中一艘。它的设计非常了不起，这种荒谬的发电供能方式，可以带动大规模的武器系统。我们应该好好照顾这艘船，因为我们没有它的设计图，没办法量产。"
+ 
+ c_colony.10.name:0 "古老的战列巡洋舰队"
+ c_colony.10.desc:0 "我们的工程师能够修复这些先进的古老飞船。幸运的是，附近有一艘更大的受损船，它有足够的部件用以修复更多受损的关键系统。其余的船只受损部分是从世界另一端的一个小型坠机地点打捞上来的。它们的设计非常了不起，这种荒谬的发电供能方式，可以带动大规模的武器系统。我们应该好好照顾这艘船，因为我们没有它的设计图，没办法量产。"
+ 
+ c_colony.11.name:0 "古老的泰坦飞船"
+ c_colony.11.desc:0 "我们发现一艘损毁严重飞船半埋在土地上。起初我们以为它只是一艘坠毁的小型飞船，它被尘土和其它的残骸所覆盖，检查结果显示它是几千年前的一场大规模的太空战争中坠落的。回收工作进展顺利，我们发现这闪闪发光的船体并不只是一艘小型飞船，而是一艘更大的船的一部分。令人惊讶的是，它所在的空间竟然是另一艘巨型飞船的机库。经过努力，我们终于把它所有部分都回收成功，科学家对这艘巨型飞船的坠毁原因很感兴趣，最终发现它是因为控制中心被直接击中导致失控坠落。从附近的船只回收机件后，我们能够在船上建造一个控制中心，在给这艘船提供动力之后，我们惊喜地发现，它集成了人工智能能够翻译并支持我们的控制系统。我们的仪器花了几天时间来控制这艘船。经过几次测试，我们准备把它送入轨道，投入到服务中。"
+
+ c_colony.20.name:0 "外星生物早餐"
+ c_colony.20.desc:0 "其中一个殖民者忍不住好奇近距离对这些蛋进行观察！“哦，不，他们在繁殖！这是个圈套！这些异种无处不在！跑！快跑！！”……"
+ 
+ c_colony.20.a:0 "§R救命!§!"
+ c_colony.20.b:0 "§H1个§! 国民被杀!\n§H1个§! §R异种军队§! 入侵!"
+ 
+ ####################################
+ # Survey modifier Events
+ ####################################
+ 
+ pm_survey.AMAZING:0 "太神奇了！"
+ 
+ pm_survey.2.name:0 "发现：非常热的行星地核！"
+ pm_survey.2.desc:0 "科研船 §H[From.GetName]§! 上的科学家 §H[From.GetLeaderName]§! 发现了一个有趣的现象！\n这个星球有一个非凡的热内核，地表温度远远高于我们的预估。需要进一步的研究，更深入地了解行星构造与其核心的地质相互作用。"
+ 
+ pm_survey.2.a:0 "真有趣！"
+ pm_survey.2.b:0 "获得帝国修正:\n§H地球化发现物 1/3§!\n    地球化改造速度加成: §G+10%§!"
+ 
+ pm_survey.3.name:0 "发现：更好地理解行星地核"
+ pm_survey.3.desc:0 "科研船 §H[From.GetName]§! 上的科学家 §H[From.GetLeaderName]§! 发现了另一个有趣的现象！\n另一个地核温度非常高的星球。这个星球的板块构造看起来非常稳定，可能是由于一些活动频繁的火山，经常释放板块下的压力。进一步的研究将会观察星球的液态地幔如何与稠密的金属地核相互作用。"
+ 
+ pm_survey.3.a:0 "真迷人!"
+ pm_survey.3.b:0 "获得帝国修正:\n§H地球化发现物 2/3§!\n    地球化改造速度加成: §G+20%§!"
+ 
+ pm_survey.4.name:0 "发现：地球化的梦想"
+ pm_survey.4.desc:0 "科研船 §H[From.GetName]§! 上的科学家 §H[From.GetLeaderName]§! 发现了另一个有趣的现象！\n找到了!这个星球有着正确的结构密度，可以通过我们的扫描仪来观察。我们已经完全绘制出这个星球地核的流体的相互作用。\n 数据表明，在稠密的金属核心周围，有两层不同的熔融岩石和矿物层。内层看起来是正常的，流动于致密的金属核，并产生磁场。内层的流体似乎和我们预估的移动速度一样。然而，外层的熔融层似乎以更慢的速度向内层的相反方向流动。\n这就产生了独特的对流电流，使它们无法在构造板块的压力下，把这个世界变成一个地质不稳定的噩梦。"
+ 
+ pm_survey.4.a:0 "找到了！"
+ pm_survey.4.b:0 "获得帝国修正:\n§H地球化发现物 3/3§!\n    地球化改造速度加成: §G+30%§!"
+ 
+ pm_terraform_speed_one:0 "地球化发现物 1/3"
+ pm_terraform_speed_two:0 "地球化发现物 2/3"
+ pm_terraform_speed_three:0 "地球化发现物 3/3"
+ 
+ # precursor remnants
+ pm_survey.5.name:0 "发现：先驱者残留建筑！"
+ pm_survey.5.desc:0 "科研船 §H[Root.GetName]§! 上的科学家 §H[Root.GetLeaderName]§! 在 §H[From.GetName]§! 上发现了一个有趣的现象！\n 这个星球仍然存在着大量的基础设施，是由一个古老的未知文明建造的。 \n §H也许会有更多这样的遗迹被发现……§!"
+ 
+ # precursor energy grid
+ pm_survey.6.name:0 "发现：先驱者能源网络"
+ pm_survey.6.desc:0 "科研船 §H[Root.GetName]§! 上的科学家 §H[Root.GetLeaderName]§! 在 §H[From.GetName]§! 上发现了一个有趣的现象！\n 这个星球曾经是一个古老的未知文明的生产中心，虽然它的产能结构只能从遗迹中略窥一二，但它仍是一个令人印象深刻的行业典范。 \n §H也许会有更多这样的遗迹被发现……§!"
+ 
+ # precursor satellite grid
+ pm_survey.7.name:0 "发现：先驱者卫星网络！"
+ pm_survey.7.desc:0 "科研船 §H[Root.GetName]§! 上的科学家 §H[Root.GetLeaderName]§! 在 §H[From.GetName]§! 上发现了一个有趣的现象！\n 这颗星球的外太空有着大量的先驱者卫星，数以百计作用未明的小型卫星和阵列在轨道上环绕着星球运行。 \n §H也许会有更多这样的遗迹被发现……§!"
+ 
+ # precursor city
+ pm_survey.8.name:0 "发现：先驱者城市！"
+ pm_survey.8.desc:0 "科研船 §H[Root.GetName]§! 上的科学家 §H[Root.GetLeaderName]§! 在 §H[From.GetName]§! 上发现了一个有趣的现象！\n 这个星球有着一个属于未知文明的古城遗迹，奇怪的是，建筑群虽然看起来荒废残旧但多数都保持着结构的完整无损。 \n §H也许会有更多这样的遗迹被发现……§!"
+ 
+ # precursor shipyards
+ pm_survey.9.name:0 "发现：先驱者造船厂！"
+ pm_survey.9.desc:0 "科研船 §H[Root.GetName]§! 上的科学家 §H[Root.GetLeaderName]§! 在 §H[From.GetName]§! 上发现了一个有趣的现象！\n 这颗星球的外太空飘荡着一座古老的大型造船厂，它们满布尖顶和卷须的奇特风格充满魅力，这些巨型板块以几乎不能察觉的速度向外太空缓慢移动，我们不知道是什么让它逃脱了引力的掌握而离开轨道，我们所知道的是，它的能源供应还未停止，似乎还能继续运作。也许有一天，我们可以把它纳为己有。 \n §H也许会有更多这样的遗迹被发现……§!"
+ 
+ # precursor planetary guns
+ pm_survey.10.name:0 "发现：先驱者防御系统！"
+ pm_survey.10.desc:0 "科研船 §H[Root.GetName]§! 上的科学家 §H[Root.GetLeaderName]§! 在 §H[From.GetName]§! 上发现了一个有趣的现象！\n 大规模的星球防御系统，遍布世界各地，能够攻击任何角度的外太空入侵，如果它还能正常运作的话…… \n §H也许会有更多这样的遗迹被发现……§!"
+ 
+ # precursor bunker grid
+ pm_survey.11.name:0 "发现：先驱者地堡系统！"
+ pm_survey.11.desc:0 "科研船 §H[Root.GetName]§! 上的科学家 §H[Root.GetLeaderName]§! 在 §H[From.GetName]§! 上发现了一个有趣的现象！\n 一个巨大而广阔的地下堡垒系统，是一个古老的未知文明遗留下来的。 \n §H也许会有更多这样的遗迹被发现……§!"
+ 
+ # precursor mechs
+ pm_survey.12.name:0 "发现：先驱者机甲！"
+ pm_survey.12.desc:0 "科研船 §H[Root.GetName]§! 上的科学家 §H[Root.GetLeaderName]§! 在 §H[From.GetName]§! 上发现了一个有趣的现象！\n 大批被遗弃的钛合金机甲在这个星球的地表上矗立着，等待着被重新激活。 \n §H也许会有更多这样的遗迹被发现……§!"
+ 
+ # precursor planetary shields
+ pm_survey.13.name:0 "发现：先驱者星球护盾！"
+ pm_survey.13.desc:0 "科研船 §H[Root.GetName]§! 上的科学家 §H[Root.GetLeaderName]§! 在 §H[From.GetName]§! 上发现了一个有趣的现象！\n 一个巨大的护盾系统阵列遍布世界各地，重新激活它可能会消耗大量能量，但它可以为所有人提供一个安全的避风港。 \n §H也许会有更多这样的遗迹被发现……§!"
+ 
+ # precursor floating city
+ pm_survey.14.name:0 "发现：先驱者浮空城！"
+ pm_survey.14.desc:0 "科研船 §H[Root.GetName]§! 上的科学家 §H[Root.GetLeaderName]§! 在 §H[From.GetName]§! 上发现了一个有趣的现象！\n 这个星球有着几个能自给自足的浮空城市，经过岁月的侵蚀，它们看起来破败不堪，但仍然可以正常运作。地表上有一些城市的废墟，科学家很想知道它们是否也曾经悬浮在空中。  \n §H也许会有更多这样的遗迹被发现……§!"
+ 
+ # precursor capital complex
+ pm_survey.15.name:0 "发现：先驱者首都中心！"
+ pm_survey.15.desc:0 "科研船 §H[Root.GetName]§! 上的科学家 §H[Root.GetLeaderName]§! 在 §H[From.GetName]§! 上发现了一个有趣的现象！\n 这个星球上有一座已经损毁荒废的巨型城市遗址，城市中心耸立着一座雄伟的大型建筑物，错综复杂的交通网络向四面八方扩散，城市各处满布大规模的设施建设，我们相信这是属于一个古老的未知文明的首都。 \n §H也许会有更多这样的遗迹被发现……§!"
+ 
+ # precursor communication hub
+ pm_survey.16.name:0 "发现：先驱者通讯枢纽！"
+ pm_survey.16.desc:0 "科研船 §H[Root.GetName]§! 上的科学家 §H[Root.GetLeaderName]§! 在 §H[From.GetName]§! 上发现了一个有趣的现象！\n 这个星球的废墟中，矗立着一座巨大的尖塔，它仍然在运作，塔顶装置发出的光束直射太空，我们相信它会连接到一个卫星网格，也许用于交流或监视，我们应该尝试破解和使用它。 \n §H也许会有更多这样的遗迹被发现……§!"
+ 
+ # precursor singularity drive
+ pm_survey.17.name:0 "发现：先驱者奇点驱动引擎！"
+ pm_survey.17.desc:0 "科研船 §H[Root.GetName]§! 上的科学家 §H[Root.GetLeaderName]§! 在 §H[From.GetName]§! 上发现了一个有趣的现象！\n 这个星球有着类似于实验设施的地下区域，导致遗迹的中央建筑里设立了一个巨大的奇点动力引擎，它会和能量产生共鸣，其中几个还没损坏的机器人仍然在进行维护工作。 \n §H也许会有更多这样的遗迹被发现……§!"
+ 
+ # gaia world
+ pm_survey.18.name:0 "发现：盖亚世界！"
+ pm_survey.18.desc:0 "科研船 §H[Root.GetName]§! 上的科学家 §H[Root.GetLeaderName]§! 在 §H[From.GetName]§! 上发现了一个有趣的现象！\n 这个星球有着理想温和的大气层和容易调节的生态系统。由于拥有丰富多样的生物群落，它可以在不同的纬度地区提供最佳的生存环境，大多数的生命形式都可以在这里生存。"
+ 
+ # holy planet
+ pm_survey.19.name:0 "发现：奇怪的星球！"
+ pm_survey.19.desc:0 "科研船 §H[Root.GetName]§! 上的科学家 §H[Root.GetLeaderName]§! 在 §H[From.GetName]§! 上发现了一个有趣的现象！\n 这个星球虽然表面上很正常，但却有一些不自然的因素。大小形状不一的奇怪石头，以有趣又非随机的模式分布在在地表上。它们散发出迷人的光芒，就像宝石一样。一些船员希望能近距离一探究竟，但另一些船员怀疑这些排列是一个危险警告……"
+ 
+ # floating islands
+ pm_survey.20.name:0 "发现：浮岛！"
+ pm_survey.20.desc:0 "科研船 §H[Root.GetName]§! 上的科学家 §H[Root.GetLeaderName]§! 在 §H[From.GetName]§! 上发现了一个有趣的现象！\n 这个星球的岛屿非比寻常的迷人，但违背了物理定律，一些矿物或物质使大型岩石漂浮在空中形成漂浮的岛屿，让它们悬浮在数十到数百英尺的地面上。"
+ 
+ # ruined battlefield
+ pm_survey.21.name:0 "发现：战场遗址！"
+ pm_survey.21.desc:0 "科研船 §H[Root.GetName]§! 上的科学家 §H[Root.GetLeaderName]§! 在 §H[From.GetName]§! 上发现了一个有趣的现象！\n 我们的扫描仪探测到各种伤痕累累的地形和废墟散落在这个星球上，似乎数个世纪前这里经历过一场大规模的星球大战，人类全部灭亡，眼前悲凉的景象让人深思生存本身的意义。"
+ 
+ # spaceship graveyard
+ pm_survey.22.name:0 "发现：飞船墓地！"
+ pm_survey.22.desc:0 "科研船 §H[Root.GetName]§! 上的科学家 §H[Root.GetLeaderName]§! 在 §H[From.GetName]§! 上发现了一个有趣的现象！\n 我们的扫描仪探测到大量的合金和化学物质散落在这个星球的地表。一场巨大的战争曾经在天空中肆虐，现在星球地表上到处散落着统治过这个星球的未知文明废弃的飞船残骸。"
+ 
+ # artificial water
+ pm_survey.23.name:0 "发现：人造水！"
+ pm_survey.23.desc:0 "科研船 §H[Root.GetName]§! 上的科学家 §H[Root.GetLeaderName]§! 在 §H[From.GetName]§! 上发现了一个有趣的现象！\n 这个星球看起来很正常。仔细观察之下，发现这里水的成分不是自然形成！而是由一种奇怪的纳米复合材料组合而成，它的表现就像液体一样。 \n我们做了一些测试，似乎这些纳米分子的唯一目的就是在各个方面都表现得像水一样。所以饮用应该是安全的。"
+ 
+ # android pleasure palace
+ pm_survey.24.name:0 "发现：机器人行宫！"
+ pm_survey.24.desc:0 "科研船 §H[Root.GetName]§! 上的科学家 §H[Root.GetLeaderName]§! 在 §H[From.GetName]§! 上发现了一个有趣的现象！\n 探测显示这里有社会行为的迹象。我们发现，这个建筑由各种各样的人工智能生命体控制，栩栩如生，你会认为它们是有知觉的。它们似乎在维护这个地方，并为游客提供各种服务。一些人正在机器人身上插入一些奇怪的设备，设备会发光并晃动。而另一些人则把机器人挂在墙上，然后用鞭子一样的装置鞭打它……我们不知道是谁建造的，但听起来是个有趣的地方。\n这是一个非常有趣的发现！\n噢我的天!"
+ 
+ # ancient temple
+ pm_survey.25.name:0 "发现：古老庙宇！"
+ pm_survey.25.desc:0 "科研船 §H[Root.GetName]§! 上的科学家 §H[Root.GetLeaderName]§! 在 §H[From.GetName]§! 上发现了一个有趣的现象！\n 这个星球上发现了一座古老的庙宇，专门用来纪念一个时代的逝去。壁画上的文字表明，这是一个由许多不同的外来物种共同拥有的寺庙。墙上的图像把外星人描绘成具有不同寻常力量的生物，他们挥舞着发光的棍子，用灵能移动物体，并参与了很多的冥想。这似乎是一种古代文化，它包容多样性，并希望保护所有人。"
+ 
+ # crystal moon palace
+ pm_survey.26.name:0 "发现：水晶宫殿！"
+ pm_survey.26.desc:0 "科研船 §H[Root.GetName]§! 上的科学家 §H[Root.GetLeaderName]§! 在 §H[From.GetName]§! 上发现了一个有趣的现象！\n 我们的科学家在卫星表面发现了一个完全由水晶建成的美丽宫殿，内部布满了奇怪的符文和神秘的装置，我们希望能从中破解出关于这个失落已久的未知文明的信息。"
+ 
+ # plasmoid life
+ pm_survey.27.name:0 "发现：等离子生命体！"
+ pm_survey.27.desc:0 "科研船 §H[Root.GetName]§! 上的科学家 §H[Root.GetLeaderName]§! 在 §H[From.GetName]§! 上发现了一个有趣的现象！\n 不知何故，这颗恒星上进化出完全由等离子体构成的生命体，具有极高研究价值，遗憾的是，我们无法近距离地进行研究，因为太阳热辐射超出了我们的传感器的承受能力。\n "
+ 
+ # temple of the ancient one
+ pm_survey.28.name:0 "发现：奇怪的庙宇！"
+ pm_survey.28.desc:0 "科研船 §H[Root.GetName]§! 上的科学家 §H[Root.GetLeaderName]§! 在 §H[From.GetName]§! 上发现了一个有趣的现象！\n 雄伟得让人屏息,美丽的无法形容的神秘石制寺庙已经荒废破败，任何人都会被它的奇异魅力所吸引。墙上涂鸦一样写着故事，这看着更像危险警告，描述以前到达这里的探险者，在圣殿里徘徊游荡，最后他们无法抵抗强大的异象，开始出现幻觉和幻听,最后全都疯狂地进入寺庙密室，再也没有出现……现在,耀眼的光芒在你眼前飘荡，对神圣的前往在你脑内涌现，神殿深处，似乎有个声音在召唤你去点燃祭坛的火焰……"
+ 
+ # proto forest
+ pm_survey.29.name:0 "发现：原始森林！"
+ pm_survey.29.desc:0 "科研船 §H[Root.GetName]§! 上的科学家 §H[Root.GetLeaderName]§! 在 §H[From.GetName]§! 上发现了一个有趣的现象！\n 这个星球的树木相当矮小，这些原始森林似乎是森林最早期的形态。我们将添加一个详细的分析数据对这个星球进行研究。"
+ 
+ # hive world
+ pm_survey.30.name:0 "发现：蜂巢废墟！"
+ pm_survey.30.desc:0 "科研船 §H[Root.GetName]§! 上的科学家 §H[Root.GetLeaderName]§! 在 §H[From.GetName]§! 上发现了一个有趣的现象！\n经过详细的分析，我们发现这个星球上的化石遗迹似乎有成千上万个突触节点散布在上面，作为巨型生物工厂，可以生产出无数的生物种类，我们把它命名为蜂巢世界。它似乎在自己种族身上融合了数以百万计的生物工程，每一个都是一个生物工厂，能够创造出数以万亿计的生物，还能够复制基因组，将各种生物完美融合在一起，适应它们所处的任何环境。我们只希望不会和这些生物扯上任何关系。"
+ 
+ # arachnophobia
+ pm_survey.31.name:0 "发现：地狱！"
+ pm_survey.31.desc:0 "科研船 §H[Root.GetName]§! 上的科学家 §H[Root.GetLeaderName]§! 在 §H[From.GetName]§! 上发现了一个有趣的现象！\n 拥有锋利口器的巨型蜘蛛已经在这个星球泛滥成灾，我们从来没有见过如此恐怖的情景。\n 我们开始觉得踏足这个星球是自杀行为，我们甚至听到夜间从树顶和洞穴传来的嘶嘶声,还有当巨型蜘蛛途经他们的飞船时无尽的重击声。我们只想离开这个鬼地方，再也不会回来，永远都不会！"
+
+ # giant worm
+ pm_survey.32.name:0 "发现：巨型蠕虫！"
+ pm_survey.32.desc:0 "科研船 §H[Root.GetName]§! 上的科学家 §H[Root.GetLeaderName]§! 在 §H[From.GetName]§! 上发现了一个有趣的现象！\n 这个星球被巨型蠕虫占据，它们生活在沙漠下面，蠕虫很容易被有节奏的振动所吸引，并且会立刻撕碎振源，以寻找振动的起源。它们具有强烈的守土意识，如果两条蠕虫感知到彼此的存在,他们会喷出有毒的废气，发出愤怒的咆哮，最后互相撕咬直到一方倒下为止。因此见过一只蠕虫，并且活着描述它，这会是一件罕见的事情。"
+ 
+ # artificial core
+ pm_survey.33.name:0 "发现：人造地核！"
+ pm_survey.33.desc:0 "科研船 §H[Root.GetName]§! 上的科学家 §H[Root.GetLeaderName]§! 在 §H[From.GetName]§! 上发现了一个有趣的现象！\n 这个星球的地核留有明显的人造痕迹，以极其先进的科技力量维持地核的自转和运动，应该是过去某个强大的未知文明所为。"
+ 
+ # surface of bones
+ pm_survey.34.name:0 "发现：地表的骨头！"
+ pm_survey.34.desc:0 "科研船 §H[Root.GetName]§! 上的科学家 §H[Root.GetLeaderName]§! 在 §H[From.GetName]§! 上发现了一个有趣的现象！\n 骨骼、头骨、残骸，就像眼前所看到的一样，这个星球整个地表都被骨骸覆盖，非常可怕的景象。无论这里发生过什么，它都发生在很久以前。多么残酷的景象。"
+ 
+ # strange alien eggs
+ pm_survey.35.name:0 "发现：奇怪的蛋！"
+ pm_survey.35.desc:0 "科研船 §H[Root.GetName]§! 上的科学家 §H[Root.GetLeaderName]§! 在 §H[From.GetName]§! 上发现了一个有趣的现象！\n 这个星球上可以发现几块粘液地带，就像沼泽一样，被迷雾所掩盖。我们真的不想在这些粘稠的地方工作，所以我们记录探测结果后就离开了。虽然一些官员报告称发现有奇怪的巨蛋粘在这些泥泞的沼泽中。但就像我在航空日志中提到的，我们是不会回来的。那是别人的工作。"
+ 
+ # mushroom forest
+ pm_survey.36.name:0 "发现：蘑菇森林！"
+ pm_survey.36.desc:0 "科研船 §H[Root.GetName]§! 上的科学家 §H[Root.GetLeaderName]§! 在 §H[From.GetName]§! 上发现了一个有趣的现象！\n 这个星球上的巨型蘑菇取代了树木的地位，形成一片片蘑菇森林，这些蘑菇非常奇特，经常喷射出孢子薄雾，它们质地柔软，很容易清除。我们的一个军官开玩笑说，很想知道它们的味道如何。"

@@ -1,0 +1,12 @@
+﻿l_english:
+#Replace this with your title
+ mem_test_event.5.name:0 "试验名称"
+
+#Replace this with the main text
+ mem_test_event.5.desc:0 "测试描述"
+
+#Replace this with your option text
+ mem_test_event.5.a:0 "测试选项"
+
+#If you want, you can put a second option text in here
+ mem_test_event.5.b:0 "第二测试选项"
