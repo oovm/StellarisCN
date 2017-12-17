@@ -19,9 +19,11 @@
 
 * 汉化主持：瓦良吉小队长[摸鱼]
 
-* 校对：瓦良吉小队长[摸鱼], GalAster[划水]
+* 校对：瓦良吉小队长[摸鱼]
 
 * 翻译：咸喵, 九月四日君助, DesertEagleF, 卖力偷咸鱼, 神牛不学大, baka_tenshi, navilloso[划水]
+
+* 测试: GalAster[划水]
 
 ## ![许可协议](http://image.flaticon.com/icons/png/32/109/109689.png)License
 
