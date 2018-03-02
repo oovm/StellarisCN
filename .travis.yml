@@ -12,29 +12,36 @@ env:
    # 还有一个 TRAVIS_KEY 填在 travis settings 里!
    # 教程: https://github.com/settings/tokens
 before_script:
+before_script:
+  - export TZ='Asia/Shanghai'
   - git config --global user.name "${GITHUB_NAME}"
   - git config --global user.email "${GITHUB_MAIL}"
-  - export TZ='Asia/Shanghai'
-  - git tag "$(date +'%Y%m%d%H%M%S')-$(git log --format=%h -1)"
 script:
   - git clone --depth 20 --branch master --single-branch https://github.com/${GITHUB_USER}/${GITHUB_REPO}
   - cd ${GITHUB_REPO}
   - ver=`git tag | awk 'END {print}'`
-  - nVer=echo $ver | awk 'BEGIN{FS=OFS="."}{last=$NF+1; NF--; print $0,last}'
+  - nVer=`echo $ver | awk 'BEGIN{FS=OFS="."}{last=$NF+1; NF--; print $0,last}'`
   - echo $ver
-before_deploy:
-  - rm -rf .git
-  - rm -rf Documentation
-  - rm -rf Packages/_*
   - cd ..
-  - tar -cJf ${GITHUB_REPO}.zip ${GITHUB_REPO}
+before_deploy:
+  - git tag -a "$nVer" -m "$(date +'%Y%m%d%H%M%S')-$(git log --format=%h -1)"
+  - cd ${GITHUB_REPO}
+  # 清理工程文件
+  - rm -rf .git
+  - rm -rf tools
+  - rm -rf origin
+  - rm -f .travis.yml
+  - rm -f .gitignore
+  - rm -f .gitattributes
+  - ls && cd ..
+  - tar -cJf ${GITHUB_REPO}.tar.xz ${GITHUB_REPO}
 deploy:
   provider: releases
   api_key: ${TRAVIS_KEY}
-  prerelease: true
   name: AutoBuild-$nVer
+  prerelease: true
   file:
-    - ${GITHUB_REPO}.zip
+    - ${GITHUB_REPO}.tar.xz
   skip_cleanup: true
   on:
     repo: ${GITHUB_USER}/${GITHUB_REPO}
