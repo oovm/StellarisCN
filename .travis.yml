@@ -3,7 +3,6 @@ dist: trusty
 branches:
   only:
     - master
-# 只需要自定义下面五个量
 env:
  global:
    - GITHUB_NAME: xiaopangci           # 瞎填都可以
@@ -25,14 +24,14 @@ script:
   - echo $ver
 before_deploy:
   - rm -rf .git
-  - rm -rf origin
-  - rm -rf tools
+  - rm -rf Documentation
+  - rm -rf Packages/_*
   - cd ..
   - tar -cJf ${GITHUB_REPO}.zip ${GITHUB_REPO}
 deploy:
   provider: releases
-  api_key:
-    secure: ${TRAVIS_KEY}
+  api_key: ${TRAVIS_KEY}
+  prerelease: true
   name: AutoBuild-$nVer
   file:
     - ${GITHUB_REPO}.zip
